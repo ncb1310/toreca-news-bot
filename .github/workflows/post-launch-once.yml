@@ -1,0 +1,29 @@
+name: Publish authorized launch post once
+on:
+  push:
+    paths:
+      - .github/workflows/post-launch-once.yml
+permissions:
+  contents: write
+concurrency:
+  group: toreca-news-production
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Configure durable state
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+      - name: Verify toreca_joshi and publish once
+        env:
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+        run: python post_launch_once.py
