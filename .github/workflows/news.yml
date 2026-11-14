@@ -3,7 +3,8 @@ name: Toreca official news
 on:
   workflow_dispatch:
   schedule:
-    - cron: '17 * * * *'
+    # UTC 23,00-13 = Japan 08-22; approximately twice per hour.
+    - cron: '17,47 23,0-13 * * *'
   push:
     paths:
       - news_bot.py

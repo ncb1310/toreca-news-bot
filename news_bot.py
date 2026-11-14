@@ -21,6 +21,11 @@ STATE = ROOT / 'data/state.json'
 SOURCES = {
     'pokemon': ('ポケカ', 'https://www.pokemon-card.com/info/'),
     'onepiece': ('ワンピカード', 'https://www.onepiece-cardgame.com/topics/'),
+    'labo': ('カードラボ', 'https://www.c-labo.jp/blog/'),
+    'hobby': ('ホビステ', 'https://www.hbst.net/'),
+    'kids': ('イオン', 'https://www.kidsrepublic.jp/campaign/'),
+    'pcstore': ('ポケセン通販', 'https://www.pokemoncenter-online.com/?main_page=lottery'),
+    'furu': ('古本市場', 'https://www.furu1.net/news/'),
 }
 
 
@@ -78,7 +83,7 @@ def clean(text):
 def canonical_url(base, href):
     url = urlsplit(urljoin(base, href))
     # Restrict outgoing news links to the two confirmed manufacturer domains.
-    if url.scheme != 'https' or url.hostname not in {'www.pokemon-card.com', 'www.onepiece-cardgame.com'} or url.username:
+    if url.scheme != 'https' or url.hostname != urlsplit(base).hostname or url.username:
         return None
     return urlunsplit((url.scheme, url.netloc, url.path, url.query, ''))
 
@@ -86,6 +91,8 @@ def canonical_url(base, href):
 def parse(source, html):
     root = DOM(html).root
     nodes = list(root.walk())
+    if source not in ('pokemon', 'onepiece'):
+        return parse_retailer(source, nodes)
     if source == 'pokemon':
         container = next((n for n in nodes if n.attrs.get('id') == 'newsTab_all'), None)
         if container is None:
@@ -130,6 +137,78 @@ def parse(source, html):
     return list(items.values())
 
 
+def parse_retailer(source, nodes):
+    def first_class(node, class_name):
+        return next((n for n in node.walk() if n.has_class(class_name)), None)
+
+    def text_of(node):
+        return clean(node.text()) if node else ''
+
+    items = {}
+    for node in nodes:
+        title = published = href = store = game = ''
+        closed = False
+        if source == 'labo' and node.has_class('claboCard'):
+            title_node = first_class(node, 'claboCard_title')
+            link = next((n for n in title_node.walk() if n.tag == 'a'), None) if title_node else None
+            title = text_of(title_node)
+            published = text_of(first_class(node, 'claboCard_date'))
+            store = text_of(first_class(node, 'claboCard_shop'))
+            game = text_of(first_class(node, 'claboCard_tags'))
+            href = link.attrs.get('href', '') if link else ''
+        elif source == 'hobby' and node.attrs.get('id') == 'news':
+            for link in node.walk():
+                if link.tag != 'a':
+                    continue
+                header = next((n for n in link.walk() if n.tag == 'h4'), None)
+                if not header:
+                    continue
+                value = text_of(header)
+                match = re.match(r'【(\d{4}\.\d{1,2}\.\d{1,2})】(.*)', value)
+                if match:
+                    record_retail(items, source, match[2], match[1], link.attrs.get('href', ''), '', '')
+            continue
+        elif source == 'kids' and node.tag == 'a' and '/campaign/campaign_detail/' in node.attrs.get('href', ''):
+            image = next((n for n in node.walk() if n.tag == 'img' and n.attrs.get('alt')), None)
+            title = image.attrs['alt'] if image else ''
+            value = text_of(node)
+            match = re.search(r'\d{4}\.\d{1,2}\.\d{1,2}', value)
+            published = match[0] if match else ''
+            closed = '終了しました' in value
+            href = node.attrs['href']
+        elif source == 'pcstore' and node.tag == 'a' and node.attrs.get('href', '').startswith('/news/?id='):
+            title = text_of(first_class(node, 'ttl'))
+            published = text_of(first_class(node, 'time')).replace('年', '.').replace('月', '.').replace('日', '')
+            href = node.attrs['href']
+        elif source == 'furu' and node.tag == 'a' and node.has_class('news__body__content__list__link'):
+            title_node = first_class(node, 'news__body__content__list__link__title')
+            if title_node:
+                # Ignore the presentation-only NEW badge.
+                title = clean(''.join(c if isinstance(c, str) else '' for c in title_node.children))
+            published = text_of(first_class(node, 'news__body__content__list__link__date'))
+            href = node.attrs.get('href', '')
+        if title and published and href:
+            record_retail(items, source, title, published, href, store, game, closed)
+    if not items:
+        raise ValueError('Retailer news layout changed or no dated announcements')
+    return list(items.values())
+
+
+def record_retail(items, source, title, published, href, store, game, closed=False):
+    match = re.fullmatch(r'(\d{4})[./-](\d{1,2})[./-](\d{1,2})', published)
+    url = canonical_url(SOURCES[source][1], href)
+    if not match or not url:
+        return
+    try:
+        published = date(*map(int, match.groups())).isoformat()
+    except ValueError:
+        return
+    key = hashlib.sha256((url + '\n' + published + '\n' + title).encode()).hexdigest()
+    items[key] = {'key': key, 'source': source, 'title': title, 'published': published,
+                  'url': url, 'category': game, 'store': store,
+                  'closed': closed or bool(re.search(r'応募は終了|受付終了|販売終了|抽選終了', title))}
+
+
 def fetch(url):
     with urlopen(Request(url, headers={'User-Agent': AGENT}), timeout=25) as response:
         if urlsplit(response.url).hostname != urlsplit(url).hostname:
@@ -158,6 +237,13 @@ def eligible(item, now):
     if not 0 <= age <= 1:
         return False
     title = item['title']
+    if item.get('closed'):
+        return False
+    if item['source'] not in ('pokemon', 'onepiece'):
+        if not re.search(r'ポケモンカード|ポケカ|ONE\s*PIECE|ワンピースカード|ワンピカード', title + item.get('category', ''), re.I):
+            return False
+        if not re.search(r'予約|抽選|再販|再入荷|販売|発売', title):
+            return False
     if age and re.search(r'本日|今日|まもなく|明日|今夜', title):
         return False
     # Product announcements or explicit sales news; event lotteries are excluded.
@@ -168,8 +254,9 @@ def eligible(item, now):
 
 def format_post(item):
     label = SOURCES[item['source']][0]
-    before = f'【{label}｜公式更新】\n'
-    after = f'\n発表日：{item["published"]}\n詳細は公式ページで確認👇\n'
+    store = item.get('store', '')
+    before = f'【{label}{("・" + store) if store else ""}｜公式告知】\n'
+    after = f'\n発表日：{item["published"]}\n受付状況・条件は公式で確認👇\n'
     # Conservative X budget: count every non-URL character as two units, URL as 23.
     limit = (270 - 23) // 2 - len(before) - len(after)
     title = item['title']
@@ -197,19 +284,23 @@ def update_state(state, batches, now):
         stats[source] = {'baseline_created': first, 'count': len(items), 'new_candidates': new_count,
                          'latest_date': state['sources'][source]['latest_date']}
     for item in state['items'].values():
+        if item['status'] == 'ready' and any(other.get('closed') and other['url'] == item['url']
+                                             for batch in batches.values() for other in batch):
+            item['status'] = 'expired'
         if item['status'] == 'ready' and not eligible(item, now):
             item['status'] = 'expired'
     return stats
 
 
-def select_candidate(state, now, daily_limit):
+def select_candidate(state, now, daily_limit, available_sources=None):
     if any(i['status'] in ('sending', 'uncertain') for i in state['items'].values()):
         return None  # Require reconciliation before any more posts.
     today = now.astimezone(JST).date().isoformat()
     count = sum(i.get('attempt_date') == today for i in state['items'].values())
     if count >= daily_limit or not 8 <= now.astimezone(JST).hour < 23:
         return None
-    ready = [i for i in state['items'].values() if i['status'] == 'ready' and eligible(i, now)]
+    ready = [i for i in state['items'].values() if i['status'] == 'ready' and eligible(i, now)
+             and (available_sources is None or i['source'] in available_sources)]
     return sorted(ready, key=lambda i: (i['published'], i['key']), reverse=True)[0] if ready else None
 
 
@@ -253,6 +344,10 @@ def check_channel(channel_id):
     return {'id': channel['id'], 'name': channel.get('name'), 'service': channel['service']}
 
 
+def publishing_started(config, now):
+    return now.astimezone(JST).date().isoformat() >= config.get('start_date_jst', '0001-01-01')
+
+
 def send(item, channel_id):
     # No retries: a timeout after acceptance cannot safely be distinguished from failure.
     query = ('mutation { createPost(input: { text: ' + json.dumps(format_post(item)) +
@@ -264,6 +359,22 @@ def send(item, channel_id):
     if not isinstance(post, dict) or not post.get('id'):
         raise ValueError('Buffer did not confirm creation')
     return post['id']
+
+
+def prepare_item(item):
+    if item['source'] == 'hobby':
+        # The homepage truncates headlines. Read the full official headline once.
+        root = DOM(official_page(item['url'])).root
+        headline = next((clean(n.text()) for n in root.walk() if n.tag == 'h3'
+                         and re.match(r'【\d{4}\.\d{1,2}\.\d{1,2}】', clean(n.text()))), None)
+        if not headline:
+            raise ValueError('Full official headline could not be verified')
+        headline = re.sub(r'^【[^】]+】', '', headline).strip()
+        if re.search(r'応募は終了|受付終了|販売終了|抽選終了', headline):
+            item['status'] = 'expired'
+            return False
+        item['title'] = headline
+    return True
 
 
 def main():
@@ -287,15 +398,27 @@ def main():
     if args.live and os.environ.get('GITHUB_ACTIONS') != 'true':
         raise ValueError('--live is supported only inside GitHub Actions')
     # A plain preview must never change the durable baseline.
+    candidate = select_candidate(state, now, config['max_posts_per_day'], batches.keys())
     if args.live:
         save(state)
         checkpoint()
-        report['channel'] = check_channel(config['channel_id'])
-    candidate = select_candidate(state, now, config['max_posts_per_day'])
+        cached = state.get('channel_check', {})
+        if cached.get('date') != now.date().isoformat() or candidate:
+            channel = check_channel(config['channel_id'])
+            state['channel_check'] = {'date': now.date().isoformat(), 'channel': channel}
+            save(state)
+            checkpoint()
+        report['channel'] = state['channel_check']['channel']
     report['next_candidate'] = format_post(candidate) if candidate else None
     blocked = any(i['status'] in ('sending', 'uncertain') for i in state['items'].values())
     report['needs_reconciliation'] = blocked
-    if args.live and config['posting_enabled'] and candidate and not errors:
+    report['publishing_started'] = publishing_started(config, now)
+    if args.live and config['posting_enabled'] and publishing_started(config, now) and candidate:
+        if not prepare_item(candidate):
+            save(state)
+            checkpoint()
+            print('公式ページで終了を確認したため投稿を見送りました。')
+            return 0
         candidate['status'] = 'sending'
         candidate['attempt_date'] = now.date().isoformat()
         save(state)
