@@ -1,0 +1,27 @@
+name: Verify booked test time
+on:
+  push:
+    paths: [.github/workflows/verify-booked-test.yml]
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Confirm scheduled time
+        env:
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+        run: |
+          python - <<'PY'
+          import json
+          import news_bot as bot
+          data=bot.buffer_query('query { post(input: { id: "6af86ef6c5b364e062f7ce04" }) { id status dueAt text } }')
+          print(json.dumps(data, ensure_ascii=False, indent=2))
+          assert data['post']['status'] == 'scheduled'
+          assert data['post']['dueAt'].startswith('2026-11-14T23:05:00')
+          PY
