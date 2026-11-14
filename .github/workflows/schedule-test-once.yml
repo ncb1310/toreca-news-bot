@@ -1,0 +1,26 @@
+name: Book tomorrow scheduled post test
+on:
+  push:
+    paths: [.github/workflows/schedule-test-once.yml]
+permissions:
+  contents: write
+concurrency:
+  group: toreca-news-production
+  cancel-in-progress: false
+jobs:
+  book:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+      - run: python schedule_test_once.py
+        env:
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
