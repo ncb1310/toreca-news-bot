@@ -1,0 +1,49 @@
+name: Toreca official news
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 * * * *'
+  push:
+    paths:
+      - news_bot.py
+      - config.json
+      - tests/test_news.py
+      - .github/workflows/news.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: toreca-news-production
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Verify duplicate and failure handling
+        run: python -m unittest discover -s tests -v
+      - name: Configure state commits
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+      - name: Collect official news and process new items
+        env:
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+        run: python news_bot.py --live
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: news-report-${{ github.run_id }}
+          path: report.json
+          if-no-files-found: ignore
+          retention-days: 7

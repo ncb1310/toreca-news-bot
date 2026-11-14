@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+*.sample.html
+report.json
+data/*.tmp
+.env
+*key.txt

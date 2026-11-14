@@ -1,34 +1,62 @@
 # トレカ女子速報 自動化
 
-トレカ専用。NCB公式ホームページとは別のリポジトリです。
+NCB公式ホームページとは別のトレカ専用リポジトリです。Python標準ライブラリのみ。
 
-## 現在できること
+## 動作
 
-GitHub ActionsからBufferのAPIキーを使って、アカウントへの読み取り接続を確認します。
-この段階では自動収集・投稿・予約・削除を行いません。
+- ポケモンカード公式ニュースとONE PIECEカードゲーム公式TOPICSを毎時17分に確認。
+- 初回は過去記事を基準として記録し、一切投稿しません。
+- 2回目以降の新しい商品・販売告知だけが候補です。URL・タイトル・発表日で重複を防ぎます。
+- 発表日から翌日まで。昨日の記事の「本日・明日」などは掲載しません。大会の抽選は対象外。
+- 日本時間8時〜23時未満、1実行1件、1日最大3件。最新の公式タイトルと出典URLを掲載。
+- 価格・販売店・在庫・受付期限は自動抽出・推測しません。本文全文や画像は転載しません。
+- 実行結果はActionsの概要に表示。data/state.jsonに取得履歴・送信状況を保存。
+- GitHub ActionsなのでPC停止中も実行可能ですが、定刻実行や配信を保証するものではありません。
 
-## 初回確認
+## 有効化と停止
 
-1. Settings → Secrets and variables → Actions に `BUFFER_API_KEY` を登録。
-2. 上部の Actions → **Buffer connection check** を開く。
-3. 初回はファイル追加で自動実行。再試行は **Run workflow**。
-4. 緑のチェックと `Read-only Buffer connection check` 内の「接続成功」を確認。
+`config.json` の `posting_enabled` は初回検証時 false。公式ページ取得と対象Xチャンネルを検証後 true にすると、新着候補をBufferのshareNowで送信します。
+対象チャンネルIDは `6af829a562b70b94b02a9277`。表示名・ID変更後もチャンネルIDで指定します。
+停止は同ファイルをfalseへ戻すか、Actionsで **Toreca official news** をDisable workflow。
 
-接続成功はBufferアカウントの読み取り確認です。対象Xチャンネルの投稿権限や、PC停止中の定期投稿を確認したことにはなりません。
-キー本体をコード・README・Issue・写真に載せないでください。
-有効期限切れの場合はBuffer側で更新してGitHubのSecretを入れ替えます。
+## 安全な送信記録
 
-## 次の構築段階
+送信直前の sending 状態をGitHubへ保存できなければ送信しません。
+API応答が不明なら uncertain とし、新たな投稿も停止します。再送は自動で行いません。
+Buffer側で送信済みか確認してから該当状態をacceptedまたはignoredへ変更してください。
+acceptedはBufferが受理した状態であり、Xへの公開完了を別途確認する必要があります。
+取得失敗・robots制限・解析できないページを無理に迂回しません。
+手動でdata/state.jsonを削除すると初回状態に戻るため、履歴は削除しないでください。
 
-公式情報源の低頻度監視、過去記事の初回配信除外、重複防止、投稿上限、通信失敗時の再送重複防止を検証してから自動投稿を有効化します。
-購入・抽選への代理応募は行いません。在庫・受付期限・価格を推測しません。
+## 接続確認
 
-## ローカルテスト
+Settings → Secrets and variables → Actions に `BUFFER_API_KEY` を登録済み。
+Actionsの **Buffer connection check** はアカウントの読み取り確認だけです。
+**Toreca official news** は対象Xチャンネルも確認します。
+キー本体をコード・README・写真・Issueに貼らないでください。
+キーの有効期限切れ・X接続切れは更新が必要です。パスワードは使いません。
 
-Python 3.13、追加パッケージ不要。
+## 現在の範囲
+
+メーカー2サイトの新着が対象です。量販店ごとの抽選・再入荷、相場、アフィリエイトリンク、返信は未対応。
+掲載元の記事更新が少なければ投稿もありません。ワンピ公式の取得内容が古い場合は古い日付として記録し、投稿しません。
+GitHubのスケジュールは遅延・未実行や、公開リポジトリの長期無活動による無効化があり得ます。Actionsで稼働を確認してください。
+
+## 検証
 
 ```sh
 python -m unittest discover -s tests -v
+python news_bot.py
 ```
 
-API仕様の出典： https://developers.buffer.com/guides/getting-started.html
+最後のコマンドはプレビューのみ。保存履歴も投稿も変更しません。
+21件の単体テストと実ページHTMLによる解析を確認。
+公式ページの実行時変更・Bufferの投稿API・Xへの実配信は運用時にも確認が必要です。
+
+## 公式資料
+
+- https://developers.buffer.com/examples/create-text-post.html
+- https://developers.buffer.com/examples/get-channel.html
+- https://www.pokemon-card.com/info/
+- https://www.onepiece-cardgame.com/topics/
+- https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#schedule
