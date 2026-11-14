@@ -282,6 +282,8 @@ def main():
     stats = update_state(state, batches, now)
     report = {'checked_at': now.isoformat(), 'sources': stats, 'source_errors': errors,
               'posting_enabled': config['posting_enabled'], 'channel': None, 'created_post_id': None}
+    report['stale_sources'] = [name for name, value in stats.items()
+                               if (now.date() - date.fromisoformat(value['latest_date'])).days > 7]
     if args.live and os.environ.get('GITHUB_ACTIONS') != 'true':
         raise ValueError('--live is supported only inside GitHub Actions')
     # A plain preview must never change the durable baseline.

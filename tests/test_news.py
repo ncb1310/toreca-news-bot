@@ -2,6 +2,9 @@ from copy import deepcopy
 from datetime import datetime
 import unittest
 from unittest.mock import patch
+import json
+from pathlib import Path
+import tempfile
 import news_bot as bot
 
 POKEMON = '''<li id="newsTab_all"><a class="List_item_inner" href="/info/new.html">
@@ -104,6 +107,23 @@ class NewsTests(unittest.TestCase):
         with patch('news_bot.buffer_query', return_value={'channel': {'id': 'channel', 'service': 'instagram'}}):
             with self.assertRaises(ValueError):
                 bot.check_channel('channel')
+
+    def test_no_send_if_durable_checkpoint_fails(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            (root / 'config.json').write_text(json.dumps({'channel_id': 'channel', 'posting_enabled': True, 'max_posts_per_day': 3}))
+            state_path = root / 'data' / 'state.json'
+            state_path.parent.mkdir()
+            state_path.write_text(json.dumps({'sources': {'pokemon': {}, 'onepiece': {}}, 'items': {}}))
+            with patch.object(bot, 'ROOT', root), patch.object(bot, 'STATE', state_path), \
+                 patch('sys.argv', ['news_bot.py', '--live']), \
+                 patch.dict('os.environ', {'GITHUB_ACTIONS': 'true'}), \
+                 patch.object(bot, 'official_page', side_effect=[POKEMON, ONEPIECE]), \
+                 patch.object(bot, 'checkpoint', side_effect=RuntimeError('push failed')), \
+                 patch.object(bot, 'send') as send:
+                with self.assertRaises(RuntimeError):
+                    bot.main()
+                send.assert_not_called()
 
 
 if __name__ == '__main__':
