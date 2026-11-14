@@ -1,0 +1,29 @@
+name: Verify launch publication
+on:
+  push:
+    paths:
+      - .github/workflows/verify-launch-publication.yml
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Read published post status
+        env:
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+        run: |
+          python - <<'PY'
+          import json
+          import news_bot as bot
+          data = bot.buffer_query('query { post(input: { id: "6af86e44918fe79d2e839ad4" }) { id status externalLink sentAt text } }')
+          print(json.dumps(data, ensure_ascii=False, indent=2))
+          assert data['post']['status'] == 'sent', 'Publication is not confirmed'
+          PY
