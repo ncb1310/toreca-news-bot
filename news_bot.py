@@ -388,6 +388,8 @@ def main():
     for source, (_, url) in SOURCES.items():
         try:
             batches[source] = parse(source, official_page(url))
+        except HTTPError as exc:
+            errors[source] = 'HTTP ' + str(exc.code)
         except Exception as exc:
             errors[source] = type(exc).__name__  # No response bodies or credentials.
     stats = update_state(state, batches, now)
@@ -437,11 +439,13 @@ def main():
     report_path = ROOT / 'report.json'
     report_path.write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     print(json.dumps(report, ensure_ascii=False, indent=2))
+    if errors:
+        print('::warning::一部の情報源を取得できませんでした。取得成功した情報源のみ処理します。実行概要のsource_errorsを確認してください。')
     summary = os.environ.get('GITHUB_STEP_SUMMARY')
     if summary:
         with open(summary, 'a', encoding='utf-8') as handle:
             handle.write('## トレカ公式情報の確認結果\n\n```json\n' + json.dumps(report, ensure_ascii=False, indent=2).replace('```', '') + '\n```\n')
-    if errors or blocked:
+    if not batches or blocked:
         return 1
     return 0
 
