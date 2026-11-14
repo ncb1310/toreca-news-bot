@@ -15155,5 +15155,13 @@
       "status": "baseline",
       "discovered_at": "2026-11-14T22:37:33.521803+09:00"
     }
+  },
+  "channel_check": {
+    "date": "2026-11-14",
+    "channel": {
+      "id": "6af829a562b70b94b02a9277",
+      "name": "torekc1515",
+      "service": "twitter"
+    }
   }
 }
