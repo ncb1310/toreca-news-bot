@@ -15166,14 +15166,15 @@
   },
   "manual_operations": {
     "launch-confirmation-toreca-joshi-20261114": {
-      "status": "sending",
+      "status": "accepted",
       "channel": {
         "id": "6af829a562b70b94b02a9277",
         "name": "toreca_joshi",
         "service": "twitter"
       },
       "text": "買い逃し・応募忘れ、減らしていこう👓⚡\n\nトレカ女子速報では、ポケカ・ワンピカードの予約・抽選・再販に関する公式告知をチェックしてお届けします！\n\n気になる情報は、公式リンクから受付状況や応募条件を確認してね。\n※非公式の情報アカウントです。",
-      "attempted_at": "2026-11-14T23:20:51.460725+09:00"
+      "attempted_at": "2026-11-14T23:20:51.460725+09:00",
+      "buffer_post_id": "6af86e44918fe79d2e839ad4"
     }
   }
 }
