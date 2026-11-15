@@ -2,32 +2,32 @@
   "version": 1,
   "sources": {
     "pokemon": {
-      "checked_at": "2026-11-15T18:27:35.007047+09:00",
+      "checked_at": "2026-11-15T19:25:16.722682+09:00",
       "count": 177,
       "latest_date": "2026-11-13"
     },
     "onepiece": {
-      "checked_at": "2026-11-15T18:27:35.007047+09:00",
+      "checked_at": "2026-11-15T19:25:16.722682+09:00",
       "count": 1226,
       "latest_date": "2026-03-19"
     },
     "labo": {
-      "checked_at": "2026-11-15T18:27:35.007047+09:00",
+      "checked_at": "2026-11-15T19:25:16.722682+09:00",
       "count": 15,
       "latest_date": "2026-11-15"
     },
     "hobby": {
-      "checked_at": "2026-11-15T18:27:35.007047+09:00",
+      "checked_at": "2026-11-15T19:25:16.722682+09:00",
       "count": 3,
       "latest_date": "2026-11-13"
     },
     "pcstore": {
-      "checked_at": "2026-11-15T18:27:35.007047+09:00",
+      "checked_at": "2026-11-15T19:25:16.722682+09:00",
       "count": 15,
       "latest_date": "2026-11-10"
     },
     "furu": {
-      "checked_at": "2026-11-15T18:27:35.007047+09:00",
+      "checked_at": "2026-11-15T19:25:16.722682+09:00",
       "count": 58,
       "latest_date": "2026-11-13"
     }
@@ -15264,6 +15264,16 @@
         ]
       },
       "publication_checked_at": "2026-11-15T17:15:33.091536+09:00"
+    },
+    "spotlight-3ff426662b4f2263478ffc7e59751d47f9c971208c9bd89525af61e73f6cb484": {
+      "key": "spotlight-3ff426662b4f2263478ffc7e59751d47f9c971208c9bd89525af61e73f6cb484",
+      "source": "pokemon",
+      "title": "原哲夫先生がイラストを描き下ろした「マキシの熱血」のSARが登場、登場を記念した原先生のインタビューを掲載！",
+      "url": "https://www.pokemon-card.com/info/005726.html",
+      "published": "2026-11-06",
+      "category": "商品",
+      "kind": "spotlight",
+      "status": "ready"
     }
   }
 }
