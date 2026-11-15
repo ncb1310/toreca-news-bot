@@ -252,10 +252,30 @@ def eligible(item, now):
     return item['category'] in ('商品', 'PRODUCTS') or bool(re.search(r'予約|再販|再入荷|販売|発売', title))
 
 
+def post_hashtags(item):
+    """Relevant tags are mandatory for every automated post, including guides."""
+    content = ' '.join(str(item.get(field, '')) for field in ('title', 'body', 'category'))
+    tags = ['#トレカ']
+    if item.get('source') in ('pokemon', 'pcstore') or re.search(r'ポケカ|ポケモンカード', content):
+        tags.append('#ポケカ')
+    if item.get('source') == 'onepiece' or re.search(r'ワンピ|ONE\\s*PIECE', content, re.I):
+        tags.append('#ワンピースカード')
+    if item.get('kind') == 'guide':
+        tags.append('#トレカ初心者')
+    elif re.search(r'抽選', item.get('title', '')):
+        tags.append('#抽選情報')
+    elif re.search(r'予約', item.get('title', '')):
+        tags.append('#予約情報')
+    elif re.search(r'再販|再入荷', item.get('title', '')):
+        tags.append('#再販情報')
+    return ' '.join(tags[:3])
+
+
 def format_post(item):
+    tags = post_hashtags(item)
     if item.get('kind') == 'guide':
         text = '【トレカの確認メモ】\n' + item['title'] + '\n\n' + item['body']
-        suffix = '\n参照先👇\n'
+        suffix = '\n' + tags + '\n参照先👇\n'
         limit = (270 - 23) // 2 - len(suffix)
         if len(text) > limit:
             text = text[:limit - 1] + '…'
@@ -266,7 +286,8 @@ def format_post(item):
     category = '商品情報の紹介' if spotlight else '公式告知'
     before = f'【{label}{("・" + store) if store else ""}｜{category}】\n'
     after = f'\n発表日：{item["published"]}\n' + ('新着速報ではありません。詳細は公式へ👇\n' if spotlight else '受付状況・条件は公式で確認👇\n')
-    # Conservative X budget: count every non-URL character as two units, URL as 23.
+    after += tags + '\n'
+    # Reserve the tag budget before truncation; never drop mandatory tags.
     limit = (270 - 23) // 2 - len(before) - len(after)
     title = item['title']
     if len(title) > limit:
