@@ -2,32 +2,32 @@
   "version": 1,
   "sources": {
     "pokemon": {
-      "checked_at": "2026-11-15T17:20:24.848537+09:00",
+      "checked_at": "2026-11-15T18:27:35.007047+09:00",
       "count": 177,
       "latest_date": "2026-11-13"
     },
     "onepiece": {
-      "checked_at": "2026-11-15T17:20:24.848537+09:00",
+      "checked_at": "2026-11-15T18:27:35.007047+09:00",
       "count": 1226,
       "latest_date": "2026-03-19"
     },
     "labo": {
-      "checked_at": "2026-11-15T17:20:24.848537+09:00",
+      "checked_at": "2026-11-15T18:27:35.007047+09:00",
       "count": 15,
-      "latest_date": "2026-11-14"
+      "latest_date": "2026-11-15"
     },
     "hobby": {
-      "checked_at": "2026-11-15T17:20:24.848537+09:00",
+      "checked_at": "2026-11-15T18:27:35.007047+09:00",
       "count": 3,
       "latest_date": "2026-11-13"
     },
     "pcstore": {
-      "checked_at": "2026-11-15T17:20:24.848537+09:00",
+      "checked_at": "2026-11-15T18:27:35.007047+09:00",
       "count": 15,
       "latest_date": "2026-11-10"
     },
     "furu": {
-      "checked_at": "2026-11-15T17:20:24.848537+09:00",
+      "checked_at": "2026-11-15T18:27:35.007047+09:00",
       "count": 58,
       "latest_date": "2026-11-13"
     }
@@ -15154,6 +15154,18 @@
       "closed": false,
       "status": "baseline",
       "discovered_at": "2026-11-14T22:37:33.521803+09:00"
+    },
+    "126ea9aa7b6341dfe1b1cb53dc6bc645c56c287236cba642047cb0573b51148f": {
+      "key": "126ea9aa7b6341dfe1b1cb53dc6bc645c56c287236cba642047cb0573b51148f",
+      "source": "labo",
+      "title": "【ポケモンカードゲーム】「拡張パック 30th CELEBRATION」抽選販売のお知らせ",
+      "published": "2026-11-15",
+      "url": "https://www.c-labo.jp/shop/sapporo/blog/624595/",
+      "category": "ポケモンカードゲーム",
+      "store": "札幌店",
+      "closed": false,
+      "status": "ready",
+      "discovered_at": "2026-11-15T18:27:35.007047+09:00"
     }
   },
   "channel_check": {
