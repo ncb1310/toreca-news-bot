@@ -15191,7 +15191,19 @@
       "status": "accepted",
       "attempted_at": "2026-11-15T10:45:55.553871+09:00",
       "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/news-brand.png",
-      "buffer_post_id": "6af90ed5b9a106584c7f44ee"
+      "buffer_post_id": "6af90ed5b9a106584c7f44ee",
+      "publication_result": {
+        "id": "6af90ed5b9a106584c7f44ee",
+        "status": "sent",
+        "sentAt": "2026-11-15T01:45:58.509Z",
+        "externalLink": "https://twitter.com/toreca_joshi/status/2121781723121811720",
+        "assets": [
+          {
+            "mimeType": "image/png",
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/news-brand.png"
+          }
+        ]
+      }
     }
   }
 }
