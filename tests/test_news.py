@@ -93,7 +93,7 @@ class NewsTests(unittest.TestCase):
 
     def test_mutation_contains_exact_verified_target(self):
         with patch('news_bot.buffer_query', return_value={'createPost': {'post': {'id': 'post'}}}) as api:
-            self.assertEqual(bot.send(self.item(), 'selected-channel'), 'post')
+            self.assertEqual(bot.send(dict(self.item(), image_url='https://raw.githubusercontent.com/ncb1310/toreca-news-bot/revision/assets/generated/test.png'), 'selected-channel'), 'post')
             query = api.call_args.args[0]
             self.assertIn('"selected-channel"', query)
             self.assertIn('mode: shareNow', query)
@@ -101,7 +101,7 @@ class NewsTests(unittest.TestCase):
     def test_api_rejection_not_success(self):
         with patch('news_bot.buffer_query', return_value={'createPost': {'message': 'rejected'}}):
             with self.assertRaises(ValueError):
-                bot.send(self.item(), 'selected-channel')
+                bot.send(dict(self.item(), image_url='https://raw.githubusercontent.com/ncb1310/toreca-news-bot/revision/assets/generated/test.png'), 'selected-channel')
 
     def test_wrong_platform_rejected(self):
         with patch('news_bot.buffer_query', return_value={'channel': {'id': 'channel', 'service': 'instagram'}}):
@@ -173,3 +173,4 @@ class NewsTests(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+

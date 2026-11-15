@@ -2,5 +2,10 @@
   "channel_id": "6af829a562b70b94b02a9277",
   "posting_enabled": true,
   "max_posts_per_day": 15,
-  "start_date_jst": "2026-11-15"
+  "start_date_jst": "2026-11-15",
+  "daily_target": 10,
+  "editorial_enabled": true,
+  "editorial_max_per_day": 4,
+  "min_post_interval_minutes": 55,
+  "catchup_days": 30
 }

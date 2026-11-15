@@ -253,10 +253,19 @@ def eligible(item, now):
 
 
 def format_post(item):
+    if item.get('kind') == 'guide':
+        text = '【トレカの確認メモ】\n' + item['title'] + '\n\n' + item['body']
+        suffix = '\n参照先👇\n'
+        limit = (270 - 23) // 2 - len(suffix)
+        if len(text) > limit:
+            text = text[:limit - 1] + '…'
+        return text + suffix + item['url']
     label = SOURCES[item['source']][0]
     store = item.get('store', '')
-    before = f'【{label}{("・" + store) if store else ""}｜公式告知】\n'
-    after = f'\n発表日：{item["published"]}\n受付状況・条件は公式で確認👇\n'
+    spotlight = item.get('kind') == 'spotlight'
+    category = '商品情報の紹介' if spotlight else '公式告知'
+    before = f'【{label}{("・" + store) if store else ""}｜{category}】\n'
+    after = f'\n発表日：{item["published"]}\n' + ('新着速報ではありません。詳細は公式へ👇\n' if spotlight else '受付状況・条件は公式で確認👇\n')
     # Conservative X budget: count every non-URL character as two units, URL as 23.
     limit = (270 - 23) // 2 - len(before) - len(after)
     title = item['title']
@@ -311,9 +320,9 @@ def save(state):
     temporary.replace(STATE)
 
 
-def checkpoint():
+def checkpoint(*extra_paths):
     # Git must acknowledge durable state before a mutation is attempted.
-    subprocess.run(['git', 'add', 'data/state.json'], cwd=ROOT, check=True)
+    subprocess.run(['git', 'add', 'data/state.json', *extra_paths], cwd=ROOT, check=True)
     changed = subprocess.run(['git', 'diff', '--cached', '--quiet'], cwd=ROOT).returncode
     if changed == 0:
         return
@@ -353,15 +362,51 @@ NEWS_IMAGE_URL = "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main
 
 def send(item, channel_id):
     # No retries: a timeout after acceptance cannot safely be distinguished from failure.
+    image_url = item.get('image_url', '')
+    if not image_url.startswith('https://raw.githubusercontent.com/ncb1310/toreca-news-bot/') or '/assets/generated/' not in image_url:
+        raise ValueError('A post-specific published image is mandatory')
     query = ('mutation { createPost(input: { text: ' + json.dumps(format_post(item)) +
              ', channelId: ' + json.dumps(channel_id) +
-             ', schedulingType: automatic, mode: shareNow, assets: [{ image: { url: ' + json.dumps(NEWS_IMAGE_URL) + ' } }], needsApproval: false }) {'
+             ', schedulingType: automatic, mode: shareNow, assets: [{ image: { url: ' + json.dumps(image_url) + ' } }], needsApproval: false }) {'
              ' ... on PostActionSuccess { post { id } } ... on MutationError { message } } }')
     data = buffer_query(query)
     post = (data.get('createPost') or {}).get('post')
     if not isinstance(post, dict) or not post.get('id'):
         raise ValueError('Buffer did not confirm creation')
     return post['id']
+
+
+def publish_card(item, now):
+    from post_cards import image_name, render_card
+    relative = 'assets/generated/' + image_name(item)
+    label = 'トレカの基礎と確認ポイント' if item.get('kind') == 'guide' else SOURCES[item['source']][0]
+    render_card(item, label, now, ROOT / relative)
+    checkpoint(relative)
+    revision = subprocess.check_output(['git', 'rev-parse', 'HEAD'], cwd=ROOT, text=True).strip()
+    image_url = 'https://raw.githubusercontent.com/ncb1310/toreca-news-bot/' + revision + '/' + relative
+    with urlopen(Request(image_url, headers={'User-Agent': AGENT}), timeout=25) as response:
+        if response.read(8) != b'\x89PNG\r\n\x1a\n':
+            raise ValueError('Published image could not be verified')
+    item['image_url'] = image_url
+
+
+def reconcile_publications(state, now):
+    from editorial import records
+    pending = [i for i in records(state) if i.get('status') == 'accepted'
+               and i.get('buffer_post_id') and (i.get('publication_result') or {}).get('status') not in ('sent', 'error')]
+    for item in pending[:3]:
+        # A failed read never changes the accepted mutation into a new send.
+        if item.get('publication_checks', 0) >= 6:
+            continue
+        item['publication_checks'] = item.get('publication_checks', 0) + 1
+        try:
+            post = buffer_query('query { post(input: { id: ' + json.dumps(item['buffer_post_id']) +
+                                ' }) { id status sentAt externalLink assets { mimeType source } } }').get('post')
+            if post:
+                item['publication_result'] = post
+                item['publication_checked_at'] = now.isoformat()
+        except Exception:
+            item['publication_read_error'] = True
 
 
 def prepare_item(item):
@@ -403,8 +448,20 @@ def main():
     if args.live and os.environ.get('GITHUB_ACTIONS') != 'true':
         raise ValueError('--live is supported only inside GitHub Actions')
     # A plain preview must never change the durable baseline.
-    candidate = select_candidate(state, now, config['max_posts_per_day'], batches.keys())
+    from editorial import records, select_fallback
+    history = records(state)
+    blocked = any(i.get('status') in ('sending', 'uncertain') for i in history)
+    count_today = sum(i.get('attempt_date') == now.date().isoformat() for i in history)
+    recent_attempt = any(i.get('attempted_at') and now - datetime.fromisoformat(i['attempted_at']) < timedelta(minutes=config.get('min_post_interval_minutes', 55)) for i in history)
+    candidate = None
+    if not blocked and count_today < config['max_posts_per_day'] and not recent_attempt:
+        candidate = select_candidate(state, now, config['max_posts_per_day'], batches.keys())
+        if candidate is None and config.get('editorial_enabled'):
+            candidate = select_fallback(state, batches, now, config)
+            if candidate:
+                state.setdefault('editorial_posts', {})[candidate['key']] = candidate
     if args.live:
+        reconcile_publications(state, now)
         save(state)
         checkpoint()
         cached = state.get('channel_check', {})
@@ -415,17 +472,35 @@ def main():
             checkpoint()
         report['channel'] = state['channel_check']['channel']
     report['next_candidate'] = format_post(candidate) if candidate else None
-    blocked = any(i['status'] in ('sending', 'uncertain') for i in state['items'].values())
     report['needs_reconciliation'] = blocked
+    report['today_attempts'] = count_today
+    report['daily_target'] = config.get('daily_target')
     report['publishing_started'] = publishing_started(config, now)
     if args.live and config['posting_enabled'] and publishing_started(config, now) and candidate:
-        if not prepare_item(candidate):
+        try:
+            if candidate.get('kind') != 'guide' and not prepare_item(candidate):
+                save(state)
+                checkpoint()
+                print('公式ページで終了を確認したため投稿を見送りました。')
+                return 0
+            # Verify the source page is still reachable immediately before publication.
+            # Do not turn archived product announcements into current stock claims.
+            if candidate['source'] != 'hobby':
+                official_page(candidate['url'])
+        except Exception as exc:
+            candidate['status'] = 'verification_failed'
+            candidate['verification_failed_date'] = now.date().isoformat()
+            candidate['verification_error'] = type(exc).__name__
             save(state)
             checkpoint()
-            print('公式ページで終了を確認したため投稿を見送りました。')
+            print('::warning::出典を再確認できず見送り。次回は別の候補を選択します。')
             return 0
+        if candidate.get('kind') == 'guide':
+            report['candidate_kind'] = 'guide'
+        publish_card(candidate, now)  # Failure here means no Buffer mutation.
         candidate['status'] = 'sending'
         candidate['attempt_date'] = now.date().isoformat()
+        candidate['attempted_at'] = now.isoformat()
         save(state)
         checkpoint()  # If this fails, the following API call is never reached.
         try:
@@ -439,6 +514,10 @@ def main():
             raise RuntimeError('投稿結果が不明なため自動再送を停止。Buffer画面で確認してください。') from None
         save(state)
         checkpoint()
+        reconcile_publications(state, now)
+        save(state)
+        checkpoint()
+        report['publication_result'] = candidate.get('publication_result')
     report_path = ROOT / 'report.json'
     report_path.write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     print(json.dumps(report, ensure_ascii=False, indent=2))
@@ -459,3 +538,4 @@ if __name__ == '__main__':
     except Exception as exc:
         print('失敗：' + type(exc).__name__ + '。Actionsの実行概要を確認してください。', file=sys.stderr)
         sys.exit(1)
+
