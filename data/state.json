@@ -15325,7 +15325,7 @@
       "key": "guide-ef1693397771b77a60b57f68332daf5852ed28ebf828619298fa01c4dcc1781f",
       "guide_id": "lottery-dates",
       "kind": "guide",
-      "status": "sending",
+      "status": "accepted",
       "source": "guide",
       "title": "抽選の締切、3つを分けよう",
       "bullets": [
@@ -15338,7 +15338,8 @@
       "published": "2026-11-15",
       "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/ae52adc29fb28eb48240508f3a3f9affc64e14cd/assets/generated/1763e55155f279bce0c3486b.png",
       "attempt_date": "2026-11-15",
-      "attempted_at": "2026-11-15T21:21:28.186833+09:00"
+      "attempted_at": "2026-11-15T21:21:28.186833+09:00",
+      "buffer_post_id": "6af9a3d7b9a106584ca8a308"
     }
   }
 }
