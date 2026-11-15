@@ -2,32 +2,32 @@
   "version": 1,
   "sources": {
     "pokemon": {
-      "checked_at": "2026-11-15T20:21:24.401445+09:00",
+      "checked_at": "2026-11-15T21:21:28.186833+09:00",
       "count": 177,
       "latest_date": "2026-11-13"
     },
     "onepiece": {
-      "checked_at": "2026-11-15T20:21:24.401445+09:00",
+      "checked_at": "2026-11-15T21:21:28.186833+09:00",
       "count": 1226,
       "latest_date": "2026-03-19"
     },
     "labo": {
-      "checked_at": "2026-11-15T20:21:24.401445+09:00",
+      "checked_at": "2026-11-15T21:21:28.186833+09:00",
       "count": 15,
       "latest_date": "2026-11-15"
     },
     "hobby": {
-      "checked_at": "2026-11-15T20:21:24.401445+09:00",
+      "checked_at": "2026-11-15T21:21:28.186833+09:00",
       "count": 3,
       "latest_date": "2026-11-13"
     },
     "pcstore": {
-      "checked_at": "2026-11-15T20:21:24.401445+09:00",
+      "checked_at": "2026-11-15T21:21:28.186833+09:00",
       "count": 15,
       "latest_date": "2026-11-10"
     },
     "furu": {
-      "checked_at": "2026-11-15T20:21:24.401445+09:00",
+      "checked_at": "2026-11-15T21:21:28.186833+09:00",
       "count": 58,
       "latest_date": "2026-11-13"
     }
@@ -15320,6 +15320,22 @@
         ]
       },
       "publication_checked_at": "2026-11-15T20:21:24.401445+09:00"
+    },
+    "guide-ef1693397771b77a60b57f68332daf5852ed28ebf828619298fa01c4dcc1781f": {
+      "key": "guide-ef1693397771b77a60b57f68332daf5852ed28ebf828619298fa01c4dcc1781f",
+      "guide_id": "lottery-dates",
+      "kind": "guide",
+      "status": "ready",
+      "source": "guide",
+      "title": "抽選の締切、3つを分けよう",
+      "bullets": [
+        "応募締切",
+        "当選発表日",
+        "当選後の購入期限"
+      ],
+      "body": "応募できても、購入期限を過ぎると買えない場合がある。告知を見たら3つの日付を別々にメモしておこう。",
+      "url": "https://www.pokemoncenter-online.com/?main_page=lottery",
+      "published": "2026-11-15"
     }
   }
 }
