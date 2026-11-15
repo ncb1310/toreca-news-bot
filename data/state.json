@@ -15215,10 +15215,11 @@
       "published": "2026-11-13",
       "category": "商品",
       "kind": "spotlight",
-      "status": "sending",
+      "status": "accepted",
       "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/bce7e0661953ff1e3a5ec403a6a1a780adb7d70d/assets/generated/474811d606206d8c627c9df6.png",
       "attempt_date": "2026-11-15",
-      "attempted_at": "2026-11-15T17:15:33.091536+09:00"
+      "attempted_at": "2026-11-15T17:15:33.091536+09:00",
+      "buffer_post_id": "6af96a32e5a113497ad4cffc"
     }
   }
 }
