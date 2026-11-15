@@ -2,32 +2,32 @@
   "version": 1,
   "sources": {
     "pokemon": {
-      "checked_at": "2026-11-15T16:16:07.920603+09:00",
+      "checked_at": "2026-11-15T17:15:33.091536+09:00",
       "count": 177,
       "latest_date": "2026-11-13"
     },
     "onepiece": {
-      "checked_at": "2026-11-15T16:16:07.920603+09:00",
+      "checked_at": "2026-11-15T17:15:33.091536+09:00",
       "count": 1226,
       "latest_date": "2026-03-19"
     },
     "labo": {
-      "checked_at": "2026-11-15T16:16:07.920603+09:00",
+      "checked_at": "2026-11-15T17:15:33.091536+09:00",
       "count": 15,
       "latest_date": "2026-11-14"
     },
     "hobby": {
-      "checked_at": "2026-11-15T16:16:07.920603+09:00",
+      "checked_at": "2026-11-15T17:15:33.091536+09:00",
       "count": 3,
       "latest_date": "2026-11-13"
     },
     "pcstore": {
-      "checked_at": "2026-11-15T16:16:07.920603+09:00",
+      "checked_at": "2026-11-15T17:15:33.091536+09:00",
       "count": 15,
       "latest_date": "2026-11-10"
     },
     "furu": {
-      "checked_at": "2026-11-15T16:16:07.920603+09:00",
+      "checked_at": "2026-11-15T17:15:33.091536+09:00",
       "count": 58,
       "latest_date": "2026-11-13"
     }
@@ -15204,6 +15204,18 @@
           }
         ]
       }
+    }
+  },
+  "editorial_posts": {
+    "spotlight-4fcff7ee876e0f3ee426d5fa85c077a78c93801da9556c0f063f9cf8a90f916d": {
+      "key": "spotlight-4fcff7ee876e0f3ee426d5fa85c077a78c93801da9556c0f063f9cf8a90f916d",
+      "source": "pokemon",
+      "title": "拡張パック「ハドウシーカー」の、収録カードをさらに大公開！",
+      "url": "https://www.pokemon-card.com/ex/m7/",
+      "published": "2026-11-13",
+      "category": "商品",
+      "kind": "spotlight",
+      "status": "ready"
     }
   }
 }
