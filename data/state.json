@@ -15405,7 +15405,7 @@
       "key": "guide-b2d2b7298b24a4d1b8dca1648600203aac51ab235752f174b03c3c9ef7e8222c",
       "guide_id": "lottery-conditions",
       "kind": "guide",
-      "status": "sending",
+      "status": "accepted",
       "source": "guide",
       "title": "応募前のチェックリスト",
       "bullets": [
@@ -15418,7 +15418,8 @@
       "published": "2026-11-16",
       "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/3a95b5a4059b2366c75921950aad3787241c0f3f/assets/generated/e3f307924322e0e9e2a647b6.png",
       "attempt_date": "2026-11-16",
-      "attempted_at": "2026-11-16T08:54:00.840316+09:00"
+      "attempted_at": "2026-11-16T08:54:00.840316+09:00",
+      "buffer_post_id": "6afa4628ff465c57dabe100b"
     }
   }
 }
