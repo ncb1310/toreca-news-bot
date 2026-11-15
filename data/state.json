@@ -2,32 +2,32 @@
   "version": 1,
   "sources": {
     "pokemon": {
-      "checked_at": "2026-11-15T21:21:28.186833+09:00",
+      "checked_at": "2026-11-15T22:37:24.105902+09:00",
       "count": 177,
       "latest_date": "2026-11-13"
     },
     "onepiece": {
-      "checked_at": "2026-11-15T21:21:28.186833+09:00",
+      "checked_at": "2026-11-15T22:37:24.105902+09:00",
       "count": 1226,
       "latest_date": "2026-03-19"
     },
     "labo": {
-      "checked_at": "2026-11-15T21:21:28.186833+09:00",
+      "checked_at": "2026-11-15T22:37:24.105902+09:00",
       "count": 15,
       "latest_date": "2026-11-15"
     },
     "hobby": {
-      "checked_at": "2026-11-15T21:21:28.186833+09:00",
+      "checked_at": "2026-11-15T22:37:24.105902+09:00",
       "count": 3,
       "latest_date": "2026-11-13"
     },
     "pcstore": {
-      "checked_at": "2026-11-15T21:21:28.186833+09:00",
+      "checked_at": "2026-11-15T22:37:24.105902+09:00",
       "count": 15,
       "latest_date": "2026-11-10"
     },
     "furu": {
-      "checked_at": "2026-11-15T21:21:28.186833+09:00",
+      "checked_at": "2026-11-15T22:37:24.105902+09:00",
       "count": 58,
       "latest_date": "2026-11-13"
     }
@@ -15354,6 +15354,22 @@
         ]
       },
       "publication_checked_at": "2026-11-15T21:21:28.186833+09:00"
+    },
+    "guide-9666b1f8614b236a6fde8ea3346383c6dfa2bfdf1ccd20a70f45df87bf4abafc": {
+      "key": "guide-9666b1f8614b236a6fde8ea3346383c6dfa2bfdf1ccd20a70f45df87bf4abafc",
+      "guide_id": "lottery-store",
+      "kind": "guide",
+      "status": "ready",
+      "source": "guide",
+      "title": "抽選は「どの店舗か」まで確認",
+      "bullets": [
+        "応募する店舗",
+        "受け取る店舗",
+        "来店が必要か"
+      ],
+      "body": "チェーン店の告知でも店舗限定の場合がある。店名と受取方法まで確認してから応募しよう。",
+      "url": "https://www.c-labo.jp/blog/",
+      "published": "2026-11-15"
     }
   }
 }
