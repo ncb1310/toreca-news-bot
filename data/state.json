@@ -2,34 +2,34 @@
   "version": 1,
   "sources": {
     "pokemon": {
-      "checked_at": "2026-11-15T23:28:09.931332+09:00",
+      "checked_at": "2026-11-16T08:54:00.840316+09:00",
       "count": 177,
       "latest_date": "2026-11-13"
     },
     "onepiece": {
-      "checked_at": "2026-11-15T23:28:09.931332+09:00",
+      "checked_at": "2026-11-16T08:54:00.840316+09:00",
       "count": 1226,
       "latest_date": "2026-03-19"
     },
     "labo": {
-      "checked_at": "2026-11-15T23:28:09.931332+09:00",
+      "checked_at": "2026-11-16T08:54:00.840316+09:00",
       "count": 15,
       "latest_date": "2026-11-15"
     },
     "hobby": {
-      "checked_at": "2026-11-15T23:28:09.931332+09:00",
+      "checked_at": "2026-11-16T08:54:00.840316+09:00",
       "count": 3,
       "latest_date": "2026-11-13"
     },
     "pcstore": {
-      "checked_at": "2026-11-15T23:28:09.931332+09:00",
+      "checked_at": "2026-11-16T08:54:00.840316+09:00",
       "count": 15,
       "latest_date": "2026-11-10"
     },
     "furu": {
-      "checked_at": "2026-11-15T23:28:09.931332+09:00",
-      "count": 58,
-      "latest_date": "2026-11-13"
+      "checked_at": "2026-11-16T08:54:00.840316+09:00",
+      "count": 59,
+      "latest_date": "2026-11-16"
     }
   },
   "items": {
@@ -15184,6 +15184,18 @@
         ]
       },
       "publication_checked_at": "2026-11-15T18:27:35.007047+09:00"
+    },
+    "602bfb620803cc6dbb6c77ac57b095d5cbf2ad001bef80d57ef1569d81697e5b": {
+      "key": "602bfb620803cc6dbb6c77ac57b095d5cbf2ad001bef80d57ef1569d81697e5b",
+      "source": "furu",
+      "title": "PlayStation BLACK FRIDAY SALE 2026｜2026年12月02日（水）まで",
+      "published": "2026-11-16",
+      "url": "https://www.furu1.net/news/news_campaign/ps-sale202611",
+      "category": "",
+      "store": "",
+      "closed": false,
+      "status": "ignored",
+      "discovered_at": "2026-11-16T08:54:00.840316+09:00"
     }
   },
   "channel_check": {
@@ -15388,6 +15400,22 @@
         ]
       },
       "publication_checked_at": "2026-11-15T22:37:24.105902+09:00"
+    },
+    "guide-b2d2b7298b24a4d1b8dca1648600203aac51ab235752f174b03c3c9ef7e8222c": {
+      "key": "guide-b2d2b7298b24a4d1b8dca1648600203aac51ab235752f174b03c3c9ef7e8222c",
+      "guide_id": "lottery-conditions",
+      "kind": "guide",
+      "status": "ready",
+      "source": "guide",
+      "title": "応募前のチェックリスト",
+      "bullets": [
+        "対象商品・数量",
+        "応募できる人の条件",
+        "重複応募の扱い"
+      ],
+      "body": "応募フォームを開く前に、公式告知の条件を読む。購入履歴や会員登録などの条件は、企画ごとに確認しよう。",
+      "url": "https://www.pokemoncenter-online.com/?main_page=lottery",
+      "published": "2026-11-16"
     }
   }
 }
