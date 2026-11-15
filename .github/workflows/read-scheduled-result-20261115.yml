@@ -1,0 +1,28 @@
+name: Read November 15 scheduled publication result
+on:
+  push:
+    paths: [.github/workflows/read-scheduled-result-20261115.yml]
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Read existing scheduled post only
+        env:
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+        run: |
+          python - <<'PY'
+          import json
+          import news_bot as bot
+          state=json.loads(bot.STATE.read_text())
+          record=state['manual_operations']['scheduled-test-toreca-joshi-20261115-0805']
+          post_id=record['buffer_post_id']
+          query='query { post(input: { id: '+json.dumps(post_id)+' }) { id status sentAt dueAt externalLink text } }'
+          print(json.dumps(bot.buffer_query(query), ensure_ascii=False, indent=2))
+          PY
