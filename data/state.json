@@ -15169,7 +15169,21 @@
       "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/2b08a945bac2154ba5c954a9f2bfab4cb482e97d/assets/generated/5761595926b7c54984f6d8ad.png",
       "attempt_date": "2026-11-15",
       "attempted_at": "2026-11-15T18:27:35.007047+09:00",
-      "buffer_post_id": "6af97b17e5a113497ad9d856"
+      "buffer_post_id": "6af97b17e5a113497ad9d856",
+      "publication_checks": 1,
+      "publication_result": {
+        "id": "6af97b17e5a113497ad9d856",
+        "status": "sent",
+        "sentAt": "2026-11-15T09:27:52.053Z",
+        "externalLink": "https://twitter.com/toreca_joshi/status/2121897962208944351",
+        "assets": [
+          {
+            "mimeType": "image/png",
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/2b08a945bac2154ba5c954a9f2bfab4cb482e97d/assets/generated/5761595926b7c54984f6d8ad.png"
+          }
+        ]
+      },
+      "publication_checked_at": "2026-11-15T18:27:35.007047+09:00"
     }
   },
   "channel_check": {
