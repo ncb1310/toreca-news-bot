@@ -348,11 +348,14 @@ def publishing_started(config, now):
     return now.astimezone(JST).date().isoformat() >= config.get('start_date_jst', '0001-01-01')
 
 
+NEWS_IMAGE_URL = "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/news-brand.png"
+
+
 def send(item, channel_id):
     # No retries: a timeout after acceptance cannot safely be distinguished from failure.
     query = ('mutation { createPost(input: { text: ' + json.dumps(format_post(item)) +
              ', channelId: ' + json.dumps(channel_id) +
-             ', schedulingType: automatic, mode: shareNow, assets: [], needsApproval: false }) {'
+             ', schedulingType: automatic, mode: shareNow, assets: [{ image: { url: ' + json.dumps(NEWS_IMAGE_URL) + ' } }], needsApproval: false }) {'
              ' ... on PostActionSuccess { post { id } } ... on MutationError { message } } }')
     data = buffer_query(query)
     post = (data.get('createPost') or {}).get('post')
