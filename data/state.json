@@ -15359,7 +15359,7 @@
       "key": "guide-9666b1f8614b236a6fde8ea3346383c6dfa2bfdf1ccd20a70f45df87bf4abafc",
       "guide_id": "lottery-store",
       "kind": "guide",
-      "status": "ready",
+      "status": "sending",
       "source": "guide",
       "title": "抽選は「どの店舗か」まで確認",
       "bullets": [
@@ -15369,7 +15369,10 @@
       ],
       "body": "チェーン店の告知でも店舗限定の場合がある。店名と受取方法まで確認してから応募しよう。",
       "url": "https://www.c-labo.jp/blog/",
-      "published": "2026-11-15"
+      "published": "2026-11-15",
+      "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/00dcf2586e4c8c6c61a6de24fc3db736ddd6efc9/assets/generated/1c11dd0e59f306e2f76312a6.png",
+      "attempt_date": "2026-11-15",
+      "attempted_at": "2026-11-15T22:37:24.105902+09:00"
     }
   }
 }
