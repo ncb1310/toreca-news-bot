@@ -1,0 +1,40 @@
+name: Check Senran Buffer connection (read only)
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - .github/workflows/check-senran-connection.yml
+permissions:
+  contents: read
+jobs:
+  check:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Read connected channels without changing any settings
+        env:
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          from pathlib import Path
+          from news_bot import buffer_query
+          result = buffer_query('query { account { organizations { id } } }')
+          matched = []
+          count = 0
+          for org in result['account']['organizations']:
+              data = buffer_query('query { channels(input: { organizationId: ' + json.dumps(org['id']) + ' }) { id name service isQueuePaused } }')
+              channels = data['channels']
+              count += len(channels)
+              matched.extend(c for c in channels if c.get('name', '').lstrip('@').lower() == 'senran1515' and c.get('service') == 'twitter')
+          report = {'target': '@senran1515', 'connected_channel_count': count, 'matches': matched, 'read_only': True}
+          text = json.dumps(report, ensure_ascii=False, indent=2)
+          print(text)
+          Path(os.environ['GITHUB_STEP_SUMMARY']).write_text('## Senran connection check\n\n' + text)
+          PY
