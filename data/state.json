@@ -15723,7 +15723,28 @@
         ]
       },
       "buffer_post_id": "6afb2136a3641bd0cf694de6"
+    },
+    "guide-5386baaabc91edc4608882a4b14f50729a9600fa62182565eaf70d9e029109e6": {
+      "key": "guide-5386baaabc91edc4608882a4b14f50729a9600fa62182565eaf70d9e029109e6",
+      "guide_id": "poke-sixty",
+      "kind": "guide",
+      "status": "sending",
+      "source": "guide",
+      "title": "ポケカの60枚デッキ入門",
+      "bullets": [
+        "カードを60枚に組む",
+        "使えるカードの範囲を確認",
+        "公式のあそびかたを読む"
+      ],
+      "body": "60枚デッキを作るときは、枚数とレギュレーションをセットで確認。最初は公式の「あそびかた」が入口になるよ。",
+      "url": "https://www.pokemon-card.com/howtoplay/",
+      "published": "2026-11-17",
+      "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/bb0189dc8143628c47db25e7cf2b15283f0494f0/assets/generated/7b39b5d4757b49bf169b5705.png",
+      "text": "【トレカの確認メモ】\nポケカの60枚デッキ入門\n\n60枚デッキを作るときは、枚数とレギュレーションをセットで確認。最初は公式の「あそびかた」が入口になるよ。\n#トレカ #ポケカ #トレカ初心者\n参照先👇\nhttps://www.pokemon-card.com/howtoplay/",
+      "attempt_date": "2026-11-17",
+      "attempted_at": "2026-11-17T00:28:49.439022+09:00",
+      "scheduled_at": "2026-11-17T10:00:00+09:00"
     }
   },
-  "last_checked_at": "2026-11-17T08:00:00+09:00"
+  "last_checked_at": "2026-11-17T10:00:00+09:00"
 }
