@@ -36,4 +36,6 @@ jobs:
       - name: Publish current Senran greeting with matching approved image
         env:
           BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
-        run: python senran_bot.py
+        run: |
+          python refill_queue.py
+          python senran_bot.py

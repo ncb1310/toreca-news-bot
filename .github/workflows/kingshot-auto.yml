@@ -37,4 +37,6 @@ jobs:
       - name: Check official sources and publish with approved image
         env:
           BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
-        run: python kingshot_bot.py
+        run: |
+          python refill_queue.py
+          python kingshot_bot.py
