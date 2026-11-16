@@ -162,6 +162,17 @@
           }
         ]
       }
+    },
+    "guide-notice-draft-2026-11-17": {
+      "key": "guide-notice-draft-2026-11-17",
+      "guide_id": "notice-draft",
+      "kind": "guide",
+      "text": "【既存機能メモ】\n同盟のお知らせ、下書きも活用📋\n\n予約したお知らせの編集では、確定せず画面を離れたときに最新の下書きを保存する機能が案内されています。公開済みとの取り違えには注意しよう。\n出典：米公式10/19更新説明\nhttps://apps.apple.com/us/app/kingshot/id6739554056\n#キングショット #Kingshot",
+      "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/from-x/36-2107718817149587623.jpg",
+      "status": "sending",
+      "attempt_date": "2026-11-17",
+      "attempted_at": "2026-11-17T00:24:20.887451+09:00",
+      "scheduled_at": "2026-11-17T14:00:00+09:00"
     }
   },
   "baseline": {
@@ -170,7 +181,7 @@
     ],
     "publisher": []
   },
-  "last_checked_at": "2026-11-17T12:00:00+09:00",
+  "last_checked_at": "2026-11-17T14:00:00+09:00",
   "source_errors": {},
   "image_errors": {
     "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/repertoire/previous-66.jpg": {
