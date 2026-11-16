@@ -241,10 +241,23 @@
       "kind": "guide",
       "text": "【既存機能メモ】\n島の育成が進んだら確認したいこと🏝️\n\n生命の泉を最大まで育てると、島の探索で新しいミッションが解放されると米公式が案内しています。達成後のミッション欄も見ておこう。\n出典：米公式10/19更新説明\nhttps://apps.apple.com/us/app/kingshot/id6739554056\n#キングショット #Kingshot",
       "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/from-x/23-2108974591993692602.jpg",
-      "status": "sending",
+      "status": "accepted",
       "attempt_date": "2026-11-17",
       "attempted_at": "2026-11-17T00:24:20.887451+09:00",
-      "scheduled_at": "2026-11-17T20:00:00+09:00"
+      "scheduled_at": "2026-11-17T20:00:00+09:00",
+      "post_id": "6afb2037ca8a17609535d784",
+      "publication_result": {
+        "id": "6afb2037ca8a17609535d784",
+        "status": "scheduled",
+        "dueAt": "2026-11-17T11:00:00.000Z",
+        "text": "【既存機能メモ】\n島の育成が進んだら確認したいこと🏝️\n\n生命の泉を最大まで育てると、島の探索で新しいミッションが解放されると米公式が案内しています。達成後のミッション欄も見ておこう。\n出典：米公式10/19更新説明\nhttps://apps.apple.com/us/app/kingshot/id6739554056\n#キングショット #Kingshot",
+        "assets": [
+          {
+            "mimeType": "image/jpeg",
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/from-x/23-2108974591993692602.jpg"
+          }
+        ]
+      }
     }
   },
   "baseline": {
