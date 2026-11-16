@@ -55,7 +55,19 @@
       "status": "accepted",
       "attempt_date": "2026-11-16",
       "attempted_at": "2026-11-16T18:23:50.879668+09:00",
-      "post_id": "6afacbb28e87c256a3c81548"
+      "post_id": "6afacbb28e87c256a3c81548",
+      "publication_result": {
+        "id": "6afacbb28e87c256a3c81548",
+        "status": "sent",
+        "sentAt": "2026-11-16T09:24:03.406Z",
+        "externalLink": "https://twitter.com/KingShot5555/status/2122259390598115695",
+        "assets": [
+          {
+            "mimeType": "image/jpeg",
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/repertoire/previous-59.jpg"
+          }
+        ]
+      }
     }
   },
   "baseline": {
