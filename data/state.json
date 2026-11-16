@@ -2,32 +2,32 @@
   "version": 1,
   "sources": {
     "pokemon": {
-      "checked_at": "2026-11-16T14:10:58.363615+09:00",
+      "checked_at": "2026-11-16T15:34:31.677609+09:00",
       "count": 177,
       "latest_date": "2026-11-13"
     },
     "onepiece": {
-      "checked_at": "2026-11-16T14:10:58.363615+09:00",
+      "checked_at": "2026-11-16T15:34:31.677609+09:00",
       "count": 1226,
       "latest_date": "2026-03-19"
     },
     "labo": {
-      "checked_at": "2026-11-16T14:10:58.363615+09:00",
+      "checked_at": "2026-11-16T15:34:31.677609+09:00",
       "count": 15,
       "latest_date": "2026-11-16"
     },
     "hobby": {
-      "checked_at": "2026-11-16T14:10:58.363615+09:00",
+      "checked_at": "2026-11-16T15:34:31.677609+09:00",
       "count": 3,
       "latest_date": "2026-11-13"
     },
     "pcstore": {
-      "checked_at": "2026-11-16T14:10:58.363615+09:00",
+      "checked_at": "2026-11-16T15:34:31.677609+09:00",
       "count": 15,
       "latest_date": "2026-11-10"
     },
     "furu": {
-      "checked_at": "2026-11-16T14:10:58.363615+09:00",
+      "checked_at": "2026-11-16T15:34:31.677609+09:00",
       "count": 59,
       "latest_date": "2026-11-16"
     }
@@ -15280,6 +15280,18 @@
         ]
       },
       "publication_checked_at": "2026-11-16T12:45:45.666484+09:00"
+    },
+    "08f32f0dc5651e38aa67491a56b92c35e5c7682041abc6deb8cbf76a33389d59": {
+      "key": "08f32f0dc5651e38aa67491a56b92c35e5c7682041abc6deb8cbf76a33389d59",
+      "source": "labo",
+      "title": "【遊戯王OCG】ランキングデュエル（1デュエル戦・マッチ戦）優勝者デッキレシピ (11月9日～11月15日開催分)",
+      "published": "2026-11-16",
+      "url": "https://www.c-labo.jp/shop/chibatyuuou/blog/624640/",
+      "category": "遊戯王OCG",
+      "store": "千葉中央店",
+      "closed": false,
+      "status": "ignored",
+      "discovered_at": "2026-11-16T15:34:31.677609+09:00"
     }
   },
   "channel_check": {
