@@ -2,32 +2,32 @@
   "version": 1,
   "sources": {
     "pokemon": {
-      "checked_at": "2026-11-16T10:35:16.726190+09:00",
+      "checked_at": "2026-11-16T11:41:33.297186+09:00",
       "count": 177,
       "latest_date": "2026-11-13"
     },
     "onepiece": {
-      "checked_at": "2026-11-16T10:35:16.726190+09:00",
+      "checked_at": "2026-11-16T11:41:33.297186+09:00",
       "count": 1226,
       "latest_date": "2026-03-19"
     },
     "labo": {
-      "checked_at": "2026-11-16T10:35:16.726190+09:00",
+      "checked_at": "2026-11-16T11:41:33.297186+09:00",
       "count": 15,
-      "latest_date": "2026-11-15"
+      "latest_date": "2026-11-16"
     },
     "hobby": {
-      "checked_at": "2026-11-16T10:35:16.726190+09:00",
+      "checked_at": "2026-11-16T11:41:33.297186+09:00",
       "count": 3,
       "latest_date": "2026-11-13"
     },
     "pcstore": {
-      "checked_at": "2026-11-16T10:35:16.726190+09:00",
+      "checked_at": "2026-11-16T11:41:33.297186+09:00",
       "count": 15,
       "latest_date": "2026-11-10"
     },
     "furu": {
-      "checked_at": "2026-11-16T10:35:16.726190+09:00",
+      "checked_at": "2026-11-16T11:41:33.297186+09:00",
       "count": 59,
       "latest_date": "2026-11-16"
     }
@@ -15208,6 +15208,18 @@
       "closed": true,
       "status": "ignored",
       "discovered_at": "2026-11-16T10:35:16.726190+09:00"
+    },
+    "d2cb55e2d99fecd9afb44096019349e77c89a1c742d762dd63b173d7bb082f42": {
+      "key": "d2cb55e2d99fecd9afb44096019349e77c89a1c742d762dd63b173d7bb082f42",
+      "source": "labo",
+      "title": "【11月21日発売】『ONE PIECEカードゲーム ブースターパック 神の支配【OP-18】』抽選販売のお知らせ",
+      "published": "2026-11-16",
+      "url": "https://www.c-labo.jp/shop/namba2nd/blog/624599/",
+      "category": "ONE PIECEカードゲーム",
+      "store": "販売買取センターNAMBA",
+      "closed": false,
+      "status": "ready",
+      "discovered_at": "2026-11-16T11:41:33.297186+09:00"
     }
   },
   "channel_check": {
