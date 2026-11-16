@@ -1,0 +1,28 @@
+name: Verify Senran hello publication
+on:
+  push:
+    paths:
+      - .github/workflows/verify-senran-hello.yml
+permissions:
+  contents: read
+jobs:
+  verify:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Read publication result only
+        env:
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+        run: |
+          python - <<'PY'
+          import json
+          from news_bot import buffer_query
+          post_id = "6afa6dfbd7e5fee638971942"
+          query = 'query { post(input: { id: ' + json.dumps(post_id) + ' }) { id status sentAt externalLink assets { mimeType source } } }'
+          print(json.dumps(buffer_query(query).get('post'), ensure_ascii=False))
+          PY
