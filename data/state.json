@@ -2,32 +2,32 @@
   "version": 1,
   "sources": {
     "pokemon": {
-      "checked_at": "2026-11-16T11:41:33.297186+09:00",
+      "checked_at": "2026-11-16T12:45:45.666484+09:00",
       "count": 177,
       "latest_date": "2026-11-13"
     },
     "onepiece": {
-      "checked_at": "2026-11-16T11:41:33.297186+09:00",
+      "checked_at": "2026-11-16T12:45:45.666484+09:00",
       "count": 1226,
       "latest_date": "2026-03-19"
     },
     "labo": {
-      "checked_at": "2026-11-16T11:41:33.297186+09:00",
+      "checked_at": "2026-11-16T12:45:45.666484+09:00",
       "count": 15,
       "latest_date": "2026-11-16"
     },
     "hobby": {
-      "checked_at": "2026-11-16T11:41:33.297186+09:00",
+      "checked_at": "2026-11-16T12:45:45.666484+09:00",
       "count": 3,
       "latest_date": "2026-11-13"
     },
     "pcstore": {
-      "checked_at": "2026-11-16T11:41:33.297186+09:00",
+      "checked_at": "2026-11-16T12:45:45.666484+09:00",
       "count": 15,
       "latest_date": "2026-11-10"
     },
     "furu": {
-      "checked_at": "2026-11-16T11:41:33.297186+09:00",
+      "checked_at": "2026-11-16T12:45:45.666484+09:00",
       "count": 59,
       "latest_date": "2026-11-16"
     }
@@ -15238,6 +15238,30 @@
         ]
       },
       "publication_checked_at": "2026-11-16T11:41:33.297186+09:00"
+    },
+    "99e6b0449f404e3f5600346d935cceb59e9f565ee2466b6119455caecedf7855": {
+      "key": "99e6b0449f404e3f5600346d935cceb59e9f565ee2466b6119455caecedf7855",
+      "source": "labo",
+      "title": "【遊戯王OCG】今週のランキングデュエル優勝デッキまとめ！（11/9～11/15）",
+      "published": "2026-11-16",
+      "url": "https://www.c-labo.jp/shop/stakihabara/blog/624603/",
+      "category": "遊戯王OCG",
+      "store": "サテライトショップTOKYO 秋葉原店",
+      "closed": false,
+      "status": "ignored",
+      "discovered_at": "2026-11-16T12:45:45.666484+09:00"
+    },
+    "4f3a8d1842c5325a16defa02c326c0f716d615073083e7e730c93e381af7e0a8": {
+      "key": "4f3a8d1842c5325a16defa02c326c0f716d615073083e7e730c93e381af7e0a8",
+      "source": "labo",
+      "title": "【再発売】『ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」』再販分の抽選販売のお知らせ",
+      "published": "2026-11-16",
+      "url": "https://www.c-labo.jp/shop/niigata/blog/624590/",
+      "category": "ポケモンカードゲーム",
+      "store": "新潟店",
+      "closed": false,
+      "status": "ready",
+      "discovered_at": "2026-11-16T12:45:45.666484+09:00"
     }
   },
   "channel_check": {
