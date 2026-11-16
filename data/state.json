@@ -2,32 +2,32 @@
   "version": 1,
   "sources": {
     "pokemon": {
-      "checked_at": "2026-11-16T08:54:00.840316+09:00",
+      "checked_at": "2026-11-16T10:35:16.726190+09:00",
       "count": 177,
       "latest_date": "2026-11-13"
     },
     "onepiece": {
-      "checked_at": "2026-11-16T08:54:00.840316+09:00",
+      "checked_at": "2026-11-16T10:35:16.726190+09:00",
       "count": 1226,
       "latest_date": "2026-03-19"
     },
     "labo": {
-      "checked_at": "2026-11-16T08:54:00.840316+09:00",
+      "checked_at": "2026-11-16T10:35:16.726190+09:00",
       "count": 15,
       "latest_date": "2026-11-15"
     },
     "hobby": {
-      "checked_at": "2026-11-16T08:54:00.840316+09:00",
+      "checked_at": "2026-11-16T10:35:16.726190+09:00",
       "count": 3,
       "latest_date": "2026-11-13"
     },
     "pcstore": {
-      "checked_at": "2026-11-16T08:54:00.840316+09:00",
+      "checked_at": "2026-11-16T10:35:16.726190+09:00",
       "count": 15,
       "latest_date": "2026-11-10"
     },
     "furu": {
-      "checked_at": "2026-11-16T08:54:00.840316+09:00",
+      "checked_at": "2026-11-16T10:35:16.726190+09:00",
       "count": 59,
       "latest_date": "2026-11-16"
     }
@@ -15196,6 +15196,18 @@
       "closed": false,
       "status": "ignored",
       "discovered_at": "2026-11-16T08:54:00.840316+09:00"
+    },
+    "969c96d23ae07dc795071f419dbd475c41610665cc69f6b830161c2e38bdc0f9": {
+      "key": "969c96d23ae07dc795071f419dbd475c41610665cc69f6b830161c2e38bdc0f9",
+      "source": "hobby",
+      "title": "※応募は終了しました抽選販売「ポケモンカードゲームM ...",
+      "published": "2026-11-13",
+      "url": "https://www.hbst.net/?p=411494",
+      "category": "",
+      "store": "",
+      "closed": true,
+      "status": "ignored",
+      "discovered_at": "2026-11-16T10:35:16.726190+09:00"
     }
   },
   "channel_check": {
@@ -15434,6 +15446,22 @@
         ]
       },
       "publication_checked_at": "2026-11-16T08:54:00.840316+09:00"
+    },
+    "guide-565a5052672e9e28cfd3b3a82d145bda68f4f39b8e5d695496c8eb291d3c46a3": {
+      "key": "guide-565a5052672e9e28cfd3b3a82d145bda68f4f39b8e5d695496c8eb291d3c46a3",
+      "guide_id": "lottery-entry",
+      "kind": "guide",
+      "status": "ready",
+      "source": "guide",
+      "title": "「応募完了」と「購入完了」は別",
+      "bullets": [
+        "応募を受け付けたか",
+        "当選しているか",
+        "購入手続きが終わったか"
+      ],
+      "body": "抽選は段階ごとに確認しよう。メールが届いたら、何の完了通知なのかまで読んでおくと安心。",
+      "url": "https://www.pokemoncenter-online.com/?main_page=lottery",
+      "published": "2026-11-16"
     }
   }
 }
