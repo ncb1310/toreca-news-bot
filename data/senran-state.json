@@ -230,12 +230,24 @@
       }
     }
   },
-  "last_checked_at": "2026-11-19T08:00:00+09:00",
+  "last_checked_at": "2026-11-17T08:28:48.677670+09:00",
   "last_reservation_check": {
-    "checked_at": "2026-11-17T07:39:34.950090+09:00",
+    "checked_at": "2026-11-17T08:28:43.662754+09:00",
     "queued": 8,
     "target": 8,
     "posts": [
+      {
+        "id": "6afb91aff83aaca8f39549d9",
+        "text": "おはようございます。\n遠くまで急がなくても、今日の一歩には意味がある。どうぞ、あなたらしい一日を。\n\n#おはようございます #創作 #小説",
+        "dueAt": "2026-11-18T23:00:00.000Z",
+        "status": "scheduled",
+        "assets": [
+          {
+            "mimeType": "image/jpeg",
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/senran/morning.jpg"
+          }
+        ]
+      },
       {
         "id": "6afb20222d89e5b19ced3b34",
         "text": "おやすみなさい。\nうまくいかなかった頁も、あなたの物語の一部。今夜はゆっくり、心を休めてくださいね。\n\n#おやすみなさい #創作 #小説",
@@ -317,18 +329,6 @@
           {
             "mimeType": "image/jpeg",
             "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/senran/noon.jpg"
-          }
-        ]
-      },
-      {
-        "id": "6afb200f12f2f788dabb4f75",
-        "text": "おはようございます。\n朝の光をひとつ、心の栞に。今日があなたにとって、穏やかな一頁になりますように。\n\n#おはようございます #創作 #小説",
-        "dueAt": "2026-11-16T23:00:00.000Z",
-        "status": "scheduled",
-        "assets": [
-          {
-            "mimeType": "image/jpeg",
-            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/senran/morning.jpg"
           }
         ]
       }
