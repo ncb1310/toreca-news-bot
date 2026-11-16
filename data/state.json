@@ -15868,7 +15868,7 @@
       "key": "guide-781ac91ddd4aaf51bbee1cf267262c58f41c79658f73386842b57bd268355c8a",
       "guide_id": "poke-starter",
       "kind": "guide",
-      "status": "sending",
+      "status": "accepted",
       "source": "guide",
       "title": "はじめのデッキ、内容を見よう",
       "bullets": [
@@ -15883,7 +15883,21 @@
       "text": "【トレカの確認メモ】\nはじめのデッキ、内容を見よう\n\n最初の買い物は、商品名だけで決めず内容までチェック。遊ぶために必要なものが揃うか見ておこう。\n#トレカ #トレカ初心者\n参照先👇\nhttps://www.pokemon-card.com/products/",
       "attempt_date": "2026-11-17",
       "attempted_at": "2026-11-17T00:28:49.439022+09:00",
-      "scheduled_at": "2026-11-17T18:00:00+09:00"
+      "scheduled_at": "2026-11-17T18:00:00+09:00",
+      "post_id": "6afb2157407cd7a3e057e283",
+      "publication_result": {
+        "id": "6afb2157407cd7a3e057e283",
+        "status": "scheduled",
+        "dueAt": "2026-11-17T09:00:00.000Z",
+        "text": "【トレカの確認メモ】\nはじめのデッキ、内容を見よう\n\n最初の買い物は、商品名だけで決めず内容までチェック。遊ぶために必要なものが揃うか見ておこう。\n#トレカ #トレカ初心者\n参照先👇\nhttps://www.pokemon-card.com/products/",
+        "assets": [
+          {
+            "mimeType": "image/png",
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/cc89b6ce27c99334363b00e8a5a20bdf02c90af0/assets/generated/0db8b22ce58f3daefcd43b3f.png"
+          }
+        ]
+      },
+      "buffer_post_id": "6afb2157407cd7a3e057e283"
     }
   },
   "last_checked_at": "2026-11-17T18:00:00+09:00"
