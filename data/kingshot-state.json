@@ -104,9 +104,9 @@
       "post_id": "6afb2026407cd7a3e0576e37",
       "publication_result": {
         "id": "6afb2026407cd7a3e0576e37",
-        "status": "scheduled",
-        "sentAt": null,
-        "externalLink": null,
+        "status": "sent",
+        "sentAt": "2026-11-16T23:00:51.443Z",
+        "externalLink": "https://x.com/2107514010547732481/status/2122464945350627738",
         "assets": [
           {
             "mimeType": "image/jpeg",
