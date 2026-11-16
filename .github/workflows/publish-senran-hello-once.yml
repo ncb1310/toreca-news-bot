@@ -1,0 +1,50 @@
+name: Publish Senran hello once
+on:
+  push:
+    paths:
+      - .github/workflows/publish-senran-hello-once.yml
+permissions:
+  contents: read
+concurrency:
+  group: senran-hello-once
+  cancel-in-progress: false
+jobs:
+  publish:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Publish one greeting to the verified Senran channel
+        env:
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+        run: |
+          python - <<'PY'
+          import json
+          from news_bot import buffer_query
+          text = "こんにちは。🌿\n\n昼の光が、少しだけやわらぐころ。\n\n物語の続きを考えています。\n\n静かな午後が、\nあなたの心にも穏やかに流れますように。📖\n\n#小説 #創作 #こんにちは"
+          target = 'senran1515'
+          channels = []
+          account = buffer_query('query { account { organizations { id } } }')
+          for org in account['account']['organizations']:
+              data = buffer_query('query { channels(input: { organizationId: ' + json.dumps(org['id']) + ' }) { id name service isQueuePaused } }')
+              channels.extend(data['channels'])
+          matched = [c for c in channels if c.get('name','').lstrip('@').lower() == target and c.get('service') == 'twitter']
+          if len(matched) != 1:
+              raise RuntimeError('Verified Senran channel not found exactly once; no post sent')
+          channel = matched[0]
+          if channel.get('isQueuePaused'):
+              raise RuntimeError('Senran queue is paused; no post sent')
+          mutation = ('mutation { createPost(input: { text: ' + json.dumps(text) +
+                      ', channelId: ' + json.dumps(channel['id']) +
+                      ', schedulingType: automatic, mode: shareNow, needsApproval: false }) {' +
+                      ' ... on PostActionSuccess { post { id } } ... on MutationError { message } } }')
+          result = buffer_query(mutation)
+          post = (result.get('createPost') or {}).get('post')
+          if not post or not post.get('id'):
+              raise RuntimeError('Buffer did not confirm publication')
+          print(json.dumps({'channel': channel['name'], 'post_id': post['id']}, ensure_ascii=False))
+          PY
