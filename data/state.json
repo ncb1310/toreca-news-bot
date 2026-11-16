@@ -15793,7 +15793,28 @@
         ]
       },
       "buffer_post_id": "6afb214267619c57d50bb72d"
+    },
+    "guide-4e648da71280e50a1c51845ba985ec701a5eee425fc5cf8454ff2f31559c58e0": {
+      "key": "guide-4e648da71280e50a1c51845ba985ec701a5eee425fc5cf8454ff2f31559c58e0",
+      "guide_id": "poke-search",
+      "kind": "guide",
+      "status": "sending",
+      "source": "guide",
+      "title": "カード名だけで迷ったら",
+      "bullets": [
+        "正式なカード名",
+        "カード番号・収録商品",
+        "カードに書かれた効果"
+      ],
+      "body": "同じ名前でもカードの内容が違うことがある。公式カード検索で、探している1枚を絞り込もう。",
+      "url": "https://www.pokemon-card.com/card-search/",
+      "published": "2026-11-17",
+      "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/b8aaeccf656cbf0021fd859d3fbce72dccf35c30/assets/generated/284ba801d2cdc2e505fce31c.png",
+      "text": "【トレカの確認メモ】\nカード名だけで迷ったら\n\n同じ名前でもカードの内容が違うことがある。公式カード検索で、探している1枚を絞り込もう。\n#トレカ #トレカ初心者\n参照先👇\nhttps://www.pokemon-card.com/card-search/",
+      "attempt_date": "2026-11-17",
+      "attempted_at": "2026-11-17T00:28:49.439022+09:00",
+      "scheduled_at": "2026-11-17T14:00:00+09:00"
     }
   },
-  "last_checked_at": "2026-11-17T12:00:00+09:00"
+  "last_checked_at": "2026-11-17T14:00:00+09:00"
 }
