@@ -193,10 +193,23 @@
       "kind": "guide",
       "text": "【既存機能メモ】\n投票を作るときの確認ポイント📋\n\n投票を始める際、参加できる同盟ランクを選べると米公式が案内しています。投票内容と対象者をセットで確認しておこう。\n出典：米公式10/19更新説明\nhttps://apps.apple.com/us/app/kingshot/id6739554056\n#キングショット #Kingshot",
       "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/from-x/34-2107969225016942807.jpg",
-      "status": "sending",
+      "status": "accepted",
       "attempt_date": "2026-11-17",
       "attempted_at": "2026-11-17T00:24:20.887451+09:00",
-      "scheduled_at": "2026-11-17T16:00:00+09:00"
+      "scheduled_at": "2026-11-17T16:00:00+09:00",
+      "post_id": "6afb20322d89e5b19ced4354",
+      "publication_result": {
+        "id": "6afb20322d89e5b19ced4354",
+        "status": "scheduled",
+        "dueAt": "2026-11-17T07:00:00.000Z",
+        "text": "【既存機能メモ】\n投票を作るときの確認ポイント📋\n\n投票を始める際、参加できる同盟ランクを選べると米公式が案内しています。投票内容と対象者をセットで確認しておこう。\n出典：米公式10/19更新説明\nhttps://apps.apple.com/us/app/kingshot/id6739554056\n#キングショット #Kingshot",
+        "assets": [
+          {
+            "mimeType": "image/jpeg",
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/from-x/34-2107969225016942807.jpg"
+          }
+        ]
+      }
     }
   },
   "baseline": {
