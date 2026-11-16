@@ -15451,7 +15451,7 @@
       "key": "guide-565a5052672e9e28cfd3b3a82d145bda68f4f39b8e5d695496c8eb291d3c46a3",
       "guide_id": "lottery-entry",
       "kind": "guide",
-      "status": "sending",
+      "status": "accepted",
       "source": "guide",
       "title": "「応募完了」と「購入完了」は別",
       "bullets": [
@@ -15464,7 +15464,8 @@
       "published": "2026-11-16",
       "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/958326c5d6016f9d93cc2e8669ee1cd7460cb7c5/assets/generated/4263ba687466c56a697f25d3.png",
       "attempt_date": "2026-11-16",
-      "attempted_at": "2026-11-16T10:35:16.726190+09:00"
+      "attempted_at": "2026-11-16T10:35:16.726190+09:00",
+      "buffer_post_id": "6afa5de5a869c35e5bad0d52"
     }
   }
 }
