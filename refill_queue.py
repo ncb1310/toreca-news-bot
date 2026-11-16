@@ -6,6 +6,7 @@ from pathlib import Path
 import news_bot as shared
 import senran_bot as senran
 import kingshot_bot as king
+import editorial
 
 ROOT=Path(__file__).resolve().parent
 TARGET=8
@@ -44,19 +45,22 @@ def queued(org,channel):
 
 def refill(account):
     now=datetime.now(shared.JST)
-    module=senran if account=='senran1515' else king
-    path=ROOT/('data/senran-state.json' if module==senran else 'data/kingshot-state.json')
+    module=senran if account=='senran1515' else (shared if account=='toreca_joshi' else king)
+    path=ROOT/('data/senran-state.json' if module==senran else ('data/state.json' if module==shared else 'data/kingshot-state.json'))
     state=json.loads(path.read_text()) if path.exists() else {'posts':{}}
+    history=state.setdefault('editorial_posts' if module==shared else 'posts',{})
     org,channel=channel_for(account)
     current=queued(org,channel['id'])
-    if any(p.get('status') in ('sending','uncertain') for p in state['posts'].values()):
+    if any(p.get('status') in ('sending','uncertain') for p in (editorial.records(state) if module==shared else history.values())):
         raise RuntimeError('Uncertain previous send; review before reserving more')
     # Reconcile outcomes, including lost/deleted reservations, without resending.
-    for item in state['posts'].values():
+    for item in history.values():
         if item.get('scheduled_at') and item.get('post_id'):
             king.read_result(item)
     save(state,path)
-    config={} if module==senran else json.loads((ROOT/'kingshot-config.json').read_text())
+    config={} if module==senran else json.loads((ROOT/('config.json' if module==shared else 'kingshot-config.json')).read_text())
+    if module==shared and channel['id']!=config['channel_id']:
+        raise RuntimeError('Toreca channel does not match configured account')
     for due in slots(account,now):
         if len(current)>=TARGET:
             break
@@ -67,14 +71,26 @@ def refill(account):
         state['last_checked_at']=due.isoformat()
         if module==senran:
             candidate=senran.select(state,due)
+        elif module==shared:
+            candidate=editorial.select_fallback(state,{},due,config)
         else:
             candidate=king.select(state,[],due,config)
         if not candidate:
             continue
+        if module==shared:
+            history[candidate['key']]=candidate
+            try:
+                shared.official_page(candidate['url'])
+            except Exception as exc:
+                candidate.update(status='verification_failed',verification_failed_date=due.date().isoformat(),verification_error=type(exc).__name__)
+                save(state,path)
+                continue
+            shared.publish_card(candidate,due)
+            candidate['text']=shared.format_post(candidate)
         candidate['image_url']=king.verified_image(candidate,state,config,due)
         candidate.update(status='sending',attempt_date=due.date().isoformat(),
                          attempted_at=now.isoformat(),scheduled_at=due.isoformat())
-        state['posts'][candidate['key']]=candidate
+        history[candidate['key']]=candidate
         save(state,path)
         stamp=due.astimezone(timezone.utc).isoformat().replace('+00:00','Z')
         query=('mutation { createPost(input: { text: '+json.dumps(candidate['text'])+
@@ -92,6 +108,8 @@ def refill(account):
                     raise ValueError('Buffer rejected reservation: '+result['message'])
                 raise RuntimeError('Unconfirmed reservation')
             candidate.update(status='accepted',post_id=post['id'],publication_result=post)
+            if module==shared:
+                candidate['buffer_post_id']=post['id']
         except ValueError:
             raise
         except Exception:
@@ -111,7 +129,7 @@ if __name__=='__main__':
     if os.environ.get('GITHUB_ACTIONS')!='true':
         raise RuntimeError('Live reservations require durable workflow checkpoints')
     failed=[]
-    for account in ('senran1515','kingshot5555'):
+    for account in ('senran1515','kingshot5555','toreca_joshi'):
         try:
             refill(account)
         except Exception as exc:
