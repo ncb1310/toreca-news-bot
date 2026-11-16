@@ -15903,7 +15903,7 @@
       "key": "guide-80b4c7141c18a1807732a85999ceb992fd0f9e989ea85cd1cd591ad52cd9d9b4",
       "guide_id": "poke-tool",
       "kind": "guide",
-      "status": "sending",
+      "status": "accepted",
       "source": "guide",
       "title": "初対戦の前に道具を確認",
       "bullets": [
@@ -15918,7 +15918,21 @@
       "text": "【トレカの確認メモ】\n初対戦の前に道具を確認\n\n初めて遊ぶ前に、公式のあそびかたで必要な道具を確認。手元のセットに何が付いているかも見直しておこう。\n#トレカ #トレカ初心者\n参照先👇\nhttps://www.pokemon-card.com/howtoplay/",
       "attempt_date": "2026-11-17",
       "attempted_at": "2026-11-17T00:28:49.439022+09:00",
-      "scheduled_at": "2026-11-17T20:00:00+09:00"
+      "scheduled_at": "2026-11-17T20:00:00+09:00",
+      "post_id": "6afb215da3641bd0cf6964f8",
+      "publication_result": {
+        "id": "6afb215da3641bd0cf6964f8",
+        "status": "scheduled",
+        "dueAt": "2026-11-17T11:00:00.000Z",
+        "text": "【トレカの確認メモ】\n初対戦の前に道具を確認\n\n初めて遊ぶ前に、公式のあそびかたで必要な道具を確認。手元のセットに何が付いているかも見直しておこう。\n#トレカ #トレカ初心者\n参照先👇\nhttps://www.pokemon-card.com/howtoplay/",
+        "assets": [
+          {
+            "mimeType": "image/png",
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/fc19ce9e48dc19091fa0156761e21d5f4b2624e8/assets/generated/c9299eb1bf34f0a125344879.png"
+          }
+        ]
+      },
+      "buffer_post_id": "6afb215da3641bd0cf6964f8"
     }
   },
   "last_checked_at": "2026-11-17T20:00:00+09:00"
