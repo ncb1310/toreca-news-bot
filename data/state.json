@@ -15933,7 +15933,28 @@
         ]
       },
       "buffer_post_id": "6afb215da3641bd0cf6964f8"
+    },
+    "guide-4c8ccfa7da8b6c486fa28b866b52ab62b5a2bc6b319f8e5eb7102ad3624df183": {
+      "key": "guide-4c8ccfa7da8b6c486fa28b866b52ab62b5a2bc6b319f8e5eb7102ad3624df183",
+      "guide_id": "one-deck",
+      "kind": "guide",
+      "status": "sending",
+      "source": "guide",
+      "title": "ワンピカードのデッキ準備",
+      "bullets": [
+        "リーダーカード1枚",
+        "デッキ50枚",
+        "ドン!!カード10枚"
+      ],
+      "body": "ONE PIECEカードゲームの基本の準備。リーダー・デッキ・ドン!!カードを分けて数えると確認しやすいよ。",
+      "url": "https://www.onepiece-cardgame.com/rules/",
+      "published": "2026-11-17",
+      "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/463a124fdab028d81b7e89891d7a243cd964cf0a/assets/generated/01dc3bab9fe2e1f997c70a50.png",
+      "text": "【トレカの確認メモ】\nワンピカードのデッキ準備\n\nONE PIECEカードゲームの基本の準備。リーダー・デッキ・ドン!!カードを分けて数えると確認しやすいよ。\n#トレカ #ワンピースカード #トレカ初心者\n参照先👇\nhttps://www.onepiece-cardgame.com/rules/",
+      "attempt_date": "2026-11-17",
+      "attempted_at": "2026-11-17T00:28:49.439022+09:00",
+      "scheduled_at": "2026-11-17T22:00:00+09:00"
     }
   },
-  "last_checked_at": "2026-11-17T20:00:00+09:00"
+  "last_checked_at": "2026-11-17T22:00:00+09:00"
 }
