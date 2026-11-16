@@ -15758,7 +15758,28 @@
         ]
       },
       "buffer_post_id": "6afb213de368957de0d053ba"
+    },
+    "guide-3e7cb2396ae54978db011541e042a083374e3687947287dfaff740b3e5a7ba86": {
+      "key": "guide-3e7cb2396ae54978db011541e042a083374e3687947287dfaff740b3e5a7ba86",
+      "guide_id": "poke-regulation",
+      "kind": "guide",
+      "status": "sending",
+      "source": "guide",
+      "title": "買う前にレギュレーション確認",
+      "bullets": [
+        "参加したい大会の形式",
+        "その形式で使えるカード",
+        "公式の最新案内"
+      ],
+      "body": "欲しいカードが大会で使えるかは、参加する大会のレギュレーション次第。購入前に公式で確認しておこう。",
+      "url": "https://www.pokemon-card.com/rules/regulation/",
+      "published": "2026-11-17",
+      "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/335d14711ae34db15966efa0539f48d194558eea/assets/generated/ec2e79bfcc112ed8a3fa9526.png",
+      "text": "【トレカの確認メモ】\n買う前にレギュレーション確認\n\n欲しいカードが大会で使えるかは、参加する大会のレギュレーション次第。購入前に公式で確認しておこう。\n#トレカ #トレカ初心者\n参照先👇\nhttps://www.pokemon-card.com/rules/regulation/",
+      "attempt_date": "2026-11-17",
+      "attempted_at": "2026-11-17T00:28:49.439022+09:00",
+      "scheduled_at": "2026-11-17T12:00:00+09:00"
     }
   },
-  "last_checked_at": "2026-11-17T10:00:00+09:00"
+  "last_checked_at": "2026-11-17T12:00:00+09:00"
 }
