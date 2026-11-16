@@ -15260,11 +15260,12 @@
       "category": "ポケモンカードゲーム",
       "store": "新潟店",
       "closed": false,
-      "status": "sending",
+      "status": "accepted",
       "discovered_at": "2026-11-16T12:45:45.666484+09:00",
       "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/a5ae6fe30aaf882414433f1905f7f382c7579b4b/assets/generated/94353f6ea1a7372d0e95d0ca.png",
       "attempt_date": "2026-11-16",
-      "attempted_at": "2026-11-16T12:45:45.666484+09:00"
+      "attempted_at": "2026-11-16T12:45:45.666484+09:00",
+      "buffer_post_id": "6afa7c7ba869c35e5bb5eaf2"
     }
   },
   "channel_check": {
