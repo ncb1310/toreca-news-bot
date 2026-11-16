@@ -16023,12 +16023,24 @@
       "buffer_post_id": "6afb91be3e42cd001e39f651"
     }
   },
-  "last_checked_at": "2026-11-18T08:00:00+09:00",
+  "last_checked_at": "2026-11-17T08:29:04.234195+09:00",
   "last_reservation_check": {
-    "checked_at": "2026-11-17T07:39:41.066198+09:00",
+    "checked_at": "2026-11-17T08:28:55.853219+09:00",
     "queued": 8,
     "target": 8,
     "posts": [
+      {
+        "id": "6afb91be3e42cd001e39f651",
+        "text": "【トレカの確認メモ】\nリーダーからデッキを考える\n\nワンピカードは、リーダーを決めてからカードを探すと整理しやすい。構築の細かな条件は公式ルールへ。\n#トレカ #ワンピースカード #トレカ初心者\n参照先👇\nhttps://www.onepiece-cardgame.com/rules/",
+        "dueAt": "2026-11-17T23:00:00.000Z",
+        "status": "scheduled",
+        "assets": [
+          {
+            "mimeType": "image/png",
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/e4cc94accfbecbdea3a713e4bcb16cac02498d48/assets/generated/64937b58a7b0442c76012a9b.png"
+          }
+        ]
+      },
       {
         "id": "6afb2164a3641bd0cf6965eb",
         "text": "【トレカの確認メモ】\nワンピカードのデッキ準備\n\nONE PIECEカードゲームの基本の準備。リーダー・デッキ・ドン!!カードを分けて数えると確認しやすいよ。\n#トレカ #ワンピースカード #トレカ初心者\n参照先👇\nhttps://www.onepiece-cardgame.com/rules/",
@@ -16110,18 +16122,6 @@
           {
             "mimeType": "image/png",
             "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/bb0189dc8143628c47db25e7cf2b15283f0494f0/assets/generated/7b39b5d4757b49bf169b5705.png"
-          }
-        ]
-      },
-      {
-        "id": "6afb2136a3641bd0cf694de6",
-        "text": "【トレカの確認メモ】\n同じシリーズでも商品を確認\n\n名前が似ている商品は、正式名称と内容を並べて確認。欲しいものと注文するものが同じか、最後に見直そう。\n#トレカ #トレカ初心者\n参照先👇\nhttps://www.pokemon-card.com/products/",
-        "dueAt": "2026-11-16T23:00:00.000Z",
-        "status": "scheduled",
-        "assets": [
-          {
-            "mimeType": "image/png",
-            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/2a23fc654b6474dc962c3e73c0f42cadbfc48970/assets/generated/4e8a8d78fdfe38a3d11a4ef2.png"
           }
         ]
       }
