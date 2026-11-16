@@ -1,0 +1,13 @@
+{
+  "account": "KingShot5555",
+  "posting_enabled": true,
+  "daily_target": 12,
+  "max_posts_per_day": 15,
+  "min_interval_minutes": 45,
+  "guide_repeat_cooldown_days": 14,
+  "morning_images": [
+    "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/references/IMG_2757.jpeg",
+    "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/references/IMG_2759.jpeg",
+    "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/references/IMG_2758.jpeg"
+  ]
+}

@@ -1,0 +1,38 @@
+name: Kingshot news and guides
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '9,39 23,0-13 * * *'
+  push:
+    paths:
+      - kingshot_bot.py
+      - kingshot-config.json
+      - .github/workflows/kingshot-auto.yml
+      - tests/test_kingshot.py
+permissions:
+  contents: write
+concurrency:
+  group: toreca-news-production
+  cancel-in-progress: false
+jobs:
+  publish:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Check publication safeguards
+        run: python -m unittest discover -s tests -p test_kingshot.py -v
+      - name: Configure durable publication records
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+      - name: Check official sources and publish with approved image
+        env:
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+        run: python kingshot_bot.py
