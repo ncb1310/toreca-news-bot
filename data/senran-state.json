@@ -219,8 +219,8 @@
       "publication_result": {
         "id": "6afb91aff83aaca8f39549d9",
         "status": "scheduled",
-        "dueAt": "2026-11-18T23:00:00.000Z",
-        "text": "おはようございます。\n遠くまで急がなくても、今日の一歩には意味がある。どうぞ、あなたらしい一日を。\n\n#おはようございます #創作 #小説",
+        "sentAt": null,
+        "externalLink": null,
         "assets": [
           {
             "mimeType": "image/jpeg",
