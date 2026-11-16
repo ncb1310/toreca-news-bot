@@ -15557,7 +15557,7 @@
       "key": "guide-336a10b6defd807cdacddfb26203163e41f49cc5ef1390288f818ddaf165f10c",
       "guide_id": "retail-status",
       "kind": "guide",
-      "status": "sending",
+      "status": "accepted",
       "source": "guide",
       "title": "「再販告知」だけで急がない",
       "bullets": [
@@ -15570,7 +15570,8 @@
       "published": "2026-11-16",
       "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/8cf656a033af25d78bac8695110efdaada9c524e/assets/generated/9668357e5889444e249db061.png",
       "attempt_date": "2026-11-16",
-      "attempted_at": "2026-11-16T14:10:58.363615+09:00"
+      "attempted_at": "2026-11-16T14:10:58.363615+09:00",
+      "buffer_post_id": "6afa9073d7e5fee638a13cf6"
     }
   }
 }
