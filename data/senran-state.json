@@ -113,7 +113,17 @@
           }
         ]
       }
+    },
+    "2026-11-18-morning": {
+      "key": "2026-11-18-morning",
+      "kind": "morning",
+      "text": "おはようございます。\n始まりの朝は、白い頁に似ています。小さな楽しみをひとつ見つけられますように。\n\n#おはようございます #創作 #小説",
+      "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/senran/morning.jpg",
+      "status": "sending",
+      "attempt_date": "2026-11-18",
+      "attempted_at": "2026-11-17T00:23:57.585680+09:00",
+      "scheduled_at": "2026-11-18T08:00:00+09:00"
     }
   },
-  "last_checked_at": "2026-11-17T22:00:00+09:00"
+  "last_checked_at": "2026-11-18T08:00:00+09:00"
 }
