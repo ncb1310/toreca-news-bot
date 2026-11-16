@@ -15991,7 +15991,7 @@
       "key": "guide-a242bcc2a648299c2c8647a19268fa9f81802075937f4b7c16c92d5a8821a26e",
       "guide_id": "one-color",
       "kind": "guide",
-      "status": "sending",
+      "status": "accepted",
       "source": "guide",
       "title": "リーダーからデッキを考える",
       "bullets": [
@@ -16006,7 +16006,21 @@
       "text": "【トレカの確認メモ】\nリーダーからデッキを考える\n\nワンピカードは、リーダーを決めてからカードを探すと整理しやすい。構築の細かな条件は公式ルールへ。\n#トレカ #ワンピースカード #トレカ初心者\n参照先👇\nhttps://www.onepiece-cardgame.com/rules/",
       "attempt_date": "2026-11-18",
       "attempted_at": "2026-11-17T08:28:55.853219+09:00",
-      "scheduled_at": "2026-11-18T08:00:00+09:00"
+      "scheduled_at": "2026-11-18T08:00:00+09:00",
+      "post_id": "6afb91be3e42cd001e39f651",
+      "publication_result": {
+        "id": "6afb91be3e42cd001e39f651",
+        "status": "scheduled",
+        "dueAt": "2026-11-17T23:00:00.000Z",
+        "text": "【トレカの確認メモ】\nリーダーからデッキを考える\n\nワンピカードは、リーダーを決めてからカードを探すと整理しやすい。構築の細かな条件は公式ルールへ。\n#トレカ #ワンピースカード #トレカ初心者\n参照先👇\nhttps://www.onepiece-cardgame.com/rules/",
+        "assets": [
+          {
+            "mimeType": "image/png",
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/e4cc94accfbecbdea3a713e4bcb16cac02498d48/assets/generated/64937b58a7b0442c76012a9b.png"
+          }
+        ]
+      },
+      "buffer_post_id": "6afb91be3e42cd001e39f651"
     }
   },
   "last_checked_at": "2026-11-18T08:00:00+09:00",
