@@ -2,32 +2,32 @@
   "version": 1,
   "sources": {
     "pokemon": {
-      "checked_at": "2026-11-16T12:45:45.666484+09:00",
+      "checked_at": "2026-11-16T14:10:58.363615+09:00",
       "count": 177,
       "latest_date": "2026-11-13"
     },
     "onepiece": {
-      "checked_at": "2026-11-16T12:45:45.666484+09:00",
+      "checked_at": "2026-11-16T14:10:58.363615+09:00",
       "count": 1226,
       "latest_date": "2026-03-19"
     },
     "labo": {
-      "checked_at": "2026-11-16T12:45:45.666484+09:00",
+      "checked_at": "2026-11-16T14:10:58.363615+09:00",
       "count": 15,
       "latest_date": "2026-11-16"
     },
     "hobby": {
-      "checked_at": "2026-11-16T12:45:45.666484+09:00",
+      "checked_at": "2026-11-16T14:10:58.363615+09:00",
       "count": 3,
       "latest_date": "2026-11-13"
     },
     "pcstore": {
-      "checked_at": "2026-11-16T12:45:45.666484+09:00",
+      "checked_at": "2026-11-16T14:10:58.363615+09:00",
       "count": 15,
       "latest_date": "2026-11-10"
     },
     "furu": {
-      "checked_at": "2026-11-16T12:45:45.666484+09:00",
+      "checked_at": "2026-11-16T14:10:58.363615+09:00",
       "count": 59,
       "latest_date": "2026-11-16"
     }
@@ -15552,6 +15552,22 @@
         ]
       },
       "publication_checked_at": "2026-11-16T10:35:16.726190+09:00"
+    },
+    "guide-336a10b6defd807cdacddfb26203163e41f49cc5ef1390288f818ddaf165f10c": {
+      "key": "guide-336a10b6defd807cdacddfb26203163e41f49cc5ef1390288f818ddaf165f10c",
+      "guide_id": "retail-status",
+      "kind": "guide",
+      "status": "ready",
+      "source": "guide",
+      "title": "「再販告知」だけで急がない",
+      "bullets": [
+        "告知された日付",
+        "販売開始の日時",
+        "今の受付状況"
+      ],
+      "body": "過去の再販記事が流れてくることもある。リンク先の日付と受付状況を見てから動こう。",
+      "url": "https://www.furu1.net/news/",
+      "published": "2026-11-16"
     }
   }
 }
