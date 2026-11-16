@@ -15863,7 +15863,28 @@
         ]
       },
       "buffer_post_id": "6afb214f67619c57d50bb984"
+    },
+    "guide-781ac91ddd4aaf51bbee1cf267262c58f41c79658f73386842b57bd268355c8a": {
+      "key": "guide-781ac91ddd4aaf51bbee1cf267262c58f41c79658f73386842b57bd268355c8a",
+      "guide_id": "poke-starter",
+      "kind": "guide",
+      "status": "sending",
+      "source": "guide",
+      "title": "はじめのデッキ、内容を見よう",
+      "bullets": [
+        "デッキとして遊べる商品か",
+        "付属する道具は何か",
+        "別に必要なものはあるか"
+      ],
+      "body": "最初の買い物は、商品名だけで決めず内容までチェック。遊ぶために必要なものが揃うか見ておこう。",
+      "url": "https://www.pokemon-card.com/products/",
+      "published": "2026-11-17",
+      "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/cc89b6ce27c99334363b00e8a5a20bdf02c90af0/assets/generated/0db8b22ce58f3daefcd43b3f.png",
+      "text": "【トレカの確認メモ】\nはじめのデッキ、内容を見よう\n\n最初の買い物は、商品名だけで決めず内容までチェック。遊ぶために必要なものが揃うか見ておこう。\n#トレカ #トレカ初心者\n参照先👇\nhttps://www.pokemon-card.com/products/",
+      "attempt_date": "2026-11-17",
+      "attempted_at": "2026-11-17T00:28:49.439022+09:00",
+      "scheduled_at": "2026-11-17T18:00:00+09:00"
     }
   },
-  "last_checked_at": "2026-11-17T16:00:00+09:00"
+  "last_checked_at": "2026-11-17T18:00:00+09:00"
 }
