@@ -29,9 +29,10 @@
       "kind": "guide",
       "text": "【既存機能メモ】\n編成の選択肢、見直してる？\n\n米公式の更新説明では、都市センターのレベルに応じて追加の編成が解放されると案内されています。自分の画面で解放状況を確認しよう。\n出典：米公式10/19更新説明\nhttps://apps.apple.com/us/app/kingshot/id6739554056\n#キングショット #Kingshot",
       "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/repertoire/previous-56.jpg",
-      "status": "sending",
+      "status": "accepted",
       "attempt_date": "2026-11-16",
-      "attempted_at": "2026-11-16T15:15:24.032263+09:00"
+      "attempted_at": "2026-11-16T15:15:24.032263+09:00",
+      "post_id": "6afa9f7fd7e5fee638a5aff8"
     }
   },
   "baseline": {
