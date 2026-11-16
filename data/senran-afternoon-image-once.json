@@ -3,5 +3,17 @@
   "attempted_at": "2026-11-16T12:00:51.859520+09:00",
   "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/senran/afternoon-study-20261116.jpg",
   "text": "こんにちは。🌿\n\n窓辺にほどける、やわらかな光。\n本を開くと、まだ知らない物語が待っています。\n\nあなたの午後にも、\n心がそっと休まるひとときがありますように。📖\n\n#こんにちは #小説 #創作",
-  "post_id": "6afa71e58e87c256a3aa921c"
+  "post_id": "6afa71e58e87c256a3aa921c",
+  "publication_result": {
+    "id": "6afa71e58e87c256a3aa921c",
+    "status": "sent",
+    "sentAt": "2026-11-16T03:00:54.683Z",
+    "externalLink": "https://twitter.com/senran1515/status/2122162969156911433",
+    "assets": [
+      {
+        "mimeType": "image/jpeg",
+        "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/senran/afternoon-study-20261116.jpg"
+      }
+    ]
+  }
 }
