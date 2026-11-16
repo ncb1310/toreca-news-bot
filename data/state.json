@@ -15970,5 +15970,109 @@
       "buffer_post_id": "6afb2164a3641bd0cf6965eb"
     }
   },
-  "last_checked_at": "2026-11-17T22:00:00+09:00"
+  "last_checked_at": "2026-11-17T00:29:43.261886+09:00",
+  "last_reservation_check": {
+    "checked_at": "2026-11-17T00:28:49.439022+09:00",
+    "queued": 8,
+    "target": 8,
+    "posts": [
+      {
+        "id": "6afb2164a3641bd0cf6965eb",
+        "text": "【トレカの確認メモ】\nワンピカードのデッキ準備\n\nONE PIECEカードゲームの基本の準備。リーダー・デッキ・ドン!!カードを分けて数えると確認しやすいよ。\n#トレカ #ワンピースカード #トレカ初心者\n参照先👇\nhttps://www.onepiece-cardgame.com/rules/",
+        "dueAt": "2026-11-17T13:00:00.000Z",
+        "status": "scheduled",
+        "assets": [
+          {
+            "mimeType": "image/png",
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/463a124fdab028d81b7e89891d7a243cd964cf0a/assets/generated/01dc3bab9fe2e1f997c70a50.png"
+          }
+        ]
+      },
+      {
+        "id": "6afb215da3641bd0cf6964f8",
+        "text": "【トレカの確認メモ】\n初対戦の前に道具を確認\n\n初めて遊ぶ前に、公式のあそびかたで必要な道具を確認。手元のセットに何が付いているかも見直しておこう。\n#トレカ #トレカ初心者\n参照先👇\nhttps://www.pokemon-card.com/howtoplay/",
+        "dueAt": "2026-11-17T11:00:00.000Z",
+        "status": "scheduled",
+        "assets": [
+          {
+            "mimeType": "image/png",
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/fc19ce9e48dc19091fa0156761e21d5f4b2624e8/assets/generated/c9299eb1bf34f0a125344879.png"
+          }
+        ]
+      },
+      {
+        "id": "6afb2157407cd7a3e057e283",
+        "text": "【トレカの確認メモ】\nはじめのデッキ、内容を見よう\n\n最初の買い物は、商品名だけで決めず内容までチェック。遊ぶために必要なものが揃うか見ておこう。\n#トレカ #トレカ初心者\n参照先👇\nhttps://www.pokemon-card.com/products/",
+        "dueAt": "2026-11-17T09:00:00.000Z",
+        "status": "scheduled",
+        "assets": [
+          {
+            "mimeType": "image/png",
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/cc89b6ce27c99334363b00e8a5a20bdf02c90af0/assets/generated/0db8b22ce58f3daefcd43b3f.png"
+          }
+        ]
+      },
+      {
+        "id": "6afb214f67619c57d50bb984",
+        "text": "【トレカの確認メモ】\n基本エネルギーと4枚ルール\n\nポケカの60枚デッキは、同じ名前のカードを原則4枚まで。基本エネルギーやカード固有の指定など、例外も公式で確認しよう。\n#トレカ #ポケカ #トレカ初心者\n参照先👇\nhttps://www.pokemon-card.com/howtoplay/",
+        "dueAt": "2026-11-17T07:00:00.000Z",
+        "status": "scheduled",
+        "assets": [
+          {
+            "mimeType": "image/png",
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/07c7c86e4b8c2e0829430fe295f76b724790c6e2/assets/generated/6dbd7c8fd4b0188889f61420.png"
+          }
+        ]
+      },
+      {
+        "id": "6afb2148407cd7a3e057dc03",
+        "text": "【トレカの確認メモ】\nカード名だけで迷ったら\n\n同じ名前でもカードの内容が違うことがある。公式カード検索で、探している1枚を絞り込もう。\n#トレカ #トレカ初心者\n参照先👇\nhttps://www.pokemon-card.com/card-search/",
+        "dueAt": "2026-11-17T05:00:00.000Z",
+        "status": "scheduled",
+        "assets": [
+          {
+            "mimeType": "image/png",
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/b8aaeccf656cbf0021fd859d3fbce72dccf35c30/assets/generated/284ba801d2cdc2e505fce31c.png"
+          }
+        ]
+      },
+      {
+        "id": "6afb214267619c57d50bb72d",
+        "text": "【トレカの確認メモ】\n買う前にレギュレーション確認\n\n欲しいカードが大会で使えるかは、参加する大会のレギュレーション次第。購入前に公式で確認しておこう。\n#トレカ #トレカ初心者\n参照先👇\nhttps://www.pokemon-card.com/rules/regulation/",
+        "dueAt": "2026-11-17T03:00:00.000Z",
+        "status": "scheduled",
+        "assets": [
+          {
+            "mimeType": "image/png",
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/335d14711ae34db15966efa0539f48d194558eea/assets/generated/ec2e79bfcc112ed8a3fa9526.png"
+          }
+        ]
+      },
+      {
+        "id": "6afb213de368957de0d053ba",
+        "text": "【トレカの確認メモ】\nポケカの60枚デッキ入門\n\n60枚デッキを作るときは、枚数とレギュレーションをセットで確認。最初は公式の「あそびかた」が入口になるよ。\n#トレカ #ポケカ #トレカ初心者\n参照先👇\nhttps://www.pokemon-card.com/howtoplay/",
+        "dueAt": "2026-11-17T01:00:00.000Z",
+        "status": "scheduled",
+        "assets": [
+          {
+            "mimeType": "image/png",
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/bb0189dc8143628c47db25e7cf2b15283f0494f0/assets/generated/7b39b5d4757b49bf169b5705.png"
+          }
+        ]
+      },
+      {
+        "id": "6afb2136a3641bd0cf694de6",
+        "text": "【トレカの確認メモ】\n同じシリーズでも商品を確認\n\n名前が似ている商品は、正式名称と内容を並べて確認。欲しいものと注文するものが同じか、最後に見直そう。\n#トレカ #トレカ初心者\n参照先👇\nhttps://www.pokemon-card.com/products/",
+        "dueAt": "2026-11-16T23:00:00.000Z",
+        "status": "scheduled",
+        "assets": [
+          {
+            "mimeType": "image/png",
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/2a23fc654b6474dc962c3e73c0f42cadbfc48970/assets/generated/4e8a8d78fdfe38a3d11a4ef2.png"
+          }
+        ]
+      }
+    ],
+    "shortfall": 0
+  }
 }
