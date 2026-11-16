@@ -295,8 +295,8 @@
       "publication_result": {
         "id": "6afb91b5797935b975c9543b",
         "status": "scheduled",
-        "dueAt": "2026-11-17T23:00:00.000Z",
-        "text": "おはようございます！☀️\n今日もキングショットを楽しんでいきましょう。\n育成も攻略も、自分のペースで。仲間との一日が良い時間になりますように⚔️\n#キングショット #Kingshot",
+        "sentAt": null,
+        "externalLink": null,
         "assets": [
           {
             "mimeType": "image/jpeg",
