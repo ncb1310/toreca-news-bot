@@ -12,6 +12,16 @@ CFG={'max_posts_per_day':15,'daily_target':12,'min_interval_minutes':45,
      'morning_images':['https://example.test/morning.jpg']}
 
 class KingshotTests(unittest.TestCase):
+    def test_night_greeting_uses_only_night_art_and_not_twice(self):
+        cfg=dict(CFG,media_pool=[{'id':'sleep','url':'sleep.jpg','allowed_kinds':['night']}])
+        at=NOW.replace(hour=22)
+        with tempfile.TemporaryDirectory() as directory, patch.object(bot,'ROOT',Path(directory)):
+            first=bot.select({'posts':{}},[],at,cfg)
+            self.assertEqual(first['kind'],'night')
+            state={'last_checked_at':at.isoformat(),'posts':{'x':dict(first,attempt_date=at.date().isoformat(),attempted_at=at.replace(hour=21).isoformat())}}
+            second=bot.select(state,[],at,cfg)
+            self.assertNotEqual(second.get('kind'),'night')
+
     def test_broken_image_does_not_block_compatible_alternative(self):
         data=BytesIO()
         Image.new('RGB',(8,8)).save(data,format='JPEG')

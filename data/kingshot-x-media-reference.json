@@ -1,0 +1,345 @@
+{
+  "account": "KingShot5555",
+  "reviewed_at": "2026-11-16",
+  "items": [
+    {
+      "index": 1,
+      "post": "https://x.com/KingShot5555/status/2122307316485668885/photo/1",
+      "url": "https://pbs.twimg.com/media/HXPzQbnW4AAKwWC?format=jpg&name=small",
+      "error": "HTTP Error 403: Forbidden",
+      "reviewed": true,
+      "use": "character_and_layout_reference_only"
+    },
+    {
+      "index": 2,
+      "post": "https://x.com/KingShot5555/status/2122211934678175764/photo/1",
+      "url": "https://pbs.twimg.com/media/HXOcgiKWEAAs0Dw?format=jpg&name=small",
+      "file": "02-2122211934678175764.jpg",
+      "reviewed": true,
+      "use": "character_and_layout_reference_only"
+    },
+    {
+      "index": 3,
+      "post": "https://x.com/KingShot5555/status/2122194014539534690/photo/1",
+      "url": "https://pbs.twimg.com/media/HXOMNc8XcAAFasH?format=jpg&name=small",
+      "file": "03-2122194014539534690.jpg",
+      "reviewed": true,
+      "use": "character_and_layout_reference_only"
+    },
+    {
+      "index": 4,
+      "post": "https://x.com/KingShot5555/status/2122166510114238937/photo/1",
+      "url": "https://pbs.twimg.com/media/HXNzMewWsAAO71W?format=jpg&name=small",
+      "file": "04-2122166510114238937.jpg",
+      "reviewed": true,
+      "use": "character_and_layout_reference_only",
+      "restriction": "Past event or gift code; reverify details before any reuse"
+    },
+    {
+      "index": 5,
+      "post": "https://x.com/KingShot5555/status/2112325424285946012/photo/1",
+      "url": "https://pbs.twimg.com/media/HVBnqGDbgAAhkMk?format=jpg&name=small",
+      "file": "05-2112325424285946012.jpg",
+      "reviewed": true,
+      "use": "character_and_layout_reference_only"
+    },
+    {
+      "index": 6,
+      "post": "https://x.com/KingShot5555/status/2111956742456173043/photo/1",
+      "url": "https://pbs.twimg.com/media/HU8Qz3eaMAEmxY9?format=jpg&name=small",
+      "file": "06-2111956742456173043.jpg",
+      "reviewed": true,
+      "use": "character_and_layout_reference_only"
+    },
+    {
+      "index": 7,
+      "post": "https://x.com/KingShot5555/status/2111638142532845578/photo/1",
+      "url": "https://pbs.twimg.com/media/HU3HRjjaMAA_2NK?format=jpg&name=small",
+      "file": "07-2111638142532845578.jpg",
+      "reviewed": true,
+      "use": "character_and_layout_reference_only"
+    },
+    {
+      "index": 8,
+      "post": "https://x.com/KingShot5555/status/2111591837462868426/photo/1",
+      "url": "https://pbs.twimg.com/media/HU3Ggm-agAA-nga?format=jpg&name=small",
+      "file": "08-2111591837462868426.jpg",
+      "reviewed": true,
+      "use": "character_and_layout_reference_only"
+    },
+    {
+      "index": 9,
+      "post": "https://x.com/KingShot5555/status/2111276008326234383/photo/1",
+      "url": "https://pbs.twimg.com/media/HUyNmyqbYAACIaD?format=jpg&name=small",
+      "file": "09-2111276008326234383.jpg",
+      "reviewed": true,
+      "use": "character_and_layout_reference_only"
+    },
+    {
+      "index": 10,
+      "post": "https://x.com/KingShot5555/status/2111243290817532290/photo/1",
+      "url": "https://pbs.twimg.com/media/HUyNLGQbgAA3QxA?format=jpg&name=small",
+      "file": "10-2111243290817532290.jpg",
+      "reviewed": true,
+      "use": "character_and_layout_reference_only"
+    },
+    {
+      "index": 11,
+      "post": "https://x.com/KingShot5555/status/2111215906907140460/photo/1",
+      "url": "https://pbs.twimg.com/media/HUyLrVpaQAAig-W?format=jpg&name=small",
+      "file": "11-2111215906907140460.jpg",
+      "reviewed": true,
+      "use": "automatic_with_topic_restrictions",
+      "asset_id": "x-post-2111215906907140460",
+      "allowed_kinds": [
+        "morning"
+      ]
+    },
+    {
+      "index": 12,
+      "post": "https://x.com/KingShot5555/status/2110931235597942955/photo/1",
+      "url": "https://pbs.twimg.com/media/HUs740SbEAAVLwx?format=jpg&name=small",
+      "file": "12-2110931235597942955.jpg",
+      "reviewed": true,
+      "use": "character_and_layout_reference_only"
+    },
+    {
+      "index": 13,
+      "post": "https://x.com/KingShot5555/status/2110860772394029202/photo/1",
+      "url": "https://pbs.twimg.com/media/HUs56KhaYAAHjiG?format=jpg&name=small",
+      "error": "HTTP Error 403: Forbidden",
+      "reviewed": true,
+      "use": "character_and_layout_reference_only"
+    },
+    {
+      "index": 14,
+      "post": "https://x.com/KingShot5555/status/2110855737375101202/photo/1",
+      "url": "https://pbs.twimg.com/media/HUs1lumaIAAGq22?format=jpg&name=small",
+      "error": "HTTP Error 403: Forbidden",
+      "reviewed": true,
+      "use": "character_and_layout_reference_only"
+    },
+    {
+      "index": 15,
+      "post": "https://x.com/KingShot5555/status/2110566343728615537/photo/1",
+      "url": "https://pbs.twimg.com/media/HUnu6AEbIAABitB?format=jpg&name=small",
+      "file": "15-2110566343728615537.jpg",
+      "reviewed": true,
+      "use": "automatic_with_topic_restrictions",
+      "asset_id": "x-post-2110566343728615537",
+      "allowed_kinds": [
+        "news",
+        "guide"
+      ]
+    },
+    {
+      "index": 16,
+      "post": "https://x.com/KingShot5555/status/2110479421090169041/photo/1",
+      "url": "https://pbs.twimg.com/media/HUnt2OrbkAAMsLx?format=jpg&name=small",
+      "file": "16-2110479421090169041.jpg",
+      "reviewed": true,
+      "use": "character_and_layout_reference_only"
+    },
+    {
+      "index": 17,
+      "post": "https://x.com/KingShot5555/status/2110264592219746667/photo/1",
+      "url": "https://pbs.twimg.com/media/HUiF47qacAAJiTt?format=jpg&name=small",
+      "file": "17-2110264592219746667.jpg",
+      "reviewed": true,
+      "use": "character_and_layout_reference_only"
+    },
+    {
+      "index": 18,
+      "post": "https://x.com/KingShot5555/status/2110219045685322126/photo/1",
+      "url": "https://pbs.twimg.com/media/HUiFn-waQAAZtxP?format=jpg&name=small",
+      "file": "18-2110219045685322126.jpg",
+      "reviewed": true,
+      "use": "character_and_layout_reference_only"
+    },
+    {
+      "index": 19,
+      "post": "https://x.com/KingShot5555/status/2110143550536994920/photo/1",
+      "url": "https://pbs.twimg.com/media/HUiFEkZacAAytuo?format=jpg&name=small",
+      "file": "19-2110143550536994920.jpg",
+      "reviewed": true,
+      "use": "character_and_layout_reference_only"
+    },
+    {
+      "index": 20,
+      "post": "https://x.com/KingShot5555/status/2109834007815037129/photo/1",
+      "url": "https://pbs.twimg.com/media/HUdnHj-bkAEtdF3?format=jpg&name=small",
+      "file": "20-2109834007815037129.jpg",
+      "reviewed": true,
+      "use": "character_and_layout_reference_only"
+    },
+    {
+      "index": 21,
+      "post": "https://x.com/KingShot5555/status/2109769261271155067/photo/1",
+      "url": "https://pbs.twimg.com/media/HUdn9dDbAAAHV_6?format=jpg&name=small",
+      "file": "21-2109769261271155067.jpg",
+      "reviewed": true,
+      "use": "character_and_layout_reference_only"
+    },
+    {
+      "index": 22,
+      "post": "https://x.com/KingShot5555/status/2109282878915854537/photo/1",
+      "url": "https://pbs.twimg.com/media/HUV7hhbacAA8VrT?format=jpg&name=small",
+      "error": "HTTP Error 403: Forbidden",
+      "reviewed": true,
+      "use": "character_and_layout_reference_only"
+    },
+    {
+      "index": 23,
+      "post": "https://x.com/KingShot5555/status/2108974591993692602/photo/1",
+      "url": "https://pbs.twimg.com/media/HUNEv-Ib0AAgpqc?format=jpg&name=small",
+      "file": "23-2108974591993692602.jpg",
+      "reviewed": true,
+      "use": "automatic_with_topic_restrictions",
+      "asset_id": "x-post-2108974591993692602",
+      "allowed_kinds": [
+        "news",
+        "guide"
+      ]
+    },
+    {
+      "index": 24,
+      "post": "https://x.com/KingShot5555/status/2108867640076775722/photo/1",
+      "url": "https://pbs.twimg.com/media/HUNAZ5wbsAELMbX?format=jpg&name=small",
+      "file": "24-2108867640076775722.jpg",
+      "reviewed": true,
+      "use": "character_and_layout_reference_only"
+    },
+    {
+      "index": 25,
+      "post": "https://x.com/KingShot5555/status/2108759424173043811/photo/1",
+      "url": "https://pbs.twimg.com/media/HUND7C2boAA7n8y?format=jpg&name=small",
+      "file": "25-2108759424173043811.jpg",
+      "reviewed": true,
+      "use": "character_and_layout_reference_only"
+    },
+    {
+      "index": 26,
+      "post": "https://x.com/KingShot5555/status/2108731744111260122/photo/1",
+      "url": "https://pbs.twimg.com/media/HUM-HKbbUAUWsOP?format=jpg&name=small",
+      "file": "26-2108731744111260122.jpg",
+      "reviewed": true,
+      "use": "character_and_layout_reference_only",
+      "restriction": "Past event or gift code; reverify details before any reuse"
+    },
+    {
+      "index": 27,
+      "post": "https://x.com/KingShot5555/status/2108724195634938189/photo/1",
+      "url": "https://pbs.twimg.com/media/HUNB4Y_bAAAlc4V?format=jpg&name=small",
+      "file": "27-2108724195634938189.jpg",
+      "reviewed": true,
+      "use": "character_and_layout_reference_only"
+    },
+    {
+      "index": 28,
+      "post": "https://x.com/KingShot5555/status/2108701543839224233/photo/1",
+      "url": "https://pbs.twimg.com/media/HUM_ErAbUAEkRGp?format=jpg&name=small",
+      "file": "28-2108701543839224233.jpg",
+      "reviewed": true,
+      "use": "character_and_layout_reference_only",
+      "restriction": "Past event or gift code; reverify details before any reuse"
+    },
+    {
+      "index": 29,
+      "post": "https://x.com/KingShot5555/status/2108514008659829032/photo/1",
+      "url": "https://pbs.twimg.com/media/HULyT-ObwAAX-NZ?format=jpg&name=small",
+      "file": "29-2108514008659829032.jpg",
+      "reviewed": true,
+      "use": "character_and_layout_reference_only"
+    },
+    {
+      "index": 30,
+      "post": "https://x.com/KingShot5555/status/2108327830719435006/photo/1",
+      "url": "https://pbs.twimg.com/media/HUHraJBa4AACeUW?format=jpg&name=small",
+      "file": "30-2108327830719435006.jpg",
+      "reviewed": true,
+      "use": "character_and_layout_reference_only"
+    },
+    {
+      "index": 31,
+      "post": "https://x.com/KingShot5555/status/2108221095975453034/photo/1",
+      "url": "https://pbs.twimg.com/media/HUHn6b2bYAAnX2K?format=jpg&name=small",
+      "file": "31-2108221095975453034.jpg",
+      "reviewed": true,
+      "use": "automatic_with_topic_restrictions",
+      "asset_id": "x-post-2108221095975453034",
+      "allowed_kinds": [
+        "night"
+      ]
+    },
+    {
+      "index": 32,
+      "post": "https://x.com/KingShot5555/status/2108150419125895649/photo/1",
+      "url": "https://pbs.twimg.com/media/HUDPANubkAES89P?format=jpg&name=small",
+      "file": "32-2108150419125895649.jpg",
+      "reviewed": true,
+      "use": "character_and_layout_reference_only"
+    },
+    {
+      "index": 33,
+      "post": "https://x.com/KingShot5555/status/2108014518534348828/photo/1",
+      "url": "https://pbs.twimg.com/media/HUDP8LXaUAAMQHO?format=jpg&name=small",
+      "file": "33-2108014518534348828.jpg",
+      "reviewed": true,
+      "use": "automatic_with_topic_restrictions",
+      "asset_id": "x-post-2108014518534348828",
+      "allowed_kinds": [
+        "guide"
+      ]
+    },
+    {
+      "index": 34,
+      "post": "https://x.com/KingShot5555/status/2107969225016942807/photo/1",
+      "url": "https://pbs.twimg.com/media/HUDRIYtbkAA1P9x?format=jpg&name=small",
+      "file": "34-2107969225016942807.jpg",
+      "reviewed": true,
+      "use": "automatic_with_topic_restrictions",
+      "asset_id": "x-post-2107969225016942807",
+      "allowed_kinds": [
+        "guide"
+      ]
+    },
+    {
+      "index": 35,
+      "post": "https://x.com/KingShot5555/status/2107786765062877489/photo/1",
+      "url": "https://pbs.twimg.com/media/HT96VSXbAAAQqcj?format=jpg&name=small",
+      "file": "35-2107786765062877489.jpg",
+      "reviewed": true,
+      "use": "character_and_layout_reference_only"
+    },
+    {
+      "index": 36,
+      "post": "https://x.com/KingShot5555/status/2107718817149587623/photo/1",
+      "url": "https://pbs.twimg.com/media/HT-BDsobMAAvWdz?format=jpg&name=small",
+      "file": "36-2107718817149587623.jpg",
+      "reviewed": true,
+      "use": "automatic_with_topic_restrictions",
+      "asset_id": "x-post-2107718817149587623",
+      "allowed_kinds": [
+        "news",
+        "guide"
+      ]
+    },
+    {
+      "index": 37,
+      "post": "https://x.com/KingShot5555/status/2107619412270256507/photo/1",
+      "url": "https://pbs.twimg.com/media/HT-AFNhaIAAfzHN?format=jpg&name=small",
+      "file": "37-2107619412270256507.jpg",
+      "reviewed": true,
+      "use": "character_and_layout_reference_only"
+    },
+    {
+      "index": 38,
+      "post": "https://x.com/KingShot5555/status/2107539406089531664/photo/1",
+      "url": "https://pbs.twimg.com/media/HT97607aAAAHNMI?format=jpg&name=small",
+      "file": "38-2107539406089531664.jpg",
+      "reviewed": true,
+      "use": "character_and_layout_reference_only"
+    }
+  ],
+  "rule": "Original character and clothing consistency; no stale promotional text; no unrelated diagrams"
+}

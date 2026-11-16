@@ -118,6 +118,10 @@ def select(state, candidates, now, config):
     expected = min(config['daily_target'],1+(now.hour-8)*config['daily_target']//15)
     if len(used) >= expected:
         return None
+    if 21 <= now.hour < 23 and not any(p.get('kind')=='night' for p in used) and any('night' in a.get('allowed_kinds',[]) for a in config.get('media_pool',[])) and image_candidates({'kind':'night'},state,config):
+        return dict(key='night-'+today,kind='night',
+                    text='今日もおつかれさまでした🌙\nキングショットも、休む時間を大切に。\n仲間との続きは、また明日。おやすみなさい。'+TAGS,
+                    image_url=next(a['url'] for a in config['media_pool'] if 'night' in a.get('allowed_kinds',[])))
     if 8 <= now.hour < 10 and not any(p.get('kind')=='morning' for p in used):
         return dict(key='morning-'+today,kind='morning',text='おはようございます！☀️\n今日もキングショットを楽しんでいきましょう。\n育成も攻略も、自分のペースで。仲間との一日が良い時間になりますように⚔️'+TAGS,
                     image_url=config['morning_images'][now.date().toordinal()%len(config['morning_images'])])

@@ -137,6 +137,88 @@
       ],
       "origin": "previously_created_Kingshot_artwork",
       "x_publication_verified": false
+    },
+    {
+      "id": "x-post-2110566343728615537",
+      "url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/from-x/15-2110566343728615537.jpg",
+      "title": "英雄たちの集合",
+      "allowed_kinds": [
+        "news",
+        "guide"
+      ],
+      "origin_post": "https://x.com/KingShot5555/status/2110566343728615537/photo/1",
+      "x_publication_verified": true
+    },
+    {
+      "id": "x-post-2108974591993692602",
+      "url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/from-x/23-2108974591993692602.jpg",
+      "title": "城下町での英雄の団らん",
+      "allowed_kinds": [
+        "news",
+        "guide"
+      ],
+      "origin_post": "https://x.com/KingShot5555/status/2108974591993692602/photo/1",
+      "x_publication_verified": true
+    },
+    {
+      "id": "x-post-2108014518534348828",
+      "url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/from-x/33-2108014518534348828.jpg",
+      "title": "英雄たちの作戦会議",
+      "allowed_kinds": [
+        "guide"
+      ],
+      "origin_post": "https://x.com/KingShot5555/status/2108014518534348828/photo/1",
+      "x_publication_verified": true
+    },
+    {
+      "id": "x-post-2107969225016942807",
+      "url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/from-x/34-2107969225016942807.jpg",
+      "title": "ソフィアとチェンコの作戦会議",
+      "allowed_kinds": [
+        "guide"
+      ],
+      "guide_ids": [
+        "war-filter",
+        "war-notification",
+        "battle-chat",
+        "recruit-count",
+        "notice-draft",
+        "vote-ranks"
+      ],
+      "origin_post": "https://x.com/KingShot5555/status/2107969225016942807/photo/1",
+      "x_publication_verified": true
+    },
+    {
+      "id": "x-post-2107718817149587623",
+      "url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/from-x/36-2107718817149587623.jpg",
+      "title": "ヒルデとチェンコの乾杯",
+      "allowed_kinds": [
+        "news",
+        "guide"
+      ],
+      "origin_post": "https://x.com/KingShot5555/status/2107718817149587623/photo/1",
+      "x_publication_verified": true
+    },
+    {
+      "id": "x-post-2111215906907140460",
+      "url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/from-x/11-2111215906907140460.jpg",
+      "title": "ゴードンの朝",
+      "allowed_kinds": [
+        "morning"
+      ],
+      "origin_post": "https://x.com/KingShot5555/status/2111215906907140460/photo/1",
+      "x_publication_verified": true
+    },
+    {
+      "id": "x-post-2108221095975453034",
+      "url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/from-x/31-2108221095975453034.jpg",
+      "title": "チェンコのおやすみ",
+      "allowed_kinds": [
+        "night"
+      ],
+      "origin_post": "https://x.com/KingShot5555/status/2108221095975453034/photo/1",
+      "x_publication_verified": true
     }
-  ]
+  ],
+  "image_repeat_cooldown_days": 7
 }
