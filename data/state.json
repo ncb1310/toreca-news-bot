@@ -15724,9 +15724,9 @@
       "post_id": "6afb2136a3641bd0cf694de6",
       "publication_result": {
         "id": "6afb2136a3641bd0cf694de6",
-        "status": "scheduled",
-        "sentAt": null,
-        "externalLink": null,
+        "status": "sent",
+        "sentAt": "2026-11-16T23:00:51.442Z",
+        "externalLink": "https://x.com/2121528694724505600/status/2122464945220497732",
         "assets": [
           {
             "mimeType": "image/png",
