@@ -27,10 +27,23 @@
       "kind": "morning",
       "text": "おはようございます。\n朝の光をひとつ、心の栞に。今日があなたにとって、穏やかな一頁になりますように。\n\n#おはようございます #創作 #小説",
       "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/senran/morning.jpg",
-      "status": "sending",
+      "status": "accepted",
       "attempt_date": "2026-11-17",
       "attempted_at": "2026-11-17T00:23:57.585680+09:00",
-      "scheduled_at": "2026-11-17T08:00:00+09:00"
+      "scheduled_at": "2026-11-17T08:00:00+09:00",
+      "post_id": "6afb200f12f2f788dabb4f75",
+      "publication_result": {
+        "id": "6afb200f12f2f788dabb4f75",
+        "status": "scheduled",
+        "dueAt": "2026-11-16T23:00:00.000Z",
+        "text": "おはようございます。\n朝の光をひとつ、心の栞に。今日があなたにとって、穏やかな一頁になりますように。\n\n#おはようございます #創作 #小説",
+        "assets": [
+          {
+            "mimeType": "image/jpeg",
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/senran/morning.jpg"
+          }
+        ]
+      }
     }
   },
   "last_checked_at": "2026-11-17T08:00:00+09:00"
