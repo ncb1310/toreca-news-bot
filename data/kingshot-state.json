@@ -289,12 +289,116 @@
     ],
     "publisher": []
   },
-  "last_checked_at": "2026-11-17T22:00:00+09:00",
+  "last_checked_at": "2026-11-17T00:24:43.885160+09:00",
   "source_errors": {},
   "image_errors": {
     "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/repertoire/previous-66.jpg": {
       "checked_at": "2026-11-16T21:34:23.877289+09:00",
       "error": "UnidentifiedImageError"
     }
+  },
+  "last_reservation_check": {
+    "checked_at": "2026-11-17T00:24:20.887451+09:00",
+    "queued": 8,
+    "target": 8,
+    "posts": [
+      {
+        "id": "6afb203a407cd7a3e057745c",
+        "text": "今日もおつかれさまでした🌙\nキングショットも、休む時間を大切に。\n仲間との続きは、また明日。おやすみなさい。\n#キングショット #Kingshot",
+        "dueAt": "2026-11-17T13:00:00.000Z",
+        "status": "scheduled",
+        "assets": [
+          {
+            "mimeType": "image/jpeg",
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/from-x/31-2108221095975453034.jpg"
+          }
+        ]
+      },
+      {
+        "id": "6afb2037ca8a17609535d784",
+        "text": "【既存機能メモ】\n島の育成が進んだら確認したいこと🏝️\n\n生命の泉を最大まで育てると、島の探索で新しいミッションが解放されると米公式が案内しています。達成後のミッション欄も見ておこう。\n出典：米公式10/19更新説明\nhttps://apps.apple.com/us/app/kingshot/id6739554056\n#キングショット #Kingshot",
+        "dueAt": "2026-11-17T11:00:00.000Z",
+        "status": "scheduled",
+        "assets": [
+          {
+            "mimeType": "image/jpeg",
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/from-x/23-2108974591993692602.jpg"
+          }
+        ]
+      },
+      {
+        "id": "6afb2034407cd7a3e0577268",
+        "text": "【既存機能メモ】\n同盟戦争の絞り込みを見直そう\n\n米公式の更新説明には、集結主レベルを一覧から選ぶ方式や、フィルターでのTruegoldレベル表示が記載されています。検索条件を確認しよう。\n出典：米公式10/19更新説明\nhttps://apps.apple.com/us/app/kingshot/id6739554056\n#キングショット #Kingshot",
+        "dueAt": "2026-11-17T09:00:00.000Z",
+        "status": "scheduled",
+        "assets": [
+          {
+            "mimeType": "image/jpeg",
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/from-x/33-2108014518534348828.jpg"
+          }
+        ]
+      },
+      {
+        "id": "6afb20322d89e5b19ced4354",
+        "text": "【既存機能メモ】\n投票を作るときの確認ポイント📋\n\n投票を始める際、参加できる同盟ランクを選べると米公式が案内しています。投票内容と対象者をセットで確認しておこう。\n出典：米公式10/19更新説明\nhttps://apps.apple.com/us/app/kingshot/id6739554056\n#キングショット #Kingshot",
+        "dueAt": "2026-11-17T07:00:00.000Z",
+        "status": "scheduled",
+        "assets": [
+          {
+            "mimeType": "image/jpeg",
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/from-x/34-2107969225016942807.jpg"
+          }
+        ]
+      },
+      {
+        "id": "6afb202f407cd7a3e05770a4",
+        "text": "【既存機能メモ】\n同盟のお知らせ、下書きも活用📋\n\n予約したお知らせの編集では、確定せず画面を離れたときに最新の下書きを保存する機能が案内されています。公開済みとの取り違えには注意しよう。\n出典：米公式10/19更新説明\nhttps://apps.apple.com/us/app/kingshot/id6739554056\n#キングショット #Kingshot",
+        "dueAt": "2026-11-17T05:00:00.000Z",
+        "status": "scheduled",
+        "assets": [
+          {
+            "mimeType": "image/jpeg",
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/from-x/36-2107718817149587623.jpg"
+          }
+        ]
+      },
+      {
+        "id": "6afb202c12f2f788dabb6209",
+        "text": "【既存機能メモ】\n高解像度アバターの表示を見直そう\n\nほかの領主に高解像度の画像を見せたくない場合、設定のアバター項目で変更できます。米公式の更新説明に記載された機能です。\n出典：米公式10/19更新説明\nhttps://apps.apple.com/us/app/kingshot/id6739554056\n#キングショット #Kingshot",
+        "dueAt": "2026-11-17T03:00:00.000Z",
+        "status": "scheduled",
+        "assets": [
+          {
+            "mimeType": "image/jpeg",
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/strategy-reference-20261116.jpg"
+          }
+        ]
+      },
+      {
+        "id": "6afb20292d89e5b19ced3fb0",
+        "text": "【既存機能メモ】\n釣り大会のミッションも忘れずに🎣\n\nシーズンミッションで得られる釣りポイントと、島の装飾品の交換をチェック。開催中の条件・交換内容はゲーム内が基準です。\n出典：米公式10/19更新説明\nhttps://apps.apple.com/us/app/kingshot/id6739554056\n#キングショット #Kingshot",
+        "dueAt": "2026-11-17T01:00:00.000Z",
+        "status": "scheduled",
+        "assets": [
+          {
+            "mimeType": "image/jpeg",
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/repertoire/previous-66.jpg"
+          }
+        ]
+      },
+      {
+        "id": "6afb2026407cd7a3e0576e37",
+        "text": "おはようございます！☀️\n今日もキングショットを楽しんでいきましょう。\n育成も攻略も、自分のペースで。仲間との一日が良い時間になりますように⚔️\n#キングショット #Kingshot",
+        "dueAt": "2026-11-16T23:00:00.000Z",
+        "status": "scheduled",
+        "assets": [
+          {
+            "mimeType": "image/jpeg",
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/references/IMG_2757.jpeg"
+          }
+        ]
+      }
+    ],
+    "shortfall": 0
   }
 }
