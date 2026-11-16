@@ -165,10 +165,23 @@
       "kind": "evening",
       "text": "こんばんは。\n言葉にならなかった気持ちも、今夜はそっと栞に挟んで。穏やかな時間を過ごせますように。\n\n#こんばんは #創作 #小説",
       "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/senran/evening.jpg",
-      "status": "sending",
+      "status": "accepted",
       "attempt_date": "2026-11-18",
       "attempted_at": "2026-11-17T00:23:57.585680+09:00",
-      "scheduled_at": "2026-11-18T18:00:00+09:00"
+      "scheduled_at": "2026-11-18T18:00:00+09:00",
+      "post_id": "6afb201ffa86e3d1669a8343",
+      "publication_result": {
+        "id": "6afb201ffa86e3d1669a8343",
+        "status": "scheduled",
+        "dueAt": "2026-11-18T09:00:00.000Z",
+        "text": "こんばんは。\n言葉にならなかった気持ちも、今夜はそっと栞に挟んで。穏やかな時間を過ごせますように。\n\n#こんばんは #創作 #小説",
+        "assets": [
+          {
+            "mimeType": "image/jpeg",
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/senran/evening.jpg"
+          }
+        ]
+      }
     }
   },
   "last_checked_at": "2026-11-18T18:00:00+09:00"
