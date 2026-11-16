@@ -84,5 +84,17 @@ class KingshotTests(unittest.TestCase):
         state={'posts':{'old':{'image_url':'0.jpg','attempted_at':'2026-11-16T12:00:00+09:00'}}}
         self.assertEqual(bot.select_image({'kind':'guide','image_url':'old.jpg'},state,config),'1.jpg')
 
+    def test_same_subject_is_not_repeated_today(self):
+        state={'posts':{'f':{'guide_id':'fishing-guide','attempt_date':'2026-11-16'},
+                        'a':{'guide_id':'first-hero','attempt_date':'2026-11-16'}}}
+        item=self.choose(state)
+        self.assertNotIn(bot.guide_topic(item['guide_id']),('fishing','formation'))
+
+    def test_image_exhaustion_does_not_reuse_previous_image(self):
+        cfg={'media_pool':[{'id':'a','url':'a.jpg','allowed_kinds':['guide']}]}
+        state={'last_checked_at':NOW.isoformat(),'posts':{'x':{'image_url':'a.jpg','attempted_at':NOW.isoformat()}}}
+        self.assertEqual(bot.image_candidates({'kind':'guide','image_url':'fallback.jpg'},state,cfg),[])
+        self.assertIsNone(bot.select_image({'kind':'guide','image_url':'fallback.jpg'},state,cfg))
+
 if __name__=='__main__':
     unittest.main()

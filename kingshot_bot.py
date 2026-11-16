@@ -122,6 +122,11 @@ def select(state, candidates, now, config):
         return dict(key='morning-'+today,kind='morning',text='おはようございます！☀️\n今日もキングショットを楽しんでいきましょう。\n育成も攻略も、自分のペースで。仲間との一日が良い時間になりますように⚔️'+TAGS,
                     image_url=config['morning_images'][now.date().toordinal()%len(config['morning_images'])])
     for guide_id,title,body in GUIDES:
+        # Separate feature IDs can still describe the same subject. Do not
+        # serialize several fishing/avatar/formation tips into the same day.
+        topic = guide_topic(guide_id)
+        if any(guide_topic(p.get('guide_id','')) == topic for p in used if p.get('guide_id')):
+            continue
         prior = [p for p in posts.values() if p.get('guide_id')==guide_id and p.get('attempt_date')]
         if prior and min((now.date()-datetime.fromisoformat(p['attempt_date']).date()).days for p in prior)<14:
             continue
@@ -129,8 +134,15 @@ def select(state, candidates, now, config):
     return None
 
 
+def guide_topic(guide_id):
+    if guide_id in ('first-hero','formation'):
+        return 'formation'
+    return guide_id.split('-')[0]
+
+
 def select_image(item, state, config):
-    return image_candidates(item,state,config)[0]
+    choices = image_candidates(item,state,config)
+    return choices[0] if choices else None
 
 
 def image_candidates(item, state, config):
@@ -147,6 +159,11 @@ def image_candidates(item, state, config):
         at=post.get('attempted_at','')
         if at>last_used.get(url,''):
             last_used[url]=at
+    now = datetime.fromisoformat(state['last_checked_at']) if state.get('last_checked_at') else datetime.now(shared.JST)
+    cooldown = timedelta(days=config.get('image_repeat_cooldown_days',7))
+    # Exhaustion must never silently fall back to a recently reused image.
+    pool = [asset for asset in pool if not last_used.get(asset['url'])
+            or now-datetime.fromisoformat(last_used[asset['url']]) >= cooldown]
     pool.sort(key=lambda asset:(last_used.get(asset['url'],''),asset['id']))
     return list(dict.fromkeys(asset['url'] for asset in pool))
 
