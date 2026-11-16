@@ -2,32 +2,32 @@
   "version": 1,
   "sources": {
     "pokemon": {
-      "checked_at": "2026-11-16T15:34:31.677609+09:00",
+      "checked_at": "2026-11-16T18:25:55.702369+09:00",
       "count": 177,
       "latest_date": "2026-11-13"
     },
     "onepiece": {
-      "checked_at": "2026-11-16T15:34:31.677609+09:00",
+      "checked_at": "2026-11-16T18:25:55.702369+09:00",
       "count": 1226,
       "latest_date": "2026-03-19"
     },
     "labo": {
-      "checked_at": "2026-11-16T15:34:31.677609+09:00",
+      "checked_at": "2026-11-16T18:25:55.702369+09:00",
       "count": 15,
       "latest_date": "2026-11-16"
     },
     "hobby": {
-      "checked_at": "2026-11-16T15:34:31.677609+09:00",
+      "checked_at": "2026-11-16T18:25:55.702369+09:00",
       "count": 3,
       "latest_date": "2026-11-13"
     },
     "pcstore": {
-      "checked_at": "2026-11-16T15:34:31.677609+09:00",
+      "checked_at": "2026-11-16T18:25:55.702369+09:00",
       "count": 15,
       "latest_date": "2026-11-10"
     },
     "furu": {
-      "checked_at": "2026-11-16T15:34:31.677609+09:00",
+      "checked_at": "2026-11-16T18:25:55.702369+09:00",
       "count": 59,
       "latest_date": "2026-11-16"
     }
@@ -15292,6 +15292,18 @@
       "closed": false,
       "status": "ignored",
       "discovered_at": "2026-11-16T15:34:31.677609+09:00"
+    },
+    "50293a101321ce44f1cc33ba2dbaceb756bcb3178eae6f717b2ac7acb6429a5d": {
+      "key": "50293a101321ce44f1cc33ba2dbaceb756bcb3178eae6f717b2ac7acb6429a5d",
+      "source": "labo",
+      "title": "【ワンピースカードゲーム】再販商品の抽選販売について",
+      "published": "2026-11-16",
+      "url": "https://www.c-labo.jp/shop/toyohashi/blog/624660/",
+      "category": "ONE PIECEカードゲーム",
+      "store": "豊橋店",
+      "closed": false,
+      "status": "ready",
+      "discovered_at": "2026-11-16T18:25:55.702369+09:00"
     }
   },
   "channel_check": {
