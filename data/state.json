@@ -15833,7 +15833,7 @@
       "key": "guide-116ea798c5564b9c4f06e6b31ededfdff4ed5aa3b4baad7f9c251be80b84546e",
       "guide_id": "poke-energy",
       "kind": "guide",
-      "status": "sending",
+      "status": "accepted",
       "source": "guide",
       "title": "基本エネルギーと4枚ルール",
       "bullets": [
@@ -15848,7 +15848,21 @@
       "text": "【トレカの確認メモ】\n基本エネルギーと4枚ルール\n\nポケカの60枚デッキは、同じ名前のカードを原則4枚まで。基本エネルギーやカード固有の指定など、例外も公式で確認しよう。\n#トレカ #ポケカ #トレカ初心者\n参照先👇\nhttps://www.pokemon-card.com/howtoplay/",
       "attempt_date": "2026-11-17",
       "attempted_at": "2026-11-17T00:28:49.439022+09:00",
-      "scheduled_at": "2026-11-17T16:00:00+09:00"
+      "scheduled_at": "2026-11-17T16:00:00+09:00",
+      "post_id": "6afb214f67619c57d50bb984",
+      "publication_result": {
+        "id": "6afb214f67619c57d50bb984",
+        "status": "scheduled",
+        "dueAt": "2026-11-17T07:00:00.000Z",
+        "text": "【トレカの確認メモ】\n基本エネルギーと4枚ルール\n\nポケカの60枚デッキは、同じ名前のカードを原則4枚まで。基本エネルギーやカード固有の指定など、例外も公式で確認しよう。\n#トレカ #ポケカ #トレカ初心者\n参照先👇\nhttps://www.pokemon-card.com/howtoplay/",
+        "assets": [
+          {
+            "mimeType": "image/png",
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/07c7c86e4b8c2e0829430fe295f76b724790c6e2/assets/generated/6dbd7c8fd4b0188889f61420.png"
+          }
+        ]
+      },
+      "buffer_post_id": "6afb214f67619c57d50bb984"
     }
   },
   "last_checked_at": "2026-11-17T16:00:00+09:00"
