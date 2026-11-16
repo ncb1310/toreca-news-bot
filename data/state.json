@@ -16011,8 +16011,8 @@
       "publication_result": {
         "id": "6afb91be3e42cd001e39f651",
         "status": "scheduled",
-        "dueAt": "2026-11-17T23:00:00.000Z",
-        "text": "【トレカの確認メモ】\nリーダーからデッキを考える\n\nワンピカードは、リーダーを決めてからカードを探すと整理しやすい。構築の細かな条件は公式ルールへ。\n#トレカ #ワンピースカード #トレカ初心者\n参照先👇\nhttps://www.onepiece-cardgame.com/rules/",
+        "sentAt": null,
+        "externalLink": null,
         "assets": [
           {
             "mimeType": "image/png",
