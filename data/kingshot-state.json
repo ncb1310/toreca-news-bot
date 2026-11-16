@@ -312,7 +312,7 @@
     ],
     "publisher": []
   },
-  "last_checked_at": "2026-11-17T08:28:54.746795+09:00",
+  "last_checked_at": "2026-11-17T08:47:34.189047+09:00",
   "source_errors": {},
   "image_errors": {
     "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/repertoire/previous-66.jpg": {
@@ -321,7 +321,7 @@
     }
   },
   "last_reservation_check": {
-    "checked_at": "2026-11-17T08:28:49.761318+09:00",
+    "checked_at": "2026-11-17T08:47:30.739875+09:00",
     "queued": 8,
     "target": 8,
     "posts": [
