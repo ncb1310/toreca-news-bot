@@ -15344,8 +15344,11 @@
       "category": "ONE PIECEカードゲーム",
       "store": "甲府店",
       "closed": false,
-      "status": "ready",
-      "discovered_at": "2026-11-16T20:02:07.752537+09:00"
+      "status": "sending",
+      "discovered_at": "2026-11-16T20:02:07.752537+09:00",
+      "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/c5a1c430a719d4d52894f70b7ca1aa0f0bc849ff/assets/generated/b536d51ccab089a6000ac2bd.png",
+      "attempt_date": "2026-11-16",
+      "attempted_at": "2026-11-16T20:02:07.752537+09:00"
     }
   },
   "channel_check": {
