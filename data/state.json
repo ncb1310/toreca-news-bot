@@ -2,32 +2,32 @@
   "version": 1,
   "sources": {
     "pokemon": {
-      "checked_at": "2026-11-16T21:35:10.960639+09:00",
+      "checked_at": "2026-11-17T00:43:21.204352+09:00",
       "count": 177,
       "latest_date": "2026-11-13"
     },
     "onepiece": {
-      "checked_at": "2026-11-16T21:35:10.960639+09:00",
+      "checked_at": "2026-11-17T00:43:21.204352+09:00",
       "count": 1226,
       "latest_date": "2026-03-19"
     },
     "labo": {
-      "checked_at": "2026-11-16T21:35:10.960639+09:00",
+      "checked_at": "2026-11-17T00:43:21.204352+09:00",
       "count": 15,
       "latest_date": "2026-11-16"
     },
     "hobby": {
-      "checked_at": "2026-11-16T21:35:10.960639+09:00",
+      "checked_at": "2026-11-17T00:43:21.204352+09:00",
       "count": 3,
       "latest_date": "2026-11-13"
     },
     "pcstore": {
-      "checked_at": "2026-11-16T21:35:10.960639+09:00",
+      "checked_at": "2026-11-17T00:43:21.204352+09:00",
       "count": 15,
       "latest_date": "2026-11-10"
     },
     "furu": {
-      "checked_at": "2026-11-16T21:35:10.960639+09:00",
+      "checked_at": "2026-11-17T00:43:21.204352+09:00",
       "count": 59,
       "latest_date": "2026-11-16"
     }
@@ -15382,6 +15382,18 @@
         ]
       },
       "publication_checked_at": "2026-11-16T20:02:07.752537+09:00"
+    },
+    "0a741012ef082ab173c322782a6f67e3cf1f78e4dd4cc3aa398e12b77312d0e9": {
+      "key": "0a741012ef082ab173c322782a6f67e3cf1f78e4dd4cc3aa398e12b77312d0e9",
+      "source": "labo",
+      "title": "『 ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」』抽選販売のお知らせ",
+      "published": "2026-11-16",
+      "url": "https://www.c-labo.jp/shop/gifu/blog/624678/",
+      "category": "ポケモンカードゲーム",
+      "store": "岐阜店",
+      "closed": false,
+      "status": "ready",
+      "discovered_at": "2026-11-17T00:43:21.204352+09:00"
     }
   },
   "channel_check": {
@@ -15722,7 +15734,9 @@
           }
         ]
       },
-      "buffer_post_id": "6afb2136a3641bd0cf694de6"
+      "buffer_post_id": "6afb2136a3641bd0cf694de6",
+      "publication_checks": 1,
+      "publication_checked_at": "2026-11-17T00:43:21.204352+09:00"
     },
     "guide-5386baaabc91edc4608882a4b14f50729a9600fa62182565eaf70d9e029109e6": {
       "key": "guide-5386baaabc91edc4608882a4b14f50729a9600fa62182565eaf70d9e029109e6",
@@ -15757,7 +15771,9 @@
           }
         ]
       },
-      "buffer_post_id": "6afb213de368957de0d053ba"
+      "buffer_post_id": "6afb213de368957de0d053ba",
+      "publication_checks": 1,
+      "publication_checked_at": "2026-11-17T00:43:21.204352+09:00"
     },
     "guide-3e7cb2396ae54978db011541e042a083374e3687947287dfaff740b3e5a7ba86": {
       "key": "guide-3e7cb2396ae54978db011541e042a083374e3687947287dfaff740b3e5a7ba86",
@@ -15792,7 +15808,9 @@
           }
         ]
       },
-      "buffer_post_id": "6afb214267619c57d50bb72d"
+      "buffer_post_id": "6afb214267619c57d50bb72d",
+      "publication_checks": 1,
+      "publication_checked_at": "2026-11-17T00:43:21.204352+09:00"
     },
     "guide-4e648da71280e50a1c51845ba985ec701a5eee425fc5cf8454ff2f31559c58e0": {
       "key": "guide-4e648da71280e50a1c51845ba985ec701a5eee425fc5cf8454ff2f31559c58e0",
