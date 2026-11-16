@@ -15693,7 +15693,7 @@
       "key": "guide-05deb75570b8d7ce43f8dac6f716a2291b1ab71b0f14782f9f3fc1d740a20075",
       "guide_id": "product-identity",
       "kind": "guide",
-      "status": "sending",
+      "status": "accepted",
       "source": "guide",
       "title": "同じシリーズでも商品を確認",
       "bullets": [
@@ -15708,7 +15708,21 @@
       "text": "【トレカの確認メモ】\n同じシリーズでも商品を確認\n\n名前が似ている商品は、正式名称と内容を並べて確認。欲しいものと注文するものが同じか、最後に見直そう。\n#トレカ #トレカ初心者\n参照先👇\nhttps://www.pokemon-card.com/products/",
       "attempt_date": "2026-11-17",
       "attempted_at": "2026-11-17T00:28:49.439022+09:00",
-      "scheduled_at": "2026-11-17T08:00:00+09:00"
+      "scheduled_at": "2026-11-17T08:00:00+09:00",
+      "post_id": "6afb2136a3641bd0cf694de6",
+      "publication_result": {
+        "id": "6afb2136a3641bd0cf694de6",
+        "status": "scheduled",
+        "dueAt": "2026-11-16T23:00:00.000Z",
+        "text": "【トレカの確認メモ】\n同じシリーズでも商品を確認\n\n名前が似ている商品は、正式名称と内容を並べて確認。欲しいものと注文するものが同じか、最後に見直そう。\n#トレカ #トレカ初心者\n参照先👇\nhttps://www.pokemon-card.com/products/",
+        "assets": [
+          {
+            "mimeType": "image/png",
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/2a23fc654b6474dc962c3e73c0f42cadbfc48970/assets/generated/4e8a8d78fdfe38a3d11a4ef2.png"
+          }
+        ]
+      },
+      "buffer_post_id": "6afb2136a3641bd0cf694de6"
     }
   },
   "last_checked_at": "2026-11-17T08:00:00+09:00"
