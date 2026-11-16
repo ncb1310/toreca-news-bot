@@ -138,6 +138,17 @@
           }
         ]
       }
+    },
+    "guide-avatar-2026-11-17": {
+      "key": "guide-avatar-2026-11-17",
+      "guide_id": "avatar",
+      "kind": "guide",
+      "text": "【既存機能メモ】\n高解像度アバターの表示を見直そう\n\nほかの領主に高解像度の画像を見せたくない場合、設定のアバター項目で変更できます。米公式の更新説明に記載された機能です。\n出典：米公式10/19更新説明\nhttps://apps.apple.com/us/app/kingshot/id6739554056\n#キングショット #Kingshot",
+      "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/strategy-reference-20261116.jpg",
+      "status": "sending",
+      "attempt_date": "2026-11-17",
+      "attempted_at": "2026-11-17T00:24:20.887451+09:00",
+      "scheduled_at": "2026-11-17T12:00:00+09:00"
     }
   },
   "baseline": {
@@ -146,7 +157,7 @@
     ],
     "publisher": []
   },
-  "last_checked_at": "2026-11-17T10:00:00+09:00",
+  "last_checked_at": "2026-11-17T12:00:00+09:00",
   "source_errors": {},
   "image_errors": {
     "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/repertoire/previous-66.jpg": {
