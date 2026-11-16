@@ -211,10 +211,23 @@
       "kind": "morning",
       "text": "おはようございます。\n遠くまで急がなくても、今日の一歩には意味がある。どうぞ、あなたらしい一日を。\n\n#おはようございます #創作 #小説",
       "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/senran/morning.jpg",
-      "status": "sending",
+      "status": "accepted",
       "attempt_date": "2026-11-19",
       "attempted_at": "2026-11-17T08:28:43.662754+09:00",
-      "scheduled_at": "2026-11-19T08:00:00+09:00"
+      "scheduled_at": "2026-11-19T08:00:00+09:00",
+      "post_id": "6afb91aff83aaca8f39549d9",
+      "publication_result": {
+        "id": "6afb91aff83aaca8f39549d9",
+        "status": "scheduled",
+        "dueAt": "2026-11-18T23:00:00.000Z",
+        "text": "おはようございます。\n遠くまで急がなくても、今日の一歩には意味がある。どうぞ、あなたらしい一日を。\n\n#おはようございます #創作 #小説",
+        "assets": [
+          {
+            "mimeType": "image/jpeg",
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/senran/morning.jpg"
+          }
+        ]
+      }
     }
   },
   "last_checked_at": "2026-11-19T08:00:00+09:00",
