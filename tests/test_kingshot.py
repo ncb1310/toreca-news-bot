@@ -50,5 +50,18 @@ class KingshotTests(unittest.TestCase):
             rest=item['text'].replace(bot.APP,'')
             self.assertLessEqual(sum(1 if ord(c)<128 else 2 for c in rest)+23,280)
 
+    def test_news_never_uses_morning_or_restricted_strategy_art(self):
+        config={'media_pool':[
+            {'id':'morning','url':'morning.jpg','allowed_kinds':['morning']},
+            {'id':'rally','url':'rally.jpg','allowed_kinds':['guide'],'guide_ids':['formation']},
+            {'id':'news','url':'news.jpg','allowed_kinds':['news','guide']}]}
+        self.assertEqual(bot.select_image({'image_url':'old.jpg'},{'posts':{}},config),'news.jpg')
+        self.assertEqual(bot.select_image({'kind':'guide','guide_id':'avatar','image_url':'old.jpg'},{'posts':{}},config),'news.jpg')
+
+    def test_image_rotation_prefers_less_recently_used_picture(self):
+        config={'media_pool':[{'id':str(i),'url':str(i)+'.jpg','allowed_kinds':['guide']} for i in range(2)]}
+        state={'posts':{'old':{'image_url':'0.jpg','attempted_at':'2026-11-16T12:00:00+09:00'}}}
+        self.assertEqual(bot.select_image({'kind':'guide','image_url':'old.jpg'},state,config),'1.jpg')
+
 if __name__=='__main__':
     unittest.main()

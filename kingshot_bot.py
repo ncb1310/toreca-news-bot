@@ -129,6 +129,24 @@ def select(state, candidates, now, config):
     return None
 
 
+def select_image(item, state, config):
+    """Use only reviewed, topic-compatible artwork; prefer least-recent use."""
+    kind=item.get('kind','news')
+    pool=[asset for asset in config.get('media_pool',[])
+          if kind in asset.get('allowed_kinds',[])
+          and (not asset.get('guide_ids') or item.get('guide_id') in asset['guide_ids'])]
+    if not pool:
+        return item['image_url']
+    last_used={}
+    for post in state.get('posts',{}).values():
+        url=post.get('image_url')
+        at=post.get('attempted_at','')
+        if at>last_used.get(url,''):
+            last_used[url]=at
+    pool.sort(key=lambda asset:(last_used.get(asset['url'],''),asset['id']))
+    return pool[0]['url']
+
+
 def read_result(item):
     if not item.get('post_id'):
         return
@@ -155,6 +173,8 @@ def main():
             except Exception:
                 pass
     candidate = select(state,news,now,config)
+    if candidate:
+        candidate['image_url']=select_image(candidate,state,config)
     checkpoint(state)
     if candidate and config['posting_enabled']:
         # Verify exact connected account on every send. Never fall back to another.

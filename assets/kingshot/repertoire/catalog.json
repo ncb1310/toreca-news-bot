@@ -1,0 +1,130 @@
+{
+  "complete_x_export": false,
+  "total_candidate_images": 64,
+  "automatically_enabled_assets": [
+    {
+      "id": "original-morning-0",
+      "url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/references/IMG_2757.jpeg",
+      "allowed_kinds": [
+        "morning"
+      ]
+    },
+    {
+      "id": "original-morning-1",
+      "url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/references/IMG_2759.jpeg",
+      "allowed_kinds": [
+        "morning"
+      ]
+    },
+    {
+      "id": "original-morning-2",
+      "url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/references/IMG_2758.jpeg",
+      "allowed_kinds": [
+        "morning"
+      ]
+    },
+    {
+      "id": "strategy-approved",
+      "url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/strategy-reference-20261116.jpg",
+      "allowed_kinds": [
+        "guide",
+        "news"
+      ]
+    },
+    {
+      "id": "previous-3",
+      "url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/repertoire/previous-3.jpg",
+      "title": "キングショットのおはよう冒険会議.png",
+      "allowed_kinds": [
+        "morning"
+      ],
+      "origin": "previously_created_Kingshot_artwork",
+      "x_publication_verified": false
+    },
+    {
+      "id": "previous-21",
+      "url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/repertoire/previous-21.jpg",
+      "title": "五人の戦士、炎の軍議.png",
+      "allowed_kinds": [
+        "guide"
+      ],
+      "guide_ids": [
+        "first-hero",
+        "formation",
+        "notice-draft",
+        "vote-ranks",
+        "war-filter",
+        "war-notification",
+        "castle-duration",
+        "recruit-count",
+        "battle-chat"
+      ],
+      "origin": "previously_created_Kingshot_artwork",
+      "x_publication_verified": false
+    },
+    {
+      "id": "previous-28",
+      "url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/repertoire/previous-28.jpg",
+      "title": "キングショットでおはようございます.png",
+      "allowed_kinds": [
+        "morning"
+      ],
+      "origin": "previously_created_Kingshot_artwork",
+      "x_publication_verified": false
+    },
+    {
+      "id": "previous-56",
+      "url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/repertoire/previous-56.jpg",
+      "title": "キングショット攻略・王国戦記.png",
+      "allowed_kinds": [
+        "news",
+        "guide"
+      ],
+      "origin": "previously_created_Kingshot_artwork",
+      "x_publication_verified": false
+    },
+    {
+      "id": "previous-59",
+      "url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/repertoire/previous-59.jpg",
+      "title": "王国決戦、四英雄の輝き.png",
+      "allowed_kinds": [
+        "news",
+        "guide"
+      ],
+      "origin": "previously_created_Kingshot_artwork",
+      "x_publication_verified": false
+    },
+    {
+      "id": "previous-66",
+      "url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/repertoire/previous-66.jpg",
+      "title": "キングショット攻略戦闘研究所五月丁香.png",
+      "allowed_kinds": [
+        "news",
+        "guide"
+      ],
+      "origin": "previously_created_Kingshot_artwork",
+      "x_publication_verified": false
+    },
+    {
+      "id": "previous-70",
+      "url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/repertoire/previous-70.jpg",
+      "title": "王国攻略戦、四英雄の進軍.png",
+      "allowed_kinds": [
+        "news",
+        "guide"
+      ],
+      "origin": "previously_created_Kingshot_artwork",
+      "x_publication_verified": false
+    },
+    {
+      "id": "previous-72",
+      "url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/repertoire/previous-72.jpg",
+      "title": "第6世代英雄たちの朝食会.png",
+      "allowed_kinds": [
+        "morning"
+      ],
+      "origin": "previously_created_Kingshot_artwork",
+      "x_publication_verified": false
+    }
+  ]
+}
