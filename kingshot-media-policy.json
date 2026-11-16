@@ -1,0 +1,51 @@
+{
+  "account": "KingShot5555",
+  "reference_images": [
+    {
+      "path": "assets/kingshot/references/IMG_2757.jpeg",
+      "role": "character_and_style_reference",
+      "contains_morning_greeting": true,
+      "direct_reuse_allowed_for": [
+        "morning_greeting"
+      ],
+      "direct_reuse_for_news": false
+    },
+    {
+      "path": "assets/kingshot/references/IMG_2759.jpeg",
+      "role": "character_and_style_reference",
+      "contains_morning_greeting": true,
+      "direct_reuse_allowed_for": [
+        "morning_greeting"
+      ],
+      "direct_reuse_for_news": false
+    },
+    {
+      "path": "assets/kingshot/references/IMG_2758.jpeg",
+      "role": "character_and_style_reference",
+      "contains_morning_greeting": true,
+      "direct_reuse_allowed_for": [
+        "morning_greeting"
+      ],
+      "direct_reuse_for_news": false
+    }
+  ],
+  "requirements": {
+    "reuse_reference_characters": true,
+    "require_topic_matching_image": true,
+    "verify_character_identity_before_naming": true,
+    "no_invented_hero_identity": true,
+    "prefer_castle_or_landscape_when_hero_not_needed": true,
+    "require_hashtags": true,
+    "include_ncb_notices": false
+  },
+  "implementation_status": {
+    "references_saved": true,
+    "autonomous_reference_conditioned_image_generation": false,
+    "unattended_kingshot_news_pipeline": false
+  },
+  "notes": [
+    "Full reference images contain greeting text; never attach them unchanged to unrelated news.",
+    "References are visual inputs, not proof of a named hero's identity.",
+    "No paid image-generation API has been configured. Do not claim unattended fresh illustration generation is active."
+  ]
+}
