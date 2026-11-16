@@ -15218,11 +15218,12 @@
       "category": "ONE PIECEカードゲーム",
       "store": "販売買取センターNAMBA",
       "closed": false,
-      "status": "sending",
+      "status": "accepted",
       "discovered_at": "2026-11-16T11:41:33.297186+09:00",
       "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/d1c261a13b41bcad348974238b5c0b8f24224bcf/assets/generated/55df3da368dd1460cbd1bf0a.png",
       "attempt_date": "2026-11-16",
-      "attempted_at": "2026-11-16T11:41:33.297186+09:00"
+      "attempted_at": "2026-11-16T11:41:33.297186+09:00",
+      "buffer_post_id": "6afa6d70d7e5fee63897024f"
     }
   },
   "channel_check": {
