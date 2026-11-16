@@ -3,5 +3,17 @@
   "attempted_at": "2026-11-16T12:14:56.120994+09:00",
   "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/fantasy-theater-20261116.jpg",
   "text": "【海外イベント情報】\n米Google Playに「Fantasy Theater」の案内を確認🎭\n\nJabelと城の各階を探索するイベントとして紹介されています。\n開催状況・終了時刻は自分のゲーム内で確認してね👇\nhttps://play.google.com/store/apps/eventdetails/4832314370101513149\n#キングショット #Kingshot",
-  "post_id": "6afa753160a910801c6579be"
+  "post_id": "6afa753160a910801c6579be",
+  "publication_result": {
+    "id": "6afa753160a910801c6579be",
+    "status": "sent",
+    "sentAt": "2026-11-16T03:14:58.935Z",
+    "externalLink": "https://twitter.com/KingShot5555/status/2122166510114238937",
+    "assets": [
+      {
+        "mimeType": "image/jpeg",
+        "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/fantasy-theater-20261116.jpg"
+      }
+    ]
+  }
 }
