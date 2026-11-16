@@ -45,6 +45,16 @@
           }
         ]
       }
+    },
+    "guide-fishing-guide-2026-11-16": {
+      "key": "guide-fishing-guide-2026-11-16",
+      "guide_id": "fishing-guide",
+      "kind": "guide",
+      "text": "【既存機能メモ】\n釣り大会の収集要素もチェック🎣\n\n条件達成で海藻の図鑑が解放され、収集の進み具合に応じた報酬が案内されています。詳細な条件は大会画面で確認を。\n出典：米公式10/19更新説明\nhttps://apps.apple.com/us/app/kingshot/id6739554056\n#キングショット #Kingshot",
+      "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/repertoire/previous-59.jpg",
+      "status": "sending",
+      "attempt_date": "2026-11-16",
+      "attempted_at": "2026-11-16T18:23:50.879668+09:00"
     }
   },
   "baseline": {
