@@ -8,7 +8,19 @@
       "status": "accepted",
       "attempt_date": "2026-11-16",
       "attempted_at": "2026-11-16T21:39:15.782478+09:00",
-      "post_id": "6afaf97791c178a8ccd933cb"
+      "post_id": "6afaf97791c178a8ccd933cb",
+      "publication_result": {
+        "id": "6afaf97791c178a8ccd933cb",
+        "status": "sent",
+        "sentAt": "2026-11-16T12:39:20.455Z",
+        "externalLink": "https://twitter.com/senran1515/status/2122308535463616840",
+        "assets": [
+          {
+            "mimeType": "image/jpeg",
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/senran/evening.jpg"
+          }
+        ]
+      }
     }
   },
   "last_checked_at": "2026-11-16T21:39:15.782478+09:00"
