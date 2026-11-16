@@ -3,9 +3,9 @@
   "posting_enabled": true,
   "max_posts_per_day": 15,
   "start_date_jst": "2026-11-15",
-  "daily_target": 10,
+  "daily_target": 12,
   "editorial_enabled": true,
-  "editorial_max_per_day": 4,
+  "editorial_max_per_day": 12,
   "min_post_interval_minutes": 55,
   "catchup_days": 30
 }

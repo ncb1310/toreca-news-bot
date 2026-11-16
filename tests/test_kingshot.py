@@ -3,6 +3,8 @@ import tempfile
 from pathlib import Path
 from unittest.mock import patch
 import unittest
+from io import BytesIO
+from PIL import Image
 import kingshot_bot as bot
 
 NOW=datetime(2026,11,16,13,10,tzinfo=bot.shared.JST)
@@ -10,6 +12,25 @@ CFG={'max_posts_per_day':15,'daily_target':12,'min_interval_minutes':45,
      'morning_images':['https://example.test/morning.jpg']}
 
 class KingshotTests(unittest.TestCase):
+    def test_broken_image_does_not_block_compatible_alternative(self):
+        data=BytesIO()
+        Image.new('RGB',(8,8)).save(data,format='JPEG')
+        invalid=unittest.mock.MagicMock()
+        invalid.__enter__.return_value.read.return_value=b'corrupt image data'
+        valid=unittest.mock.MagicMock()
+        valid.__enter__.return_value.read.return_value=data.getvalue()
+        state={'posts':{}}
+        with patch.object(bot,'image_candidates',return_value=['https://example.test/bad','https://example.test/good']),patch.object(bot,'urlopen',side_effect=[invalid,valid]):
+            self.assertEqual(bot.verified_image({},state,{},NOW),'https://example.test/good')
+        self.assertIn('https://example.test/bad',state['image_errors'])
+
+    def test_no_valid_image_never_allows_text_only(self):
+        invalid=unittest.mock.MagicMock()
+        invalid.__enter__.return_value.read.return_value=b'not an image'
+        with patch.object(bot,'image_candidates',return_value=['https://example.test/bad']),patch.object(bot,'urlopen',return_value=invalid):
+            with self.assertRaises(RuntimeError):
+                bot.verified_image({}, {'posts':{}}, {}, NOW)
+
     def choose(self,state,news=None,at=NOW):
         with tempfile.TemporaryDirectory() as directory, patch.object(bot,'ROOT',Path(directory)):
             return bot.select(state,news or [],at,CFG)

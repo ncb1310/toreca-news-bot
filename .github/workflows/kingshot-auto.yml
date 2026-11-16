@@ -26,6 +26,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.13'
+      - name: Install image validation dependency
+        run: python -m pip install 'Pillow==13.0.0'
       - name: Check publication safeguards
         run: python -m unittest discover -s tests -p test_kingshot.py -v
       - name: Configure durable publication records

@@ -130,13 +130,17 @@ def select(state, candidates, now, config):
 
 
 def select_image(item, state, config):
+    return image_candidates(item,state,config)[0]
+
+
+def image_candidates(item, state, config):
     """Use only reviewed, topic-compatible artwork; prefer least-recent use."""
     kind=item.get('kind','news')
     pool=[asset for asset in config.get('media_pool',[])
           if kind in asset.get('allowed_kinds',[])
           and (not asset.get('guide_ids') or item.get('guide_id') in asset['guide_ids'])]
     if not pool:
-        return item['image_url']
+        return [item['image_url']]
     last_used={}
     for post in state.get('posts',{}).values():
         url=post.get('image_url')
@@ -144,7 +148,27 @@ def select_image(item, state, config):
         if at>last_used.get(url,''):
             last_used[url]=at
     pool.sort(key=lambda asset:(last_used.get(asset['url'],''),asset['id']))
-    return pool[0]['url']
+    return list(dict.fromkeys(asset['url'] for asset in pool))
+
+
+def verified_image(item, state, config, now):
+    """An unavailable image must not prevent other compatible images publishing."""
+    from io import BytesIO
+    from PIL import Image
+    for url in image_candidates(item,state,config):
+        try:
+            with urlopen(Request(url,headers={'User-Agent':shared.AGENT}),timeout=20) as response:
+                data=response.read(10_000_001)
+            if len(data)>10_000_000:
+                raise ValueError('Image too large')
+            with Image.open(BytesIO(data)) as image:
+                if image.format not in ('JPEG','PNG','WEBP'):
+                    raise ValueError('Unsupported image format')
+                image.verify()
+            return url
+        except Exception as exc:
+            state.setdefault('image_errors',{})[url]={'checked_at':now.isoformat(),'error':type(exc).__name__}
+    raise RuntimeError('No compatible image could be verified; no text-only post')
 
 
 def read_result(item):
@@ -185,9 +209,11 @@ def main():
         matches=[c for c in channels if c['name'].lstrip('@').lower()=='kingshot5555' and c['service']=='twitter']
         if len(matches)!=1 or matches[0].get('isQueuePaused'):
             raise RuntimeError('Kingshot channel unavailable or paused')
-        with urlopen(Request(candidate['image_url'],headers={'User-Agent':shared.AGENT}),timeout=25) as response:
-            if response.read(2)!=b'\xff\xd8':
-                raise RuntimeError('Approved image unavailable; no text-only post')
+        try:
+            candidate['image_url']=verified_image(candidate,state,config,now)
+        except Exception:
+            checkpoint(state)
+            raise
         candidate.update(status='sending',attempt_date=now.date().isoformat(),attempted_at=now.isoformat())
         state['posts'][candidate['key']]=candidate
         checkpoint(state)
