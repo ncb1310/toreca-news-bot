@@ -114,6 +114,17 @@
           }
         ]
       }
+    },
+    "guide-fishing-season-2026-11-17": {
+      "key": "guide-fishing-season-2026-11-17",
+      "guide_id": "fishing-season",
+      "kind": "guide",
+      "text": "【既存機能メモ】\n釣り大会のミッションも忘れずに🎣\n\nシーズンミッションで得られる釣りポイントと、島の装飾品の交換をチェック。開催中の条件・交換内容はゲーム内が基準です。\n出典：米公式10/19更新説明\nhttps://apps.apple.com/us/app/kingshot/id6739554056\n#キングショット #Kingshot",
+      "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/repertoire/previous-66.jpg",
+      "status": "sending",
+      "attempt_date": "2026-11-17",
+      "attempted_at": "2026-11-17T00:24:20.887451+09:00",
+      "scheduled_at": "2026-11-17T10:00:00+09:00"
     }
   },
   "baseline": {
@@ -122,7 +133,7 @@
     ],
     "publisher": []
   },
-  "last_checked_at": "2026-11-17T08:00:00+09:00",
+  "last_checked_at": "2026-11-17T10:00:00+09:00",
   "source_errors": {},
   "image_errors": {
     "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/repertoire/previous-66.jpg": {
