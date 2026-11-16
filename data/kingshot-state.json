@@ -217,10 +217,23 @@
       "kind": "guide",
       "text": "【既存機能メモ】\n同盟戦争の絞り込みを見直そう\n\n米公式の更新説明には、集結主レベルを一覧から選ぶ方式や、フィルターでのTruegoldレベル表示が記載されています。検索条件を確認しよう。\n出典：米公式10/19更新説明\nhttps://apps.apple.com/us/app/kingshot/id6739554056\n#キングショット #Kingshot",
       "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/from-x/33-2108014518534348828.jpg",
-      "status": "sending",
+      "status": "accepted",
       "attempt_date": "2026-11-17",
       "attempted_at": "2026-11-17T00:24:20.887451+09:00",
-      "scheduled_at": "2026-11-17T18:00:00+09:00"
+      "scheduled_at": "2026-11-17T18:00:00+09:00",
+      "post_id": "6afb2034407cd7a3e0577268",
+      "publication_result": {
+        "id": "6afb2034407cd7a3e0577268",
+        "status": "scheduled",
+        "dueAt": "2026-11-17T09:00:00.000Z",
+        "text": "【既存機能メモ】\n同盟戦争の絞り込みを見直そう\n\n米公式の更新説明には、集結主レベルを一覧から選ぶ方式や、フィルターでのTruegoldレベル表示が記載されています。検索条件を確認しよう。\n出典：米公式10/19更新説明\nhttps://apps.apple.com/us/app/kingshot/id6739554056\n#キングショット #Kingshot",
+        "assets": [
+          {
+            "mimeType": "image/jpeg",
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/from-x/33-2108014518534348828.jpg"
+          }
+        ]
+      }
     }
   },
   "baseline": {
