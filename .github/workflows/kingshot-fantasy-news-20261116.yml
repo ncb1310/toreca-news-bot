@@ -1,0 +1,71 @@
+name: Kingshot Fantasy Theater news once
+on:
+  push:
+    paths:
+      - .github/workflows/kingshot-fantasy-news-20261116.yml
+permissions:
+  contents: write
+concurrency:
+  group: toreca-news-production
+  cancel-in-progress: false
+jobs:
+  publish:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Configure publication record
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+      - name: Publish matching image and confirm delivery
+        env:
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+        run: |
+          python - <<'PY'
+          import json, time
+          from datetime import datetime
+          import news_bot as bot
+          path = bot.ROOT / 'data/kingshot-fantasy-news-20261116.json'
+          if path.exists():
+              entry = json.loads(path.read_text())
+              if not entry.get('post_id'):
+                  raise RuntimeError('Prior attempt uncertain; no resend')
+          else:
+              channels = []
+              for org in bot.buffer_query('query { account { organizations { id } } }')['account']['organizations']:
+                  query = 'query { channels(input: { organizationId: ' + json.dumps(org['id']) + ' }) { id name service } }'
+                  channels.extend(bot.buffer_query(query)['channels'])
+              matched = [c for c in channels if c['name'].lstrip('@').lower() == 'kingshot5555' and c['service'] == 'twitter']
+              if len(matched) != 1:
+                  raise RuntimeError('Target not verified')
+              text = "【海外イベント情報】\n米Google Playに「Fantasy Theater」の案内を確認🎭\n\nJabelと城の各階を探索するイベントとして紹介されています。\n開催状況・終了時刻は自分のゲーム内で確認してね👇\nhttps://play.google.com/store/apps/eventdetails/4832314370101513149\n#キングショット #Kingshot"
+              image_url = 'https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/fantasy-theater-20261116.jpg'
+              entry = {'status':'sending','attempted_at':datetime.now(bot.JST).isoformat(),'image_url':image_url,'text':text}
+              path.write_text(json.dumps(entry,ensure_ascii=False,indent=2))
+              bot.checkpoint('data/kingshot-fantasy-news-20261116.json')
+              query = ('mutation { createPost(input: { text: ' + json.dumps(text) + ', channelId: ' + json.dumps(matched[0]['id']) +
+                       ', schedulingType: automatic, mode: shareNow, assets: [{image: {url: ' + json.dumps(image_url) +
+                       '}}], needsApproval: false }) { ... on PostActionSuccess { post { id } } ... on MutationError { message } } }')
+              post = bot.buffer_query(query).get('createPost',{}).get('post')
+              if not post or not post.get('id'):
+                  raise RuntimeError('Outcome unknown; no resend')
+              entry.update(status='accepted',post_id=post['id'])
+              path.write_text(json.dumps(entry,ensure_ascii=False,indent=2))
+              bot.checkpoint('data/kingshot-fantasy-news-20261116.json')
+          for attempt in range(6):
+              query = 'query { post(input: {id: ' + json.dumps(entry['post_id']) + '}) { id status sentAt externalLink assets { mimeType source } } }'
+              entry['publication_result'] = bot.buffer_query(query).get('post')
+              if (entry['publication_result'] or {}).get('status') in ('sent','error'):
+                  break
+              time.sleep(3)
+          path.write_text(json.dumps(entry,ensure_ascii=False,indent=2))
+          bot.checkpoint('data/kingshot-fantasy-news-20261116.json')
+          print(json.dumps(entry,ensure_ascii=False))
+          PY
