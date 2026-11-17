@@ -2,22 +2,22 @@
   "version": 1,
   "sources": {
     "pokemon": {
-      "checked_at": "2026-11-17T19:22:48.401778+09:00",
+      "checked_at": "2026-11-17T20:29:43.548900+09:00",
       "count": 177,
       "latest_date": "2026-11-13"
     },
     "onepiece": {
-      "checked_at": "2026-11-17T19:22:48.401778+09:00",
+      "checked_at": "2026-11-17T20:29:43.548900+09:00",
       "count": 1226,
       "latest_date": "2026-03-19"
     },
     "labo": {
-      "checked_at": "2026-11-17T19:22:48.401778+09:00",
+      "checked_at": "2026-11-17T20:29:43.548900+09:00",
       "count": 15,
       "latest_date": "2026-11-17"
     },
     "hobby": {
-      "checked_at": "2026-11-17T19:22:48.401778+09:00",
+      "checked_at": "2026-11-17T20:29:43.548900+09:00",
       "count": 3,
       "latest_date": "2026-11-13"
     },
@@ -27,7 +27,7 @@
       "latest_date": "2026-11-10"
     },
     "furu": {
-      "checked_at": "2026-11-17T19:22:48.401778+09:00",
+      "checked_at": "2026-11-17T20:29:43.548900+09:00",
       "count": 59,
       "latest_date": "2026-11-16"
     }
@@ -15430,6 +15430,30 @@
       "closed": false,
       "status": "ignored",
       "discovered_at": "2026-11-17T19:22:48.401778+09:00"
+    },
+    "a3e32b7b49831ba8bf00ffbc1ad5abcac9c69a818a77ceaa1fbe3831d5ca69ea": {
+      "key": "a3e32b7b49831ba8bf00ffbc1ad5abcac9c69a818a77ceaa1fbe3831d5ca69ea",
+      "source": "labo",
+      "title": "【ポケモンカードゲーム】再入荷商品の抽選販売について",
+      "published": "2026-11-17",
+      "url": "https://www.c-labo.jp/shop/hamamatsu/blog/624708/",
+      "category": "ポケモンカードゲーム",
+      "store": "浜松店",
+      "closed": false,
+      "status": "ready",
+      "discovered_at": "2026-11-17T20:29:43.548900+09:00"
+    },
+    "6121ddd197e3796574bc6503dc17147ccacc256ccc8f58206ed3a21ad2040588": {
+      "key": "6121ddd197e3796574bc6503dc17147ccacc256ccc8f58206ed3a21ad2040588",
+      "source": "labo",
+      "title": "【ワンピースカードゲーム】再入荷商品の抽選販売について",
+      "published": "2026-11-17",
+      "url": "https://www.c-labo.jp/shop/hamamatsu/blog/624706/",
+      "category": "ポケモンカードゲーム",
+      "store": "浜松店",
+      "closed": false,
+      "status": "ready",
+      "discovered_at": "2026-11-17T20:29:43.548900+09:00"
     }
   },
   "channel_check": {
