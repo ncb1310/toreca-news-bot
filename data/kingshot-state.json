@@ -128,9 +128,9 @@
       "post_id": "6afb20292d89e5b19ced3fb0",
       "publication_result": {
         "id": "6afb20292d89e5b19ced3fb0",
-        "status": "scheduled",
-        "sentAt": null,
-        "externalLink": null,
+        "status": "sent",
+        "sentAt": "2026-11-17T01:00:44.960Z",
+        "externalLink": "https://x.com/2107514010547732481/status/2122495117239976223",
         "assets": [
           {
             "mimeType": "image/jpeg",
@@ -152,9 +152,9 @@
       "post_id": "6afb202c12f2f788dabb6209",
       "publication_result": {
         "id": "6afb202c12f2f788dabb6209",
-        "status": "scheduled",
-        "sentAt": null,
-        "externalLink": null,
+        "status": "sent",
+        "sentAt": "2026-11-17T03:00:35.978Z",
+        "externalLink": "https://x.com/2107514010547732481/status/2122525278220025971",
         "assets": [
           {
             "mimeType": "image/jpeg",
@@ -176,9 +176,9 @@
       "post_id": "6afb202f407cd7a3e05770a4",
       "publication_result": {
         "id": "6afb202f407cd7a3e05770a4",
-        "status": "scheduled",
-        "sentAt": null,
-        "externalLink": null,
+        "status": "sent",
+        "sentAt": "2026-11-17T05:00:43.893Z",
+        "externalLink": "https://x.com/2107514010547732481/status/2122555511082016865",
         "assets": [
           {
             "mimeType": "image/jpeg",
@@ -200,9 +200,9 @@
       "post_id": "6afb20322d89e5b19ced4354",
       "publication_result": {
         "id": "6afb20322d89e5b19ced4354",
-        "status": "scheduled",
-        "sentAt": null,
-        "externalLink": null,
+        "status": "sent",
+        "sentAt": "2026-11-17T07:00:43.170Z",
+        "externalLink": "https://x.com/2107514010547732481/status/2122585706916626762",
         "assets": [
           {
             "mimeType": "image/jpeg",
@@ -224,9 +224,9 @@
       "post_id": "6afb2034407cd7a3e0577268",
       "publication_result": {
         "id": "6afb2034407cd7a3e0577268",
-        "status": "scheduled",
-        "sentAt": null,
-        "externalLink": null,
+        "status": "sent",
+        "sentAt": "2026-11-17T09:01:17.021Z",
+        "externalLink": "https://x.com/2107514010547732481/status/2122616047811399796",
         "assets": [
           {
             "mimeType": "image/jpeg",
@@ -248,9 +248,9 @@
       "post_id": "6afb2037ca8a17609535d784",
       "publication_result": {
         "id": "6afb2037ca8a17609535d784",
-        "status": "scheduled",
-        "sentAt": null,
-        "externalLink": null,
+        "status": "sent",
+        "sentAt": "2026-11-17T11:01:21.405Z",
+        "externalLink": "https://x.com/2107514010547732481/status/2122646264768610655",
         "assets": [
           {
             "mimeType": "image/jpeg",
@@ -271,9 +271,9 @@
       "post_id": "6afb203a407cd7a3e057745c",
       "publication_result": {
         "id": "6afb203a407cd7a3e057745c",
-        "status": "scheduled",
-        "sentAt": null,
-        "externalLink": null,
+        "status": "sent",
+        "sentAt": "2026-11-17T13:02:44.187Z",
+        "externalLink": "https://x.com/2107514010547732481/status/2122676811540623603",
         "assets": [
           {
             "mimeType": "image/jpeg",
