@@ -2,22 +2,22 @@
   "version": 1,
   "sources": {
     "pokemon": {
-      "checked_at": "2026-11-17T22:56:41.647746+09:00",
+      "checked_at": "2026-11-18T08:58:11.146357+09:00",
       "count": 177,
       "latest_date": "2026-11-13"
     },
     "onepiece": {
-      "checked_at": "2026-11-17T22:56:41.647746+09:00",
+      "checked_at": "2026-11-18T08:58:11.146357+09:00",
       "count": 1226,
       "latest_date": "2026-03-19"
     },
     "labo": {
-      "checked_at": "2026-11-17T22:56:41.647746+09:00",
+      "checked_at": "2026-11-18T08:58:11.146357+09:00",
       "count": 15,
       "latest_date": "2026-11-17"
     },
     "hobby": {
-      "checked_at": "2026-11-17T22:56:41.647746+09:00",
+      "checked_at": "2026-11-18T08:58:11.146357+09:00",
       "count": 3,
       "latest_date": "2026-11-13"
     },
@@ -27,9 +27,9 @@
       "latest_date": "2026-11-10"
     },
     "furu": {
-      "checked_at": "2026-11-17T22:56:41.647746+09:00",
-      "count": 59,
-      "latest_date": "2026-11-16"
+      "checked_at": "2026-11-18T08:58:11.146357+09:00",
+      "count": 60,
+      "latest_date": "2026-11-17"
     }
   },
   "items": {
@@ -15392,7 +15392,7 @@
       "category": "ポケモンカードゲーム",
       "store": "岐阜店",
       "closed": false,
-      "status": "ready",
+      "status": "expired",
       "discovered_at": "2026-11-17T00:43:21.204352+09:00"
     },
     "12f661837d0d770c720105d1a03ba036f1f6726299c435b837d45632d7c3529f": {
@@ -15454,6 +15454,18 @@
       "closed": false,
       "status": "ready",
       "discovered_at": "2026-11-17T20:29:43.548900+09:00"
+    },
+    "a7a611c1b1b00126c2d9f650950ccbb59f0f45cc0d2d683013666410666d4dd4": {
+      "key": "a7a611c1b1b00126c2d9f650950ccbb59f0f45cc0d2d683013666410666d4dd4",
+      "source": "furu",
+      "title": "ポケモンカードゲーム UNION ARENA抽選受付",
+      "published": "2026-11-17",
+      "url": "https://www.furu1.net/news/news_information/pkop20261127sl",
+      "category": "",
+      "store": "",
+      "closed": false,
+      "status": "ignored",
+      "discovered_at": "2026-11-18T08:58:11.146357+09:00"
     }
   },
   "channel_check": {
@@ -16075,9 +16087,9 @@
       "post_id": "6afb91be3e42cd001e39f651",
       "publication_result": {
         "id": "6afb91be3e42cd001e39f651",
-        "status": "scheduled",
-        "sentAt": null,
-        "externalLink": null,
+        "status": "sent",
+        "sentAt": "2026-11-17T23:01:49.707Z",
+        "externalLink": "https://x.com/2121528694724505600/status/2122827577886720362",
         "assets": [
           {
             "mimeType": "image/png",
@@ -16085,7 +16097,9 @@
           }
         ]
       },
-      "buffer_post_id": "6afb91be3e42cd001e39f651"
+      "buffer_post_id": "6afb91be3e42cd001e39f651",
+      "publication_checks": 1,
+      "publication_checked_at": "2026-11-18T08:58:11.146357+09:00"
     },
     "guide-942826f6f728a498cb43f1d47f7441952d33b117465b6f121152125dae47d492": {
       "key": "guide-942826f6f728a498cb43f1d47f7441952d33b117465b6f121152125dae47d492",
