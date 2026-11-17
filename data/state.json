@@ -16409,7 +16409,7 @@
       "key": "guide-763e2983e4d3486115ca926331ed2631d7737b241ffce2a2e16c5695afec2fe9",
       "guide_id": "lottery-last-check",
       "kind": "guide",
-      "status": "sending",
+      "status": "accepted",
       "source": "guide",
       "title": "締切直前に見直す3点",
       "bullets": [
@@ -16424,7 +16424,21 @@
       "text": "【トレカの確認メモ】\n締切直前に見直す3点\n\n締切前は新しく応募するだけでなく、完了状況も確認。受付時間や条件の更新がないか公式案内を見直そう。\n#トレカ #トレカ初心者\n参照先👇\nhttps://www.c-labo.jp/blog/",
       "attempt_date": "2026-11-19",
       "attempted_at": "2026-11-18T04:01:11.218458+09:00",
-      "scheduled_at": "2026-11-19T18:00:00+09:00"
+      "scheduled_at": "2026-11-19T18:00:00+09:00",
+      "post_id": "6afca4b73f600a65285a1582",
+      "publication_result": {
+        "id": "6afca4b73f600a65285a1582",
+        "status": "scheduled",
+        "dueAt": "2026-11-19T09:00:00.000Z",
+        "text": "【トレカの確認メモ】\n締切直前に見直す3点\n\n締切前は新しく応募するだけでなく、完了状況も確認。受付時間や条件の更新がないか公式案内を見直そう。\n#トレカ #トレカ初心者\n参照先👇\nhttps://www.c-labo.jp/blog/",
+        "assets": [
+          {
+            "mimeType": "image/png",
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/b3f36cd62eaf74c575a3cb7edb84e6538a1ee258/assets/generated/2382767fb53e0a6c3914c994.png"
+          }
+        ]
+      },
+      "buffer_post_id": "6afca4b73f600a65285a1582"
     }
   },
   "last_checked_at": "2026-11-19T18:00:00+09:00",
