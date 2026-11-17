@@ -280,10 +280,23 @@
       "kind": "night",
       "text": "おやすみなさい。\n本を閉じるように、今日の心にも静かな区切りを。また次の頁で会いましょう。\n\n#おやすみなさい #創作 #小説",
       "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/senran/night.jpg",
-      "status": "sending",
+      "status": "accepted",
       "attempt_date": "2026-11-19",
       "attempted_at": "2026-11-18T04:00:54.661663+09:00",
-      "scheduled_at": "2026-11-19T22:00:00+09:00"
+      "scheduled_at": "2026-11-19T22:00:00+09:00",
+      "post_id": "6afca46f5689ca43c1126a14",
+      "publication_result": {
+        "id": "6afca46f5689ca43c1126a14",
+        "status": "scheduled",
+        "dueAt": "2026-11-19T13:00:00.000Z",
+        "text": "おやすみなさい。\n本を閉じるように、今日の心にも静かな区切りを。また次の頁で会いましょう。\n\n#おやすみなさい #創作 #小説",
+        "assets": [
+          {
+            "mimeType": "image/jpeg",
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/senran/night.jpg"
+          }
+        ]
+      }
     }
   },
   "last_checked_at": "2026-11-19T22:00:00+09:00",
