@@ -2,32 +2,32 @@
   "version": 1,
   "sources": {
     "pokemon": {
-      "checked_at": "2026-11-17T10:24:46.004282+09:00",
+      "checked_at": "2026-11-17T11:36:07.975336+09:00",
       "count": 177,
       "latest_date": "2026-11-13"
     },
     "onepiece": {
-      "checked_at": "2026-11-17T10:24:46.004282+09:00",
+      "checked_at": "2026-11-17T11:36:07.975336+09:00",
       "count": 1226,
       "latest_date": "2026-03-19"
     },
     "labo": {
-      "checked_at": "2026-11-17T10:24:46.004282+09:00",
+      "checked_at": "2026-11-17T11:36:07.975336+09:00",
       "count": 15,
       "latest_date": "2026-11-16"
     },
     "hobby": {
-      "checked_at": "2026-11-17T10:24:46.004282+09:00",
+      "checked_at": "2026-11-17T11:36:07.975336+09:00",
       "count": 3,
       "latest_date": "2026-11-13"
     },
     "pcstore": {
-      "checked_at": "2026-11-17T10:24:46.004282+09:00",
+      "checked_at": "2026-11-17T11:36:07.975336+09:00",
       "count": 15,
       "latest_date": "2026-11-10"
     },
     "furu": {
-      "checked_at": "2026-11-17T10:24:46.004282+09:00",
+      "checked_at": "2026-11-17T11:36:07.975336+09:00",
       "count": 59,
       "latest_date": "2026-11-16"
     }
@@ -15772,7 +15772,7 @@
         ]
       },
       "buffer_post_id": "6afb213de368957de0d053ba",
-      "publication_checks": 3,
+      "publication_checks": 4,
       "publication_checked_at": "2026-11-17T08:53:03.136796+09:00",
       "publication_read_error": true
     },
