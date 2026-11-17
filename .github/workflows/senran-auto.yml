@@ -1,8 +1,6 @@
 name: Senran illustrated greetings
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '19,49 23,0-13 * * *'
   push:
     paths:
       - senran_bot.py

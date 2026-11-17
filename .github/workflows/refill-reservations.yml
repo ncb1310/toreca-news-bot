@@ -2,7 +2,7 @@ name: Refill image post reservations
 on:
   workflow_dispatch:
   schedule:
-    - cron: '7,22,37,52 * * * *'
+    - cron: '7 0,6,12,18 * * *'
   push:
     paths:
       - refill_queue.py

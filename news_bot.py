@@ -353,14 +353,37 @@ def checkpoint(*extra_paths):
     subprocess.run(['git', 'push', 'origin', 'HEAD:main'], cwd=ROOT, check=True)
 
 
+class BufferRateLimit(RuntimeError):
+    pass
+
+
 def buffer_query(query):
+    budget=ROOT/'data/buffer-api-budget.json'
+    now=datetime.now(JST)
+    if budget.exists():
+        saved=json.loads(budget.read_text())
+        if saved.get('resume_at') and now<datetime.fromisoformat(saved['resume_at']):
+            raise BufferRateLimit('Buffer cooldown until '+saved['resume_at'])
     key = os.environ.get('BUFFER_API_KEY', '').strip().lstrip('\ufeff')
     if not key:
         raise ValueError('BUFFER_API_KEY missing')
     request = Request('https://api.buffer.com', data=json.dumps({'query': query}).encode(),
                       headers={'Authorization': 'Bearer ' + key, 'Content-Type': 'application/json'}, method='POST')
-    with urlopen(request, timeout=30) as response:
-        result = json.load(response)
+    from urllib.error import HTTPError
+    try:
+        with urlopen(request, timeout=30) as response:
+            result = json.load(response)
+    except HTTPError as exc:
+        if exc.code!=429:
+            raise
+        raw=exc.headers.get('Retry-After','3600')
+        try:
+            delay=max(60,int(raw))
+        except ValueError:
+            delay=3600
+        budget.write_text(json.dumps({'checked_at':now.isoformat(),'resume_at':(now+timedelta(seconds=delay)).isoformat(),'http_status':429},indent=2)+'\n')
+        checkpoint('data/buffer-api-budget.json')
+        raise BufferRateLimit('Buffer requested cooldown for '+str(delay)+' seconds') from None
     if not isinstance(result, dict) or result.get('errors') or not result.get('data'):
         raise ValueError('Buffer rejected request; response is not logged')
     return result['data']
@@ -415,6 +438,7 @@ def reconcile_publications(state, now):
     from editorial import records
     pending = [i for i in records(state) if i.get('status') == 'accepted'
                and i.get('buffer_post_id') and (i.get('publication_result') or {}).get('status') not in ('sent', 'error')]
+    pending = [i for i in pending if not i.get('scheduled_at') or datetime.fromisoformat(i['scheduled_at']) <= now]
     for item in pending[:3]:
         # A failed read never changes the accepted mutation into a new send.
         if item.get('publication_checks', 0) >= 6:

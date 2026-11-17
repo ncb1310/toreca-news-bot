@@ -60,9 +60,3 @@ jobs:
           if-no-files-found: ignore
           retention-days: 7
 
-
-      - name: Refill future image reservations for all three accounts
-        if: always()
-        env:
-          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
-        run: python refill_queue.py

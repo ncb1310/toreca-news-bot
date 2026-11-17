@@ -3,8 +3,20 @@ from datetime import datetime
 from unittest.mock import patch
 import news_bot as shared
 import refill_queue as refill
+import tempfile
+from pathlib import Path
+from urllib.error import HTTPError
 
 class RefillTests(unittest.TestCase):
+    def test_rate_limit_is_persisted_and_prevents_further_requests(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root=Path(directory);(root/'data').mkdir()
+            error=HTTPError('https://api.buffer.com',429,'rate limited',{'Retry-After':'7200'},None)
+            with patch.object(shared,'ROOT',root),patch.dict('os.environ',{'BUFFER_API_KEY':'test-only'}),patch.object(shared,'urlopen',side_effect=error) as request,patch.object(shared,'checkpoint'):
+                with self.assertRaises(shared.BufferRateLimit):shared.buffer_query('query { account { id } }')
+                with self.assertRaises(shared.BufferRateLimit):shared.buffer_query('query { account { id } }')
+                self.assertEqual(request.call_count,1)
+                self.assertTrue((root/'data/buffer-api-budget.json').exists())
     def test_senran_slots_have_correct_hours_and_are_future_only(self):
         now=datetime(2026,11,17,0,30,tzinfo=shared.JST)
         slots=list(refill.slots('senran1515',now))

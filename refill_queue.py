@@ -7,6 +7,7 @@ import news_bot as shared
 import senran_bot as senran
 import kingshot_bot as king
 import editorial
+from functools import lru_cache
 
 ROOT=Path(__file__).resolve().parent
 TARGET=8
@@ -24,12 +25,18 @@ def save(state,path):
     path.write_text(json.dumps(state,ensure_ascii=False,indent=2)+'\n')
     shared.checkpoint(str(path.relative_to(ROOT)))
 
-def channel_for(account):
-    matches=[]
+@lru_cache(maxsize=1)
+def connected_channels():
+    found=[]
     for org in shared.buffer_query('query { account { organizations { id } } }')['account']['organizations']:
         q='query { channels(input: { organizationId: '+json.dumps(org['id'])+' }) { id name service isQueuePaused } }'
-        matches.extend((org['id'],c) for c in shared.buffer_query(q)['channels']
-                       if c['name'].lstrip('@').lower()==account and c['service']=='twitter')
+        found.extend((org['id'],c) for c in shared.buffer_query(q)['channels'])
+    return found
+
+def channel_for(account):
+    matches=[]
+    matches=[(org,c) for org,c in connected_channels()
+             if c['name'].lstrip('@').lower()==account and c['service']=='twitter']
     if len(matches)!=1 or matches[0][1].get('isQueuePaused'):
         raise RuntimeError('Exact channel unavailable or paused: '+account)
     return matches[0]
@@ -54,9 +61,15 @@ def refill(account):
     if any(p.get('status') in ('sending','uncertain') for p in (editorial.records(state) if module==shared else history.values())):
         raise RuntimeError('Uncertain previous send; review before reserving more')
     # Reconcile outcomes, including lost/deleted reservations, without resending.
-    for item in history.values():
-        if item.get('scheduled_at') and item.get('post_id'):
-            king.read_result(item)
+    pending=[item for item in history.values() if item.get('scheduled_at') and item.get('post_id')
+             and datetime.fromisoformat(item['scheduled_at'])<=now
+             and (item.get('publication_result') or {}).get('status') not in ('sent','error')]
+    if pending:
+        fields='id status sentAt externalLink assets { mimeType source }'
+        q='query { '+' '.join('p'+str(i)+': post(input: { id: '+json.dumps(p['post_id'])+' }) { '+fields+' }' for i,p in enumerate(pending))+' }'
+        results=shared.buffer_query(q)
+        for i,item in enumerate(pending):
+            item['publication_result']=results.get('p'+str(i))
     save(state,path)
     config={} if module==senran else json.loads((ROOT/('config.json' if module==shared else 'kingshot-config.json')).read_text())
     if module==shared and channel['id']!=config['channel_id']:
@@ -118,7 +131,7 @@ def refill(account):
             raise RuntimeError('Reservation outcome uncertain; no automatic resend') from None
         save(state,path)
         current.append(post)
-    actual=queued(org,channel['id'])
+    actual=current
     state['last_checked_at']=datetime.now(shared.JST).isoformat()
     state['last_reservation_check']={'checked_at':now.isoformat(),'queued':len(actual),
         'target':TARGET,'posts':actual,'shortfall':max(0,TARGET-len(actual))}
@@ -135,5 +148,7 @@ if __name__=='__main__':
         except Exception as exc:
             print(account,type(exc).__name__,str(exc))
             failed.append(account)
+            if isinstance(exc,shared.BufferRateLimit):
+                break
     if failed:
         raise RuntimeError('Reservation refill failed: '+', '.join(failed))

@@ -1,8 +1,6 @@
 name: Kingshot news and guides
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '9,39 23,0-13 * * *'
   push:
     paths:
       - kingshot_bot.py
