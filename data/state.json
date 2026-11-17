@@ -16227,9 +16227,27 @@
       "published": "2026-11-18",
       "verification_failed_date": "2026-11-18",
       "verification_error": "HTTPError"
+    },
+    "guide-dd393ecae502f74fae7809ea195ecf3db3edcdd00c3181e726f7813f541f793b": {
+      "key": "guide-dd393ecae502f74fae7809ea195ecf3db3edcdd00c3181e726f7813f541f793b",
+      "guide_id": "lottery-calendar",
+      "kind": "guide",
+      "status": "verification_failed",
+      "source": "guide",
+      "title": "抽選管理は1件1メモで",
+      "bullets": [
+        "商品名・店舗名",
+        "応募締切と発表日",
+        "当選後の購入期限"
+      ],
+      "body": "抽選を複数追うなら、1件ずつ記録。別の商品の購入期限と取り違えないよう、店名も一緒に残そう。",
+      "url": "https://www.pokemoncenter-online.com/?main_page=lottery",
+      "published": "2026-11-18",
+      "verification_failed_date": "2026-11-18",
+      "verification_error": "HTTPError"
     }
   },
-  "last_checked_at": "2026-11-18T18:00:00+09:00",
+  "last_checked_at": "2026-11-18T20:00:00+09:00",
   "last_reservation_check": {
     "checked_at": "2026-11-17T08:47:35.352121+09:00",
     "queued": 8,
