@@ -16191,9 +16191,27 @@
         ]
       },
       "buffer_post_id": "6afca48c32ea84693c38aa7d"
+    },
+    "guide-30cb0d1bf6392b902d67bebf41c69bad1d6a6482c519190bc83be8e2834ca266": {
+      "key": "guide-30cb0d1bf6392b902d67bebf41c69bad1d6a6482c519190bc83be8e2834ca266",
+      "guide_id": "lottery-result",
+      "kind": "guide",
+      "status": "verification_failed",
+      "source": "guide",
+      "title": "当選発表日の確認ポイント",
+      "bullets": [
+        "どこで結果を見るか",
+        "いつから確認できるか",
+        "購入期限はいつか"
+      ],
+      "body": "結果はメール・アプリ・サイトなど、企画ごとに案内が違う。応募時点で確認方法をメモしておこう。",
+      "url": "https://www.pokemoncenter-online.com/?main_page=lottery",
+      "published": "2026-11-18",
+      "verification_failed_date": "2026-11-18",
+      "verification_error": "HTTPError"
     }
   },
-  "last_checked_at": "2026-11-18T14:00:00+09:00",
+  "last_checked_at": "2026-11-18T16:00:00+09:00",
   "last_reservation_check": {
     "checked_at": "2026-11-17T08:47:35.352121+09:00",
     "queued": 8,
