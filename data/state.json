@@ -16334,9 +16334,30 @@
       "published": "2026-11-19",
       "verification_failed_date": "2026-11-19",
       "verification_error": "HTTPError"
+    },
+    "guide-7accdebe0c738019b5fb75f78110098515c9b7d52a7e4324cba141bf3cf8a687": {
+      "key": "guide-7accdebe0c738019b5fb75f78110098515c9b7d52a7e4324cba141bf3cf8a687",
+      "guide_id": "poke-effects",
+      "kind": "guide",
+      "status": "sending",
+      "source": "guide",
+      "title": "カードの使い方で迷ったら",
+      "bullets": [
+        "カード名で探す",
+        "効果を読み直す",
+        "公式Q&Aも確認"
+      ],
+      "body": "対戦中に迷った効果は、公式カード検索やQ&Aで確認しよう。別のカードの説明と混ぜないのがポイント。",
+      "url": "https://www.pokemon-card.com/card-search/",
+      "published": "2026-11-19",
+      "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/58be34e294afa8cfe7a1e5290cda209e09be1ea2/assets/generated/c3acd386fee374a449c5f86f.png",
+      "text": "【トレカの確認メモ】\nカードの使い方で迷ったら\n\n対戦中に迷った効果は、公式カード検索やQ&Aで確認しよう。別のカードの説明と混ぜないのがポイント。\n#トレカ #トレカ初心者\n参照先👇\nhttps://www.pokemon-card.com/card-search/",
+      "attempt_date": "2026-11-19",
+      "attempted_at": "2026-11-18T04:01:11.218458+09:00",
+      "scheduled_at": "2026-11-19T14:00:00+09:00"
     }
   },
-  "last_checked_at": "2026-11-19T12:00:00+09:00",
+  "last_checked_at": "2026-11-19T14:00:00+09:00",
   "last_reservation_check": {
     "checked_at": "2026-11-17T08:47:35.352121+09:00",
     "queued": 8,
