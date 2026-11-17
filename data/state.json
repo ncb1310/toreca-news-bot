@@ -16156,9 +16156,30 @@
         ]
       },
       "buffer_post_id": "6afca4847ab2c2731e0d1a5a"
+    },
+    "guide-a24db6cc023796bf9d192e499495404c59d065307c18e0fb69403538bc47c735": {
+      "key": "guide-a24db6cc023796bf9d192e499495404c59d065307c18e0fb69403538bc47c735",
+      "guide_id": "lottery-receipt",
+      "kind": "guide",
+      "status": "sending",
+      "source": "guide",
+      "title": "当選後の受取条件をチェック",
+      "bullets": [
+        "受取期間",
+        "本人確認の案内",
+        "必要な当選通知"
+      ],
+      "body": "当選したら、購入期限に加えて受取条件も確認。必要なものは店舗や企画によって異なるよ。",
+      "url": "https://www.c-labo.jp/blog/",
+      "published": "2026-11-18",
+      "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/a434b352557bacf646ffe37e798671c3554bf300/assets/generated/96b0502e69e37cacc423a33e.png",
+      "text": "【トレカの確認メモ】\n当選後の受取条件をチェック\n\n当選したら、購入期限に加えて受取条件も確認。必要なものは店舗や企画によって異なるよ。\n#トレカ #トレカ初心者\n参照先👇\nhttps://www.c-labo.jp/blog/",
+      "attempt_date": "2026-11-18",
+      "attempted_at": "2026-11-18T04:01:11.218458+09:00",
+      "scheduled_at": "2026-11-18T14:00:00+09:00"
     }
   },
-  "last_checked_at": "2026-11-18T12:00:00+09:00",
+  "last_checked_at": "2026-11-18T14:00:00+09:00",
   "last_reservation_check": {
     "checked_at": "2026-11-17T08:47:35.352121+09:00",
     "queued": 8,
