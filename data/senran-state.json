@@ -228,9 +228,19 @@
           }
         ]
       }
+    },
+    "2026-11-19-noon": {
+      "key": "2026-11-19-noon",
+      "kind": "noon",
+      "text": "こんにちは。\n少し立ち止まる時間も、大切な一頁。午後もどうぞ、無理のない歩幅で。\n\n#こんにちは #創作 #小説",
+      "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/senran/noon.jpg",
+      "status": "sending",
+      "attempt_date": "2026-11-19",
+      "attempted_at": "2026-11-18T04:00:54.661663+09:00",
+      "scheduled_at": "2026-11-19T12:00:00+09:00"
     }
   },
-  "last_checked_at": "2026-11-17T08:53:18.587168+09:00",
+  "last_checked_at": "2026-11-19T12:00:00+09:00",
   "last_reservation_check": {
     "checked_at": "2026-11-17T08:53:17.486664+09:00",
     "queued": 8,
