@@ -2,22 +2,22 @@
   "version": 1,
   "sources": {
     "pokemon": {
-      "checked_at": "2026-11-17T12:33:11.144689+09:00",
+      "checked_at": "2026-11-17T13:40:14.569530+09:00",
       "count": 177,
       "latest_date": "2026-11-13"
     },
     "onepiece": {
-      "checked_at": "2026-11-17T12:33:11.144689+09:00",
+      "checked_at": "2026-11-17T13:40:14.569530+09:00",
       "count": 1226,
       "latest_date": "2026-03-19"
     },
     "labo": {
-      "checked_at": "2026-11-17T12:33:11.144689+09:00",
+      "checked_at": "2026-11-17T13:40:14.569530+09:00",
       "count": 15,
-      "latest_date": "2026-11-16"
+      "latest_date": "2026-11-17"
     },
     "hobby": {
-      "checked_at": "2026-11-17T12:33:11.144689+09:00",
+      "checked_at": "2026-11-17T13:40:14.569530+09:00",
       "count": 3,
       "latest_date": "2026-11-13"
     },
@@ -27,7 +27,7 @@
       "latest_date": "2026-11-10"
     },
     "furu": {
-      "checked_at": "2026-11-17T12:33:11.144689+09:00",
+      "checked_at": "2026-11-17T13:40:14.569530+09:00",
       "count": 59,
       "latest_date": "2026-11-16"
     }
@@ -15394,6 +15394,18 @@
       "closed": false,
       "status": "ready",
       "discovered_at": "2026-11-17T00:43:21.204352+09:00"
+    },
+    "12f661837d0d770c720105d1a03ba036f1f6726299c435b837d45632d7c3529f": {
+      "key": "12f661837d0d770c720105d1a03ba036f1f6726299c435b837d45632d7c3529f",
+      "source": "labo",
+      "title": "【⚠️カードラボ大宮店11/28事前入場のご案内⚠️】",
+      "published": "2026-11-17",
+      "url": "https://www.c-labo.jp/shop/omiya/blog/624669/",
+      "category": "遊戯王OCG 遊戯王ラッシュデュエル デュエル・マスターズ ポケモンカードゲーム ヴァイスシュヴァルツ hololive OFFICIAL CARD GAME 五等分の花嫁カードゲーム ヴァンガード パルワールド オフィシャルカードゲーム バトルスピリッツ ドラゴンボールスーパーカードゲーム フュージョンワールド ONE PIECEカードゲーム ガンダムカードゲーム ホロビートカードゲーム 名探偵コナンカードゲーム ゴジラカードゲーム ラブライブ！シリーズ オフィシャルカードゲーム Xross Stars その他",
+      "store": "大宮店",
+      "closed": false,
+      "status": "ignored",
+      "discovered_at": "2026-11-17T13:40:14.569530+09:00"
     }
   },
   "channel_check": {
@@ -15772,7 +15784,7 @@
         ]
       },
       "buffer_post_id": "6afb213de368957de0d053ba",
-      "publication_checks": 5,
+      "publication_checks": 6,
       "publication_checked_at": "2026-11-17T08:53:03.136796+09:00",
       "publication_read_error": true
     },
@@ -15810,7 +15822,7 @@
         ]
       },
       "buffer_post_id": "6afb214267619c57d50bb72d",
-      "publication_checks": 4,
+      "publication_checks": 5,
       "publication_checked_at": "2026-11-17T08:53:03.136796+09:00",
       "publication_read_error": true
     },
