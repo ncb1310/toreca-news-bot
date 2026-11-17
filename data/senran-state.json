@@ -251,9 +251,19 @@
           }
         ]
       }
+    },
+    "2026-11-19-evening": {
+      "key": "2026-11-19-evening",
+      "kind": "evening",
+      "text": "こんばんは。\n今日の頁を振り返る、その少しの時間。小さな喜びがひとつでも見つかりますように。\n\n#こんばんは #創作 #小説",
+      "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/senran/evening.jpg",
+      "status": "sending",
+      "attempt_date": "2026-11-19",
+      "attempted_at": "2026-11-18T04:00:54.661663+09:00",
+      "scheduled_at": "2026-11-19T18:00:00+09:00"
     }
   },
-  "last_checked_at": "2026-11-19T12:00:00+09:00",
+  "last_checked_at": "2026-11-19T18:00:00+09:00",
   "last_reservation_check": {
     "checked_at": "2026-11-17T08:53:17.486664+09:00",
     "queued": 8,
