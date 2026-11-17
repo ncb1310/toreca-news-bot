@@ -16404,9 +16404,30 @@
         ]
       },
       "buffer_post_id": "6afca4af3f600a65285a0f0b"
+    },
+    "guide-763e2983e4d3486115ca926331ed2631d7737b241ffce2a2e16c5695afec2fe9": {
+      "key": "guide-763e2983e4d3486115ca926331ed2631d7737b241ffce2a2e16c5695afec2fe9",
+      "guide_id": "lottery-last-check",
+      "kind": "guide",
+      "status": "sending",
+      "source": "guide",
+      "title": "締切直前に見直す3点",
+      "bullets": [
+        "応募は完了しているか",
+        "対象商品に間違いはないか",
+        "公式のお知らせに変更はないか"
+      ],
+      "body": "締切前は新しく応募するだけでなく、完了状況も確認。受付時間や条件の更新がないか公式案内を見直そう。",
+      "url": "https://www.c-labo.jp/blog/",
+      "published": "2026-11-19",
+      "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/b3f36cd62eaf74c575a3cb7edb84e6538a1ee258/assets/generated/2382767fb53e0a6c3914c994.png",
+      "text": "【トレカの確認メモ】\n締切直前に見直す3点\n\n締切前は新しく応募するだけでなく、完了状況も確認。受付時間や条件の更新がないか公式案内を見直そう。\n#トレカ #トレカ初心者\n参照先👇\nhttps://www.c-labo.jp/blog/",
+      "attempt_date": "2026-11-19",
+      "attempted_at": "2026-11-18T04:01:11.218458+09:00",
+      "scheduled_at": "2026-11-19T18:00:00+09:00"
     }
   },
-  "last_checked_at": "2026-11-19T16:00:00+09:00",
+  "last_checked_at": "2026-11-19T18:00:00+09:00",
   "last_reservation_check": {
     "checked_at": "2026-11-17T08:47:35.352121+09:00",
     "queued": 8,
