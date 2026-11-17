@@ -2,22 +2,22 @@
   "version": 1,
   "sources": {
     "pokemon": {
-      "checked_at": "2026-11-17T14:41:38.340086+09:00",
+      "checked_at": "2026-11-17T15:44:57.010666+09:00",
       "count": 177,
       "latest_date": "2026-11-13"
     },
     "onepiece": {
-      "checked_at": "2026-11-17T14:41:38.340086+09:00",
+      "checked_at": "2026-11-17T15:44:57.010666+09:00",
       "count": 1226,
       "latest_date": "2026-03-19"
     },
     "labo": {
-      "checked_at": "2026-11-17T14:41:38.340086+09:00",
+      "checked_at": "2026-11-17T15:44:57.010666+09:00",
       "count": 15,
       "latest_date": "2026-11-17"
     },
     "hobby": {
-      "checked_at": "2026-11-17T14:41:38.340086+09:00",
+      "checked_at": "2026-11-17T15:44:57.010666+09:00",
       "count": 3,
       "latest_date": "2026-11-13"
     },
@@ -27,7 +27,7 @@
       "latest_date": "2026-11-10"
     },
     "furu": {
-      "checked_at": "2026-11-17T14:41:38.340086+09:00",
+      "checked_at": "2026-11-17T15:44:57.010666+09:00",
       "count": 59,
       "latest_date": "2026-11-16"
     }
@@ -15406,6 +15406,18 @@
       "closed": false,
       "status": "ignored",
       "discovered_at": "2026-11-17T13:40:14.569530+09:00"
+    },
+    "cd4ca35fe7ebdf0572ae1217e07f174c3458ce83038d84637f1a4af707dc90d8": {
+      "key": "cd4ca35fe7ebdf0572ae1217e07f174c3458ce83038d84637f1a4af707dc90d8",
+      "source": "labo",
+      "title": "【ポケモンカードゲーム】「拡張パック 30th CELEBRATION」抽選販売のお知らせ",
+      "published": "2026-11-17",
+      "url": "https://www.c-labo.jp/shop/nagoyaekimae/blog/624695/",
+      "category": "ポケモンカードゲーム",
+      "store": "名古屋駅前店",
+      "closed": false,
+      "status": "ready",
+      "discovered_at": "2026-11-17T15:44:57.010666+09:00"
     }
   },
   "channel_check": {
@@ -15860,7 +15872,7 @@
         ]
       },
       "buffer_post_id": "6afb2148407cd7a3e057dc03",
-      "publication_checks": 3,
+      "publication_checks": 4,
       "publication_checked_at": "2026-11-17T08:53:03.136796+09:00",
       "publication_read_error": true
     },
