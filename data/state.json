@@ -2,22 +2,22 @@
   "version": 1,
   "sources": {
     "pokemon": {
-      "checked_at": "2026-11-17T17:00:28.509122+09:00",
+      "checked_at": "2026-11-17T18:15:30.229446+09:00",
       "count": 177,
       "latest_date": "2026-11-13"
     },
     "onepiece": {
-      "checked_at": "2026-11-17T17:00:28.509122+09:00",
+      "checked_at": "2026-11-17T18:15:30.229446+09:00",
       "count": 1226,
       "latest_date": "2026-03-19"
     },
     "labo": {
-      "checked_at": "2026-11-17T17:00:28.509122+09:00",
+      "checked_at": "2026-11-17T18:15:30.229446+09:00",
       "count": 15,
       "latest_date": "2026-11-17"
     },
     "hobby": {
-      "checked_at": "2026-11-17T17:00:28.509122+09:00",
+      "checked_at": "2026-11-17T18:15:30.229446+09:00",
       "count": 3,
       "latest_date": "2026-11-13"
     },
@@ -27,7 +27,7 @@
       "latest_date": "2026-11-10"
     },
     "furu": {
-      "checked_at": "2026-11-17T17:00:28.509122+09:00",
+      "checked_at": "2026-11-17T18:15:30.229446+09:00",
       "count": 59,
       "latest_date": "2026-11-16"
     }
@@ -15872,7 +15872,7 @@
         ]
       },
       "buffer_post_id": "6afb2148407cd7a3e057dc03",
-      "publication_checks": 5,
+      "publication_checks": 6,
       "publication_checked_at": "2026-11-17T08:53:03.136796+09:00",
       "publication_read_error": true
     },
