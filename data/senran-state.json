@@ -299,9 +299,9 @@
       }
     }
   },
-  "last_checked_at": "2026-11-19T22:00:00+09:00",
+  "last_checked_at": "2026-11-18T04:01:05.115912+09:00",
   "last_reservation_check": {
-    "checked_at": "2026-11-17T08:53:17.486664+09:00",
+    "checked_at": "2026-11-18T04:00:54.661663+09:00",
     "queued": 8,
     "target": 8,
     "posts": [
@@ -366,22 +366,22 @@
         ]
       },
       {
-        "id": "6afb2017ca8a17609535c996",
-        "text": "おやすみなさい。\n心に残った言葉を、そっと枕元へ。今日を歩いたあなたに、やさしい休息が訪れますように。\n\n#おやすみなさい #創作 #小説",
-        "dueAt": "2026-11-17T13:00:00.000Z",
+        "id": "6afca46a5689ca43c112658e",
         "status": "scheduled",
+        "dueAt": "2026-11-19T03:00:00.000Z",
+        "text": "こんにちは。\n少し立ち止まる時間も、大切な一頁。午後もどうぞ、無理のない歩幅で。\n\n#こんにちは #創作 #小説",
         "assets": [
           {
             "mimeType": "image/jpeg",
-            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/senran/night.jpg"
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/senran/noon.jpg"
           }
         ]
       },
       {
-        "id": "6afb20152d89e5b19ced35fd",
-        "text": "こんばんは。\n帰り道にも、ひと休みの時間にも。あなたの心に、やさしい余韻が灯りますように。\n\n#こんばんは #創作 #小説",
-        "dueAt": "2026-11-17T09:00:00.000Z",
+        "id": "6afca46d9c73f3089baf5133",
         "status": "scheduled",
+        "dueAt": "2026-11-19T09:00:00.000Z",
+        "text": "こんばんは。\n今日の頁を振り返る、その少しの時間。小さな喜びがひとつでも見つかりますように。\n\n#こんばんは #創作 #小説",
         "assets": [
           {
             "mimeType": "image/jpeg",
@@ -390,14 +390,14 @@
         ]
       },
       {
-        "id": "6afb20122d89e5b19ced3407",
-        "text": "こんにちは。\n何気ない言葉が、ふと心に残ることがあります。今日のあなたにも、そんな出会いがありますように。\n\n#こんにちは #創作 #小説",
-        "dueAt": "2026-11-17T03:00:00.000Z",
+        "id": "6afca46f5689ca43c1126a14",
         "status": "scheduled",
+        "dueAt": "2026-11-19T13:00:00.000Z",
+        "text": "おやすみなさい。\n本を閉じるように、今日の心にも静かな区切りを。また次の頁で会いましょう。\n\n#おやすみなさい #創作 #小説",
         "assets": [
           {
             "mimeType": "image/jpeg",
-            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/senran/noon.jpg"
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/senran/night.jpg"
           }
         ]
       }
