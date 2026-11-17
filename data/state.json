@@ -16086,9 +16086,30 @@
         ]
       },
       "buffer_post_id": "6afb91be3e42cd001e39f651"
+    },
+    "guide-942826f6f728a498cb43f1d47f7441952d33b117465b6f121152125dae47d492": {
+      "key": "guide-942826f6f728a498cb43f1d47f7441952d33b117465b6f121152125dae47d492",
+      "guide_id": "one-number",
+      "kind": "guide",
+      "status": "sending",
+      "source": "guide",
+      "title": "同名カードは番号も見よう",
+      "bullets": [
+        "カード名",
+        "カード番号",
+        "カードの効果"
+      ],
+      "body": "ワンピカードを探すときは、名前とカード番号をセットで。似た見た目や同じキャラクターでも、内容を確認しよう。",
+      "url": "https://www.onepiece-cardgame.com/cardlist/",
+      "published": "2026-11-18",
+      "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/cba78a8feba4fb4433fbe4789696b050d9bd2026/assets/generated/9e1dc6dde21ef84cf51d430c.png",
+      "text": "【トレカの確認メモ】\n同名カードは番号も見よう\n\nワンピカードを探すときは、名前とカード番号をセットで。似た見た目や同じキャラクターでも、内容を確認しよう。\n#トレカ #ワンピースカード #トレカ初心者\n参照先👇\nhttps://www.onepiece-cardgame.com/cardlist/",
+      "attempt_date": "2026-11-18",
+      "attempted_at": "2026-11-18T04:01:11.218458+09:00",
+      "scheduled_at": "2026-11-18T10:00:00+09:00"
     }
   },
-  "last_checked_at": "2026-11-17T08:47:38.778409+09:00",
+  "last_checked_at": "2026-11-18T10:00:00+09:00",
   "last_reservation_check": {
     "checked_at": "2026-11-17T08:47:35.352121+09:00",
     "queued": 8,
