@@ -16245,9 +16245,30 @@
       "published": "2026-11-18",
       "verification_failed_date": "2026-11-18",
       "verification_error": "HTTPError"
+    },
+    "guide-e92b975bf3e3497fdf8678f8e218eba5c1dfb0fb83930d5a31031491c74265d9": {
+      "key": "guide-e92b975bf3e3497fdf8678f8e218eba5c1dfb0fb83930d5a31031491c74265d9",
+      "guide_id": "official-source",
+      "kind": "guide",
+      "status": "sending",
+      "source": "guide",
+      "title": "販売情報は出典まで確認",
+      "bullets": [
+        "メーカーか販売店の公式か",
+        "対象の店舗・地域",
+        "ページの更新日"
+      ],
+      "body": "まとめ投稿は情報を探す入口。応募や購入の前には、出典の公式ページで最新条件を確認しよう。",
+      "url": "https://www.pokemon-card.com/info/",
+      "published": "2026-11-18",
+      "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/0cb8ecbf9ef010bfab58a6cb91338b76d899c22a/assets/generated/b916072847d86aae36e3b779.png",
+      "text": "【トレカの確認メモ】\n販売情報は出典まで確認\n\nまとめ投稿は情報を探す入口。応募や購入の前には、出典の公式ページで最新条件を確認しよう。\n#トレカ #トレカ初心者\n参照先👇\nhttps://www.pokemon-card.com/info/",
+      "attempt_date": "2026-11-18",
+      "attempted_at": "2026-11-18T04:01:11.218458+09:00",
+      "scheduled_at": "2026-11-18T22:00:00+09:00"
     }
   },
-  "last_checked_at": "2026-11-18T20:00:00+09:00",
+  "last_checked_at": "2026-11-18T22:00:00+09:00",
   "last_reservation_check": {
     "checked_at": "2026-11-17T08:47:35.352121+09:00",
     "queued": 8,
