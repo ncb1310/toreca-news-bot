@@ -16369,9 +16369,30 @@
         ]
       },
       "buffer_post_id": "6afca4a99c73f3089baf7cf8"
+    },
+    "guide-8813c152e751ab2123cf102aa786440be876c4c70d16e8b207b00641928d08d7": {
+      "key": "guide-8813c152e751ab2123cf102aa786440be876c4c70d16e8b207b00641928d08d7",
+      "guide_id": "one-products",
+      "kind": "guide",
+      "status": "sending",
+      "source": "guide",
+      "title": "ワンピの商品選びは内容から",
+      "bullets": [
+        "商品名と商品番号",
+        "収録・セット内容",
+        "発売日の公式案内"
+      ],
+      "body": "ブースターパックとスタートデッキは、商品ページの内容を見比べよう。遊びたい目的に合うか確認して選ぼう。",
+      "url": "https://www.onepiece-cardgame.com/products/",
+      "published": "2026-11-19",
+      "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/6f1b6396bdf31531872edc40d3615e25f1b3012c/assets/generated/04663e72dd27e58b3c12d8a7.png",
+      "text": "【トレカの確認メモ】\nワンピの商品選びは内容から\n\nブースターパックとスタートデッキは、商品ページの内容を見比べよう。遊びたい目的に合うか確認して選ぼう。\n#トレカ #ワンピースカード #トレカ初心者\n参照先👇\nhttps://www.onepiece-cardgame.com/products/",
+      "attempt_date": "2026-11-19",
+      "attempted_at": "2026-11-18T04:01:11.218458+09:00",
+      "scheduled_at": "2026-11-19T16:00:00+09:00"
     }
   },
-  "last_checked_at": "2026-11-19T14:00:00+09:00",
+  "last_checked_at": "2026-11-19T16:00:00+09:00",
   "last_reservation_check": {
     "checked_at": "2026-11-17T08:47:35.352121+09:00",
     "queued": 8,
