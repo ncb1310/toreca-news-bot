@@ -16126,7 +16126,7 @@
       "key": "guide-cb22b8b21583eade3a006872d420d8c6907a60b1427a0e73865f306239d3910a",
       "guide_id": "one-start",
       "kind": "guide",
-      "status": "sending",
+      "status": "accepted",
       "source": "guide",
       "title": "ワンピカードを始める前に",
       "bullets": [
@@ -16141,7 +16141,21 @@
       "text": "【トレカの確認メモ】\nワンピカードを始める前に\n\n最初から全部覚えなくても大丈夫。公式のルールページを開きながら、ひとつずつ準備していこう。\n#トレカ #ワンピースカード #トレカ初心者\n参照先👇\nhttps://www.onepiece-cardgame.com/rules/",
       "attempt_date": "2026-11-18",
       "attempted_at": "2026-11-18T04:01:11.218458+09:00",
-      "scheduled_at": "2026-11-18T12:00:00+09:00"
+      "scheduled_at": "2026-11-18T12:00:00+09:00",
+      "post_id": "6afca4847ab2c2731e0d1a5a",
+      "publication_result": {
+        "id": "6afca4847ab2c2731e0d1a5a",
+        "status": "scheduled",
+        "dueAt": "2026-11-18T03:00:00.000Z",
+        "text": "【トレカの確認メモ】\nワンピカードを始める前に\n\n最初から全部覚えなくても大丈夫。公式のルールページを開きながら、ひとつずつ準備していこう。\n#トレカ #ワンピースカード #トレカ初心者\n参照先👇\nhttps://www.onepiece-cardgame.com/rules/",
+        "assets": [
+          {
+            "mimeType": "image/png",
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/d6ae2c6b048d3ba5feb38dd626f111a9aeca1122/assets/generated/ed1fc465a74fd4c3b104f5c9.png"
+          }
+        ]
+      },
+      "buffer_post_id": "6afca4847ab2c2731e0d1a5a"
     }
   },
   "last_checked_at": "2026-11-18T12:00:00+09:00",
