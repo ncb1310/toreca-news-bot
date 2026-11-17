@@ -2,32 +2,32 @@
   "version": 1,
   "sources": {
     "pokemon": {
-      "checked_at": "2026-11-17T08:53:03.136796+09:00",
+      "checked_at": "2026-11-17T10:24:46.004282+09:00",
       "count": 177,
       "latest_date": "2026-11-13"
     },
     "onepiece": {
-      "checked_at": "2026-11-17T08:53:03.136796+09:00",
+      "checked_at": "2026-11-17T10:24:46.004282+09:00",
       "count": 1226,
       "latest_date": "2026-03-19"
     },
     "labo": {
-      "checked_at": "2026-11-17T08:53:03.136796+09:00",
+      "checked_at": "2026-11-17T10:24:46.004282+09:00",
       "count": 15,
       "latest_date": "2026-11-16"
     },
     "hobby": {
-      "checked_at": "2026-11-17T08:53:03.136796+09:00",
+      "checked_at": "2026-11-17T10:24:46.004282+09:00",
       "count": 3,
       "latest_date": "2026-11-13"
     },
     "pcstore": {
-      "checked_at": "2026-11-17T08:53:03.136796+09:00",
+      "checked_at": "2026-11-17T10:24:46.004282+09:00",
       "count": 15,
       "latest_date": "2026-11-10"
     },
     "furu": {
-      "checked_at": "2026-11-17T08:53:03.136796+09:00",
+      "checked_at": "2026-11-17T10:24:46.004282+09:00",
       "count": 59,
       "latest_date": "2026-11-16"
     }
@@ -15772,8 +15772,9 @@
         ]
       },
       "buffer_post_id": "6afb213de368957de0d053ba",
-      "publication_checks": 2,
-      "publication_checked_at": "2026-11-17T08:53:03.136796+09:00"
+      "publication_checks": 3,
+      "publication_checked_at": "2026-11-17T08:53:03.136796+09:00",
+      "publication_read_error": true
     },
     "guide-3e7cb2396ae54978db011541e042a083374e3687947287dfaff740b3e5a7ba86": {
       "key": "guide-3e7cb2396ae54978db011541e042a083374e3687947287dfaff740b3e5a7ba86",
@@ -15809,8 +15810,9 @@
         ]
       },
       "buffer_post_id": "6afb214267619c57d50bb72d",
-      "publication_checks": 2,
-      "publication_checked_at": "2026-11-17T08:53:03.136796+09:00"
+      "publication_checks": 3,
+      "publication_checked_at": "2026-11-17T08:53:03.136796+09:00",
+      "publication_read_error": true
     },
     "guide-4e648da71280e50a1c51845ba985ec701a5eee425fc5cf8454ff2f31559c58e0": {
       "key": "guide-4e648da71280e50a1c51845ba985ec701a5eee425fc5cf8454ff2f31559c58e0",
@@ -15846,8 +15848,9 @@
         ]
       },
       "buffer_post_id": "6afb2148407cd7a3e057dc03",
-      "publication_checks": 1,
-      "publication_checked_at": "2026-11-17T08:53:03.136796+09:00"
+      "publication_checks": 2,
+      "publication_checked_at": "2026-11-17T08:53:03.136796+09:00",
+      "publication_read_error": true
     },
     "guide-116ea798c5564b9c4f06e6b31ededfdff4ed5aa3b4baad7f9c251be80b84546e": {
       "key": "guide-116ea798c5564b9c4f06e6b31ededfdff4ed5aa3b4baad7f9c251be80b84546e",
