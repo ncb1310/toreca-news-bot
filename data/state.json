@@ -16762,9 +16762,30 @@
         ]
       },
       "buffer_post_id": "6afdf511a2e55b578d3b41b0"
+    },
+    "guide-657ad042c1955bc856732506e4d6d166cecf6cefbae3c2bd804589736c2b6863": {
+      "key": "guide-657ad042c1955bc856732506e4d6d166cecf6cefbae3c2bd804589736c2b6863",
+      "guide_id": "online-order",
+      "kind": "guide",
+      "status": "sending",
+      "source": "guide",
+      "title": "通販の注文前、ここを見直す",
+      "bullets": [
+        "商品の正式名称と数量",
+        "配送・受取方法",
+        "送料を含む支払内容"
+      ],
+      "body": "注文確定の前に一度だけ見直そう。パックとBOX、配送と店頭受取など、選択内容を確認しておくと安心。",
+      "url": "https://www.pokemoncenter-online.com/",
+      "published": "2026-11-21",
+      "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/0c2201eefa66a2c83229de2d33d6a3a5d46aab07/assets/generated/09d8f3c35913e5ee5e6bfd7c.png",
+      "text": "🃏 通販の注文前、ここを見直す\n\n注文確定の前に一度だけ見直そう。パックとBOX、配送と店頭受取など、選択内容を確認しておくと安心。\n#トレカ #トレカ初心者\n参照先👇\nhttps://www.pokemoncenter-online.com/",
+      "attempt_date": "2026-11-21",
+      "attempted_at": "2026-11-19T03:57:17.312020+09:00",
+      "scheduled_at": "2026-11-21T10:00:00+09:00"
     }
   },
-  "last_checked_at": "2026-11-21T08:00:00+09:00",
+  "last_checked_at": "2026-11-21T10:00:00+09:00",
   "last_reservation_check": {
     "checked_at": "2026-11-18T22:14:04.529823+09:00",
     "queued": 3,
