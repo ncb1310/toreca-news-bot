@@ -453,10 +453,23 @@
       "kind": "guide",
       "text": "【既存機能メモ】\n島の装飾品、育成状況を見分けよう🏝️\n\n米公式の更新説明では、最大まで育てた装飾品にMax表示が付く改善が案内されています。交換・育成前の見直しに使いたい機能です。\n出典：米公式10/19更新説明\nhttps://apps.apple.com/us/app/kingshot/id6739554056\n#キングショット #Kingshot",
       "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/repertoire/previous-70.jpg",
-      "status": "sending",
+      "status": "accepted",
       "attempt_date": "2026-11-19",
       "attempted_at": "2026-11-18T22:13:40.427715+09:00",
-      "scheduled_at": "2026-11-19T14:00:00+09:00"
+      "scheduled_at": "2026-11-19T14:00:00+09:00",
+      "post_id": "6afda48f61bd3b7f60c219d5",
+      "publication_result": {
+        "id": "6afda48f61bd3b7f60c219d5",
+        "status": "scheduled",
+        "dueAt": "2026-11-19T05:00:00.000Z",
+        "text": "【既存機能メモ】\n島の装飾品、育成状況を見分けよう🏝️\n\n米公式の更新説明では、最大まで育てた装飾品にMax表示が付く改善が案内されています。交換・育成前の見直しに使いたい機能です。\n出典：米公式10/19更新説明\nhttps://apps.apple.com/us/app/kingshot/id6739554056\n#キングショット #Kingshot",
+        "assets": [
+          {
+            "mimeType": "image/jpeg",
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/repertoire/previous-70.jpg"
+          }
+        ]
+      }
     }
   },
   "baseline": {
