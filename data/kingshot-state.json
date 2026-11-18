@@ -358,10 +358,23 @@
       "kind": "night",
       "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/from-x/31-2108221095975453034.jpg",
       "text": "チェンコ、今日はもう夢の中。明日の集結に寝坊しませんように🌙\n寝る前に同盟チャットを一度だけ開くつもりが、会話に混ざってもう十分。みんなの王国も今ごろそんな感じかな。\n#キングショット #Kingshot",
-      "status": "sending",
+      "status": "accepted",
       "attempt_date": "2026-11-18",
       "attempted_at": "2026-11-18T18:14:43.601104+09:00",
-      "scheduled_at": "2026-11-18T22:00:00+09:00"
+      "scheduled_at": "2026-11-18T22:00:00+09:00",
+      "post_id": "6afd6c85e22f43cb2182620e",
+      "publication_result": {
+        "id": "6afd6c85e22f43cb2182620e",
+        "status": "scheduled",
+        "dueAt": "2026-11-18T13:00:00.000Z",
+        "text": "チェンコ、今日はもう夢の中。明日の集結に寝坊しませんように🌙\n寝る前に同盟チャットを一度だけ開くつもりが、会話に混ざってもう十分。みんなの王国も今ごろそんな感じかな。\n#キングショット #Kingshot",
+        "assets": [
+          {
+            "mimeType": "image/jpeg",
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/from-x/31-2108221095975453034.jpg"
+          }
+        ]
+      }
     }
   },
   "baseline": {
