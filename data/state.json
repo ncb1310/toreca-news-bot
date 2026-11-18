@@ -2,22 +2,22 @@
   "version": 1,
   "sources": {
     "pokemon": {
-      "checked_at": "2026-11-18T13:42:10.985895+09:00",
+      "checked_at": "2026-11-18T14:43:27.220246+09:00",
       "count": 177,
       "latest_date": "2026-11-13"
     },
     "onepiece": {
-      "checked_at": "2026-11-18T13:42:10.985895+09:00",
+      "checked_at": "2026-11-18T14:43:27.220246+09:00",
       "count": 1226,
       "latest_date": "2026-03-19"
     },
     "labo": {
-      "checked_at": "2026-11-18T13:42:10.985895+09:00",
+      "checked_at": "2026-11-18T14:43:27.220246+09:00",
       "count": 15,
       "latest_date": "2026-11-18"
     },
     "hobby": {
-      "checked_at": "2026-11-18T13:42:10.985895+09:00",
+      "checked_at": "2026-11-18T14:43:27.220246+09:00",
       "count": 3,
       "latest_date": "2026-11-13"
     },
@@ -27,7 +27,7 @@
       "latest_date": "2026-11-10"
     },
     "furu": {
-      "checked_at": "2026-11-18T13:42:10.985895+09:00",
+      "checked_at": "2026-11-18T14:43:27.220246+09:00",
       "count": 60,
       "latest_date": "2026-11-17"
     }
@@ -15550,6 +15550,18 @@
         ]
       },
       "publication_checked_at": "2026-11-18T13:42:10.985895+09:00"
+    },
+    "4811a74740b71a660f14142f7935dfa14ca4c2a06560fa0416c15b7ab48104c6": {
+      "key": "4811a74740b71a660f14142f7935dfa14ca4c2a06560fa0416c15b7ab48104c6",
+      "source": "labo",
+      "title": "【ワンピースカードゲーム】「エクストラブースター ONE PIECE Heroines Edition vol.2【EB-05】」抽選再販のお知らせ 1118",
+      "published": "2026-11-18",
+      "url": "https://www.c-labo.jp/shop/tsudanuma/blog/623682/",
+      "category": "ONE PIECEカードゲーム",
+      "store": "津田沼店",
+      "closed": false,
+      "status": "ready",
+      "discovered_at": "2026-11-18T14:43:27.220246+09:00"
     }
   },
   "channel_check": {
@@ -16280,9 +16292,9 @@
       "post_id": "6afca48c32ea84693c38aa7d",
       "publication_result": {
         "id": "6afca48c32ea84693c38aa7d",
-        "status": "scheduled",
-        "dueAt": "2026-11-18T05:00:00.000Z",
-        "text": "【トレカの確認メモ】\n当選後の受取条件をチェック\n\n当選したら、購入期限に加えて受取条件も確認。必要なものは店舗や企画によって異なるよ。\n#トレカ #トレカ初心者\n参照先👇\nhttps://www.c-labo.jp/blog/",
+        "status": "sent",
+        "sentAt": "2026-11-18T05:00:25.012Z",
+        "externalLink": "https://x.com/2121528694724505600/status/2122917819457118503",
         "assets": [
           {
             "mimeType": "image/png",
@@ -16290,7 +16302,9 @@
           }
         ]
       },
-      "buffer_post_id": "6afca48c32ea84693c38aa7d"
+      "buffer_post_id": "6afca48c32ea84693c38aa7d",
+      "publication_checks": 1,
+      "publication_checked_at": "2026-11-18T14:43:27.220246+09:00"
     },
     "guide-30cb0d1bf6392b902d67bebf41c69bad1d6a6482c519190bc83be8e2834ca266": {
       "key": "guide-30cb0d1bf6392b902d67bebf41c69bad1d6a6482c519190bc83be8e2834ca266",
