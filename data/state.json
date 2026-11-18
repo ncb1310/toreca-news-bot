@@ -16527,89 +16527,29 @@
       "verification_error": "HTTPError"
     }
   },
-  "last_checked_at": "2026-11-20T12:00:00+09:00",
+  "last_checked_at": "2026-11-18T10:14:33.577475+09:00",
   "last_reservation_check": {
-    "checked_at": "2026-11-18T04:01:11.218458+09:00",
-    "queued": 8,
+    "checked_at": "2026-11-18T10:14:25.451701+09:00",
+    "queued": 6,
     "target": 8,
     "posts": [
       {
-        "id": "6afb91be3e42cd001e39f651",
-        "text": "【トレカの確認メモ】\nリーダーからデッキを考える\n\nワンピカードは、リーダーを決めてからカードを探すと整理しやすい。構築の細かな条件は公式ルールへ。\n#トレカ #ワンピースカード #トレカ初心者\n参照先👇\nhttps://www.onepiece-cardgame.com/rules/",
-        "dueAt": "2026-11-17T23:00:00.000Z",
+        "id": "6afca4b73f600a65285a1582",
+        "text": "【トレカの確認メモ】\n締切直前に見直す3点\n\n締切前は新しく応募するだけでなく、完了状況も確認。受付時間や条件の更新がないか公式案内を見直そう。\n#トレカ #トレカ初心者\n参照先👇\nhttps://www.c-labo.jp/blog/",
+        "dueAt": "2026-11-19T09:00:00.000Z",
         "status": "scheduled",
         "assets": [
           {
             "mimeType": "image/png",
-            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/e4cc94accfbecbdea3a713e4bcb16cac02498d48/assets/generated/64937b58a7b0442c76012a9b.png"
-          }
-        ]
-      },
-      {
-        "id": "6afca47e5689ca43c11271e1",
-        "status": "scheduled",
-        "dueAt": "2026-11-18T01:00:00.000Z",
-        "text": "【トレカの確認メモ】\n同名カードは番号も見よう\n\nワンピカードを探すときは、名前とカード番号をセットで。似た見た目や同じキャラクターでも、内容を確認しよう。\n#トレカ #ワンピースカード #トレカ初心者\n参照先👇\nhttps://www.onepiece-cardgame.com/cardlist/",
-        "assets": [
-          {
-            "mimeType": "image/png",
-            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/cba78a8feba4fb4433fbe4789696b050d9bd2026/assets/generated/9e1dc6dde21ef84cf51d430c.png"
-          }
-        ]
-      },
-      {
-        "id": "6afca4847ab2c2731e0d1a5a",
-        "status": "scheduled",
-        "dueAt": "2026-11-18T03:00:00.000Z",
-        "text": "【トレカの確認メモ】\nワンピカードを始める前に\n\n最初から全部覚えなくても大丈夫。公式のルールページを開きながら、ひとつずつ準備していこう。\n#トレカ #ワンピースカード #トレカ初心者\n参照先👇\nhttps://www.onepiece-cardgame.com/rules/",
-        "assets": [
-          {
-            "mimeType": "image/png",
-            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/d6ae2c6b048d3ba5feb38dd626f111a9aeca1122/assets/generated/ed1fc465a74fd4c3b104f5c9.png"
-          }
-        ]
-      },
-      {
-        "id": "6afca48c32ea84693c38aa7d",
-        "status": "scheduled",
-        "dueAt": "2026-11-18T05:00:00.000Z",
-        "text": "【トレカの確認メモ】\n当選後の受取条件をチェック\n\n当選したら、購入期限に加えて受取条件も確認。必要なものは店舗や企画によって異なるよ。\n#トレカ #トレカ初心者\n参照先👇\nhttps://www.c-labo.jp/blog/",
-        "assets": [
-          {
-            "mimeType": "image/png",
-            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/a434b352557bacf646ffe37e798671c3554bf300/assets/generated/96b0502e69e37cacc423a33e.png"
-          }
-        ]
-      },
-      {
-        "id": "6afca49932ea84693c38ae98",
-        "status": "scheduled",
-        "dueAt": "2026-11-18T13:00:00.000Z",
-        "text": "【トレカの確認メモ】\n販売情報は出典まで確認\n\nまとめ投稿は情報を探す入口。応募や購入の前には、出典の公式ページで最新条件を確認しよう。\n#トレカ #トレカ初心者\n参照先👇\nhttps://www.pokemon-card.com/info/",
-        "assets": [
-          {
-            "mimeType": "image/png",
-            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/0cb8ecbf9ef010bfab58a6cb91338b76d899c22a/assets/generated/b916072847d86aae36e3b779.png"
-          }
-        ]
-      },
-      {
-        "id": "6afca4a99c73f3089baf7cf8",
-        "status": "scheduled",
-        "dueAt": "2026-11-19T05:00:00.000Z",
-        "text": "【トレカの確認メモ】\nカードの使い方で迷ったら\n\n対戦中に迷った効果は、公式カード検索やQ&Aで確認しよう。別のカードの説明と混ぜないのがポイント。\n#トレカ #トレカ初心者\n参照先👇\nhttps://www.pokemon-card.com/card-search/",
-        "assets": [
-          {
-            "mimeType": "image/png",
-            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/58be34e294afa8cfe7a1e5290cda209e09be1ea2/assets/generated/c3acd386fee374a449c5f86f.png"
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/b3f36cd62eaf74c575a3cb7edb84e6538a1ee258/assets/generated/2382767fb53e0a6c3914c994.png"
           }
         ]
       },
       {
         "id": "6afca4af3f600a65285a0f0b",
-        "status": "scheduled",
-        "dueAt": "2026-11-19T07:00:00.000Z",
         "text": "【トレカの確認メモ】\nワンピの商品選びは内容から\n\nブースターパックとスタートデッキは、商品ページの内容を見比べよう。遊びたい目的に合うか確認して選ぼう。\n#トレカ #ワンピースカード #トレカ初心者\n参照先👇\nhttps://www.onepiece-cardgame.com/products/",
+        "dueAt": "2026-11-19T07:00:00.000Z",
+        "status": "scheduled",
         "assets": [
           {
             "mimeType": "image/png",
@@ -16618,18 +16558,54 @@
         ]
       },
       {
-        "id": "6afca4b73f600a65285a1582",
+        "id": "6afca4a99c73f3089baf7cf8",
+        "text": "【トレカの確認メモ】\nカードの使い方で迷ったら\n\n対戦中に迷った効果は、公式カード検索やQ&Aで確認しよう。別のカードの説明と混ぜないのがポイント。\n#トレカ #トレカ初心者\n参照先👇\nhttps://www.pokemon-card.com/card-search/",
+        "dueAt": "2026-11-19T05:00:00.000Z",
         "status": "scheduled",
-        "dueAt": "2026-11-19T09:00:00.000Z",
-        "text": "【トレカの確認メモ】\n締切直前に見直す3点\n\n締切前は新しく応募するだけでなく、完了状況も確認。受付時間や条件の更新がないか公式案内を見直そう。\n#トレカ #トレカ初心者\n参照先👇\nhttps://www.c-labo.jp/blog/",
         "assets": [
           {
             "mimeType": "image/png",
-            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/b3f36cd62eaf74c575a3cb7edb84e6538a1ee258/assets/generated/2382767fb53e0a6c3914c994.png"
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/58be34e294afa8cfe7a1e5290cda209e09be1ea2/assets/generated/c3acd386fee374a449c5f86f.png"
+          }
+        ]
+      },
+      {
+        "id": "6afca49932ea84693c38ae98",
+        "text": "【トレカの確認メモ】\n販売情報は出典まで確認\n\nまとめ投稿は情報を探す入口。応募や購入の前には、出典の公式ページで最新条件を確認しよう。\n#トレカ #トレカ初心者\n参照先👇\nhttps://www.pokemon-card.com/info/",
+        "dueAt": "2026-11-18T13:00:00.000Z",
+        "status": "scheduled",
+        "assets": [
+          {
+            "mimeType": "image/png",
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/0cb8ecbf9ef010bfab58a6cb91338b76d899c22a/assets/generated/b916072847d86aae36e3b779.png"
+          }
+        ]
+      },
+      {
+        "id": "6afca48c32ea84693c38aa7d",
+        "text": "【トレカの確認メモ】\n当選後の受取条件をチェック\n\n当選したら、購入期限に加えて受取条件も確認。必要なものは店舗や企画によって異なるよ。\n#トレカ #トレカ初心者\n参照先👇\nhttps://www.c-labo.jp/blog/",
+        "dueAt": "2026-11-18T05:00:00.000Z",
+        "status": "scheduled",
+        "assets": [
+          {
+            "mimeType": "image/png",
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/a434b352557bacf646ffe37e798671c3554bf300/assets/generated/96b0502e69e37cacc423a33e.png"
+          }
+        ]
+      },
+      {
+        "id": "6afca4847ab2c2731e0d1a5a",
+        "text": "【トレカの確認メモ】\nワンピカードを始める前に\n\n最初から全部覚えなくても大丈夫。公式のルールページを開きながら、ひとつずつ準備していこう。\n#トレカ #ワンピースカード #トレカ初心者\n参照先👇\nhttps://www.onepiece-cardgame.com/rules/",
+        "dueAt": "2026-11-18T03:00:00.000Z",
+        "status": "scheduled",
+        "assets": [
+          {
+            "mimeType": "image/png",
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/d6ae2c6b048d3ba5feb38dd626f111a9aeca1122/assets/generated/ed1fc465a74fd4c3b104f5c9.png"
           }
         ]
       }
     ],
-    "shortfall": 0
+    "shortfall": 2
   }
 }
