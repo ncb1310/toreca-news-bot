@@ -16729,10 +16729,10 @@
       "verification_error": "HTTPError"
     }
   },
-  "last_checked_at": "2026-11-18T18:08:24.549979+09:00",
+  "last_checked_at": "2026-11-18T22:14:06.007420+09:00",
   "last_reservation_check": {
-    "checked_at": "2026-11-18T18:08:24.397685+09:00",
-    "queued": 4,
+    "checked_at": "2026-11-18T22:14:04.529823+09:00",
+    "queued": 3,
     "target": 8,
     "posts": [
       {
@@ -16770,20 +16770,8 @@
             "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/58be34e294afa8cfe7a1e5290cda209e09be1ea2/assets/generated/c3acd386fee374a449c5f86f.png"
           }
         ]
-      },
-      {
-        "id": "6afca49932ea84693c38ae98",
-        "text": "【トレカの確認メモ】\n販売情報は出典まで確認\n\nまとめ投稿は情報を探す入口。応募や購入の前には、出典の公式ページで最新条件を確認しよう。\n#トレカ #トレカ初心者\n参照先👇\nhttps://www.pokemon-card.com/info/",
-        "dueAt": "2026-11-18T13:00:00.000Z",
-        "status": "scheduled",
-        "assets": [
-          {
-            "mimeType": "image/png",
-            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/0cb8ecbf9ef010bfab58a6cb91338b76d899c22a/assets/generated/b916072847d86aae36e3b779.png"
-          }
-        ]
       }
     ],
-    "shortfall": 4
+    "shortfall": 5
   }
 }
