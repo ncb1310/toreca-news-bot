@@ -2,22 +2,22 @@
   "version": 1,
   "sources": {
     "pokemon": {
-      "checked_at": "2026-11-18T11:37:17.356557+09:00",
+      "checked_at": "2026-11-18T12:36:58.297330+09:00",
       "count": 177,
       "latest_date": "2026-11-13"
     },
     "onepiece": {
-      "checked_at": "2026-11-18T11:37:17.356557+09:00",
+      "checked_at": "2026-11-18T12:36:58.297330+09:00",
       "count": 1226,
       "latest_date": "2026-03-19"
     },
     "labo": {
-      "checked_at": "2026-11-18T11:37:17.356557+09:00",
+      "checked_at": "2026-11-18T12:36:58.297330+09:00",
       "count": 15,
       "latest_date": "2026-11-17"
     },
     "hobby": {
-      "checked_at": "2026-11-18T11:37:17.356557+09:00",
+      "checked_at": "2026-11-18T12:36:58.297330+09:00",
       "count": 3,
       "latest_date": "2026-11-13"
     },
@@ -27,7 +27,7 @@
       "latest_date": "2026-11-10"
     },
     "furu": {
-      "checked_at": "2026-11-18T11:37:17.356557+09:00",
+      "checked_at": "2026-11-18T12:36:58.297330+09:00",
       "count": 60,
       "latest_date": "2026-11-17"
     }
@@ -16213,9 +16213,9 @@
       "post_id": "6afca4847ab2c2731e0d1a5a",
       "publication_result": {
         "id": "6afca4847ab2c2731e0d1a5a",
-        "status": "scheduled",
-        "dueAt": "2026-11-18T03:00:00.000Z",
-        "text": "【トレカの確認メモ】\nワンピカードを始める前に\n\n最初から全部覚えなくても大丈夫。公式のルールページを開きながら、ひとつずつ準備していこう。\n#トレカ #ワンピースカード #トレカ初心者\n参照先👇\nhttps://www.onepiece-cardgame.com/rules/",
+        "status": "sent",
+        "sentAt": "2026-11-18T03:00:32.376Z",
+        "externalLink": "https://x.com/2121528694724505600/status/2122887651569090640",
         "assets": [
           {
             "mimeType": "image/png",
@@ -16223,7 +16223,9 @@
           }
         ]
       },
-      "buffer_post_id": "6afca4847ab2c2731e0d1a5a"
+      "buffer_post_id": "6afca4847ab2c2731e0d1a5a",
+      "publication_checks": 1,
+      "publication_checked_at": "2026-11-18T12:36:58.297330+09:00"
     },
     "guide-a24db6cc023796bf9d192e499495404c59d065307c18e0fb69403538bc47c735": {
       "key": "guide-a24db6cc023796bf9d192e499495404c59d065307c18e0fb69403538bc47c735",
