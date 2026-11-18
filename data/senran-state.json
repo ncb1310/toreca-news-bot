@@ -322,12 +322,48 @@
       }
     }
   },
-  "last_checked_at": "2026-11-20T08:00:00+09:00",
+  "last_checked_at": "2026-11-18T10:14:23.065309+09:00",
   "last_reservation_check": {
-    "checked_at": "2026-11-18T04:00:54.661663+09:00",
+    "checked_at": "2026-11-18T10:14:18.854846+09:00",
     "queued": 8,
     "target": 8,
     "posts": [
+      {
+        "id": "6afca46f5689ca43c1126a14",
+        "text": "おやすみなさい。\n本を閉じるように、今日の心にも静かな区切りを。また次の頁で会いましょう。\n\n#おやすみなさい #創作 #小説",
+        "dueAt": "2026-11-19T13:00:00.000Z",
+        "status": "scheduled",
+        "assets": [
+          {
+            "mimeType": "image/jpeg",
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/senran/night.jpg"
+          }
+        ]
+      },
+      {
+        "id": "6afca46d9c73f3089baf5133",
+        "text": "こんばんは。\n今日の頁を振り返る、その少しの時間。小さな喜びがひとつでも見つかりますように。\n\n#こんばんは #創作 #小説",
+        "dueAt": "2026-11-19T09:00:00.000Z",
+        "status": "scheduled",
+        "assets": [
+          {
+            "mimeType": "image/jpeg",
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/senran/evening.jpg"
+          }
+        ]
+      },
+      {
+        "id": "6afca46a5689ca43c112658e",
+        "text": "こんにちは。\n少し立ち止まる時間も、大切な一頁。午後もどうぞ、無理のない歩幅で。\n\n#こんにちは #創作 #小説",
+        "dueAt": "2026-11-19T03:00:00.000Z",
+        "status": "scheduled",
+        "assets": [
+          {
+            "mimeType": "image/jpeg",
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/senran/noon.jpg"
+          }
+        ]
+      },
       {
         "id": "6afb91aff83aaca8f39549d9",
         "text": "おはようございます。\n遠くまで急がなくても、今日の一歩には意味がある。どうぞ、あなたらしい一日を。\n\n#おはようございます #創作 #小説",
@@ -377,50 +413,14 @@
         ]
       },
       {
-        "id": "6afb201a12f2f788dabb57f0",
-        "text": "おはようございます。\n始まりの朝は、白い頁に似ています。小さな楽しみをひとつ見つけられますように。\n\n#おはようございます #創作 #小説",
-        "dueAt": "2026-11-17T23:00:00.000Z",
+        "id": "6afcfbedfc933ac285b4f9ed",
         "status": "scheduled",
+        "dueAt": "2026-11-19T23:00:00.000Z",
+        "text": "おはようございます。\n新しい一日にも、まだ知らない物語が待っています。今日は自分の歩幅で、ゆっくりと。\n\n#おはようございます #創作 #小説",
         "assets": [
           {
             "mimeType": "image/jpeg",
             "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/senran/morning.jpg"
-          }
-        ]
-      },
-      {
-        "id": "6afca46a5689ca43c112658e",
-        "status": "scheduled",
-        "dueAt": "2026-11-19T03:00:00.000Z",
-        "text": "こんにちは。\n少し立ち止まる時間も、大切な一頁。午後もどうぞ、無理のない歩幅で。\n\n#こんにちは #創作 #小説",
-        "assets": [
-          {
-            "mimeType": "image/jpeg",
-            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/senran/noon.jpg"
-          }
-        ]
-      },
-      {
-        "id": "6afca46d9c73f3089baf5133",
-        "status": "scheduled",
-        "dueAt": "2026-11-19T09:00:00.000Z",
-        "text": "こんばんは。\n今日の頁を振り返る、その少しの時間。小さな喜びがひとつでも見つかりますように。\n\n#こんばんは #創作 #小説",
-        "assets": [
-          {
-            "mimeType": "image/jpeg",
-            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/senran/evening.jpg"
-          }
-        ]
-      },
-      {
-        "id": "6afca46f5689ca43c1126a14",
-        "status": "scheduled",
-        "dueAt": "2026-11-19T13:00:00.000Z",
-        "text": "おやすみなさい。\n本を閉じるように、今日の心にも静かな区切りを。また次の頁で会いましょう。\n\n#おやすみなさい #創作 #小説",
-        "assets": [
-          {
-            "mimeType": "image/jpeg",
-            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/senran/night.jpg"
           }
         ]
       }
