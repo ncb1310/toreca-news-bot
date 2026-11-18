@@ -126,9 +126,9 @@
       "post_id": "6afb201a12f2f788dabb57f0",
       "publication_result": {
         "id": "6afb201a12f2f788dabb57f0",
-        "status": "scheduled",
-        "sentAt": null,
-        "externalLink": null,
+        "status": "sent",
+        "sentAt": "2026-11-17T23:01:51.604Z",
+        "externalLink": "https://x.com/2098199506550718464/status/2122827585637724236",
         "assets": [
           {
             "mimeType": "image/jpeg",
