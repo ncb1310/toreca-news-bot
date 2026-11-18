@@ -15530,8 +15530,11 @@
       "category": "ポケモンカードゲーム",
       "store": "名古屋大須店",
       "closed": false,
-      "status": "ready",
-      "discovered_at": "2026-11-18T13:42:10.985895+09:00"
+      "status": "sending",
+      "discovered_at": "2026-11-18T13:42:10.985895+09:00",
+      "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/bdb4d8fe301225d814f0f91d42b445904d7099b9/assets/generated/32c5292d5ec7b6fc6f5691fe.png",
+      "attempt_date": "2026-11-18",
+      "attempted_at": "2026-11-18T13:42:10.985895+09:00"
     }
   },
   "channel_check": {
