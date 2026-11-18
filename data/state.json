@@ -15590,11 +15590,12 @@
       "category": "ポケモンカードゲーム",
       "store": "天王寺店",
       "closed": false,
-      "status": "sending",
+      "status": "accepted",
       "discovered_at": "2026-11-18T16:58:58.402570+09:00",
       "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/590b0ef64f2fcb3e2e201707dab1150864b88b89/assets/generated/c273dfacb71d646c50da6786.png",
       "attempt_date": "2026-11-18",
-      "attempted_at": "2026-11-18T16:58:58.402570+09:00"
+      "attempted_at": "2026-11-18T16:58:58.402570+09:00",
+      "buffer_post_id": "6afd5ad9ec7ce526437773b5"
     }
   },
   "channel_check": {
