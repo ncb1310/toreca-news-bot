@@ -1,0 +1,38 @@
+name: Book Kingshot evening November 18
+on:
+  push:
+    paths: ['.github/workflows/kingshot-night-20261118.yml']
+permissions:
+  contents: write
+concurrency:
+  group: toreca-news-production
+  cancel-in-progress: false
+jobs:
+  reserve:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - run: pip install Pillow
+      - env:
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          python - <<'PY'
+          import refill_queue as q
+          from datetime import datetime
+          due = datetime.fromisoformat('2026-11-18T22:00:00+09:00')
+          if datetime.now(q.shared.JST) >= due:
+              raise SystemExit('The slot has passed')
+          q.slots = lambda account, now: [due]
+          original = q.king.select
+          def select(state, when, config):
+              candidate = original(state, when, config)
+              if candidate and candidate['kind'] == 'night':
+                  candidate['text'] = 'チェンコ、今日はもう夢の中。明日の集結に寝坊しませんように🌙\n寝る前に同盟チャットを一度だけ開くつもりが、会話に混ざってもう十分。みんなの王国も今ごろそんな感じかな。\n#キングショット #Kingshot'
+                  return candidate
+          q.king.select = select
+          q.refill('kingshot5555')
+          PY
