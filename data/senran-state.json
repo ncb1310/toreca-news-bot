@@ -391,12 +391,24 @@
       }
     }
   },
-  "last_checked_at": "2026-11-18T22:13:39.355757+09:00",
+  "last_checked_at": "2026-11-19T03:57:14.413928+09:00",
   "last_reservation_check": {
-    "checked_at": "2026-11-18T22:13:34.965053+09:00",
+    "checked_at": "2026-11-19T03:57:13.862485+09:00",
     "queued": 8,
     "target": 8,
     "posts": [
+      {
+        "id": "6afda48288f8ac97b1aa526a",
+        "text": "おやすみなさい。\n今日の物語はいったんここまで。続きは、また明日のあなたの歩幅で。どうか穏やかな夢を。\n\n#おやすみなさい #創作 #小説",
+        "dueAt": "2026-11-20T13:00:00.000Z",
+        "status": "scheduled",
+        "assets": [
+          {
+            "mimeType": "image/jpeg",
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/senran/night.jpg"
+          }
+        ]
+      },
       {
         "id": "6afd6b00d015b337f13f257f",
         "text": "こんばんは。\n一日の終わりに、心をほどく時間を。今日という物語に、小さな安らぎが残りますように。\n\n#こんばんは #創作 #小説",
@@ -478,18 +490,6 @@
           {
             "mimeType": "image/jpeg",
             "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/senran/morning.jpg"
-          }
-        ]
-      },
-      {
-        "id": "6afda48288f8ac97b1aa526a",
-        "status": "scheduled",
-        "dueAt": "2026-11-20T13:00:00.000Z",
-        "text": "おやすみなさい。\n今日の物語はいったんここまで。続きは、また明日のあなたの歩幅で。どうか穏やかな夢を。\n\n#おやすみなさい #創作 #小説",
-        "assets": [
-          {
-            "mimeType": "image/jpeg",
-            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/senran/night.jpg"
           }
         ]
       }
