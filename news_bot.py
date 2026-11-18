@@ -273,6 +273,8 @@ def post_hashtags(item):
 
 def format_post(item):
     tags = post_hashtags(item)
+    if item.get('guide_id') == 'lottery-receipt':
+        return ('当たったー！🎉✨ スマホも持った📱 靴も履いた👟\n……お財布、まだキッチンにある👛💦\n\n店頭で受け取る日は、出発前に当選通知をもう一度💌\n受取期限と必要な持ち物をチェックしたら、今度こそ行ってきます！🃏\n#トレカ女子 #トレカ抽選')
     if item.get('kind') == 'guide':
         text = '🃏 ' + item['title'] + '\n\n' + item['body']
         suffix = '\n' + tags + '\n参照先👇\n'
@@ -422,14 +424,19 @@ def send(item, channel_id):
 
 def publish_card(item, now):
     from post_cards import image_name, render_card
-    relative = 'assets/generated/' + image_name(item)
-    label = 'トレカの基礎と確認ポイント' if item.get('kind') == 'guide' else SOURCES[item['source']][0]
-    render_card(item, label, now, ROOT / relative)
-    checkpoint(relative)
+    if item.get('guide_id') == 'lottery-receipt':
+        relative = 'assets/toreca/lottery-receipt.jpg'
+        signature = b'\xff\xd8\xff'
+    else:
+        signature = b'\x89PNG\r\n\x1a\n'
+        relative = 'assets/generated/' + image_name(item)
+        label = 'トレカの基礎と確認ポイント' if item.get('kind') == 'guide' else SOURCES[item['source']][0]
+        render_card(item, label, now, ROOT / relative)
+        checkpoint(relative)
     revision = subprocess.check_output(['git', 'rev-parse', 'HEAD'], cwd=ROOT, text=True).strip()
     image_url = 'https://raw.githubusercontent.com/ncb1310/toreca-news-bot/' + revision + '/' + relative
     with urlopen(Request(image_url, headers={'User-Agent': AGENT}), timeout=25) as response:
-        if response.read(8) != b'\x89PNG\r\n\x1a\n':
+        if response.read(len(signature)) != signature:
             raise ValueError('Published image could not be verified')
     item['image_url'] = image_url
 
