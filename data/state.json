@@ -16503,9 +16503,9 @@
       "post_id": "6afca49932ea84693c38ae98",
       "publication_result": {
         "id": "6afca49932ea84693c38ae98",
-        "status": "scheduled",
-        "dueAt": "2026-11-18T13:00:00.000Z",
-        "text": "【トレカの確認メモ】\n販売情報は出典まで確認\n\nまとめ投稿は情報を探す入口。応募や購入の前には、出典の公式ページで最新条件を確認しよう。\n#トレカ #トレカ初心者\n参照先👇\nhttps://www.pokemon-card.com/info/",
+        "status": "sent",
+        "sentAt": "2026-11-18T13:02:28.833Z",
+        "externalLink": "https://x.com/2121528694724505600/status/2123039134251970573",
         "assets": [
           {
             "mimeType": "image/png",
