@@ -294,9 +294,9 @@
       "post_id": "6afb91b5797935b975c9543b",
       "publication_result": {
         "id": "6afb91b5797935b975c9543b",
-        "status": "scheduled",
-        "sentAt": null,
-        "externalLink": null,
+        "status": "sent",
+        "sentAt": "2026-11-17T23:01:49.729Z",
+        "externalLink": "https://x.com/2107514010547732481/status/2122827577886736740",
         "assets": [
           {
             "mimeType": "image/jpeg",
@@ -318,9 +318,9 @@
       "post_id": "6afca4751521a8d022978d47",
       "publication_result": {
         "id": "6afca4751521a8d022978d47",
-        "status": "scheduled",
-        "dueAt": "2026-11-18T01:00:00.000Z",
-        "text": "【既存機能メモ】\n釣り大会の受取漏れ対策🎣\n\n報酬の一括受取が更新説明に載っています。個別の報酬だけでなく、受取ボタンや未受領表示も見直しておこう。\n出典：米公式10/19更新説明\nhttps://apps.apple.com/us/app/kingshot/id6739554056\n#キングショット #Kingshot",
+        "status": "sent",
+        "sentAt": "2026-11-18T01:00:30.705Z",
+        "externalLink": "https://x.com/2107514010547732481/status/2122857445181587739",
         "assets": [
           {
             "mimeType": "image/jpeg",
