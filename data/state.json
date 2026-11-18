@@ -16727,9 +16727,30 @@
       "published": "2026-11-20",
       "verification_failed_date": "2026-11-20",
       "verification_error": "HTTPError"
+    },
+    "guide-a0f0cc636c968c4b6d13388879fdbcd779ed15ed758f9e9e7d114ff6a5c8f33b": {
+      "key": "guide-a0f0cc636c968c4b6d13388879fdbcd779ed15ed758f9e9e7d114ff6a5c8f33b",
+      "guide_id": "lottery-result",
+      "kind": "guide",
+      "status": "sending",
+      "source": "guide",
+      "title": "当選発表日の確認ポイント",
+      "bullets": [
+        "どこで結果を見るか",
+        "いつから確認できるか",
+        "購入期限はいつか"
+      ],
+      "body": "結果はメール・アプリ・サイトなど、企画ごとに案内が違う。応募時点で確認方法をメモしておこう。",
+      "url": "https://www.pokemoncenter-online.com/?main_page=lottery",
+      "published": "2026-11-21",
+      "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/2ac709f8a0870028eae8a8f8f0e8297b7c8cdf4c/assets/generated/3ea578977fddb5d009d59155.png",
+      "text": "🃏 当選発表日の確認ポイント\n\n結果はメール・アプリ・サイトなど、企画ごとに案内が違う。応募時点で確認方法をメモしておこう。\n#トレカ #トレカ初心者\n参照先👇\nhttps://www.pokemoncenter-online.com/?main_page=lottery",
+      "attempt_date": "2026-11-21",
+      "attempted_at": "2026-11-19T03:57:17.312020+09:00",
+      "scheduled_at": "2026-11-21T08:00:00+09:00"
     }
   },
-  "last_checked_at": "2026-11-18T22:14:06.007420+09:00",
+  "last_checked_at": "2026-11-21T08:00:00+09:00",
   "last_reservation_check": {
     "checked_at": "2026-11-18T22:14:04.529823+09:00",
     "queued": 3,
