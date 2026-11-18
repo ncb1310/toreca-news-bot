@@ -16657,9 +16657,9 @@
       "verification_error": "HTTPError"
     }
   },
-  "last_checked_at": "2026-11-18T16:17:19.929417+09:00",
+  "last_checked_at": "2026-11-18T18:08:24.549979+09:00",
   "last_reservation_check": {
-    "checked_at": "2026-11-18T16:17:19.781624+09:00",
+    "checked_at": "2026-11-18T18:08:24.397685+09:00",
     "queued": 4,
     "target": 8,
     "posts": [
