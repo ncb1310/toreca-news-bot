@@ -15458,8 +15458,11 @@
       "category": "ポケモンカードゲーム",
       "store": "浜松店",
       "closed": false,
-      "status": "ready",
-      "discovered_at": "2026-11-17T20:29:43.548900+09:00"
+      "status": "sending",
+      "discovered_at": "2026-11-17T20:29:43.548900+09:00",
+      "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/1244d9934c71ef45fef59a55cf91c56003784656/assets/generated/80c72f0e48d8418a9cac4ace.png",
+      "attempt_date": "2026-11-18",
+      "attempted_at": "2026-11-18T10:28:37.391647+09:00"
     },
     "6121ddd197e3796574bc6503dc17147ccacc256ccc8f58206ed3a21ad2040588": {
       "key": "6121ddd197e3796574bc6503dc17147ccacc256ccc8f58206ed3a21ad2040588",
