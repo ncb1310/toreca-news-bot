@@ -342,9 +342,9 @@
       "post_id": "6afd6b041da11ba0179cd46b",
       "publication_result": {
         "id": "6afd6b041da11ba0179cd46b",
-        "status": "scheduled",
-        "dueAt": "2026-11-18T11:00:00.000Z",
-        "text": "【既存機能メモ】\nアバターを高解像度で表示したいとき\n\n米公式の更新説明では、機能を有効にするため画像を再アップロードする必要があると案内されています。表示されないときの確認ポイントに。\n出典：米公式10/19更新説明\nhttps://apps.apple.com/us/app/kingshot/id6739554056\n#キングショット #Kingshot",
+        "status": "sent",
+        "sentAt": "2026-11-18T11:00:36.654Z",
+        "externalLink": "https://x.com/2107514010547732481/status/2123008465115254916",
         "assets": [
           {
             "mimeType": "image/jpeg",
@@ -365,9 +365,9 @@
       "post_id": "6afd6c85e22f43cb2182620e",
       "publication_result": {
         "id": "6afd6c85e22f43cb2182620e",
-        "status": "scheduled",
-        "dueAt": "2026-11-18T13:00:00.000Z",
-        "text": "チェンコ、今日はもう夢の中。明日の集結に寝坊しませんように🌙\n寝る前に同盟チャットを一度だけ開くつもりが、会話に混ざってもう十分。みんなの王国も今ごろそんな感じかな。\n#キングショット #Kingshot",
+        "status": "sent",
+        "sentAt": "2026-11-18T13:01:10.876Z",
+        "externalLink": "https://x.com/2107514010547732481/status/2123038808123850980",
         "assets": [
           {
             "mimeType": "image/jpeg",
