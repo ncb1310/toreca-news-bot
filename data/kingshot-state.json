@@ -477,10 +477,23 @@
       "kind": "guide",
       "text": "【既存機能メモ】\nログイン日数の表示も切り替えられる\n\nVIPページでは連続ログイン日数と累計ログイン日数を切り替えて確認できると案内されています。表示の意味を取り違えないよう確認を。\n出典：米公式10/19更新説明\nhttps://apps.apple.com/us/app/kingshot/id6739554056\n#キングショット #Kingshot",
       "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/repertoire/previous-66.jpg",
-      "status": "sending",
+      "status": "accepted",
       "attempt_date": "2026-11-19",
       "attempted_at": "2026-11-18T22:13:40.427715+09:00",
-      "scheduled_at": "2026-11-19T16:00:00+09:00"
+      "scheduled_at": "2026-11-19T16:00:00+09:00",
+      "post_id": "6afda4920aec53ca439ae46d",
+      "publication_result": {
+        "id": "6afda4920aec53ca439ae46d",
+        "status": "scheduled",
+        "dueAt": "2026-11-19T07:00:00.000Z",
+        "text": "【既存機能メモ】\nログイン日数の表示も切り替えられる\n\nVIPページでは連続ログイン日数と累計ログイン日数を切り替えて確認できると案内されています。表示の意味を取り違えないよう確認を。\n出典：米公式10/19更新説明\nhttps://apps.apple.com/us/app/kingshot/id6739554056\n#キングショット #Kingshot",
+        "assets": [
+          {
+            "mimeType": "image/jpeg",
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/repertoire/previous-66.jpg"
+          }
+        ]
+      }
     }
   },
   "baseline": {
