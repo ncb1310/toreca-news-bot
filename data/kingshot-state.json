@@ -356,13 +356,12 @@
     "night-2026-11-18": {
       "key": "night-2026-11-18",
       "kind": "night",
-      "text": "今日もおつかれさまでした🌙\nキングショットも、休む時間を大切に。\n仲間との続きは、また明日。おやすみなさい。\n#キングショット #Kingshot",
       "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/from-x/31-2108221095975453034.jpg",
-      "status": "rejected",
+      "text": "チェンコ、今日はもう夢の中。明日の集結に寝坊しませんように🌙\n寝る前に同盟チャットを一度だけ開くつもりが、会話に混ざってもう十分。みんなの王国も今ごろそんな感じかな。\n#キングショット #Kingshot",
+      "status": "sending",
       "attempt_date": "2026-11-18",
-      "attempted_at": "2026-11-18T18:08:18.604688+09:00",
-      "scheduled_at": "2026-11-18T22:00:00+09:00",
-      "error": "Invalid post: Whoops, it looks like you've already got this one scheduled or posted around the same time. We're not able to post the same thing twice so close together."
+      "attempted_at": "2026-11-18T18:14:43.601104+09:00",
+      "scheduled_at": "2026-11-18T22:00:00+09:00"
     }
   },
   "baseline": {
@@ -371,7 +370,7 @@
     ],
     "publisher": []
   },
-  "last_checked_at": "2026-11-18T18:13:23.531222+09:00",
+  "last_checked_at": "2026-11-18T22:00:00+09:00",
   "source_errors": {},
   "image_errors": {
     "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/repertoire/previous-66.jpg": {
