@@ -494,6 +494,17 @@
           }
         ]
       }
+    },
+    "guide-castle-duration-2026-11-19": {
+      "key": "guide-castle-duration-2026-11-19",
+      "guide_id": "castle-duration",
+      "kind": "guide",
+      "text": "【既存機能メモ】\n王城戦の状況確認に使える表示🏰\n\n米公式の更新説明には、砲塔の詳細画面に同盟の占領時間ランキングを表示する項目が追加されたとあります。実際の画面で確認してみよう。\n出典：米公式10/19更新説明\nhttps://apps.apple.com/us/app/kingshot/id6739554056\n#キングショット #Kingshot",
+      "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/strategy-reference-20261116.jpg",
+      "status": "sending",
+      "attempt_date": "2026-11-19",
+      "attempted_at": "2026-11-18T22:13:40.427715+09:00",
+      "scheduled_at": "2026-11-19T18:00:00+09:00"
     }
   },
   "baseline": {
@@ -502,7 +513,7 @@
     ],
     "publisher": []
   },
-  "last_checked_at": "2026-11-19T16:00:00+09:00",
+  "last_checked_at": "2026-11-19T18:00:00+09:00",
   "source_errors": {},
   "image_errors": {
     "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/repertoire/previous-66.jpg": {
