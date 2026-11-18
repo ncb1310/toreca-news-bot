@@ -2,22 +2,22 @@
   "version": 1,
   "sources": {
     "pokemon": {
-      "checked_at": "2026-11-18T14:43:27.220246+09:00",
+      "checked_at": "2026-11-18T16:58:58.402570+09:00",
       "count": 177,
       "latest_date": "2026-11-13"
     },
     "onepiece": {
-      "checked_at": "2026-11-18T14:43:27.220246+09:00",
+      "checked_at": "2026-11-18T16:58:58.402570+09:00",
       "count": 1226,
       "latest_date": "2026-03-19"
     },
     "labo": {
-      "checked_at": "2026-11-18T14:43:27.220246+09:00",
+      "checked_at": "2026-11-18T16:58:58.402570+09:00",
       "count": 15,
       "latest_date": "2026-11-18"
     },
     "hobby": {
-      "checked_at": "2026-11-18T14:43:27.220246+09:00",
+      "checked_at": "2026-11-18T16:58:58.402570+09:00",
       "count": 3,
       "latest_date": "2026-11-13"
     },
@@ -27,7 +27,7 @@
       "latest_date": "2026-11-10"
     },
     "furu": {
-      "checked_at": "2026-11-18T14:43:27.220246+09:00",
+      "checked_at": "2026-11-18T16:58:58.402570+09:00",
       "count": 60,
       "latest_date": "2026-11-17"
     }
@@ -15580,6 +15580,18 @@
         ]
       },
       "publication_checked_at": "2026-11-18T14:43:27.220246+09:00"
+    },
+    "b2b0ecfcea118c8e767f3e6fee866439b0d5d656faa6eff7f14a2bd847585850": {
+      "key": "b2b0ecfcea118c8e767f3e6fee866439b0d5d656faa6eff7f14a2bd847585850",
+      "source": "labo",
+      "title": "【ポケモンカードゲーム】各種再販売のお知らせ【11月18日】",
+      "published": "2026-11-18",
+      "url": "https://www.c-labo.jp/shop/tennouji/blog/624724/",
+      "category": "ポケモンカードゲーム",
+      "store": "天王寺店",
+      "closed": false,
+      "status": "ready",
+      "discovered_at": "2026-11-18T16:58:58.402570+09:00"
     }
   },
   "channel_check": {
