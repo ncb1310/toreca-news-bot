@@ -320,9 +320,19 @@
           }
         ]
       }
+    },
+    "2026-11-20-noon": {
+      "key": "2026-11-20-noon",
+      "kind": "noon",
+      "text": "こんにちは。\n忙しい時間の合間にも、心に余白を少しだけ。物語をめくるように、ゆっくり息をついていきましょう。\n\n#こんにちは #創作 #小説",
+      "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/senran/noon.jpg",
+      "status": "sending",
+      "attempt_date": "2026-11-20",
+      "attempted_at": "2026-11-18T16:17:14.404620+09:00",
+      "scheduled_at": "2026-11-20T12:00:00+09:00"
     }
   },
-  "last_checked_at": "2026-11-18T10:14:23.065309+09:00",
+  "last_checked_at": "2026-11-20T12:00:00+09:00",
   "last_reservation_check": {
     "checked_at": "2026-11-18T10:14:18.854846+09:00",
     "queued": 8,
