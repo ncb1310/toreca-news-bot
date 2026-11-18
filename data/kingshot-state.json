@@ -470,6 +470,17 @@
           }
         ]
       }
+    },
+    "guide-vip-days-2026-11-19": {
+      "key": "guide-vip-days-2026-11-19",
+      "guide_id": "vip-days",
+      "kind": "guide",
+      "text": "【既存機能メモ】\nログイン日数の表示も切り替えられる\n\nVIPページでは連続ログイン日数と累計ログイン日数を切り替えて確認できると案内されています。表示の意味を取り違えないよう確認を。\n出典：米公式10/19更新説明\nhttps://apps.apple.com/us/app/kingshot/id6739554056\n#キングショット #Kingshot",
+      "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/repertoire/previous-66.jpg",
+      "status": "sending",
+      "attempt_date": "2026-11-19",
+      "attempted_at": "2026-11-18T22:13:40.427715+09:00",
+      "scheduled_at": "2026-11-19T16:00:00+09:00"
     }
   },
   "baseline": {
@@ -478,7 +489,7 @@
     ],
     "publisher": []
   },
-  "last_checked_at": "2026-11-19T14:00:00+09:00",
+  "last_checked_at": "2026-11-19T16:00:00+09:00",
   "source_errors": {},
   "image_errors": {
     "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/repertoire/previous-66.jpg": {
