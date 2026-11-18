@@ -16489,9 +16489,27 @@
       "published": "2026-11-20",
       "verification_failed_date": "2026-11-20",
       "verification_error": "HTTPError"
+    },
+    "guide-d483cf37be4d26c6f019ae846d078d6687d91425f695add04bc50d231a512442": {
+      "key": "guide-d483cf37be4d26c6f019ae846d078d6687d91425f695add04bc50d231a512442",
+      "guide_id": "online-order",
+      "kind": "guide",
+      "status": "verification_failed",
+      "source": "guide",
+      "title": "通販の注文前、ここを見直す",
+      "bullets": [
+        "商品の正式名称と数量",
+        "配送・受取方法",
+        "送料を含む支払内容"
+      ],
+      "body": "注文確定の前に一度だけ見直そう。パックとBOX、配送と店頭受取など、選択内容を確認しておくと安心。",
+      "url": "https://www.pokemoncenter-online.com/",
+      "published": "2026-11-20",
+      "verification_failed_date": "2026-11-20",
+      "verification_error": "HTTPError"
     }
   },
-  "last_checked_at": "2026-11-20T08:00:00+09:00",
+  "last_checked_at": "2026-11-20T10:00:00+09:00",
   "last_reservation_check": {
     "checked_at": "2026-11-18T04:01:11.218458+09:00",
     "queued": 8,
