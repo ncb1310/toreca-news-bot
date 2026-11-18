@@ -15632,8 +15632,11 @@
       "category": "ONE PIECEカードゲーム",
       "store": "静岡店",
       "closed": false,
-      "status": "ready",
-      "discovered_at": "2026-11-18T18:16:05.188457+09:00"
+      "status": "sending",
+      "discovered_at": "2026-11-18T18:16:05.188457+09:00",
+      "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/4129e067be2adc49efe641cc0fcf0d3b68fd787b/assets/generated/d574205fc967efdd9707bd96.png",
+      "attempt_date": "2026-11-18",
+      "attempted_at": "2026-11-18T18:16:05.188457+09:00"
     },
     "cd81ae989d9b1ff1d2a0fa04cceecc4541937b5fde4f7701ea513ac30d7cf1bb": {
       "key": "cd81ae989d9b1ff1d2a0fa04cceecc4541937b5fde4f7701ea513ac30d7cf1bb",
