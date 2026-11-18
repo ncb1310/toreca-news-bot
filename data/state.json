@@ -15620,8 +15620,11 @@
       "category": "ポケモンカードゲーム",
       "store": "静岡店",
       "closed": false,
-      "status": "ready",
-      "discovered_at": "2026-11-18T18:16:05.188457+09:00"
+      "status": "sending",
+      "discovered_at": "2026-11-18T18:16:05.188457+09:00",
+      "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/683a85fa95c6757e3b05811ba482343e9f938061/assets/generated/45a41ba75e44b9b19d64d2da.png",
+      "attempt_date": "2026-11-18",
+      "attempted_at": "2026-11-18T19:23:28.208495+09:00"
     },
     "92c1438e25d1e8336f7c84086f813b1d98cd363b82133735ad9f5b2ab1a028d4": {
       "key": "92c1438e25d1e8336f7c84086f813b1d98cd363b82133735ad9f5b2ab1a028d4",
