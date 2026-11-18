@@ -297,9 +297,19 @@
           }
         ]
       }
+    },
+    "2026-11-20-morning": {
+      "key": "2026-11-20-morning",
+      "kind": "morning",
+      "text": "おはようございます。\n新しい一日にも、まだ知らない物語が待っています。今日は自分の歩幅で、ゆっくりと。\n\n#おはようございます #創作 #小説",
+      "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/senran/morning.jpg",
+      "status": "sending",
+      "attempt_date": "2026-11-20",
+      "attempted_at": "2026-11-18T10:14:18.854846+09:00",
+      "scheduled_at": "2026-11-20T08:00:00+09:00"
     }
   },
-  "last_checked_at": "2026-11-18T04:01:05.115912+09:00",
+  "last_checked_at": "2026-11-20T08:00:00+09:00",
   "last_reservation_check": {
     "checked_at": "2026-11-18T04:00:54.661663+09:00",
     "queued": 8,
