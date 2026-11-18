@@ -16802,7 +16802,7 @@
       "key": "guide-50fca56cb6dee89ef58d8d1cfaa260f50ee2352c7671cfaae3889c7be6d15558",
       "guide_id": "lottery-calendar",
       "kind": "guide",
-      "status": "sending",
+      "status": "accepted",
       "source": "guide",
       "title": "抽選管理は1件1メモで",
       "bullets": [
@@ -16817,7 +16817,21 @@
       "text": "🃏 抽選管理は1件1メモで\n\n抽選を複数追うなら、1件ずつ記録。別の商品の購入期限と取り違えないよう、店名も一緒に残そう。\n#トレカ #トレカ初心者\n参照先👇\nhttps://www.pokemoncenter-online.com/?main_page=lottery",
       "attempt_date": "2026-11-21",
       "attempted_at": "2026-11-19T03:57:17.312020+09:00",
-      "scheduled_at": "2026-11-21T12:00:00+09:00"
+      "scheduled_at": "2026-11-21T12:00:00+09:00",
+      "post_id": "6afdf51b9cf472c6917dac42",
+      "publication_result": {
+        "id": "6afdf51b9cf472c6917dac42",
+        "status": "scheduled",
+        "dueAt": "2026-11-21T03:00:00.000Z",
+        "text": "🃏 抽選管理は1件1メモで\n\n抽選を複数追うなら、1件ずつ記録。別の商品の購入期限と取り違えないよう、店名も一緒に残そう。\n#トレカ #トレカ初心者\n参照先👇\nhttps://www.pokemoncenter-online.com/?main_page=lottery",
+        "assets": [
+          {
+            "mimeType": "image/png",
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/532261fc837cb0737d0b1d887c3dd8052d640919/assets/generated/4c88943677c6beb91e09bc0a.png"
+          }
+        ]
+      },
+      "buffer_post_id": "6afdf51b9cf472c6917dac42"
     }
   },
   "last_checked_at": "2026-11-21T12:00:00+09:00",
