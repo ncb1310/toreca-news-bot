@@ -422,6 +422,17 @@
           }
         ]
       }
+    },
+    "guide-war-notification-2026-11-19": {
+      "key": "guide-war-notification-2026-11-19",
+      "guide_id": "war-notification",
+      "kind": "guide",
+      "text": "【既存機能メモ】\n通知が多いと感じたら設定を確認\n\n同盟戦争にはイベント情報のリマインダーや戦闘通知を調整する機能が案内されています。必要な情報を受け取れる設定に整えよう。\n出典：米公式10/19更新説明\nhttps://apps.apple.com/us/app/kingshot/id6739554056\n#キングショット #Kingshot",
+      "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/repertoire/previous-21.jpg",
+      "status": "sending",
+      "attempt_date": "2026-11-19",
+      "attempted_at": "2026-11-18T22:13:40.427715+09:00",
+      "scheduled_at": "2026-11-19T12:00:00+09:00"
     }
   },
   "baseline": {
@@ -430,7 +441,7 @@
     ],
     "publisher": []
   },
-  "last_checked_at": "2026-11-19T10:00:00+09:00",
+  "last_checked_at": "2026-11-19T12:00:00+09:00",
   "source_errors": {},
   "image_errors": {
     "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/repertoire/previous-66.jpg": {
