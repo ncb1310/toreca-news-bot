@@ -405,10 +405,23 @@
       "kind": "guide",
       "text": "【既存機能メモ】\nアバター枠との相性、先に確認\n\nカスタムアバターの確認画面には、枠付きの見え方をプレビューする選択肢が案内されています。設定する前に表示を見直そう。\n出典：米公式10/19更新説明\nhttps://apps.apple.com/us/app/kingshot/id6739554056\n#キングショット #Kingshot",
       "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/repertoire/previous-59.jpg",
-      "status": "sending",
+      "status": "accepted",
       "attempt_date": "2026-11-19",
       "attempted_at": "2026-11-18T22:13:40.427715+09:00",
-      "scheduled_at": "2026-11-19T10:00:00+09:00"
+      "scheduled_at": "2026-11-19T10:00:00+09:00",
+      "post_id": "6afda4891c55ed7dd801cdc3",
+      "publication_result": {
+        "id": "6afda4891c55ed7dd801cdc3",
+        "status": "scheduled",
+        "dueAt": "2026-11-19T01:00:00.000Z",
+        "text": "【既存機能メモ】\nアバター枠との相性、先に確認\n\nカスタムアバターの確認画面には、枠付きの見え方をプレビューする選択肢が案内されています。設定する前に表示を見直そう。\n出典：米公式10/19更新説明\nhttps://apps.apple.com/us/app/kingshot/id6739554056\n#キングショット #Kingshot",
+        "assets": [
+          {
+            "mimeType": "image/jpeg",
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/repertoire/previous-59.jpg"
+          }
+        ]
+      }
     }
   },
   "baseline": {
