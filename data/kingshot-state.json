@@ -525,10 +525,23 @@
       "kind": "guide",
       "text": "【既存機能メモ】\n英雄募集の回数を選びたいとき\n\n米公式の更新説明では、全て使用する操作がMulti Recruitへ変わり、募集回数を選べるようになったと案内されています。確定前に回数を確認しよう。\n出典：米公式10/19更新説明\nhttps://apps.apple.com/us/app/kingshot/id6739554056\n#キングショット #Kingshot",
       "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/from-x/36-2107718817149587623.jpg",
-      "status": "sending",
+      "status": "accepted",
       "attempt_date": "2026-11-19",
       "attempted_at": "2026-11-18T22:13:40.427715+09:00",
-      "scheduled_at": "2026-11-19T20:00:00+09:00"
+      "scheduled_at": "2026-11-19T20:00:00+09:00",
+      "post_id": "6afda49788f8ac97b1aa587b",
+      "publication_result": {
+        "id": "6afda49788f8ac97b1aa587b",
+        "status": "scheduled",
+        "dueAt": "2026-11-19T11:00:00.000Z",
+        "text": "【既存機能メモ】\n英雄募集の回数を選びたいとき\n\n米公式の更新説明では、全て使用する操作がMulti Recruitへ変わり、募集回数を選べるようになったと案内されています。確定前に回数を確認しよう。\n出典：米公式10/19更新説明\nhttps://apps.apple.com/us/app/kingshot/id6739554056\n#キングショット #Kingshot",
+        "assets": [
+          {
+            "mimeType": "image/jpeg",
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/from-x/36-2107718817149587623.jpg"
+          }
+        ]
+      }
     }
   },
   "baseline": {
