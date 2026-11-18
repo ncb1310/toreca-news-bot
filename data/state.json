@@ -15560,8 +15560,11 @@
       "category": "ONE PIECEカードゲーム",
       "store": "津田沼店",
       "closed": false,
-      "status": "ready",
-      "discovered_at": "2026-11-18T14:43:27.220246+09:00"
+      "status": "sending",
+      "discovered_at": "2026-11-18T14:43:27.220246+09:00",
+      "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/e7d0a24a06f4bcb601fd99cfebef8b53a0bbefc8/assets/generated/f2de76b8040db5882bbfad98.png",
+      "attempt_date": "2026-11-18",
+      "attempted_at": "2026-11-18T14:43:27.220246+09:00"
     }
   },
   "channel_check": {
