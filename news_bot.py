@@ -274,7 +274,7 @@ def post_hashtags(item):
 def format_post(item):
     tags = post_hashtags(item)
     if item.get('kind') == 'guide':
-        text = '【トレカの確認メモ】\n' + item['title'] + '\n\n' + item['body']
+        text = '🃏 ' + item['title'] + '\n\n' + item['body']
         suffix = '\n' + tags + '\n参照先👇\n'
         limit = (270 - 23) // 2 - len(suffix)
         if len(text) > limit:
@@ -283,9 +283,9 @@ def format_post(item):
     label = SOURCES[item['source']][0]
     store = item.get('store', '')
     spotlight = item.get('kind') == 'spotlight'
-    category = '商品情報の紹介' if spotlight else '公式告知'
-    before = f'【{label}{("・" + store) if store else ""}｜{category}】\n'
-    after = f'\n発表日：{item["published"]}\n' + ('新着速報ではありません。詳細は公式へ👇\n' if spotlight else '受付状況・条件は公式で確認👇\n')
+    category = '🃏 商品ピックアップ' if spotlight else ('🎟️ 抽選のお知らせ' if '抽選' in item['title'] else '📣 新着のお知らせ')
+    before = f'{category}｜{label}{("・" + store) if store else ""}\n'
+    after = f'\n発表日：{item["published"]}\n' + ('新着速報ではありません。詳細は公式へ👇\n' if spotlight else ('締切と受取場所はこちら👇\n' if '抽選' in item['title'] else '詳しくはこちら👇\n'))
     after += tags + '\n'
     # Reserve the tag budget before truncation; never drop mandatory tags.
     limit = (270 - 23) // 2 - len(before) - len(after)
