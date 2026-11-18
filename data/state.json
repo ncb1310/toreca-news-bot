@@ -2,22 +2,22 @@
   "version": 1,
   "sources": {
     "pokemon": {
-      "checked_at": "2026-11-18T12:36:58.297330+09:00",
+      "checked_at": "2026-11-18T13:42:10.985895+09:00",
       "count": 177,
       "latest_date": "2026-11-13"
     },
     "onepiece": {
-      "checked_at": "2026-11-18T12:36:58.297330+09:00",
+      "checked_at": "2026-11-18T13:42:10.985895+09:00",
       "count": 1226,
       "latest_date": "2026-03-19"
     },
     "labo": {
-      "checked_at": "2026-11-18T12:36:58.297330+09:00",
+      "checked_at": "2026-11-18T13:42:10.985895+09:00",
       "count": 15,
-      "latest_date": "2026-11-17"
+      "latest_date": "2026-11-18"
     },
     "hobby": {
-      "checked_at": "2026-11-18T12:36:58.297330+09:00",
+      "checked_at": "2026-11-18T13:42:10.985895+09:00",
       "count": 3,
       "latest_date": "2026-11-13"
     },
@@ -27,7 +27,7 @@
       "latest_date": "2026-11-10"
     },
     "furu": {
-      "checked_at": "2026-11-18T12:36:58.297330+09:00",
+      "checked_at": "2026-11-18T13:42:10.985895+09:00",
       "count": 60,
       "latest_date": "2026-11-17"
     }
@@ -15520,6 +15520,18 @@
       "closed": false,
       "status": "ignored",
       "discovered_at": "2026-11-18T08:58:11.146357+09:00"
+    },
+    "fc9fc97cf62536e8f3be81422b6fb6aea6968da9aa5e620002c84124ee6a2927": {
+      "key": "fc9fc97cf62536e8f3be81422b6fb6aea6968da9aa5e620002c84124ee6a2927",
+      "source": "labo",
+      "title": "ポケモンカードゲーム MEGA 拡張パック『30th CELEBRATION』抽選販売のお知らせ",
+      "published": "2026-11-18",
+      "url": "https://www.c-labo.jp/shop/nagoyaoosu/blog/624714/",
+      "category": "ポケモンカードゲーム",
+      "store": "名古屋大須店",
+      "closed": false,
+      "status": "ready",
+      "discovered_at": "2026-11-18T13:42:10.985895+09:00"
     }
   },
   "channel_check": {
