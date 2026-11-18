@@ -16142,9 +16142,9 @@
       "post_id": "6afca47e5689ca43c11271e1",
       "publication_result": {
         "id": "6afca47e5689ca43c11271e1",
-        "status": "scheduled",
-        "dueAt": "2026-11-18T01:00:00.000Z",
-        "text": "【トレカの確認メモ】\n同名カードは番号も見よう\n\nワンピカードを探すときは、名前とカード番号をセットで。似た見た目や同じキャラクターでも、内容を確認しよう。\n#トレカ #ワンピースカード #トレカ初心者\n参照先👇\nhttps://www.onepiece-cardgame.com/cardlist/",
+        "status": "sent",
+        "sentAt": "2026-11-18T01:00:30.553Z",
+        "externalLink": "https://x.com/2121528694724505600/status/2122857444422324595",
         "assets": [
           {
             "mimeType": "image/png",
