@@ -328,6 +328,17 @@
           }
         ]
       }
+    },
+    "guide-avatar-upload-2026-11-18": {
+      "key": "guide-avatar-upload-2026-11-18",
+      "guide_id": "avatar-upload",
+      "kind": "guide",
+      "text": "【既存機能メモ】\nアバターを高解像度で表示したいとき\n\n米公式の更新説明では、機能を有効にするため画像を再アップロードする必要があると案内されています。表示されないときの確認ポイントに。\n出典：米公式10/19更新説明\nhttps://apps.apple.com/us/app/kingshot/id6739554056\n#キングショット #Kingshot",
+      "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/repertoire/previous-56.jpg",
+      "status": "sending",
+      "attempt_date": "2026-11-18",
+      "attempted_at": "2026-11-18T18:08:18.604688+09:00",
+      "scheduled_at": "2026-11-18T20:00:00+09:00"
     }
   },
   "baseline": {
@@ -336,7 +347,7 @@
     ],
     "publisher": []
   },
-  "last_checked_at": "2026-11-18T10:00:00+09:00",
+  "last_checked_at": "2026-11-18T20:00:00+09:00",
   "source_errors": {},
   "image_errors": {
     "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/repertoire/previous-66.jpg": {
