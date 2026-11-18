@@ -303,10 +303,23 @@
       "kind": "morning",
       "text": "おはようございます。\n新しい一日にも、まだ知らない物語が待っています。今日は自分の歩幅で、ゆっくりと。\n\n#おはようございます #創作 #小説",
       "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/senran/morning.jpg",
-      "status": "sending",
+      "status": "accepted",
       "attempt_date": "2026-11-20",
       "attempted_at": "2026-11-18T10:14:18.854846+09:00",
-      "scheduled_at": "2026-11-20T08:00:00+09:00"
+      "scheduled_at": "2026-11-20T08:00:00+09:00",
+      "post_id": "6afcfbedfc933ac285b4f9ed",
+      "publication_result": {
+        "id": "6afcfbedfc933ac285b4f9ed",
+        "status": "scheduled",
+        "dueAt": "2026-11-19T23:00:00.000Z",
+        "text": "おはようございます。\n新しい一日にも、まだ知らない物語が待っています。今日は自分の歩幅で、ゆっくりと。\n\n#おはようございます #創作 #小説",
+        "assets": [
+          {
+            "mimeType": "image/jpeg",
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/senran/morning.jpg"
+          }
+        ]
+      }
     }
   },
   "last_checked_at": "2026-11-20T08:00:00+09:00",
