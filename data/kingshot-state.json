@@ -612,6 +612,17 @@
           }
         ]
       }
+    },
+    "guide-battle-chat-2026-11-20": {
+      "key": "guide-battle-chat-2026-11-20",
+      "guide_id": "battle-chat",
+      "kind": "guide",
+      "text": "【既存機能メモ】\n戦場に入った後の通知を確認⚔️\n\n米公式は、一部の戦場に入ると王国・同盟のお知らせやチャット放送を自動でミュートする調整を案内しています。重要な指示の確認方法も整えておこう。\n出典：米公式10/19更新説明\nhttps://apps.apple.com/us/app/kingshot/id6739554056\n#キングショット #Kingshot",
+      "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/from-x/34-2107969225016942807.jpg",
+      "status": "sending",
+      "attempt_date": "2026-11-20",
+      "attempted_at": "2026-11-19T16:17:57.327962+09:00",
+      "scheduled_at": "2026-11-20T12:00:00+09:00"
     }
   },
   "baseline": {
@@ -620,7 +631,7 @@
     ],
     "publisher": []
   },
-  "last_checked_at": "2026-11-19T10:11:18.350798+09:00",
+  "last_checked_at": "2026-11-20T12:00:00+09:00",
   "source_errors": {},
   "image_errors": {
     "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/repertoire/previous-66.jpg": {
