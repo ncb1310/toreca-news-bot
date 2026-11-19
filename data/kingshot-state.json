@@ -722,10 +722,11 @@
       "kind": "night",
       "text": "今日もおつかれさまでした🌙\nキングショットも、休む時間を大切に。\n仲間との続きは、また明日。おやすみなさい。\n#キングショット #Kingshot",
       "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/from-x/31-2108221095975453034.jpg",
-      "status": "sending",
+      "status": "rejected",
       "attempt_date": "2026-11-22",
       "attempted_at": "2026-11-20T04:01:12.730045+09:00",
-      "scheduled_at": "2026-11-22T22:00:00+09:00"
+      "scheduled_at": "2026-11-22T22:00:00+09:00",
+      "error": "Invalid post: Whoops, it looks like you've already got this one scheduled or posted around the same time. We're not able to post the same thing twice so close together."
     }
   },
   "baseline": {
