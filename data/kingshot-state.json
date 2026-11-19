@@ -388,9 +388,9 @@
       "post_id": "6afda48761bd3b7f60c217b5",
       "publication_result": {
         "id": "6afda48761bd3b7f60c217b5",
-        "status": "scheduled",
-        "dueAt": "2026-11-18T23:00:00.000Z",
-        "text": "おはようございます！☀️\n今日もキングショットを楽しんでいきましょう。\n育成も攻略も、自分のペースで。仲間との一日が良い時間になりますように⚔️\n#キングショット #Kingshot",
+        "status": "sent",
+        "sentAt": "2026-11-18T23:01:27.428Z",
+        "externalLink": "https://x.com/2107514010547732481/status/2123189872466833535",
         "assets": [
           {
             "mimeType": "image/jpeg",
@@ -412,9 +412,9 @@
       "post_id": "6afda4891c55ed7dd801cdc3",
       "publication_result": {
         "id": "6afda4891c55ed7dd801cdc3",
-        "status": "scheduled",
-        "dueAt": "2026-11-19T01:00:00.000Z",
-        "text": "【既存機能メモ】\nアバター枠との相性、先に確認\n\nカスタムアバターの確認画面には、枠付きの見え方をプレビューする選択肢が案内されています。設定する前に表示を見直そう。\n出典：米公式10/19更新説明\nhttps://apps.apple.com/us/app/kingshot/id6739554056\n#キングショット #Kingshot",
+        "status": "sent",
+        "sentAt": "2026-11-19T01:01:19.343Z",
+        "externalLink": "https://x.com/2107514010547732481/status/2123220036928041448",
         "assets": [
           {
             "mimeType": "image/jpeg",
