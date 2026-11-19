@@ -15692,8 +15692,11 @@
       "category": "遊戯王OCG 遊戯王ラッシュデュエル ポケモンカードゲーム ヴァイスシュヴァルツ ヴァイスシュヴァルツロゼ hololive OFFICIAL CARD GAME 五等分の花嫁カードゲーム ヴァンガード シャドウバース エボルヴ プロ野球カードゲーム DREAM ORDER ONE PIECEカードゲーム ユニオンアリーナ バトルスピリッツ デジモンカードゲーム ドラゴンボールスーパーカードゲーム フュージョンワールド デュエル・マスターズ 名探偵コナンカードゲーム Lycee OVERTURE ウルトラマンカードゲーム ディズニー・ロルカナ ラブライブ！シリーズ オフィシャルカードゲーム ゴジラカードゲーム ガンダムカードゲーム ハイキュー!!バボカ!!BREAK Xross Stars ニベルアリーナ ハリー・ポッター カードゲーム Reバース パルワールド オフィシャルカードゲーム ビルディバイド -ブライト- OSICA ファイナルファンタジーTCG ウィクロス",
       "store": "池袋店",
       "closed": false,
-      "status": "ready",
-      "discovered_at": "2026-11-19T12:37:49.382072+09:00"
+      "status": "sending",
+      "discovered_at": "2026-11-19T12:37:49.382072+09:00",
+      "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/8b3b352eb956c4e6c809442d432588f919954306/assets/generated/eae8b2430d9d3bc05128cb10.png",
+      "attempt_date": "2026-11-19",
+      "attempted_at": "2026-11-19T12:37:49.382072+09:00"
     }
   },
   "channel_check": {
