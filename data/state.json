@@ -2,22 +2,22 @@
   "version": 1,
   "sources": {
     "pokemon": {
-      "checked_at": "2026-11-19T17:00:49.560145+09:00",
+      "checked_at": "2026-11-19T18:20:04.198568+09:00",
       "count": 177,
       "latest_date": "2026-11-13"
     },
     "onepiece": {
-      "checked_at": "2026-11-19T17:00:49.560145+09:00",
+      "checked_at": "2026-11-19T18:20:04.198568+09:00",
       "count": 1226,
       "latest_date": "2026-03-19"
     },
     "labo": {
-      "checked_at": "2026-11-19T17:00:49.560145+09:00",
+      "checked_at": "2026-11-19T18:20:04.198568+09:00",
       "count": 15,
       "latest_date": "2026-11-19"
     },
     "hobby": {
-      "checked_at": "2026-11-19T17:00:49.560145+09:00",
+      "checked_at": "2026-11-19T18:20:04.198568+09:00",
       "count": 3,
       "latest_date": "2026-11-13"
     },
@@ -27,7 +27,7 @@
       "latest_date": "2026-11-10"
     },
     "furu": {
-      "checked_at": "2026-11-19T17:00:49.560145+09:00",
+      "checked_at": "2026-11-19T18:20:04.198568+09:00",
       "count": 60,
       "latest_date": "2026-11-17"
     }
@@ -16694,9 +16694,9 @@
       "post_id": "6afca4b73f600a65285a1582",
       "publication_result": {
         "id": "6afca4b73f600a65285a1582",
-        "status": "scheduled",
-        "dueAt": "2026-11-19T09:00:00.000Z",
-        "text": "【トレカの確認メモ】\n締切直前に見直す3点\n\n締切前は新しく応募するだけでなく、完了状況も確認。受付時間や条件の更新がないか公式案内を見直そう。\n#トレカ #トレカ初心者\n参照先👇\nhttps://www.c-labo.jp/blog/",
+        "status": "sent",
+        "sentAt": "2026-11-19T09:01:53.250Z",
+        "externalLink": "https://x.com/2121528694724505600/status/2123340975359623179",
         "assets": [
           {
             "mimeType": "image/png",
@@ -16704,7 +16704,9 @@
           }
         ]
       },
-      "buffer_post_id": "6afca4b73f600a65285a1582"
+      "buffer_post_id": "6afca4b73f600a65285a1582",
+      "publication_checks": 1,
+      "publication_checked_at": "2026-11-19T18:20:04.198568+09:00"
     },
     "guide-a3cdfcdcae71c706263314695ba8e44308525a2487497fe68a07bf1c7cb08ab2": {
       "key": "guide-a3cdfcdcae71c706263314695ba8e44308525a2487497fe68a07bf1c7cb08ab2",
