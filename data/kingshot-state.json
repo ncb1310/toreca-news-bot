@@ -620,7 +620,7 @@
     ],
     "publisher": []
   },
-  "last_checked_at": "2026-11-20T10:00:00+09:00",
+  "last_checked_at": "2026-11-19T10:11:18.350798+09:00",
   "source_errors": {},
   "image_errors": {
     "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/repertoire/previous-66.jpg": {
@@ -629,7 +629,7 @@
     }
   },
   "last_reservation_check": {
-    "checked_at": "2026-11-19T03:57:15.616535+09:00",
+    "checked_at": "2026-11-19T10:11:08.349102+09:00",
     "queued": 8,
     "target": 8,
     "posts": [
@@ -706,26 +706,26 @@
         ]
       },
       {
-        "id": "6afda4891c55ed7dd801cdc3",
-        "text": "【既存機能メモ】\nアバター枠との相性、先に確認\n\nカスタムアバターの確認画面には、枠付きの見え方をプレビューする選択肢が案内されています。設定する前に表示を見直そう。\n出典：米公式10/19更新説明\nhttps://apps.apple.com/us/app/kingshot/id6739554056\n#キングショット #Kingshot",
-        "dueAt": "2026-11-19T01:00:00.000Z",
+        "id": "6afe4cafebd4409dc90ba41f",
         "status": "scheduled",
+        "dueAt": "2026-11-19T23:00:00.000Z",
+        "text": "おはようございます！☀️\n今日もキングショットを楽しんでいきましょう。\n育成も攻略も、自分のペースで。仲間との一日が良い時間になりますように⚔️\n#キングショット #Kingshot",
         "assets": [
           {
             "mimeType": "image/jpeg",
-            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/repertoire/previous-59.jpg"
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/repertoire/previous-28.jpg"
           }
         ]
       },
       {
-        "id": "6afda48761bd3b7f60c217b5",
-        "text": "おはようございます！☀️\n今日もキングショットを楽しんでいきましょう。\n育成も攻略も、自分のペースで。仲間との一日が良い時間になりますように⚔️\n#キングショット #Kingshot",
-        "dueAt": "2026-11-18T23:00:00.000Z",
+        "id": "6afe4cb1c462756e9e30ef9a",
         "status": "scheduled",
+        "dueAt": "2026-11-20T01:00:00.000Z",
+        "text": "【既存機能メモ】\nチャットの最新位置へ戻りたいとき\n\n過去の会話を見ていて新着がない場合、最新位置へ移動するボタンが表示されると案内されています。流れを追い直すときの確認ポイントに。\n出典：米公式10/19更新説明\nhttps://apps.apple.com/us/app/kingshot/id6739554056\n#キングショット #Kingshot",
         "assets": [
           {
             "mimeType": "image/jpeg",
-            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/references/IMG_2758.jpeg"
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/from-x/33-2108014518534348828.jpg"
           }
         ]
       }
