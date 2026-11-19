@@ -16659,9 +16659,9 @@
       "post_id": "6afca4af3f600a65285a0f0b",
       "publication_result": {
         "id": "6afca4af3f600a65285a0f0b",
-        "status": "scheduled",
-        "dueAt": "2026-11-19T07:00:00.000Z",
-        "text": "【トレカの確認メモ】\nワンピの商品選びは内容から\n\nブースターパックとスタートデッキは、商品ページの内容を見比べよう。遊びたい目的に合うか確認して選ぼう。\n#トレカ #ワンピースカード #トレカ初心者\n参照先👇\nhttps://www.onepiece-cardgame.com/products/",
+        "status": "sent",
+        "sentAt": "2026-11-19T07:01:08.207Z",
+        "externalLink": "https://x.com/2121528694724505600/status/2123310587366998423",
         "assets": [
           {
             "mimeType": "image/png",
