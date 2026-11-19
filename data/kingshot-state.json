@@ -693,6 +693,16 @@
           }
         ]
       }
+    },
+    "morning-2026-11-22": {
+      "key": "morning-2026-11-22",
+      "kind": "morning",
+      "text": "おはようございます！☀️\n今日もキングショットを楽しんでいきましょう。\n育成も攻略も、自分のペースで。仲間との一日が良い時間になりますように⚔️\n#キングショット #Kingshot",
+      "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/repertoire/previous-72.jpg",
+      "status": "sending",
+      "attempt_date": "2026-11-22",
+      "attempted_at": "2026-11-20T04:01:12.730045+09:00",
+      "scheduled_at": "2026-11-22T08:00:00+09:00"
     }
   },
   "baseline": {
@@ -701,7 +711,7 @@
     ],
     "publisher": []
   },
-  "last_checked_at": "2026-11-19T22:19:36.189084+09:00",
+  "last_checked_at": "2026-11-22T08:00:00+09:00",
   "source_errors": {},
   "image_errors": {
     "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/repertoire/previous-66.jpg": {
