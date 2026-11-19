@@ -16866,10 +16866,10 @@
       "buffer_post_id": "6afdf51b9cf472c6917dac42"
     }
   },
-  "last_checked_at": "2026-11-19T10:11:19.593868+09:00",
+  "last_checked_at": "2026-11-19T16:18:07.129871+09:00",
   "last_reservation_check": {
-    "checked_at": "2026-11-19T10:11:19.425969+09:00",
-    "queued": 6,
+    "checked_at": "2026-11-19T16:18:05.354038+09:00",
+    "queued": 4,
     "target": 8,
     "posts": [
       {
@@ -16919,32 +16919,8 @@
             "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/b3f36cd62eaf74c575a3cb7edb84e6538a1ee258/assets/generated/2382767fb53e0a6c3914c994.png"
           }
         ]
-      },
-      {
-        "id": "6afca4af3f600a65285a0f0b",
-        "text": "【トレカの確認メモ】\nワンピの商品選びは内容から\n\nブースターパックとスタートデッキは、商品ページの内容を見比べよう。遊びたい目的に合うか確認して選ぼう。\n#トレカ #ワンピースカード #トレカ初心者\n参照先👇\nhttps://www.onepiece-cardgame.com/products/",
-        "dueAt": "2026-11-19T07:00:00.000Z",
-        "status": "scheduled",
-        "assets": [
-          {
-            "mimeType": "image/png",
-            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/6f1b6396bdf31531872edc40d3615e25f1b3012c/assets/generated/04663e72dd27e58b3c12d8a7.png"
-          }
-        ]
-      },
-      {
-        "id": "6afca4a99c73f3089baf7cf8",
-        "text": "【トレカの確認メモ】\nカードの使い方で迷ったら\n\n対戦中に迷った効果は、公式カード検索やQ&Aで確認しよう。別のカードの説明と混ぜないのがポイント。\n#トレカ #トレカ初心者\n参照先👇\nhttps://www.pokemon-card.com/card-search/",
-        "dueAt": "2026-11-19T05:00:00.000Z",
-        "status": "scheduled",
-        "assets": [
-          {
-            "mimeType": "image/png",
-            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/58be34e294afa8cfe7a1e5290cda209e09be1ea2/assets/generated/c3acd386fee374a449c5f86f.png"
-          }
-        ]
       }
     ],
-    "shortfall": 2
+    "shortfall": 4
   }
 }
