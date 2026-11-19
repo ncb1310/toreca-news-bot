@@ -2,22 +2,22 @@
   "version": 1,
   "sources": {
     "pokemon": {
-      "checked_at": "2026-11-19T22:59:28.191240+09:00",
+      "checked_at": "2026-11-20T08:54:25.965024+09:00",
       "count": 177,
       "latest_date": "2026-11-13"
     },
     "onepiece": {
-      "checked_at": "2026-11-19T22:59:28.191240+09:00",
+      "checked_at": "2026-11-20T08:54:25.965024+09:00",
       "count": 1226,
       "latest_date": "2026-03-19"
     },
     "labo": {
-      "checked_at": "2026-11-19T22:59:28.191240+09:00",
+      "checked_at": "2026-11-20T08:54:25.965024+09:00",
       "count": 15,
       "latest_date": "2026-11-19"
     },
     "hobby": {
-      "checked_at": "2026-11-19T22:59:28.191240+09:00",
+      "checked_at": "2026-11-20T08:54:25.965024+09:00",
       "count": 3,
       "latest_date": "2026-11-13"
     },
@@ -27,9 +27,9 @@
       "latest_date": "2026-11-10"
     },
     "furu": {
-      "checked_at": "2026-11-19T22:59:28.191240+09:00",
-      "count": 60,
-      "latest_date": "2026-11-17"
+      "checked_at": "2026-11-20T08:54:25.965024+09:00",
+      "count": 62,
+      "latest_date": "2026-11-20"
     }
   },
   "items": {
@@ -15712,6 +15712,30 @@
         ]
       },
       "publication_checked_at": "2026-11-19T12:37:49.382072+09:00"
+    },
+    "10d5609fae921d5323e96afa5c604d94e485c324073c1903f36148a890dcd803": {
+      "key": "10d5609fae921d5323e96afa5c604d94e485c324073c1903f36148a890dcd803",
+      "source": "furu",
+      "title": "ふるいちブラックフライデーセール開催中｜11月30日（月）まで",
+      "published": "2026-11-20",
+      "url": "https://www.furu1.net/news/news_campaign/sale_1120",
+      "category": "",
+      "store": "",
+      "closed": false,
+      "status": "ignored",
+      "discovered_at": "2026-11-20T08:54:25.965024+09:00"
+    },
+    "4733aec54c8f1d72602f6cd7fbbe07f74518087dbfcdbf504b8b3e0fad3a1e66": {
+      "key": "4733aec54c8f1d72602f6cd7fbbe07f74518087dbfcdbf504b8b3e0fad3a1e66",
+      "source": "furu",
+      "title": "システムメンテナンスに伴うサービス一時停止のお知らせ",
+      "published": "2026-11-19",
+      "url": "https://www.furu1.net/news/news_information/20261119",
+      "category": "",
+      "store": "",
+      "closed": false,
+      "status": "ignored",
+      "discovered_at": "2026-11-20T08:54:25.965024+09:00"
     }
   },
   "channel_check": {
