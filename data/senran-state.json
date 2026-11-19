@@ -483,12 +483,24 @@
       }
     }
   },
-  "last_checked_at": "2026-11-21T22:00:00+09:00",
+  "last_checked_at": "2026-11-19T22:19:26.414595+09:00",
   "last_reservation_check": {
-    "checked_at": "2026-11-19T16:17:50.244179+09:00",
+    "checked_at": "2026-11-19T22:19:14.244704+09:00",
     "queued": 8,
     "target": 8,
     "posts": [
+      {
+        "id": "6afea2a246636f319e9749f4",
+        "text": "こんにちは。\n何気ない言葉が、ふと心に残ることがあります。今日のあなたにも、そんな出会いがありますように。\n\n#こんにちは #創作 #小説",
+        "dueAt": "2026-11-21T03:00:00.000Z",
+        "status": "scheduled",
+        "assets": [
+          {
+            "mimeType": "image/jpeg",
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/senran/noon.jpg"
+          }
+        ]
+      },
       {
         "id": "6afe4caac462756e9e30ed4e",
         "text": "おはようございます。\n朝の光をひとつ、心の栞に。今日があなたにとって、穏やかな一頁になりますように。\n\n#おはようございます #創作 #小説",
@@ -550,22 +562,10 @@
         ]
       },
       {
-        "id": "6afca46f5689ca43c1126a14",
-        "text": "おやすみなさい。\n本を閉じるように、今日の心にも静かな区切りを。また次の頁で会いましょう。\n\n#おやすみなさい #創作 #小説",
-        "dueAt": "2026-11-19T13:00:00.000Z",
+        "id": "6afef756abf4ba608b738f8b",
         "status": "scheduled",
-        "assets": [
-          {
-            "mimeType": "image/jpeg",
-            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/senran/night.jpg"
-          }
-        ]
-      },
-      {
-        "id": "6afca46d9c73f3089baf5133",
-        "text": "こんばんは。\n今日の頁を振り返る、その少しの時間。小さな喜びがひとつでも見つかりますように。\n\n#こんばんは #創作 #小説",
-        "dueAt": "2026-11-19T09:00:00.000Z",
-        "status": "scheduled",
+        "dueAt": "2026-11-21T09:00:00.000Z",
+        "text": "こんばんは。\n帰り道にも、ひと休みの時間にも。あなたの心に、やさしい余韻が灯りますように。\n\n#こんばんは #創作 #小説",
         "assets": [
           {
             "mimeType": "image/jpeg",
@@ -574,14 +574,14 @@
         ]
       },
       {
-        "id": "6afea2a246636f319e9749f4",
+        "id": "6afef75bcac0791c5d8974f7",
         "status": "scheduled",
-        "dueAt": "2026-11-21T03:00:00.000Z",
-        "text": "こんにちは。\n何気ない言葉が、ふと心に残ることがあります。今日のあなたにも、そんな出会いがありますように。\n\n#こんにちは #創作 #小説",
+        "dueAt": "2026-11-21T13:00:00.000Z",
+        "text": "おやすみなさい。\n心に残った言葉を、そっと枕元へ。今日を歩いたあなたに、やさしい休息が訪れますように。\n\n#おやすみなさい #創作 #小説",
         "assets": [
           {
             "mimeType": "image/jpeg",
-            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/senran/noon.jpg"
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/senran/night.jpg"
           }
         ]
       }
