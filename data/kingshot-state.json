@@ -508,9 +508,9 @@
       "post_id": "6afda4941c55ed7dd801d017",
       "publication_result": {
         "id": "6afda4941c55ed7dd801d017",
-        "status": "scheduled",
-        "dueAt": "2026-11-19T09:00:00.000Z",
-        "text": "【既存機能メモ】\n王城戦の状況確認に使える表示🏰\n\n米公式の更新説明には、砲塔の詳細画面に同盟の占領時間ランキングを表示する項目が追加されたとあります。実際の画面で確認してみよう。\n出典：米公式10/19更新説明\nhttps://apps.apple.com/us/app/kingshot/id6739554056\n#キングショット #Kingshot",
+        "status": "sent",
+        "sentAt": "2026-11-19T09:01:37.853Z",
+        "externalLink": "https://x.com/2107514010547732481/status/2123340910226178473",
         "assets": [
           {
             "mimeType": "image/jpeg",
@@ -532,9 +532,9 @@
       "post_id": "6afda49788f8ac97b1aa587b",
       "publication_result": {
         "id": "6afda49788f8ac97b1aa587b",
-        "status": "scheduled",
-        "dueAt": "2026-11-19T11:00:00.000Z",
-        "text": "【既存機能メモ】\n英雄募集の回数を選びたいとき\n\n米公式の更新説明では、全て使用する操作がMulti Recruitへ変わり、募集回数を選べるようになったと案内されています。確定前に回数を確認しよう。\n出典：米公式10/19更新説明\nhttps://apps.apple.com/us/app/kingshot/id6739554056\n#キングショット #Kingshot",
+        "status": "sent",
+        "sentAt": "2026-11-19T11:01:40.498Z",
+        "externalLink": "https://x.com/2107514010547732481/status/2123371121156165744",
         "assets": [
           {
             "mimeType": "image/jpeg",
@@ -555,9 +555,9 @@
       "post_id": "6afda49988f8ac97b1aa5944",
       "publication_result": {
         "id": "6afda49988f8ac97b1aa5944",
-        "status": "scheduled",
-        "dueAt": "2026-11-19T13:00:00.000Z",
-        "text": "今日もおつかれさまでした🌙\nキングショットも、休む時間を大切に。\n仲間との続きは、また明日。おやすみなさい。\n#キングショット #Kingshot",
+        "status": "sent",
+        "sentAt": "2026-11-19T13:02:29.135Z",
+        "externalLink": "https://x.com/2107514010547732481/status/2123401524231414254",
         "assets": [
           {
             "mimeType": "image/jpeg",
