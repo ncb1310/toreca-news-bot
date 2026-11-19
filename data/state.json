@@ -16868,10 +16868,10 @@
       "buffer_post_id": "6afdf51b9cf472c6917dac42"
     }
   },
-  "last_checked_at": "2026-11-19T16:18:07.129871+09:00",
+  "last_checked_at": "2026-11-19T22:19:37.482484+09:00",
   "last_reservation_check": {
-    "checked_at": "2026-11-19T16:18:05.354038+09:00",
-    "queued": 4,
+    "checked_at": "2026-11-19T22:19:37.269073+09:00",
+    "queued": 3,
     "target": 8,
     "posts": [
       {
@@ -16909,20 +16909,8 @@
             "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/2ac709f8a0870028eae8a8f8f0e8297b7c8cdf4c/assets/generated/3ea578977fddb5d009d59155.png"
           }
         ]
-      },
-      {
-        "id": "6afca4b73f600a65285a1582",
-        "text": "【トレカの確認メモ】\n締切直前に見直す3点\n\n締切前は新しく応募するだけでなく、完了状況も確認。受付時間や条件の更新がないか公式案内を見直そう。\n#トレカ #トレカ初心者\n参照先👇\nhttps://www.c-labo.jp/blog/",
-        "dueAt": "2026-11-19T09:00:00.000Z",
-        "status": "scheduled",
-        "assets": [
-          {
-            "mimeType": "image/png",
-            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/b3f36cd62eaf74c575a3cb7edb84e6538a1ee258/assets/generated/2382767fb53e0a6c3914c994.png"
-          }
-        ]
       }
     ],
-    "shortfall": 4
+    "shortfall": 5
   }
 }
