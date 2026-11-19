@@ -2,32 +2,32 @@
   "version": 1,
   "sources": {
     "pokemon": {
-      "checked_at": "2026-11-19T13:44:32.997755+09:00",
+      "checked_at": "2026-11-19T14:43:27.057143+09:00",
       "count": 177,
       "latest_date": "2026-11-13"
     },
     "onepiece": {
-      "checked_at": "2026-11-19T13:44:32.997755+09:00",
+      "checked_at": "2026-11-19T14:43:27.057143+09:00",
       "count": 1226,
       "latest_date": "2026-03-19"
     },
     "labo": {
-      "checked_at": "2026-11-19T13:44:32.997755+09:00",
+      "checked_at": "2026-11-19T14:43:27.057143+09:00",
       "count": 15,
       "latest_date": "2026-11-19"
     },
     "hobby": {
-      "checked_at": "2026-11-19T13:44:32.997755+09:00",
+      "checked_at": "2026-11-19T14:43:27.057143+09:00",
       "count": 3,
       "latest_date": "2026-11-13"
     },
     "pcstore": {
-      "checked_at": "2026-11-19T13:44:32.997755+09:00",
+      "checked_at": "2026-11-19T14:43:27.057143+09:00",
       "count": 14,
       "latest_date": "2026-11-10"
     },
     "furu": {
-      "checked_at": "2026-11-19T13:44:32.997755+09:00",
+      "checked_at": "2026-11-19T14:43:27.057143+09:00",
       "count": 60,
       "latest_date": "2026-11-17"
     }
@@ -16622,9 +16622,9 @@
       "post_id": "6afca4a99c73f3089baf7cf8",
       "publication_result": {
         "id": "6afca4a99c73f3089baf7cf8",
-        "status": "scheduled",
-        "dueAt": "2026-11-19T05:00:00.000Z",
-        "text": "【トレカの確認メモ】\nカードの使い方で迷ったら\n\n対戦中に迷った効果は、公式カード検索やQ&Aで確認しよう。別のカードの説明と混ぜないのがポイント。\n#トレカ #トレカ初心者\n参照先👇\nhttps://www.pokemon-card.com/card-search/",
+        "status": "sent",
+        "sentAt": "2026-11-19T05:00:52.506Z",
+        "externalLink": "https://x.com/2121528694724505600/status/2123280322867462496",
         "assets": [
           {
             "mimeType": "image/png",
@@ -16632,7 +16632,9 @@
           }
         ]
       },
-      "buffer_post_id": "6afca4a99c73f3089baf7cf8"
+      "buffer_post_id": "6afca4a99c73f3089baf7cf8",
+      "publication_checks": 1,
+      "publication_checked_at": "2026-11-19T14:43:27.057143+09:00"
     },
     "guide-8813c152e751ab2123cf102aa786440be876c4c70d16e8b207b00641928d08d7": {
       "key": "guide-8813c152e751ab2123cf102aa786440be876c4c70d16e8b207b00641928d08d7",
