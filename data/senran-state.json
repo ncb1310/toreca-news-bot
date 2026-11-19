@@ -218,9 +218,9 @@
       "post_id": "6afb91aff83aaca8f39549d9",
       "publication_result": {
         "id": "6afb91aff83aaca8f39549d9",
-        "status": "scheduled",
-        "sentAt": null,
-        "externalLink": null,
+        "status": "sent",
+        "sentAt": "2026-11-18T23:02:49.896Z",
+        "externalLink": "https://x.com/2098199506550718464/status/2123190217955770586",
         "assets": [
           {
             "mimeType": "image/jpeg",
