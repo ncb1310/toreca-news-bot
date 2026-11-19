@@ -701,7 +701,7 @@
     ],
     "publisher": []
   },
-  "last_checked_at": "2026-11-21T22:00:00+09:00",
+  "last_checked_at": "2026-11-19T22:19:36.189084+09:00",
   "source_errors": {},
   "image_errors": {
     "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/repertoire/previous-66.jpg": {
@@ -710,87 +710,39 @@
     }
   },
   "last_reservation_check": {
-    "checked_at": "2026-11-19T10:11:08.349102+09:00",
-    "queued": 8,
+    "checked_at": "2026-11-19T22:19:28.221591+09:00",
+    "queued": 5,
     "target": 8,
     "posts": [
       {
-        "id": "6afda49988f8ac97b1aa5944",
-        "text": "今日もおつかれさまでした🌙\nキングショットも、休む時間を大切に。\n仲間との続きは、また明日。おやすみなさい。\n#キングショット #Kingshot",
-        "dueAt": "2026-11-19T13:00:00.000Z",
+        "id": "6afea2a8749099bdc71b652b",
+        "text": "【既存機能メモ】\n戦場に入った後の通知を確認⚔️\n\n米公式は、一部の戦場に入ると王国・同盟のお知らせやチャット放送を自動でミュートする調整を案内しています。重要な指示の確認方法も整えておこう。\n出典：米公式10/19更新説明\nhttps://apps.apple.com/us/app/kingshot/id6739554056\n#キングショット #Kingshot",
+        "dueAt": "2026-11-20T03:00:00.000Z",
         "status": "scheduled",
         "assets": [
           {
             "mimeType": "image/jpeg",
-            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/from-x/31-2108221095975453034.jpg"
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/from-x/34-2107969225016942807.jpg"
           }
         ]
       },
       {
-        "id": "6afda49788f8ac97b1aa587b",
-        "text": "【既存機能メモ】\n英雄募集の回数を選びたいとき\n\n米公式の更新説明では、全て使用する操作がMulti Recruitへ変わり、募集回数を選べるようになったと案内されています。確定前に回数を確認しよう。\n出典：米公式10/19更新説明\nhttps://apps.apple.com/us/app/kingshot/id6739554056\n#キングショット #Kingshot",
-        "dueAt": "2026-11-19T11:00:00.000Z",
+        "id": "6afe4cb1c462756e9e30ef9a",
+        "text": "【既存機能メモ】\nチャットの最新位置へ戻りたいとき\n\n過去の会話を見ていて新着がない場合、最新位置へ移動するボタンが表示されると案内されています。流れを追い直すときの確認ポイントに。\n出典：米公式10/19更新説明\nhttps://apps.apple.com/us/app/kingshot/id6739554056\n#キングショット #Kingshot",
+        "dueAt": "2026-11-20T01:00:00.000Z",
         "status": "scheduled",
         "assets": [
           {
             "mimeType": "image/jpeg",
-            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/from-x/36-2107718817149587623.jpg"
-          }
-        ]
-      },
-      {
-        "id": "6afda4941c55ed7dd801d017",
-        "text": "【既存機能メモ】\n王城戦の状況確認に使える表示🏰\n\n米公式の更新説明には、砲塔の詳細画面に同盟の占領時間ランキングを表示する項目が追加されたとあります。実際の画面で確認してみよう。\n出典：米公式10/19更新説明\nhttps://apps.apple.com/us/app/kingshot/id6739554056\n#キングショット #Kingshot",
-        "dueAt": "2026-11-19T09:00:00.000Z",
-        "status": "scheduled",
-        "assets": [
-          {
-            "mimeType": "image/jpeg",
-            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/strategy-reference-20261116.jpg"
-          }
-        ]
-      },
-      {
-        "id": "6afda4920aec53ca439ae46d",
-        "text": "【既存機能メモ】\nログイン日数の表示も切り替えられる\n\nVIPページでは連続ログイン日数と累計ログイン日数を切り替えて確認できると案内されています。表示の意味を取り違えないよう確認を。\n出典：米公式10/19更新説明\nhttps://apps.apple.com/us/app/kingshot/id6739554056\n#キングショット #Kingshot",
-        "dueAt": "2026-11-19T07:00:00.000Z",
-        "status": "scheduled",
-        "assets": [
-          {
-            "mimeType": "image/jpeg",
-            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/repertoire/previous-66.jpg"
-          }
-        ]
-      },
-      {
-        "id": "6afda48f61bd3b7f60c219d5",
-        "text": "【既存機能メモ】\n島の装飾品、育成状況を見分けよう🏝️\n\n米公式の更新説明では、最大まで育てた装飾品にMax表示が付く改善が案内されています。交換・育成前の見直しに使いたい機能です。\n出典：米公式10/19更新説明\nhttps://apps.apple.com/us/app/kingshot/id6739554056\n#キングショット #Kingshot",
-        "dueAt": "2026-11-19T05:00:00.000Z",
-        "status": "scheduled",
-        "assets": [
-          {
-            "mimeType": "image/jpeg",
-            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/repertoire/previous-70.jpg"
-          }
-        ]
-      },
-      {
-        "id": "6afda48c1c55ed7dd801cea0",
-        "text": "【既存機能メモ】\n通知が多いと感じたら設定を確認\n\n同盟戦争にはイベント情報のリマインダーや戦闘通知を調整する機能が案内されています。必要な情報を受け取れる設定に整えよう。\n出典：米公式10/19更新説明\nhttps://apps.apple.com/us/app/kingshot/id6739554056\n#キングショット #Kingshot",
-        "dueAt": "2026-11-19T03:00:00.000Z",
-        "status": "scheduled",
-        "assets": [
-          {
-            "mimeType": "image/jpeg",
-            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/repertoire/previous-21.jpg"
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/from-x/33-2108014518534348828.jpg"
           }
         ]
       },
       {
         "id": "6afe4cafebd4409dc90ba41f",
-        "status": "scheduled",
-        "dueAt": "2026-11-19T23:00:00.000Z",
         "text": "おはようございます！☀️\n今日もキングショットを楽しんでいきましょう。\n育成も攻略も、自分のペースで。仲間との一日が良い時間になりますように⚔️\n#キングショット #Kingshot",
+        "dueAt": "2026-11-19T23:00:00.000Z",
+        "status": "scheduled",
         "assets": [
           {
             "mimeType": "image/jpeg",
@@ -799,18 +751,30 @@
         ]
       },
       {
-        "id": "6afe4cb1c462756e9e30ef9a",
+        "id": "6afef764443a2a9f2fc04cb7",
         "status": "scheduled",
-        "dueAt": "2026-11-20T01:00:00.000Z",
-        "text": "【既存機能メモ】\nチャットの最新位置へ戻りたいとき\n\n過去の会話を見ていて新着がない場合、最新位置へ移動するボタンが表示されると案内されています。流れを追い直すときの確認ポイントに。\n出典：米公式10/19更新説明\nhttps://apps.apple.com/us/app/kingshot/id6739554056\n#キングショット #Kingshot",
+        "dueAt": "2026-11-20T23:00:00.000Z",
+        "text": "おはようございます！☀️\n今日もキングショットを楽しんでいきましょう。\n育成も攻略も、自分のペースで。仲間との一日が良い時間になりますように⚔️\n#キングショット #Kingshot",
         "assets": [
           {
             "mimeType": "image/jpeg",
-            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/from-x/33-2108014518534348828.jpg"
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/repertoire/previous-3.jpg"
+          }
+        ]
+      },
+      {
+        "id": "6afef76703dff68ab45a26f5",
+        "status": "scheduled",
+        "dueAt": "2026-11-21T13:00:00.000Z",
+        "text": "今日もおつかれさまでした🌙\nキングショットも、休む時間を大切に。\n仲間との続きは、また明日。おやすみなさい。\n#キングショット #Kingshot",
+        "assets": [
+          {
+            "mimeType": "image/jpeg",
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/from-x/31-2108221095975453034.jpg"
           }
         ]
       }
     ],
-    "shortfall": 0
+    "shortfall": 3
   }
 }
