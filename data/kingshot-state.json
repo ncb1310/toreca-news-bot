@@ -588,6 +588,17 @@
           }
         ]
       }
+    },
+    "guide-chat-bottom-2026-11-20": {
+      "key": "guide-chat-bottom-2026-11-20",
+      "guide_id": "chat-bottom",
+      "kind": "guide",
+      "text": "【既存機能メモ】\nチャットの最新位置へ戻りたいとき\n\n過去の会話を見ていて新着がない場合、最新位置へ移動するボタンが表示されると案内されています。流れを追い直すときの確認ポイントに。\n出典：米公式10/19更新説明\nhttps://apps.apple.com/us/app/kingshot/id6739554056\n#キングショット #Kingshot",
+      "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/from-x/33-2108014518534348828.jpg",
+      "status": "sending",
+      "attempt_date": "2026-11-20",
+      "attempted_at": "2026-11-19T10:11:08.349102+09:00",
+      "scheduled_at": "2026-11-20T10:00:00+09:00"
     }
   },
   "baseline": {
@@ -596,7 +607,7 @@
     ],
     "publisher": []
   },
-  "last_checked_at": "2026-11-20T08:00:00+09:00",
+  "last_checked_at": "2026-11-20T10:00:00+09:00",
   "source_errors": {},
   "image_errors": {
     "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/repertoire/previous-66.jpg": {
