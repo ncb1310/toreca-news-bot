@@ -487,10 +487,23 @@
       "kind": "morning",
       "text": "おはようございます。\n始まりの朝は、白い頁に似ています。小さな楽しみをひとつ見つけられますように。\n\n#おはようございます #創作 #小説",
       "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/senran/morning.jpg",
-      "status": "sending",
+      "status": "accepted",
       "attempt_date": "2026-11-22",
       "attempted_at": "2026-11-20T10:04:31.673352+09:00",
-      "scheduled_at": "2026-11-22T08:00:00+09:00"
+      "scheduled_at": "2026-11-22T08:00:00+09:00",
+      "post_id": "6aff9ca34c1afd05dedeba93",
+      "publication_result": {
+        "id": "6aff9ca34c1afd05dedeba93",
+        "status": "scheduled",
+        "dueAt": "2026-11-21T23:00:00.000Z",
+        "text": "おはようございます。\n始まりの朝は、白い頁に似ています。小さな楽しみをひとつ見つけられますように。\n\n#おはようございます #創作 #小説",
+        "assets": [
+          {
+            "mimeType": "image/jpeg",
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/senran/morning.jpg"
+          }
+        ]
+      }
     }
   },
   "last_checked_at": "2026-11-22T08:00:00+09:00",
