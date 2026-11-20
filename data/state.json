@@ -16963,7 +16963,7 @@
       "key": "guide-896d477a365ed6b82f4ff58c054273cc84e02fd3af0d63d77db2569052696c5b",
       "guide_id": "poke-weakness",
       "kind": "guide",
-      "status": "sending",
+      "status": "accepted",
       "source": "guide",
       "title": "同じダメージでも結果が違う？🔍",
       "bullets": [
@@ -16976,7 +16976,8 @@
       "published": "2026-11-20",
       "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/1bb3a6ffd9d819654778929737e440b17d66c58a/assets/generated/128bc23d7234f254b2429651.png",
       "attempt_date": "2026-11-20",
-      "attempted_at": "2026-11-20T13:41:27.626112+09:00"
+      "attempted_at": "2026-11-20T13:41:27.626112+09:00",
+      "buffer_post_id": "6affcf864c1afd05def1903b"
     }
   },
   "last_checked_at": "2026-11-20T10:04:41.773332+09:00",
