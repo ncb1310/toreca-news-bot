@@ -17125,9 +17125,30 @@
         ]
       },
       "buffer_post_id": "6afff450d5f8acdd0d7d34d8"
+    },
+    "guide-f565f71bcbdc59ba47b7d096e00282f6bb55526fdfbd3a0cf5270de24578dbfc": {
+      "key": "guide-f565f71bcbdc59ba47b7d096e00282f6bb55526fdfbd3a0cf5270de24578dbfc",
+      "guide_id": "one-counter",
+      "kind": "guide",
+      "status": "sending",
+      "source": "guide",
+      "title": "カウンター、どの手札を残す？🃏",
+      "bullets": [
+        "手札のカウンター値",
+        "次のターンの候補",
+        "相手の残りの攻撃"
+      ],
+      "body": "守りたい場面で迷ったら、次のターンに出したいカードを先に決めてみて。手札を使ったあとの動きまで考える練習になるよ。",
+      "url": "https://www.onepiece-cardgame.com/rules/",
+      "published": "2026-11-20",
+      "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/a9029d3a9fdf782f2a3efb6cd070fb00732eb274/assets/generated/da836cf9feb8dcd3394b2beb.png",
+      "text": "🃏 カウンター、どの手札を残す？🃏\n\n守りたい場面で迷ったら、次のターンに出したいカードを先に決めてみて。手札を使ったあとの動きまで考える練習になるよ。\n#トレカ #トレカ初心者\n参照先👇\nhttps://www.onepiece-cardgame.com/rules/",
+      "attempt_date": "2026-11-20",
+      "attempted_at": "2026-11-20T16:18:36.602318+09:00",
+      "scheduled_at": "2026-11-20T20:00:00+09:00"
     }
   },
-  "last_checked_at": "2026-11-20T18:00:00+09:00",
+  "last_checked_at": "2026-11-20T20:00:00+09:00",
   "last_reservation_check": {
     "checked_at": "2026-11-20T10:04:41.534878+09:00",
     "queued": 3,
