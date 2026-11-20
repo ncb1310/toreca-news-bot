@@ -735,7 +735,7 @@
     ],
     "publisher": []
   },
-  "last_checked_at": "2026-11-22T22:00:00+09:00",
+  "last_checked_at": "2026-11-20T10:04:40.234031+09:00",
   "source_errors": {},
   "image_errors": {
     "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/repertoire/previous-66.jpg": {
@@ -744,10 +744,46 @@
     }
   },
   "last_reservation_check": {
-    "checked_at": "2026-11-19T22:19:28.221591+09:00",
-    "queued": 5,
+    "checked_at": "2026-11-20T10:04:38.589434+09:00",
+    "queued": 4,
     "target": 8,
     "posts": [
+      {
+        "id": "6aff477c182c0ff411772bb4",
+        "text": "おはようございます！☀️\n今日もキングショットを楽しんでいきましょう。\n育成も攻略も、自分のペースで。仲間との一日が良い時間になりますように⚔️\n#キングショット #Kingshot",
+        "dueAt": "2026-11-21T23:00:00.000Z",
+        "status": "scheduled",
+        "assets": [
+          {
+            "mimeType": "image/jpeg",
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/repertoire/previous-72.jpg"
+          }
+        ]
+      },
+      {
+        "id": "6afef76703dff68ab45a26f5",
+        "text": "今日もおつかれさまでした🌙\nキングショットも、休む時間を大切に。\n仲間との続きは、また明日。おやすみなさい。\n#キングショット #Kingshot",
+        "dueAt": "2026-11-21T13:00:00.000Z",
+        "status": "scheduled",
+        "assets": [
+          {
+            "mimeType": "image/jpeg",
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/from-x/31-2108221095975453034.jpg"
+          }
+        ]
+      },
+      {
+        "id": "6afef764443a2a9f2fc04cb7",
+        "text": "おはようございます！☀️\n今日もキングショットを楽しんでいきましょう。\n育成も攻略も、自分のペースで。仲間との一日が良い時間になりますように⚔️\n#キングショット #Kingshot",
+        "dueAt": "2026-11-20T23:00:00.000Z",
+        "status": "scheduled",
+        "assets": [
+          {
+            "mimeType": "image/jpeg",
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/repertoire/previous-3.jpg"
+          }
+        ]
+      },
       {
         "id": "6afea2a8749099bdc71b652b",
         "text": "【既存機能メモ】\n戦場に入った後の通知を確認⚔️\n\n米公式は、一部の戦場に入ると王国・同盟のお知らせやチャット放送を自動でミュートする調整を案内しています。重要な指示の確認方法も整えておこう。\n出典：米公式10/19更新説明\nhttps://apps.apple.com/us/app/kingshot/id6739554056\n#キングショット #Kingshot",
@@ -759,56 +795,8 @@
             "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/from-x/34-2107969225016942807.jpg"
           }
         ]
-      },
-      {
-        "id": "6afe4cb1c462756e9e30ef9a",
-        "text": "【既存機能メモ】\nチャットの最新位置へ戻りたいとき\n\n過去の会話を見ていて新着がない場合、最新位置へ移動するボタンが表示されると案内されています。流れを追い直すときの確認ポイントに。\n出典：米公式10/19更新説明\nhttps://apps.apple.com/us/app/kingshot/id6739554056\n#キングショット #Kingshot",
-        "dueAt": "2026-11-20T01:00:00.000Z",
-        "status": "scheduled",
-        "assets": [
-          {
-            "mimeType": "image/jpeg",
-            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/from-x/33-2108014518534348828.jpg"
-          }
-        ]
-      },
-      {
-        "id": "6afe4cafebd4409dc90ba41f",
-        "text": "おはようございます！☀️\n今日もキングショットを楽しんでいきましょう。\n育成も攻略も、自分のペースで。仲間との一日が良い時間になりますように⚔️\n#キングショット #Kingshot",
-        "dueAt": "2026-11-19T23:00:00.000Z",
-        "status": "scheduled",
-        "assets": [
-          {
-            "mimeType": "image/jpeg",
-            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/repertoire/previous-28.jpg"
-          }
-        ]
-      },
-      {
-        "id": "6afef764443a2a9f2fc04cb7",
-        "status": "scheduled",
-        "dueAt": "2026-11-20T23:00:00.000Z",
-        "text": "おはようございます！☀️\n今日もキングショットを楽しんでいきましょう。\n育成も攻略も、自分のペースで。仲間との一日が良い時間になりますように⚔️\n#キングショット #Kingshot",
-        "assets": [
-          {
-            "mimeType": "image/jpeg",
-            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/repertoire/previous-3.jpg"
-          }
-        ]
-      },
-      {
-        "id": "6afef76703dff68ab45a26f5",
-        "status": "scheduled",
-        "dueAt": "2026-11-21T13:00:00.000Z",
-        "text": "今日もおつかれさまでした🌙\nキングショットも、休む時間を大切に。\n仲間との続きは、また明日。おやすみなさい。\n#キングショット #Kingshot",
-        "assets": [
-          {
-            "mimeType": "image/jpeg",
-            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/from-x/31-2108221095975453034.jpg"
-          }
-        ]
       }
     ],
-    "shortfall": 3
+    "shortfall": 4
   }
 }
