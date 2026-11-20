@@ -17331,12 +17331,36 @@
       "buffer_post_id": "6afff4677b0a126cebb70a4b"
     }
   },
-  "last_checked_at": "2026-11-21T16:00:00+09:00",
+  "last_checked_at": "2026-11-20T22:12:54.156977+09:00",
   "last_reservation_check": {
-    "checked_at": "2026-11-20T10:04:41.534878+09:00",
-    "queued": 3,
+    "checked_at": "2026-11-20T22:12:52.625748+09:00",
+    "queued": 5,
     "target": 8,
     "posts": [
+      {
+        "id": "6afff4677b0a126cebb70a4b",
+        "text": "🃏 初手の写真、何を見返す？📷\n\nひとり練習で最初の手札を撮っておくと、「何を引けたら動けた？」を後から考えられるよ。デッキを組み替える前の小さな作戦会議に✨\n#トレカ #トレカ初心者\n参照先👇\nhttps://www.pokemon-card.com/howtoplay/",
+        "dueAt": "2026-11-21T07:00:00.000Z",
+        "status": "scheduled",
+        "assets": [
+          {
+            "mimeType": "image/png",
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/6f7687cf4c8d226f49027292b8ffa3ac05ffeecb/assets/generated/601b530889921c7164ca62f6.png"
+          }
+        ]
+      },
+      {
+        "id": "6afff461738ce4635f953ca6",
+        "text": "🃏 ドン!!をつける前のひと呼吸🏴‍☠️\n\n攻撃に使うドン!!を決める前に、今のターンに登場させたいキャラを1枚選んでみて。やりたいことから逆に数えると考えやすいよ。\n#トレカ #トレカ初心者\n参照先👇\nhttps://www.onepiece-cardgame.com/rules/",
+        "dueAt": "2026-11-21T05:00:00.000Z",
+        "status": "scheduled",
+        "assets": [
+          {
+            "mimeType": "image/png",
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/36047ab03d53743cea1c9c2282f0641e37b00d22/assets/generated/371bd08be860344f21420c1c.png"
+          }
+        ]
+      },
       {
         "id": "6afdf51b9cf472c6917dac42",
         "text": "🃏 抽選管理は1件1メモで\n\n抽選を複数追うなら、1件ずつ記録。別の商品の購入期限と取り違えないよう、店名も一緒に残そう。\n#トレカ #トレカ初心者\n参照先👇\nhttps://www.pokemoncenter-online.com/?main_page=lottery",
@@ -17374,6 +17398,6 @@
         ]
       }
     ],
-    "shortfall": 5
+    "shortfall": 3
   }
 }
