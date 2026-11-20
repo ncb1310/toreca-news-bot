@@ -17090,9 +17090,30 @@
         ]
       },
       "publication_checked_at": "2026-11-20T13:41:27.626112+09:00"
+    },
+    "guide-71ab426a280ed8a79eee7cedaa832233bfa478f9dee25a97fbf927a5b1dedb6f": {
+      "key": "guide-71ab426a280ed8a79eee7cedaa832233bfa478f9dee25a97fbf927a5b1dedb6f",
+      "guide_id": "poke-search-art",
+      "kind": "guide",
+      "status": "sending",
+      "source": "guide",
+      "title": "推しのカードを並べる小さな図鑑📚",
+      "bullets": [
+        "好きなポケモンを検索",
+        "気になるイラストを選ぶ",
+        "カード番号を控える"
+      ],
+      "body": "同じポケモンを公式のカード検索で見比べて、好きなイラストを3枚選ぶ遊び。最初の1枚、みんなならどのポケモンにする？",
+      "url": "https://www.pokemon-card.com/card-search/",
+      "published": "2026-11-20",
+      "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/b44ef66fc632827afa9c685f4af69915a09ca878/assets/generated/af49a77931d8f7a985a7b274.png",
+      "text": "🃏 推しのカードを並べる小さな図鑑📚\n\n同じポケモンを公式のカード検索で見比べて、好きなイラストを3枚選ぶ遊び。最初の1枚、みんなならどのポケモンにする？\n#トレカ #トレカ初心者\n参照先👇\nhttps://www.pokemon-card.com/card-search/",
+      "attempt_date": "2026-11-20",
+      "attempted_at": "2026-11-20T16:18:36.602318+09:00",
+      "scheduled_at": "2026-11-20T18:00:00+09:00"
     }
   },
-  "last_checked_at": "2026-11-20T10:04:41.773332+09:00",
+  "last_checked_at": "2026-11-20T18:00:00+09:00",
   "last_reservation_check": {
     "checked_at": "2026-11-20T10:04:41.534878+09:00",
     "queued": 3,
