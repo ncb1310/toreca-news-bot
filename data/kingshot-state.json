@@ -578,9 +578,9 @@
       "post_id": "6afe4cafebd4409dc90ba41f",
       "publication_result": {
         "id": "6afe4cafebd4409dc90ba41f",
-        "status": "scheduled",
-        "dueAt": "2026-11-19T23:00:00.000Z",
-        "text": "おはようございます！☀️\n今日もキングショットを楽しんでいきましょう。\n育成も攻略も、自分のペースで。仲間との一日が良い時間になりますように⚔️\n#キングショット #Kingshot",
+        "status": "sent",
+        "sentAt": "2026-11-19T23:01:49.604Z",
+        "externalLink": "https://x.com/2107514010547732481/status/2123552352774836540",
         "assets": [
           {
             "mimeType": "image/jpeg",
@@ -602,9 +602,9 @@
       "post_id": "6afe4cb1c462756e9e30ef9a",
       "publication_result": {
         "id": "6afe4cb1c462756e9e30ef9a",
-        "status": "scheduled",
-        "dueAt": "2026-11-20T01:00:00.000Z",
-        "text": "【既存機能メモ】\nチャットの最新位置へ戻りたいとき\n\n過去の会話を見ていて新着がない場合、最新位置へ移動するボタンが表示されると案内されています。流れを追い直すときの確認ポイントに。\n出典：米公式10/19更新説明\nhttps://apps.apple.com/us/app/kingshot/id6739554056\n#キングショット #Kingshot",
+        "status": "sent",
+        "sentAt": "2026-11-20T01:01:34.504Z",
+        "externalLink": "https://x.com/2107514010547732481/status/2123582488924549473",
         "assets": [
           {
             "mimeType": "image/jpeg",
