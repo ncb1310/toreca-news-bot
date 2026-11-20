@@ -15814,8 +15814,11 @@
       "category": "ONE PIECEカードゲーム",
       "store": "池袋店",
       "closed": false,
-      "status": "ready",
-      "discovered_at": "2026-11-20T14:43:30.694532+09:00"
+      "status": "sending",
+      "discovered_at": "2026-11-20T14:43:30.694532+09:00",
+      "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/881919db3db03ab9117f42375c6030ba036fa3dc/assets/generated/5ad60e9d5128a6a1a0471754.png",
+      "attempt_date": "2026-11-20",
+      "attempted_at": "2026-11-20T15:51:07.699543+09:00"
     }
   },
   "channel_check": {
