@@ -735,7 +735,7 @@
     ],
     "publisher": []
   },
-  "last_checked_at": "2026-11-20T10:04:40.234031+09:00",
+  "last_checked_at": "2026-11-20T16:18:36.113660+09:00",
   "source_errors": {},
   "image_errors": {
     "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/repertoire/previous-66.jpg": {
@@ -744,8 +744,8 @@
     }
   },
   "last_reservation_check": {
-    "checked_at": "2026-11-20T10:04:38.589434+09:00",
-    "queued": 4,
+    "checked_at": "2026-11-20T16:18:34.388611+09:00",
+    "queued": 3,
     "target": 8,
     "posts": [
       {
@@ -783,20 +783,8 @@
             "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/repertoire/previous-3.jpg"
           }
         ]
-      },
-      {
-        "id": "6afea2a8749099bdc71b652b",
-        "text": "【既存機能メモ】\n戦場に入った後の通知を確認⚔️\n\n米公式は、一部の戦場に入ると王国・同盟のお知らせやチャット放送を自動でミュートする調整を案内しています。重要な指示の確認方法も整えておこう。\n出典：米公式10/19更新説明\nhttps://apps.apple.com/us/app/kingshot/id6739554056\n#キングショット #Kingshot",
-        "dueAt": "2026-11-20T03:00:00.000Z",
-        "status": "scheduled",
-        "assets": [
-          {
-            "mimeType": "image/jpeg",
-            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/from-x/34-2107969225016942807.jpg"
-          }
-        ]
       }
     ],
-    "shortfall": 4
+    "shortfall": 5
   }
 }
