@@ -2,22 +2,22 @@
   "version": 1,
   "sources": {
     "pokemon": {
-      "checked_at": "2026-11-20T11:37:16.110104+09:00",
+      "checked_at": "2026-11-20T12:34:18.893349+09:00",
       "count": 177,
       "latest_date": "2026-11-13"
     },
     "onepiece": {
-      "checked_at": "2026-11-20T11:37:16.110104+09:00",
+      "checked_at": "2026-11-20T12:34:18.893349+09:00",
       "count": 1226,
       "latest_date": "2026-03-19"
     },
     "labo": {
-      "checked_at": "2026-11-20T11:37:16.110104+09:00",
+      "checked_at": "2026-11-20T12:34:18.893349+09:00",
       "count": 15,
       "latest_date": "2026-11-19"
     },
     "hobby": {
-      "checked_at": "2026-11-20T11:37:16.110104+09:00",
+      "checked_at": "2026-11-20T12:34:18.893349+09:00",
       "count": 3,
       "latest_date": "2026-11-13"
     },
@@ -27,7 +27,7 @@
       "latest_date": "2026-11-10"
     },
     "furu": {
-      "checked_at": "2026-11-20T11:37:16.110104+09:00",
+      "checked_at": "2026-11-20T12:34:18.893349+09:00",
       "count": 61,
       "latest_date": "2026-11-20"
     }
@@ -16924,6 +16924,22 @@
         ]
       },
       "publication_checked_at": "2026-11-20T11:15:53.805766+09:00"
+    },
+    "guide-80404562e46b56d5aec1e6de9eb04a365f8b989465e03604696ed37d62ab51ed": {
+      "key": "guide-80404562e46b56d5aec1e6de9eb04a365f8b989465e03604696ed37d62ab51ed",
+      "guide_id": "poke-retreat",
+      "kind": "guide",
+      "status": "ready",
+      "source": "guide",
+      "title": "にげる前に、カードの右下を見て👀",
+      "bullets": [
+        "にげるエネルギー",
+        "交代先のベンチ",
+        "交代した後のワザ"
+      ],
+      "body": "バトル場を交代したいときは、今のポケモンの「にげる」と、次に出す子のワザをセットで確認。交代後まで想像すると迷いにくいよ。",
+      "url": "https://www.pokemon-card.com/howtoplay/",
+      "published": "2026-11-20"
     }
   },
   "last_checked_at": "2026-11-20T10:04:41.773332+09:00",
