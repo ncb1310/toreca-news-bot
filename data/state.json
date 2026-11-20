@@ -2,32 +2,32 @@
   "version": 1,
   "sources": {
     "pokemon": {
-      "checked_at": "2026-11-20T23:07:07.655244+09:00",
+      "checked_at": "2026-11-21T08:57:14.926037+09:00",
       "count": 182,
       "latest_date": "2026-11-20"
     },
     "onepiece": {
-      "checked_at": "2026-11-20T23:07:07.655244+09:00",
+      "checked_at": "2026-11-21T08:57:14.926037+09:00",
       "count": 1226,
       "latest_date": "2026-03-19"
     },
     "labo": {
-      "checked_at": "2026-11-20T23:07:07.655244+09:00",
+      "checked_at": "2026-11-21T08:57:14.926037+09:00",
       "count": 15,
       "latest_date": "2026-11-20"
     },
     "hobby": {
-      "checked_at": "2026-11-20T23:07:07.655244+09:00",
+      "checked_at": "2026-11-21T08:57:14.926037+09:00",
       "count": 3,
       "latest_date": "2026-11-13"
     },
     "pcstore": {
-      "checked_at": "2026-11-20T23:07:07.655244+09:00",
+      "checked_at": "2026-11-21T08:57:14.926037+09:00",
       "count": 16,
       "latest_date": "2026-11-20"
     },
     "furu": {
-      "checked_at": "2026-11-20T23:07:07.655244+09:00",
+      "checked_at": "2026-11-21T08:57:14.926037+09:00",
       "count": 60,
       "latest_date": "2026-11-20"
     }
@@ -16967,9 +16967,9 @@
       "post_id": "6afdf511a2e55b578d3b41b0",
       "publication_result": {
         "id": "6afdf511a2e55b578d3b41b0",
-        "status": "scheduled",
-        "dueAt": "2026-11-20T23:00:00.000Z",
-        "text": "🃏 当選発表日の確認ポイント\n\n結果はメール・アプリ・サイトなど、企画ごとに案内が違う。応募時点で確認方法をメモしておこう。\n#トレカ #トレカ初心者\n参照先👇\nhttps://www.pokemoncenter-online.com/?main_page=lottery",
+        "status": "sent",
+        "sentAt": "2026-11-20T23:01:51.658Z",
+        "externalLink": "https://x.com/2121528694724505600/status/2123914749670830520",
         "assets": [
           {
             "mimeType": "image/png",
@@ -16977,7 +16977,9 @@
           }
         ]
       },
-      "buffer_post_id": "6afdf511a2e55b578d3b41b0"
+      "buffer_post_id": "6afdf511a2e55b578d3b41b0",
+      "publication_checks": 1,
+      "publication_checked_at": "2026-11-21T08:57:14.926037+09:00"
     },
     "guide-657ad042c1955bc856732506e4d6d166cecf6cefbae3c2bd804589736c2b6863": {
       "key": "guide-657ad042c1955bc856732506e4d6d166cecf6cefbae3c2bd804589736c2b6863",
