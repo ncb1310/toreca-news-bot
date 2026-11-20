@@ -17160,9 +17160,30 @@
         ]
       },
       "buffer_post_id": "6afff4560f5eda1a57cd72b8"
+    },
+    "guide-b50eee8e20d9e877a7d4ccac6f381fb81158c19e6b972fe0806bcffb4af0409a": {
+      "key": "guide-b50eee8e20d9e877a7d4ccac6f381fb81158c19e6b972fe0806bcffb4af0409a",
+      "guide_id": "poke-evolution",
+      "kind": "guide",
+      "status": "sending",
+      "source": "guide",
+      "title": "進化先だけ引いたときの練習メモ🌱",
+      "bullets": [
+        "進化元の名前",
+        "デッキの枚数配分",
+        "引いた番をメモ"
+      ],
+      "body": "進化させたいのに、たねポケモンが来ない……。何回目の番で揃ったかを数戦メモしてみると、デッキを調整するヒントになるよ📝",
+      "url": "https://www.pokemon-card.com/howtoplay/",
+      "published": "2026-11-20",
+      "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/2e3e4c56c0da4e1bb50f54244c8754da6a536b1f/assets/generated/8facc0d29579c0f7fad1e1ae.png",
+      "text": "🃏 進化先だけ引いたときの練習メモ🌱\n\n進化させたいのに、たねポケモンが来ない……。何回目の番で揃ったかを数戦メモしてみると、デッキを調整するヒントになるよ📝\n#トレカ #トレカ初心者\n参照先👇\nhttps://www.pokemon-card.com/howtoplay/",
+      "attempt_date": "2026-11-20",
+      "attempted_at": "2026-11-20T16:18:36.602318+09:00",
+      "scheduled_at": "2026-11-20T22:00:00+09:00"
     }
   },
-  "last_checked_at": "2026-11-20T20:00:00+09:00",
+  "last_checked_at": "2026-11-20T22:00:00+09:00",
   "last_reservation_check": {
     "checked_at": "2026-11-20T10:04:41.534878+09:00",
     "queued": 3,
