@@ -16929,7 +16929,7 @@
       "key": "guide-80404562e46b56d5aec1e6de9eb04a365f8b989465e03604696ed37d62ab51ed",
       "guide_id": "poke-retreat",
       "kind": "guide",
-      "status": "ready",
+      "status": "sending",
       "source": "guide",
       "title": "にげる前に、カードの右下を見て👀",
       "bullets": [
@@ -16939,7 +16939,10 @@
       ],
       "body": "バトル場を交代したいときは、今のポケモンの「にげる」と、次に出す子のワザをセットで確認。交代後まで想像すると迷いにくいよ。",
       "url": "https://www.pokemon-card.com/howtoplay/",
-      "published": "2026-11-20"
+      "published": "2026-11-20",
+      "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/def8810a69ac4ffff0590b564b6cee07d57c30a5/assets/generated/613d8d94f74f91912f597928.png",
+      "attempt_date": "2026-11-20",
+      "attempted_at": "2026-11-20T12:34:18.893349+09:00"
     }
   },
   "last_checked_at": "2026-11-20T10:04:41.773332+09:00",
