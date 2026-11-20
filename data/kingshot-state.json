@@ -626,9 +626,9 @@
       "post_id": "6afea2a8749099bdc71b652b",
       "publication_result": {
         "id": "6afea2a8749099bdc71b652b",
-        "status": "scheduled",
-        "dueAt": "2026-11-20T03:00:00.000Z",
-        "text": "【既存機能メモ】\n戦場に入った後の通知を確認⚔️\n\n米公式は、一部の戦場に入ると王国・同盟のお知らせやチャット放送を自動でミュートする調整を案内しています。重要な指示の確認方法も整えておこう。\n出典：米公式10/19更新説明\nhttps://apps.apple.com/us/app/kingshot/id6739554056\n#キングショット #Kingshot",
+        "status": "sent",
+        "sentAt": "2026-11-20T03:01:19.853Z",
+        "externalLink": "https://x.com/2107514010547732481/status/2123612626512949338",
         "assets": [
           {
             "mimeType": "image/jpeg",
