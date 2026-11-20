@@ -16895,7 +16895,7 @@
       "key": "guide-42fe715d3de3101d7cab9ca960a80e510deb0eca7fd2839df0f2a979c37e521b",
       "guide_id": "poke-bench",
       "kind": "guide",
-      "status": "ready",
+      "status": "sending",
       "source": "guide",
       "title": "ベンチに誰を出しておく？🌱",
       "bullets": [
@@ -16905,7 +16905,10 @@
       ],
       "body": "たねポケモンが手札に2枚。どちらを先にベンチへ出す？ 次の番に進化させたい子から考えると、選びやすいよ✨",
       "url": "https://www.pokemon-card.com/howtoplay/",
-      "published": "2026-11-20"
+      "published": "2026-11-20",
+      "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/87a29f259dbbf40e8bca4cd7c52793febaaf5ce3/assets/generated/4d814e22e6cf084650c1280f.png",
+      "attempt_date": "2026-11-20",
+      "attempted_at": "2026-11-20T11:15:53.805766+09:00"
     }
   },
   "last_checked_at": "2026-11-20T10:04:41.773332+09:00",
