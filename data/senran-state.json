@@ -575,12 +575,36 @@
       }
     }
   },
-  "last_checked_at": "2026-11-20T22:12:50.102035+09:00",
+  "last_checked_at": "2026-11-21T03:59:32.704080+09:00",
   "last_reservation_check": {
-    "checked_at": "2026-11-20T22:12:43.262972+09:00",
+    "checked_at": "2026-11-21T03:59:32.144012+09:00",
     "queued": 8,
     "target": 8,
     "posts": [
+      {
+        "id": "6b004750fc5b97f0f80972cd",
+        "text": "おやすみなさい。\nうまくいかなかった頁も、あなたの物語の一部。今夜はゆっくり、心を休めてくださいね。\n\n#おやすみなさい #創作 #小説",
+        "dueAt": "2026-11-22T13:00:00.000Z",
+        "status": "scheduled",
+        "assets": [
+          {
+            "mimeType": "image/jpeg",
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/senran/scene-1/night.jpg"
+          }
+        ]
+      },
+      {
+        "id": "6b00474e234b6bb6ee993cac",
+        "text": "こんばんは。\n言葉にならなかった気持ちも、今夜はそっと栞に挟んで。穏やかな時間を過ごせますように。\n\n#こんばんは #創作 #小説",
+        "dueAt": "2026-11-22T09:00:00.000Z",
+        "status": "scheduled",
+        "assets": [
+          {
+            "mimeType": "image/jpeg",
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/senran/scene-1/evening.jpg"
+          }
+        ]
+      },
       {
         "id": "6afff4470f5eda1a57cd7062",
         "text": "こんにちは。\n頁を閉じたあとにも残る景色。そんな物語の余韻を、午後のひと休みに。\n\n#こんにちは #創作 #小説",
@@ -650,30 +674,6 @@
           {
             "mimeType": "image/jpeg",
             "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/senran/morning.jpg"
-          }
-        ]
-      },
-      {
-        "id": "6b00474e234b6bb6ee993cac",
-        "status": "scheduled",
-        "dueAt": "2026-11-22T09:00:00.000Z",
-        "text": "こんばんは。\n言葉にならなかった気持ちも、今夜はそっと栞に挟んで。穏やかな時間を過ごせますように。\n\n#こんばんは #創作 #小説",
-        "assets": [
-          {
-            "mimeType": "image/jpeg",
-            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/senran/scene-1/evening.jpg"
-          }
-        ]
-      },
-      {
-        "id": "6b004750fc5b97f0f80972cd",
-        "status": "scheduled",
-        "dueAt": "2026-11-22T13:00:00.000Z",
-        "text": "おやすみなさい。\nうまくいかなかった頁も、あなたの物語の一部。今夜はゆっくり、心を休めてくださいね。\n\n#おやすみなさい #創作 #小説",
-        "assets": [
-          {
-            "mimeType": "image/jpeg",
-            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/senran/scene-1/night.jpg"
           }
         ]
       }
