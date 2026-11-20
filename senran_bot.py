@@ -39,7 +39,7 @@ BANK = {
 
 def greeting_image(kind, day, posts):
     base = 'https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/senran/'
-    urls = [base + f'scene-{n}/{kind}.jpg' for n in range(1, 4)]
+    urls = [base + f'scene-{n}/{kind}.jpg' for n in range(1, 7)]
     urls.append(base + kind + '.jpg')
     last_use = {}
     for key, post in posts.items():
