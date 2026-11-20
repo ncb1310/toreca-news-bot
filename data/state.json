@@ -2,22 +2,22 @@
   "version": 1,
   "sources": {
     "pokemon": {
-      "checked_at": "2026-11-20T13:41:27.626112+09:00",
-      "count": 177,
-      "latest_date": "2026-11-13"
+      "checked_at": "2026-11-20T14:43:30.694532+09:00",
+      "count": 182,
+      "latest_date": "2026-11-20"
     },
     "onepiece": {
-      "checked_at": "2026-11-20T13:41:27.626112+09:00",
+      "checked_at": "2026-11-20T14:43:30.694532+09:00",
       "count": 1226,
       "latest_date": "2026-03-19"
     },
     "labo": {
-      "checked_at": "2026-11-20T13:41:27.626112+09:00",
+      "checked_at": "2026-11-20T14:43:30.694532+09:00",
       "count": 15,
-      "latest_date": "2026-11-19"
+      "latest_date": "2026-11-20"
     },
     "hobby": {
-      "checked_at": "2026-11-20T13:41:27.626112+09:00",
+      "checked_at": "2026-11-20T14:43:30.694532+09:00",
       "count": 3,
       "latest_date": "2026-11-13"
     },
@@ -27,7 +27,7 @@
       "latest_date": "2026-11-10"
     },
     "furu": {
-      "checked_at": "2026-11-20T13:41:27.626112+09:00",
+      "checked_at": "2026-11-20T14:43:30.694532+09:00",
       "count": 61,
       "latest_date": "2026-11-20"
     }
@@ -15736,6 +15736,68 @@
       "closed": false,
       "status": "ignored",
       "discovered_at": "2026-11-20T08:54:25.965024+09:00"
+    },
+    "f97e7649f8279505a444f653135dedfe278b8a7ae6cc2458b191c085595f5861": {
+      "key": "f97e7649f8279505a444f653135dedfe278b8a7ae6cc2458b191c085595f5861",
+      "source": "pokemon",
+      "title": "【重要】フィッシング（詐欺）に対する注意喚起と対策について",
+      "url": "https://www.pokemon-card.com/info/005767.html",
+      "published": "2026-11-20",
+      "category": "その他",
+      "status": "ignored",
+      "discovered_at": "2026-11-20T14:43:30.694532+09:00"
+    },
+    "13fc89f1f531fc4ce322e89756b421c7114dfc4f516f2e619aebb36ab76d252e": {
+      "key": "13fc89f1f531fc4ce322e89756b421c7114dfc4f516f2e619aebb36ab76d252e",
+      "source": "pokemon",
+      "title": "拡張パック「ハドウシーカー」のカードリスト公開！",
+      "url": "https://www.pokemon-card.com/ex/m7/",
+      "published": "2026-11-20",
+      "category": "商品",
+      "status": "ready",
+      "discovered_at": "2026-11-20T14:43:30.694532+09:00"
+    },
+    "d136bca0c17fdffef3eb666c9d0d9403238b1e76152536a99de4ce46de509249": {
+      "key": "d136bca0c17fdffef3eb666c9d0d9403238b1e76152536a99de4ce46de509249",
+      "source": "pokemon",
+      "title": "ピカチュウのカードイラストがフィギュアになって登場！",
+      "url": "https://www.pokemon-card.com/info/005764.html",
+      "published": "2026-11-20",
+      "category": "商品",
+      "status": "ready",
+      "discovered_at": "2026-11-20T14:43:30.694532+09:00"
+    },
+    "a78a14671a2abf9bdc0dd41a1806800f2471ef8020f3273cb015453a5ae8c54b": {
+      "key": "a78a14671a2abf9bdc0dd41a1806800f2471ef8020f3273cb015453a5ae8c54b",
+      "source": "pokemon",
+      "title": "プレイヤー名鑑が更新されました",
+      "url": "https://www.pokemon-card.com/event/topplayers/",
+      "published": "2026-11-20",
+      "category": "コラム",
+      "status": "ignored",
+      "discovered_at": "2026-11-20T14:43:30.694532+09:00"
+    },
+    "5e58c51a731a77c6b68fd8e5f34c5b8809779e35ca6d5f777e94b24eebf45ce7": {
+      "key": "5e58c51a731a77c6b68fd8e5f34c5b8809779e35ca6d5f777e94b24eebf45ce7",
+      "source": "pokemon",
+      "title": "「ここからデビュー！はじめてポケカ体験会」開催！",
+      "url": "https://www.pokemon-card.com/info/005559.html",
+      "published": "2026-11-20",
+      "category": "イベント",
+      "status": "ignored",
+      "discovered_at": "2026-11-20T14:43:30.694532+09:00"
+    },
+    "ce49b3148b3e3ecaacc6af43fd4e8435cdfaaed141ea04e1fb4a3bbd86327ffb": {
+      "key": "ce49b3148b3e3ecaacc6af43fd4e8435cdfaaed141ea04e1fb4a3bbd86327ffb",
+      "source": "labo",
+      "title": "【池袋店】『ONE PIECE Heroines Edition vol.2【EB-05】』再販抽選販売のお知らせ",
+      "published": "2026-11-20",
+      "url": "https://www.c-labo.jp/shop/ikebukuro/blog/624925/",
+      "category": "ONE PIECEカードゲーム",
+      "store": "池袋店",
+      "closed": false,
+      "status": "ready",
+      "discovered_at": "2026-11-20T14:43:30.694532+09:00"
     }
   },
   "channel_check": {
