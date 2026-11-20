@@ -2,32 +2,32 @@
   "version": 1,
   "sources": {
     "pokemon": {
-      "checked_at": "2026-11-20T19:23:08.088884+09:00",
+      "checked_at": "2026-11-20T21:42:06.794387+09:00",
       "count": 182,
       "latest_date": "2026-11-20"
     },
     "onepiece": {
-      "checked_at": "2026-11-20T19:23:08.088884+09:00",
+      "checked_at": "2026-11-20T21:42:06.794387+09:00",
       "count": 1226,
       "latest_date": "2026-03-19"
     },
     "labo": {
-      "checked_at": "2026-11-20T19:23:08.088884+09:00",
+      "checked_at": "2026-11-20T21:42:06.794387+09:00",
       "count": 15,
       "latest_date": "2026-11-20"
     },
     "hobby": {
-      "checked_at": "2026-11-20T19:23:08.088884+09:00",
+      "checked_at": "2026-11-20T21:42:06.794387+09:00",
       "count": 3,
       "latest_date": "2026-11-13"
     },
     "pcstore": {
-      "checked_at": "2026-11-20T19:23:08.088884+09:00",
+      "checked_at": "2026-11-20T21:42:06.794387+09:00",
       "count": 16,
       "latest_date": "2026-11-20"
     },
     "furu": {
-      "checked_at": "2026-11-20T19:23:08.088884+09:00",
+      "checked_at": "2026-11-20T21:42:06.794387+09:00",
       "count": 60,
       "latest_date": "2026-11-20"
     }
@@ -17211,9 +17211,9 @@
       "post_id": "6afff4560f5eda1a57cd72b8",
       "publication_result": {
         "id": "6afff4560f5eda1a57cd72b8",
-        "status": "scheduled",
-        "dueAt": "2026-11-20T11:00:00.000Z",
-        "text": "🃏 カウンター、どの手札を残す？🃏\n\n守りたい場面で迷ったら、次のターンに出したいカードを先に決めてみて。手札を使ったあとの動きまで考える練習になるよ。\n#トレカ #トレカ初心者\n参照先👇\nhttps://www.onepiece-cardgame.com/rules/",
+        "status": "sent",
+        "sentAt": "2026-11-20T11:00:50.821Z",
+        "externalLink": "https://x.com/2121528694724505600/status/2123733300451647825",
         "assets": [
           {
             "mimeType": "image/png",
@@ -17221,7 +17221,9 @@
           }
         ]
       },
-      "buffer_post_id": "6afff4560f5eda1a57cd72b8"
+      "buffer_post_id": "6afff4560f5eda1a57cd72b8",
+      "publication_checks": 1,
+      "publication_checked_at": "2026-11-20T21:42:06.794387+09:00"
     },
     "guide-b50eee8e20d9e877a7d4ccac6f381fb81158c19e6b972fe0806bcffb4af0409a": {
       "key": "guide-b50eee8e20d9e877a7d4ccac6f381fb81158c19e6b972fe0806bcffb4af0409a",
