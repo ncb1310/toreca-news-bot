@@ -2,22 +2,22 @@
   "version": 1,
   "sources": {
     "pokemon": {
-      "checked_at": "2026-11-20T12:34:18.893349+09:00",
+      "checked_at": "2026-11-20T13:41:27.626112+09:00",
       "count": 177,
       "latest_date": "2026-11-13"
     },
     "onepiece": {
-      "checked_at": "2026-11-20T12:34:18.893349+09:00",
+      "checked_at": "2026-11-20T13:41:27.626112+09:00",
       "count": 1226,
       "latest_date": "2026-03-19"
     },
     "labo": {
-      "checked_at": "2026-11-20T12:34:18.893349+09:00",
+      "checked_at": "2026-11-20T13:41:27.626112+09:00",
       "count": 15,
       "latest_date": "2026-11-19"
     },
     "hobby": {
-      "checked_at": "2026-11-20T12:34:18.893349+09:00",
+      "checked_at": "2026-11-20T13:41:27.626112+09:00",
       "count": 3,
       "latest_date": "2026-11-13"
     },
@@ -27,7 +27,7 @@
       "latest_date": "2026-11-10"
     },
     "furu": {
-      "checked_at": "2026-11-20T12:34:18.893349+09:00",
+      "checked_at": "2026-11-20T13:41:27.626112+09:00",
       "count": 61,
       "latest_date": "2026-11-20"
     }
@@ -16958,6 +16958,22 @@
         ]
       },
       "publication_checked_at": "2026-11-20T12:34:18.893349+09:00"
+    },
+    "guide-896d477a365ed6b82f4ff58c054273cc84e02fd3af0d63d77db2569052696c5b": {
+      "key": "guide-896d477a365ed6b82f4ff58c054273cc84e02fd3af0d63d77db2569052696c5b",
+      "guide_id": "poke-weakness",
+      "kind": "guide",
+      "status": "ready",
+      "source": "guide",
+      "title": "同じダメージでも結果が違う？🔍",
+      "bullets": [
+        "ワザのダメージ",
+        "相手の弱点",
+        "相手の抵抗力"
+      ],
+      "body": "ワザの数字を見て安心したら、相手のカードの下側もちらり。弱点と抵抗力を一緒に確かめるのが、対戦前の小さな習慣です✨",
+      "url": "https://www.pokemon-card.com/howtoplay/",
+      "published": "2026-11-20"
     }
   },
   "last_checked_at": "2026-11-20T10:04:41.773332+09:00",
