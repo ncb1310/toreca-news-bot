@@ -15764,8 +15764,11 @@
       "url": "https://www.pokemon-card.com/info/005764.html",
       "published": "2026-11-20",
       "category": "商品",
-      "status": "ready",
-      "discovered_at": "2026-11-20T14:43:30.694532+09:00"
+      "status": "sending",
+      "discovered_at": "2026-11-20T14:43:30.694532+09:00",
+      "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/7d600ec9bc980f584d64d2755ba9ece92dcb0b45/assets/generated/c8999bb98d72760f7681c09b.png",
+      "attempt_date": "2026-11-20",
+      "attempted_at": "2026-11-20T14:43:30.694532+09:00"
     },
     "a78a14671a2abf9bdc0dd41a1806800f2471ef8020f3273cb015453a5ae8c54b": {
       "key": "a78a14671a2abf9bdc0dd41a1806800f2471ef8020f3273cb015453a5ae8c54b",
