@@ -17248,9 +17248,9 @@
       "post_id": "6afff45b4c1afd05defe6227",
       "publication_result": {
         "id": "6afff45b4c1afd05defe6227",
-        "status": "scheduled",
-        "dueAt": "2026-11-20T13:00:00.000Z",
-        "text": "🃏 進化先だけ引いたときの練習メモ🌱\n\n進化させたいのに、たねポケモンが来ない……。何回目の番で揃ったかを数戦メモしてみると、デッキを調整するヒントになるよ📝\n#トレカ #トレカ初心者\n参照先👇\nhttps://www.pokemon-card.com/howtoplay/",
+        "status": "sent",
+        "sentAt": "2026-11-20T13:01:21.901Z",
+        "externalLink": "https://x.com/2121528694724505600/status/2123763629828800957",
         "assets": [
           {
             "mimeType": "image/png",
