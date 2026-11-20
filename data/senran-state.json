@@ -504,9 +504,19 @@
           }
         ]
       }
+    },
+    "2026-11-22-noon": {
+      "key": "2026-11-22-noon",
+      "kind": "noon",
+      "text": "こんにちは。\n頁を閉じたあとにも残る景色。そんな物語の余韻を、午後のひと休みに。\n\n#こんにちは #創作 #小説",
+      "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/senran/scene-1/noon.jpg",
+      "status": "sending",
+      "attempt_date": "2026-11-22",
+      "attempted_at": "2026-11-20T16:18:28.287635+09:00",
+      "scheduled_at": "2026-11-22T12:00:00+09:00"
     }
   },
-  "last_checked_at": "2026-11-20T10:04:37.214146+09:00",
+  "last_checked_at": "2026-11-22T12:00:00+09:00",
   "last_reservation_check": {
     "checked_at": "2026-11-20T10:04:31.673352+09:00",
     "queued": 8,
