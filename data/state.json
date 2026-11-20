@@ -15754,11 +15754,12 @@
       "url": "https://www.pokemon-card.com/ex/m7/",
       "published": "2026-11-20",
       "category": "商品",
-      "status": "sending",
+      "status": "accepted",
       "discovered_at": "2026-11-20T14:43:30.694532+09:00",
       "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/0861811d37fec43ab48c564a7d80165e4a25a3ae/assets/generated/5f4a5c25c3009ae69c8a8743.png",
       "attempt_date": "2026-11-20",
-      "attempted_at": "2026-11-20T19:23:08.088884+09:00"
+      "attempted_at": "2026-11-20T19:23:08.088884+09:00",
+      "buffer_post_id": "6b001f9d9dd03fda0b00f0f0"
     },
     "d136bca0c17fdffef3eb666c9d0d9403238b1e76152536a99de4ce46de509249": {
       "key": "d136bca0c17fdffef3eb666c9d0d9403238b1e76152536a99de4ce46de509249",
