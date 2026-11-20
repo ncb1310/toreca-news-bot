@@ -17230,9 +17230,30 @@
         ]
       },
       "buffer_post_id": "6afff461738ce4635f953ca6"
+    },
+    "guide-22c2a99c5f24efb1d4f61eb940c098396f4e27f51bfbc3a74da60893d59e6880": {
+      "key": "guide-22c2a99c5f24efb1d4f61eb940c098396f4e27f51bfbc3a74da60893d59e6880",
+      "guide_id": "poke-first-hand",
+      "kind": "guide",
+      "status": "sending",
+      "source": "guide",
+      "title": "初手の写真、何を見返す？📷",
+      "bullets": [
+        "練習で最初の手札を記録",
+        "最初に使えたワザ",
+        "困った場面をひと言"
+      ],
+      "body": "ひとり練習で最初の手札を撮っておくと、「何を引けたら動けた？」を後から考えられるよ。デッキを組み替える前の小さな作戦会議に✨",
+      "url": "https://www.pokemon-card.com/howtoplay/",
+      "published": "2026-11-21",
+      "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/6f7687cf4c8d226f49027292b8ffa3ac05ffeecb/assets/generated/601b530889921c7164ca62f6.png",
+      "text": "🃏 初手の写真、何を見返す？📷\n\nひとり練習で最初の手札を撮っておくと、「何を引けたら動けた？」を後から考えられるよ。デッキを組み替える前の小さな作戦会議に✨\n#トレカ #トレカ初心者\n参照先👇\nhttps://www.pokemon-card.com/howtoplay/",
+      "attempt_date": "2026-11-21",
+      "attempted_at": "2026-11-20T16:18:36.602318+09:00",
+      "scheduled_at": "2026-11-21T16:00:00+09:00"
     }
   },
-  "last_checked_at": "2026-11-21T14:00:00+09:00",
+  "last_checked_at": "2026-11-21T16:00:00+09:00",
   "last_reservation_check": {
     "checked_at": "2026-11-20T10:04:41.534878+09:00",
     "queued": 3,
