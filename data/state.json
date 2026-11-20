@@ -2,22 +2,22 @@
   "version": 1,
   "sources": {
     "pokemon": {
-      "checked_at": "2026-11-20T10:20:18.842381+09:00",
+      "checked_at": "2026-11-20T11:15:53.805766+09:00",
       "count": 177,
       "latest_date": "2026-11-13"
     },
     "onepiece": {
-      "checked_at": "2026-11-20T10:20:18.842381+09:00",
+      "checked_at": "2026-11-20T11:15:53.805766+09:00",
       "count": 1226,
       "latest_date": "2026-03-19"
     },
     "labo": {
-      "checked_at": "2026-11-20T10:20:18.842381+09:00",
+      "checked_at": "2026-11-20T11:15:53.805766+09:00",
       "count": 15,
       "latest_date": "2026-11-19"
     },
     "hobby": {
-      "checked_at": "2026-11-20T10:20:18.842381+09:00",
+      "checked_at": "2026-11-20T11:15:53.805766+09:00",
       "count": 3,
       "latest_date": "2026-11-13"
     },
@@ -27,7 +27,7 @@
       "latest_date": "2026-11-10"
     },
     "furu": {
-      "checked_at": "2026-11-20T10:20:18.842381+09:00",
+      "checked_at": "2026-11-20T11:15:53.805766+09:00",
       "count": 61,
       "latest_date": "2026-11-20"
     }
@@ -16890,6 +16890,22 @@
         ]
       },
       "buffer_post_id": "6afdf51b9cf472c6917dac42"
+    },
+    "guide-42fe715d3de3101d7cab9ca960a80e510deb0eca7fd2839df0f2a979c37e521b": {
+      "key": "guide-42fe715d3de3101d7cab9ca960a80e510deb0eca7fd2839df0f2a979c37e521b",
+      "guide_id": "poke-bench",
+      "kind": "guide",
+      "status": "ready",
+      "source": "guide",
+      "title": "ベンチに誰を出しておく？🌱",
+      "bullets": [
+        "次に育てたいポケモン",
+        "空いている場所",
+        "次の番の動き"
+      ],
+      "body": "たねポケモンが手札に2枚。どちらを先にベンチへ出す？ 次の番に進化させたい子から考えると、選びやすいよ✨",
+      "url": "https://www.pokemon-card.com/howtoplay/",
+      "published": "2026-11-20"
     }
   },
   "last_checked_at": "2026-11-20T10:04:41.773332+09:00",
