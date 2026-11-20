@@ -356,9 +356,9 @@
       "post_id": "6afd6b00d015b337f13f257f",
       "publication_result": {
         "id": "6afd6b00d015b337f13f257f",
-        "status": "scheduled",
-        "dueAt": "2026-11-20T09:00:00.000Z",
-        "text": "こんばんは。\n一日の終わりに、心をほどく時間を。今日という物語に、小さな安らぎが残りますように。\n\n#こんばんは #創作 #小説",
+        "status": "sent",
+        "sentAt": "2026-11-20T09:01:37.477Z",
+        "externalLink": "https://x.com/2098199506550718464/status/2123703296695128357",
         "assets": [
           {
             "mimeType": "image/jpeg",
@@ -379,9 +379,9 @@
       "post_id": "6afda48288f8ac97b1aa526a",
       "publication_result": {
         "id": "6afda48288f8ac97b1aa526a",
-        "status": "scheduled",
-        "dueAt": "2026-11-20T13:00:00.000Z",
-        "text": "おやすみなさい。\n今日の物語はいったんここまで。続きは、また明日のあなたの歩幅で。どうか穏やかな夢を。\n\n#おやすみなさい #創作 #小説",
+        "status": "sent",
+        "sentAt": "2026-11-20T13:03:38.984Z",
+        "externalLink": "https://x.com/2098199506550718464/status/2123764204624584938",
         "assets": [
           {
             "mimeType": "image/jpeg",
