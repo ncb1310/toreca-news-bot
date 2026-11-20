@@ -37,6 +37,19 @@ BANK = {
  ]
 }
 
+def greeting_image(kind, day, posts):
+    base = 'https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/senran/'
+    urls = [base + f'scene-{n}/{kind}.jpg' for n in range(1, 4)]
+    urls.append(base + kind + '.jpg')
+    last_use = {}
+    for key, post in posts.items():
+        if key[:10] >= day.isoformat() or post.get('status') != 'accepted':
+            continue
+        url = post.get('image_url')
+        last_use[url] = max(last_use.get(url, ''), key[:10])
+    return min(urls, key=lambda url: last_use.get(url, ''))
+
+
 def select(state, now):
     due = [(hour,kind) for hour,kind in SLOTS if now.hour >= hour]
     if not due:
@@ -55,7 +68,7 @@ def select(state, now):
     text = BANK[kind][now.date().toordinal()%len(BANK[kind])]
     tag = {'morning':'#おはようございます','noon':'#こんにちは','evening':'#こんばんは','night':'#おやすみなさい'}[kind]
     return dict(key=key,kind=kind,text=text+'\n\n'+tag+' #創作 #小説',
-                image_url='https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/senran/'+kind+'.jpg')
+                image_url=greeting_image(kind, now.date(), posts))
 
 def checkpoint(state):
     STATE.parent.mkdir(exist_ok=True)
