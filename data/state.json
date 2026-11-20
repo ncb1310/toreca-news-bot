@@ -17200,7 +17200,7 @@
       "key": "guide-30797247960caba91194f67f4383fb95555f18059a11a8121ad4bc71bda6ab30",
       "guide_id": "one-don",
       "kind": "guide",
-      "status": "sending",
+      "status": "accepted",
       "source": "guide",
       "title": "ドン!!をつける前のひと呼吸🏴‍☠️",
       "bullets": [
@@ -17215,7 +17215,21 @@
       "text": "🃏 ドン!!をつける前のひと呼吸🏴‍☠️\n\n攻撃に使うドン!!を決める前に、今のターンに登場させたいキャラを1枚選んでみて。やりたいことから逆に数えると考えやすいよ。\n#トレカ #トレカ初心者\n参照先👇\nhttps://www.onepiece-cardgame.com/rules/",
       "attempt_date": "2026-11-21",
       "attempted_at": "2026-11-20T16:18:36.602318+09:00",
-      "scheduled_at": "2026-11-21T14:00:00+09:00"
+      "scheduled_at": "2026-11-21T14:00:00+09:00",
+      "post_id": "6afff461738ce4635f953ca6",
+      "publication_result": {
+        "id": "6afff461738ce4635f953ca6",
+        "status": "scheduled",
+        "dueAt": "2026-11-21T05:00:00.000Z",
+        "text": "🃏 ドン!!をつける前のひと呼吸🏴‍☠️\n\n攻撃に使うドン!!を決める前に、今のターンに登場させたいキャラを1枚選んでみて。やりたいことから逆に数えると考えやすいよ。\n#トレカ #トレカ初心者\n参照先👇\nhttps://www.onepiece-cardgame.com/rules/",
+        "assets": [
+          {
+            "mimeType": "image/png",
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/36047ab03d53743cea1c9c2282f0641e37b00d22/assets/generated/371bd08be860344f21420c1c.png"
+          }
+        ]
+      },
+      "buffer_post_id": "6afff461738ce4635f953ca6"
     }
   },
   "last_checked_at": "2026-11-21T14:00:00+09:00",
