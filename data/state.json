@@ -2,32 +2,32 @@
   "version": 1,
   "sources": {
     "pokemon": {
-      "checked_at": "2026-11-21T16:54:43.407613+09:00",
+      "checked_at": "2026-11-21T17:58:08.873638+09:00",
       "count": 182,
       "latest_date": "2026-11-20"
     },
     "onepiece": {
-      "checked_at": "2026-11-21T16:54:43.407613+09:00",
+      "checked_at": "2026-11-21T17:58:08.873638+09:00",
       "count": 1226,
       "latest_date": "2026-03-19"
     },
     "labo": {
-      "checked_at": "2026-11-21T16:54:43.407613+09:00",
+      "checked_at": "2026-11-21T17:58:08.873638+09:00",
       "count": 15,
       "latest_date": "2026-11-21"
     },
     "hobby": {
-      "checked_at": "2026-11-21T16:54:43.407613+09:00",
+      "checked_at": "2026-11-21T17:58:08.873638+09:00",
       "count": 3,
       "latest_date": "2026-11-13"
     },
     "pcstore": {
-      "checked_at": "2026-11-21T16:54:43.407613+09:00",
+      "checked_at": "2026-11-21T17:58:08.873638+09:00",
       "count": 16,
       "latest_date": "2026-11-20"
     },
     "furu": {
-      "checked_at": "2026-11-21T16:54:43.407613+09:00",
+      "checked_at": "2026-11-21T17:58:08.873638+09:00",
       "count": 60,
       "latest_date": "2026-11-20"
     }
@@ -15942,6 +15942,18 @@
       "closed": false,
       "status": "ignored",
       "discovered_at": "2026-11-21T14:39:48.489654+09:00"
+    },
+    "f631fad13340ef4e806b8a82294d3fa19fd08c1c55e5de05748c31d6453a0a08": {
+      "key": "f631fad13340ef4e806b8a82294d3fa19fd08c1c55e5de05748c31d6453a0a08",
+      "source": "labo",
+      "title": "【買取情報】ポケモンカードゲーム 買取情報 カードラボ津田沼店 1121",
+      "published": "2026-11-17",
+      "url": "https://www.c-labo.jp/shop/tsudanuma/blog/581202/",
+      "category": "ポケモンカードゲーム",
+      "store": "津田沼店",
+      "closed": false,
+      "status": "ignored",
+      "discovered_at": "2026-11-21T17:58:08.873638+09:00"
     }
   },
   "channel_check": {
