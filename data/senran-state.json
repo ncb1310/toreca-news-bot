@@ -402,9 +402,9 @@
       "post_id": "6afe4caac462756e9e30ed4e",
       "publication_result": {
         "id": "6afe4caac462756e9e30ed4e",
-        "status": "scheduled",
-        "dueAt": "2026-11-20T23:00:00.000Z",
-        "text": "おはようございます。\n朝の光をひとつ、心の栞に。今日があなたにとって、穏やかな一頁になりますように。\n\n#おはようございます #創作 #小説",
+        "status": "sent",
+        "sentAt": "2026-11-20T23:01:50.813Z",
+        "externalLink": "https://x.com/2098199506550718464/status/2123914745824579656",
         "assets": [
           {
             "mimeType": "image/jpeg",
