@@ -17372,9 +17372,9 @@
       "post_id": "6afff4677b0a126cebb70a4b",
       "publication_result": {
         "id": "6afff4677b0a126cebb70a4b",
-        "status": "scheduled",
-        "dueAt": "2026-11-21T07:00:00.000Z",
-        "text": "🃏 初手の写真、何を見返す？📷\n\nひとり練習で最初の手札を撮っておくと、「何を引けたら動けた？」を後から考えられるよ。デッキを組み替える前の小さな作戦会議に✨\n#トレカ #トレカ初心者\n参照先👇\nhttps://www.pokemon-card.com/howtoplay/",
+        "status": "sent",
+        "sentAt": "2026-11-21T07:00:26.852Z",
+        "externalLink": "https://x.com/2121528694724505600/status/2124035189961638048",
         "assets": [
           {
             "mimeType": "image/png",
