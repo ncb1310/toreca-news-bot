@@ -2,32 +2,32 @@
   "version": 1,
   "sources": {
     "pokemon": {
-      "checked_at": "2026-11-21T13:39:44.885243+09:00",
+      "checked_at": "2026-11-21T14:39:48.489654+09:00",
       "count": 182,
       "latest_date": "2026-11-20"
     },
     "onepiece": {
-      "checked_at": "2026-11-21T13:39:44.885243+09:00",
+      "checked_at": "2026-11-21T14:39:48.489654+09:00",
       "count": 1226,
       "latest_date": "2026-03-19"
     },
     "labo": {
-      "checked_at": "2026-11-21T13:39:44.885243+09:00",
+      "checked_at": "2026-11-21T14:39:48.489654+09:00",
       "count": 15,
       "latest_date": "2026-11-21"
     },
     "hobby": {
-      "checked_at": "2026-11-21T13:39:44.885243+09:00",
+      "checked_at": "2026-11-21T14:39:48.489654+09:00",
       "count": 3,
       "latest_date": "2026-11-13"
     },
     "pcstore": {
-      "checked_at": "2026-11-21T13:39:44.885243+09:00",
+      "checked_at": "2026-11-21T14:39:48.489654+09:00",
       "count": 16,
       "latest_date": "2026-11-20"
     },
     "furu": {
-      "checked_at": "2026-11-21T13:39:44.885243+09:00",
+      "checked_at": "2026-11-21T14:39:48.489654+09:00",
       "count": 60,
       "latest_date": "2026-11-20"
     }
@@ -15930,6 +15930,18 @@
       "closed": false,
       "status": "ignored",
       "discovered_at": "2026-11-21T13:39:44.885243+09:00"
+    },
+    "d43171125b21c2fbf1571fcb3db32ef57635190e16e072e79b044e613fcca80f": {
+      "key": "d43171125b21c2fbf1571fcb3db32ef57635190e16e072e79b044e613fcca80f",
+      "source": "labo",
+      "title": "【遊戯王OCG】本日発売！！「REVOLUTION BOOSTER －方界・マリンセス・ゴーストリック－」テーマ紹介-方界編-",
+      "published": "2026-11-21",
+      "url": "https://www.c-labo.jp/shop/stakihabara/blog/624915/",
+      "category": "遊戯王OCG",
+      "store": "サテライトショップTOKYO 秋葉原店",
+      "closed": false,
+      "status": "ignored",
+      "discovered_at": "2026-11-21T14:39:48.489654+09:00"
     }
   },
   "channel_check": {
@@ -17323,9 +17335,9 @@
       "post_id": "6afff461738ce4635f953ca6",
       "publication_result": {
         "id": "6afff461738ce4635f953ca6",
-        "status": "scheduled",
-        "dueAt": "2026-11-21T05:00:00.000Z",
-        "text": "🃏 ドン!!をつける前のひと呼吸🏴‍☠️\n\n攻撃に使うドン!!を決める前に、今のターンに登場させたいキャラを1枚選んでみて。やりたいことから逆に数えると考えやすいよ。\n#トレカ #トレカ初心者\n参照先👇\nhttps://www.onepiece-cardgame.com/rules/",
+        "status": "sent",
+        "sentAt": "2026-11-21T05:00:24.293Z",
+        "externalLink": "https://x.com/2121528694724505600/status/2124004980130459659",
         "assets": [
           {
             "mimeType": "image/png",
@@ -17333,7 +17345,9 @@
           }
         ]
       },
-      "buffer_post_id": "6afff461738ce4635f953ca6"
+      "buffer_post_id": "6afff461738ce4635f953ca6",
+      "publication_checks": 1,
+      "publication_checked_at": "2026-11-21T14:39:48.489654+09:00"
     },
     "guide-22c2a99c5f24efb1d4f61eb940c098396f4e27f51bfbc3a74da60893d59e6880": {
       "key": "guide-22c2a99c5f24efb1d4f61eb940c098396f4e27f51bfbc3a74da60893d59e6880",
