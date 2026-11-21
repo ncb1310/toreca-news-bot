@@ -17004,9 +17004,9 @@
       "post_id": "6afdf516058a84d0763392fb",
       "publication_result": {
         "id": "6afdf516058a84d0763392fb",
-        "status": "scheduled",
-        "dueAt": "2026-11-21T01:00:00.000Z",
-        "text": "🃏 通販の注文前、ここを見直す\n\n注文確定の前に一度だけ見直そう。パックとBOX、配送と店頭受取など、選択内容を確認しておくと安心。\n#トレカ #トレカ初心者\n参照先👇\nhttps://www.pokemoncenter-online.com/",
+        "status": "sent",
+        "sentAt": "2026-11-21T01:01:27.061Z",
+        "externalLink": "https://x.com/2121528694724505600/status/2123944845458764287",
         "assets": [
           {
             "mimeType": "image/png",
