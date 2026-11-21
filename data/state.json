@@ -2,32 +2,32 @@
   "version": 1,
   "sources": {
     "pokemon": {
-      "checked_at": "2026-11-21T11:33:56.445816+09:00",
+      "checked_at": "2026-11-21T12:33:32.992511+09:00",
       "count": 182,
       "latest_date": "2026-11-20"
     },
     "onepiece": {
-      "checked_at": "2026-11-21T11:33:56.445816+09:00",
+      "checked_at": "2026-11-21T12:33:32.992511+09:00",
       "count": 1226,
       "latest_date": "2026-03-19"
     },
     "labo": {
-      "checked_at": "2026-11-21T11:33:56.445816+09:00",
+      "checked_at": "2026-11-21T12:33:32.992511+09:00",
       "count": 15,
-      "latest_date": "2026-11-20"
+      "latest_date": "2026-11-21"
     },
     "hobby": {
-      "checked_at": "2026-11-21T11:33:56.445816+09:00",
+      "checked_at": "2026-11-21T12:33:32.992511+09:00",
       "count": 3,
       "latest_date": "2026-11-13"
     },
     "pcstore": {
-      "checked_at": "2026-11-21T11:33:56.445816+09:00",
+      "checked_at": "2026-11-21T12:33:32.992511+09:00",
       "count": 16,
       "latest_date": "2026-11-20"
     },
     "furu": {
-      "checked_at": "2026-11-21T11:33:56.445816+09:00",
+      "checked_at": "2026-11-21T12:33:32.992511+09:00",
       "count": 60,
       "latest_date": "2026-11-20"
     }
@@ -15894,6 +15894,18 @@
       "closed": false,
       "status": "ignored",
       "discovered_at": "2026-11-20T18:24:17.719780+09:00"
+    },
+    "3d8fc80802ecca3f0993170a5a1c3814ddf80fc440a96f396dc886454ef13a96": {
+      "key": "3d8fc80802ecca3f0993170a5a1c3814ddf80fc440a96f396dc886454ef13a96",
+      "source": "labo",
+      "title": "【遊戯王RD】遊戯王ラッシュデュエルってどんなカードゲーム？",
+      "published": "2026-11-21",
+      "url": "https://www.c-labo.jp/blog/624733/",
+      "category": "遊戯王ラッシュデュエル",
+      "store": "",
+      "closed": false,
+      "status": "ignored",
+      "discovered_at": "2026-11-21T12:33:32.992511+09:00"
     }
   },
   "channel_check": {
@@ -17039,9 +17051,9 @@
       "post_id": "6afdf51b9cf472c6917dac42",
       "publication_result": {
         "id": "6afdf51b9cf472c6917dac42",
-        "status": "scheduled",
-        "dueAt": "2026-11-21T03:00:00.000Z",
-        "text": "🃏 抽選管理は1件1メモで\n\n抽選を複数追うなら、1件ずつ記録。別の商品の購入期限と取り違えないよう、店名も一緒に残そう。\n#トレカ #トレカ初心者\n参照先👇\nhttps://www.pokemoncenter-online.com/?main_page=lottery",
+        "status": "sent",
+        "sentAt": "2026-11-21T03:01:08.658Z",
+        "externalLink": "https://x.com/2121528694724505600/status/2123974967263899795",
         "assets": [
           {
             "mimeType": "image/png",
@@ -17049,7 +17061,9 @@
           }
         ]
       },
-      "buffer_post_id": "6afdf51b9cf472c6917dac42"
+      "buffer_post_id": "6afdf51b9cf472c6917dac42",
+      "publication_checks": 1,
+      "publication_checked_at": "2026-11-21T12:33:32.992511+09:00"
     },
     "guide-42fe715d3de3101d7cab9ca960a80e510deb0eca7fd2839df0f2a979c37e521b": {
       "key": "guide-42fe715d3de3101d7cab9ca960a80e510deb0eca7fd2839df0f2a979c37e521b",
