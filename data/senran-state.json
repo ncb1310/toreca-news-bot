@@ -448,9 +448,9 @@
       "post_id": "6afef756abf4ba608b738f8b",
       "publication_result": {
         "id": "6afef756abf4ba608b738f8b",
-        "status": "scheduled",
-        "dueAt": "2026-11-21T09:00:00.000Z",
-        "text": "こんばんは。\n帰り道にも、ひと休みの時間にも。あなたの心に、やさしい余韻が灯りますように。\n\n#こんばんは #創作 #小説",
+        "status": "sent",
+        "sentAt": "2026-11-21T09:01:12.302Z",
+        "externalLink": "https://x.com/2098199506550718464/status/2124065579208237552",
         "assets": [
           {
             "mimeType": "image/jpeg",
