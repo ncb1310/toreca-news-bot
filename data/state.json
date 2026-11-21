@@ -2,32 +2,32 @@
   "version": 1,
   "sources": {
     "pokemon": {
-      "checked_at": "2026-11-21T12:33:32.992511+09:00",
+      "checked_at": "2026-11-21T13:39:44.885243+09:00",
       "count": 182,
       "latest_date": "2026-11-20"
     },
     "onepiece": {
-      "checked_at": "2026-11-21T12:33:32.992511+09:00",
+      "checked_at": "2026-11-21T13:39:44.885243+09:00",
       "count": 1226,
       "latest_date": "2026-03-19"
     },
     "labo": {
-      "checked_at": "2026-11-21T12:33:32.992511+09:00",
+      "checked_at": "2026-11-21T13:39:44.885243+09:00",
       "count": 15,
       "latest_date": "2026-11-21"
     },
     "hobby": {
-      "checked_at": "2026-11-21T12:33:32.992511+09:00",
+      "checked_at": "2026-11-21T13:39:44.885243+09:00",
       "count": 3,
       "latest_date": "2026-11-13"
     },
     "pcstore": {
-      "checked_at": "2026-11-21T12:33:32.992511+09:00",
+      "checked_at": "2026-11-21T13:39:44.885243+09:00",
       "count": 16,
       "latest_date": "2026-11-20"
     },
     "furu": {
-      "checked_at": "2026-11-21T12:33:32.992511+09:00",
+      "checked_at": "2026-11-21T13:39:44.885243+09:00",
       "count": 60,
       "latest_date": "2026-11-20"
     }
@@ -15906,6 +15906,30 @@
       "closed": false,
       "status": "ignored",
       "discovered_at": "2026-11-21T12:33:32.992511+09:00"
+    },
+    "dabee7cf1d47a3e53f78e5e86bc31607230db05b07c3752626648fd837e4d210": {
+      "key": "dabee7cf1d47a3e53f78e5e86bc31607230db05b07c3752626648fd837e4d210",
+      "source": "labo",
+      "title": "【遊戯王OCG】本日発売！！「REVOLUTION BOOSTER －方界・マリンセス・ゴーストリック－」-方界編-",
+      "published": "2026-11-21",
+      "url": "https://www.c-labo.jp/shop/stakihabara/blog/624915/",
+      "category": "遊戯王OCG",
+      "store": "サテライトショップTOKYO 秋葉原店",
+      "closed": false,
+      "status": "ignored",
+      "discovered_at": "2026-11-21T13:39:44.885243+09:00"
+    },
+    "c820756fd261236dce827dd3334244f33874af60e7ae2efc4e4bfce092992548": {
+      "key": "c820756fd261236dce827dd3334244f33874af60e7ae2efc4e4bfce092992548",
+      "source": "labo",
+      "title": "【遊戯王RD】遊戯王ラッシュデュエルってどんなカードゲーム？",
+      "published": "2026-11-21",
+      "url": "https://www.c-labo.jp/shop/stakihabara/blog/624733/",
+      "category": "遊戯王ラッシュデュエル",
+      "store": "サテライトショップTOKYO 秋葉原店",
+      "closed": false,
+      "status": "ignored",
+      "discovered_at": "2026-11-21T13:39:44.885243+09:00"
     }
   },
   "channel_check": {
