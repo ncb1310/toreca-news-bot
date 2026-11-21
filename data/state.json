@@ -17333,10 +17333,10 @@
       "buffer_post_id": "6afff4677b0a126cebb70a4b"
     }
   },
-  "last_checked_at": "2026-11-21T03:59:42.265686+09:00",
+  "last_checked_at": "2026-11-21T10:08:35.994101+09:00",
   "last_reservation_check": {
-    "checked_at": "2026-11-21T03:59:41.820489+09:00",
-    "queued": 5,
+    "checked_at": "2026-11-21T10:08:34.273871+09:00",
+    "queued": 3,
     "target": 8,
     "posts": [
       {
@@ -17374,32 +17374,8 @@
             "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/532261fc837cb0737d0b1d887c3dd8052d640919/assets/generated/4c88943677c6beb91e09bc0a.png"
           }
         ]
-      },
-      {
-        "id": "6afdf516058a84d0763392fb",
-        "text": "🃏 通販の注文前、ここを見直す\n\n注文確定の前に一度だけ見直そう。パックとBOX、配送と店頭受取など、選択内容を確認しておくと安心。\n#トレカ #トレカ初心者\n参照先👇\nhttps://www.pokemoncenter-online.com/",
-        "dueAt": "2026-11-21T01:00:00.000Z",
-        "status": "scheduled",
-        "assets": [
-          {
-            "mimeType": "image/png",
-            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/0c2201eefa66a2c83229de2d33d6a3a5d46aab07/assets/generated/09d8f3c35913e5ee5e6bfd7c.png"
-          }
-        ]
-      },
-      {
-        "id": "6afdf511a2e55b578d3b41b0",
-        "text": "🃏 当選発表日の確認ポイント\n\n結果はメール・アプリ・サイトなど、企画ごとに案内が違う。応募時点で確認方法をメモしておこう。\n#トレカ #トレカ初心者\n参照先👇\nhttps://www.pokemoncenter-online.com/?main_page=lottery",
-        "dueAt": "2026-11-20T23:00:00.000Z",
-        "status": "scheduled",
-        "assets": [
-          {
-            "mimeType": "image/png",
-            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/2ac709f8a0870028eae8a8f8f0e8297b7c8cdf4c/assets/generated/3ea578977fddb5d009d59155.png"
-          }
-        ]
       }
     ],
-    "shortfall": 3
+    "shortfall": 5
   }
 }
