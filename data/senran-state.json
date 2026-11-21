@@ -425,9 +425,9 @@
       "post_id": "6afea2a246636f319e9749f4",
       "publication_result": {
         "id": "6afea2a246636f319e9749f4",
-        "status": "scheduled",
-        "dueAt": "2026-11-21T03:00:00.000Z",
-        "text": "こんにちは。\n何気ない言葉が、ふと心に残ることがあります。今日のあなたにも、そんな出会いがありますように。\n\n#こんにちは #創作 #小説",
+        "status": "sent",
+        "sentAt": "2026-11-21T03:01:07.091Z",
+        "externalLink": "https://x.com/2098199506550718464/status/2123974960553046065",
         "assets": [
           {
             "mimeType": "image/jpeg",
