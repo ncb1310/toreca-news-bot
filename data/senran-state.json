@@ -667,12 +667,24 @@
       }
     }
   },
-  "last_checked_at": "2026-11-23T22:00:00+09:00",
+  "last_checked_at": "2026-11-22T03:48:45.797775+09:00",
   "last_reservation_check": {
-    "checked_at": "2026-11-21T21:55:30.149574+09:00",
+    "checked_at": "2026-11-22T03:48:40.890206+09:00",
     "queued": 8,
     "target": 8,
     "posts": [
+      {
+        "id": "6b0194c60247969092d10aac",
+        "text": "こんばんは。\n今日の頁を振り返る、その少しの時間。小さな喜びがひとつでも見つかりますように。\n\n#こんばんは #創作 #小説",
+        "dueAt": "2026-11-23T09:00:00.000Z",
+        "status": "scheduled",
+        "assets": [
+          {
+            "mimeType": "image/jpeg",
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/senran/scene-2/evening.jpg"
+          }
+        ]
+      },
       {
         "id": "6b0143c29ffbc8503c065f6d",
         "text": "こんにちは。\n少し立ち止まる時間も、大切な一頁。午後もどうぞ、無理のない歩幅で。\n\n#こんにちは #創作 #小説",
@@ -746,26 +758,14 @@
         ]
       },
       {
-        "id": "6afef75bcac0791c5d8974f7",
-        "text": "おやすみなさい。\n心に残った言葉を、そっと枕元へ。今日を歩いたあなたに、やさしい休息が訪れますように。\n\n#おやすみなさい #創作 #小説",
-        "dueAt": "2026-11-21T13:00:00.000Z",
+        "id": "6b01e78c142c957519379927",
         "status": "scheduled",
+        "dueAt": "2026-11-23T13:00:00.000Z",
+        "text": "おやすみなさい。\n本を閉じるように、今日の心にも静かな区切りを。また次の頁で会いましょう。\n\n#おやすみなさい #創作 #小説",
         "assets": [
           {
             "mimeType": "image/jpeg",
-            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/senran/night.jpg"
-          }
-        ]
-      },
-      {
-        "id": "6b0194c60247969092d10aac",
-        "status": "scheduled",
-        "dueAt": "2026-11-23T09:00:00.000Z",
-        "text": "こんばんは。\n今日の頁を振り返る、その少しの時間。小さな喜びがひとつでも見つかりますように。\n\n#こんばんは #創作 #小説",
-        "assets": [
-          {
-            "mimeType": "image/jpeg",
-            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/senran/scene-2/evening.jpg"
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/senran/scene-2/night.jpg"
           }
         ]
       }
