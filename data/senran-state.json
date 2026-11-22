@@ -540,9 +540,9 @@
       "post_id": "6b00474e234b6bb6ee993cac",
       "publication_result": {
         "id": "6b00474e234b6bb6ee993cac",
-        "status": "scheduled",
-        "dueAt": "2026-11-22T09:00:00.000Z",
-        "text": "こんばんは。\n言葉にならなかった気持ちも、今夜はそっと栞に挟んで。穏やかな時間を過ごせますように。\n\n#こんばんは #創作 #小説",
+        "status": "sent",
+        "sentAt": "2026-11-22T09:00:52.665Z",
+        "externalLink": "https://x.com/2098199506550718464/status/2124427884651557161",
         "assets": [
           {
             "mimeType": "image/jpeg",
