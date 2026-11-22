@@ -717,10 +717,23 @@
       "kind": "evening",
       "text": "こんばんは。\n一日の終わりに、心をほどく時間を。今日という物語に、小さな安らぎが残りますように。\n\n#こんばんは #創作 #小説",
       "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/senran/scene-3/evening.jpg",
-      "status": "sending",
+      "status": "accepted",
       "attempt_date": "2026-11-24",
       "attempted_at": "2026-11-22T21:54:27.907839+09:00",
-      "scheduled_at": "2026-11-24T18:00:00+09:00"
+      "scheduled_at": "2026-11-24T18:00:00+09:00",
+      "post_id": "6b02e60702479690924daa90",
+      "publication_result": {
+        "id": "6b02e60702479690924daa90",
+        "status": "scheduled",
+        "dueAt": "2026-11-24T09:00:00.000Z",
+        "text": "こんばんは。\n一日の終わりに、心をほどく時間を。今日という物語に、小さな安らぎが残りますように。\n\n#こんばんは #創作 #小説",
+        "assets": [
+          {
+            "mimeType": "image/jpeg",
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/senran/scene-3/evening.jpg"
+          }
+        ]
+      }
     }
   },
   "last_checked_at": "2026-11-24T18:00:00+09:00",
