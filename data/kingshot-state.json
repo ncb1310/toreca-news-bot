@@ -836,10 +836,23 @@
       "kind": "night",
       "text": "今日もおつかれさまでした🌙\nキングショットも、休む時間を大切に。\n仲間との続きは、また明日。おやすみなさい。\n#キングショット #Kingshot",
       "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/from-x/31-2108221095975453034.jpg",
-      "status": "sending",
+      "status": "accepted",
       "attempt_date": "2026-11-25",
       "attempted_at": "2026-11-23T03:49:49.250879+09:00",
-      "scheduled_at": "2026-11-25T22:00:00+09:00"
+      "scheduled_at": "2026-11-25T22:00:00+09:00",
+      "post_id": "6b033951bf5d5a73b6b2f311",
+      "publication_result": {
+        "id": "6b033951bf5d5a73b6b2f311",
+        "status": "scheduled",
+        "dueAt": "2026-11-25T13:00:00.000Z",
+        "text": "今日もおつかれさまでした🌙\nキングショットも、休む時間を大切に。\n仲間との続きは、また明日。おやすみなさい。\n#キングショット #Kingshot",
+        "assets": [
+          {
+            "mimeType": "image/jpeg",
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/from-x/31-2108221095975453034.jpg"
+          }
+        ]
+      }
     }
   },
   "baseline": {
