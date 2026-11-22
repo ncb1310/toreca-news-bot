@@ -494,9 +494,9 @@
       "post_id": "6aff9ca34c1afd05dedeba93",
       "publication_result": {
         "id": "6aff9ca34c1afd05dedeba93",
-        "status": "scheduled",
-        "dueAt": "2026-11-21T23:00:00.000Z",
-        "text": "おはようございます。\n始まりの朝は、白い頁に似ています。小さな楽しみをひとつ見つけられますように。\n\n#おはようございます #創作 #小説",
+        "status": "sent",
+        "sentAt": "2026-11-21T23:01:20.052Z",
+        "externalLink": "https://x.com/2098199506550718464/status/2124277004253966423",
         "assets": [
           {
             "mimeType": "image/jpeg",
