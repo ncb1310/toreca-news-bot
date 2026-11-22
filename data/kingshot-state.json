@@ -815,7 +815,7 @@
     ],
     "publisher": []
   },
-  "last_checked_at": "2026-11-24T22:00:00+09:00",
+  "last_checked_at": "2026-11-22T10:05:04.665975+09:00",
   "source_errors": {},
   "image_errors": {
     "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/repertoire/previous-66.jpg": {
@@ -824,10 +824,22 @@
     }
   },
   "last_reservation_check": {
-    "checked_at": "2026-11-21T21:55:36.392806+09:00",
-    "queued": 4,
+    "checked_at": "2026-11-22T10:05:03.115304+09:00",
+    "queued": 3,
     "target": 8,
     "posts": [
+      {
+        "id": "6b01e792846b0ee9072e3973",
+        "text": "おはようございます！☀️\n今日もキングショットを楽しんでいきましょう。\n育成も攻略も、自分のペースで。仲間との一日が良い時間になりますように⚔️\n#キングショット #Kingshot",
+        "dueAt": "2026-11-23T23:00:00.000Z",
+        "status": "scheduled",
+        "assets": [
+          {
+            "mimeType": "image/jpeg",
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/references/IMG_2757.jpeg"
+          }
+        ]
+      },
       {
         "id": "6b00989be3772ee0cf5ba2e5",
         "text": "今日もおつかれさまでした🌙\nキングショットも、休む時間を大切に。\n仲間との続きは、また明日。おやすみなさい。\n#キングショット #Kingshot",
@@ -851,32 +863,8 @@
             "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/from-x/11-2111215906907140460.jpg"
           }
         ]
-      },
-      {
-        "id": "6aff477c182c0ff411772bb4",
-        "text": "おはようございます！☀️\n今日もキングショットを楽しんでいきましょう。\n育成も攻略も、自分のペースで。仲間との一日が良い時間になりますように⚔️\n#キングショット #Kingshot",
-        "dueAt": "2026-11-21T23:00:00.000Z",
-        "status": "scheduled",
-        "assets": [
-          {
-            "mimeType": "image/jpeg",
-            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/repertoire/previous-72.jpg"
-          }
-        ]
-      },
-      {
-        "id": "6afef76703dff68ab45a26f5",
-        "text": "今日もおつかれさまでした🌙\nキングショットも、休む時間を大切に。\n仲間との続きは、また明日。おやすみなさい。\n#キングショット #Kingshot",
-        "dueAt": "2026-11-21T13:00:00.000Z",
-        "status": "scheduled",
-        "assets": [
-          {
-            "mimeType": "image/jpeg",
-            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/from-x/31-2108221095975453034.jpg"
-          }
-        ]
       }
     ],
-    "shortfall": 4
+    "shortfall": 5
   }
 }
