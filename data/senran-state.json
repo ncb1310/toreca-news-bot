@@ -517,9 +517,9 @@
       "post_id": "6afff4470f5eda1a57cd7062",
       "publication_result": {
         "id": "6afff4470f5eda1a57cd7062",
-        "status": "scheduled",
-        "dueAt": "2026-11-22T03:00:00.000Z",
-        "text": "こんにちは。\n頁を閉じたあとにも残る景色。そんな物語の余韻を、午後のひと休みに。\n\n#こんにちは #創作 #小説",
+        "status": "sent",
+        "sentAt": "2026-11-22T03:01:02.279Z",
+        "externalLink": "https://x.com/2098199506550718464/status/2124337328105587034",
         "assets": [
           {
             "mimeType": "image/jpeg",
