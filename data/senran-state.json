@@ -563,9 +563,9 @@
       "post_id": "6b004750fc5b97f0f80972cd",
       "publication_result": {
         "id": "6b004750fc5b97f0f80972cd",
-        "status": "scheduled",
-        "dueAt": "2026-11-22T13:00:00.000Z",
-        "text": "おやすみなさい。\nうまくいかなかった頁も、あなたの物語の一部。今夜はゆっくり、心を休めてくださいね。\n\n#おやすみなさい #創作 #小説",
+        "status": "sent",
+        "sentAt": "2026-11-22T13:02:28.650Z",
+        "externalLink": "https://x.com/2098199506550718464/status/2124488685668159524",
         "assets": [
           {
             "mimeType": "image/jpeg",
