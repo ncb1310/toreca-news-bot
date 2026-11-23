@@ -15964,11 +15964,12 @@
       "category": "ポケモンカードゲーム",
       "store": "販売買取センターNAMBA",
       "closed": false,
-      "status": "sending",
+      "status": "accepted",
       "discovered_at": "2026-11-23T10:27:46.919664+09:00",
       "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/6750bbba43e7a2400aa58c373dbed4cdd8ed7699/assets/generated/94977a8acd5114eaa96590ac.png",
       "attempt_date": "2026-11-23",
-      "attempted_at": "2026-11-23T10:27:46.919664+09:00"
+      "attempted_at": "2026-11-23T10:27:46.919664+09:00",
+      "buffer_post_id": "6b0396a4a6de38de9eab8570"
     }
   },
   "channel_check": {
