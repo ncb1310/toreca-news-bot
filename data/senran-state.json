@@ -826,9 +826,19 @@
           }
         ]
       }
+    },
+    "2026-11-25-night": {
+      "key": "2026-11-25-night",
+      "kind": "night",
+      "text": "おやすみなさい。\n心に残った言葉を、そっと枕元へ。今日を歩いたあなたに、やさしい休息が訪れますように。\n\n#おやすみなさい #創作 #小説",
+      "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/senran/scene-4/night.jpg",
+      "status": "sending",
+      "attempt_date": "2026-11-25",
+      "attempted_at": "2026-11-23T22:20:26.874234+09:00",
+      "scheduled_at": "2026-11-25T22:00:00+09:00"
     }
   },
-  "last_checked_at": "2026-11-25T18:00:00+09:00",
+  "last_checked_at": "2026-11-25T22:00:00+09:00",
   "last_reservation_check": {
     "checked_at": "2026-11-23T16:36:18.201742+09:00",
     "queued": 8,
