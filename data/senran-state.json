@@ -832,10 +832,23 @@
       "kind": "night",
       "text": "おやすみなさい。\n心に残った言葉を、そっと枕元へ。今日を歩いたあなたに、やさしい休息が訪れますように。\n\n#おやすみなさい #創作 #小説",
       "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/senran/scene-4/night.jpg",
-      "status": "sending",
+      "status": "accepted",
       "attempt_date": "2026-11-25",
       "attempted_at": "2026-11-23T22:20:26.874234+09:00",
-      "scheduled_at": "2026-11-25T22:00:00+09:00"
+      "scheduled_at": "2026-11-25T22:00:00+09:00",
+      "post_id": "6b043da1d35c00e2ba717d9f",
+      "publication_result": {
+        "id": "6b043da1d35c00e2ba717d9f",
+        "status": "scheduled",
+        "dueAt": "2026-11-25T13:00:00.000Z",
+        "text": "おやすみなさい。\n心に残った言葉を、そっと枕元へ。今日を歩いたあなたに、やさしい休息が訪れますように。\n\n#おやすみなさい #創作 #小説",
+        "assets": [
+          {
+            "mimeType": "image/jpeg",
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/senran/scene-4/night.jpg"
+          }
+        ]
+      }
     }
   },
   "last_checked_at": "2026-11-25T22:00:00+09:00",
