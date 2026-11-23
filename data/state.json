@@ -2,32 +2,32 @@
   "version": 1,
   "sources": {
     "pokemon": {
-      "checked_at": "2026-11-23T12:41:05.600439+09:00",
+      "checked_at": "2026-11-23T13:53:47.570590+09:00",
       "count": 182,
       "latest_date": "2026-11-20"
     },
     "onepiece": {
-      "checked_at": "2026-11-23T12:41:05.600439+09:00",
+      "checked_at": "2026-11-23T13:53:47.570590+09:00",
       "count": 1226,
       "latest_date": "2026-03-19"
     },
     "labo": {
-      "checked_at": "2026-11-23T12:41:05.600439+09:00",
+      "checked_at": "2026-11-23T13:53:47.570590+09:00",
       "count": 15,
       "latest_date": "2026-11-23"
     },
     "hobby": {
-      "checked_at": "2026-11-23T12:41:05.600439+09:00",
+      "checked_at": "2026-11-23T13:53:47.570590+09:00",
       "count": 3,
       "latest_date": "2026-11-13"
     },
     "pcstore": {
-      "checked_at": "2026-11-23T12:41:05.600439+09:00",
+      "checked_at": "2026-11-23T13:53:47.570590+09:00",
       "count": 16,
       "latest_date": "2026-11-20"
     },
     "furu": {
-      "checked_at": "2026-11-23T12:41:05.600439+09:00",
+      "checked_at": "2026-11-23T13:53:47.570590+09:00",
       "count": 59,
       "latest_date": "2026-11-20"
     }
@@ -15996,6 +15996,18 @@
       "closed": false,
       "status": "ignored",
       "discovered_at": "2026-11-23T12:41:05.600439+09:00"
+    },
+    "270c12b9ba7afc6c6464c3eac0157c1f077883b695780a1e4bdad3b8bdca5353": {
+      "key": "270c12b9ba7afc6c6464c3eac0157c1f077883b695780a1e4bdad3b8bdca5353",
+      "source": "labo",
+      "title": "【遊戯王OCG】「REVOLUTION BOOSTER －方界・マリンセス・ゴーストリック－」テーマ紹介-マリンセス編-",
+      "published": "2026-11-23",
+      "url": "https://www.c-labo.jp/shop/stakihabara/blog/625011/",
+      "category": "遊戯王OCG",
+      "store": "サテライトショップTOKYO 秋葉原店",
+      "closed": false,
+      "status": "ignored",
+      "discovered_at": "2026-11-23T13:53:47.570590+09:00"
     }
   },
   "channel_check": {
