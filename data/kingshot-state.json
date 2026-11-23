@@ -861,7 +861,7 @@
     ],
     "publisher": []
   },
-  "last_checked_at": "2026-11-23T16:36:25.103551+09:00",
+  "last_checked_at": "2026-11-23T22:20:37.278503+09:00",
   "source_errors": {},
   "image_errors": {
     "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/repertoire/previous-66.jpg": {
@@ -870,8 +870,8 @@
     }
   },
   "last_reservation_check": {
-    "checked_at": "2026-11-23T16:36:24.939790+09:00",
-    "queued": 4,
+    "checked_at": "2026-11-23T22:20:35.764442+09:00",
+    "queued": 3,
     "target": 8,
     "posts": [
       {
@@ -909,20 +909,8 @@
             "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/references/IMG_2757.jpeg"
           }
         ]
-      },
-      {
-        "id": "6b00989be3772ee0cf5ba2e5",
-        "text": "今日もおつかれさまでした🌙\nキングショットも、休む時間を大切に。\n仲間との続きは、また明日。おやすみなさい。\n#キングショット #Kingshot",
-        "dueAt": "2026-11-23T13:00:00.000Z",
-        "status": "scheduled",
-        "assets": [
-          {
-            "mimeType": "image/jpeg",
-            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/from-x/31-2108221095975453034.jpg"
-          }
-        ]
       }
     ],
-    "shortfall": 4
+    "shortfall": 5
   }
 }
