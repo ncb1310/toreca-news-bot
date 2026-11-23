@@ -805,12 +805,24 @@
       }
     }
   },
-  "last_checked_at": "2026-11-25T12:00:00+09:00",
+  "last_checked_at": "2026-11-23T16:36:23.623502+09:00",
   "last_reservation_check": {
-    "checked_at": "2026-11-23T10:10:21.400786+09:00",
+    "checked_at": "2026-11-23T16:36:18.201742+09:00",
     "queued": 8,
     "target": 8,
     "posts": [
+      {
+        "id": "6b039280d5eabfb8ccf3c34a",
+        "text": "おはようございます。\n朝の光をひとつ、心の栞に。今日があなたにとって、穏やかな一頁になりますように。\n\n#おはようございます #創作 #小説",
+        "dueAt": "2026-11-24T23:00:00.000Z",
+        "status": "scheduled",
+        "assets": [
+          {
+            "mimeType": "image/jpeg",
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/senran/scene-3/morning.jpg"
+          }
+        ]
+      },
       {
         "id": "6b03394ad5eabfb8cccf23af",
         "text": "おやすみなさい。\n今日の物語はいったんここまで。続きは、また明日のあなたの歩幅で。どうか穏やかな夢を。\n\n#おやすみなさい #創作 #小説",
@@ -884,26 +896,14 @@
         ]
       },
       {
-        "id": "6b0143c29ffbc8503c065f6d",
-        "text": "こんにちは。\n少し立ち止まる時間も、大切な一頁。午後もどうぞ、無理のない歩幅で。\n\n#こんにちは #創作 #小説",
-        "dueAt": "2026-11-23T03:00:00.000Z",
+        "id": "6b03ecf69c1a68014f57e509",
         "status": "scheduled",
+        "dueAt": "2026-11-25T03:00:00.000Z",
+        "text": "こんにちは。\n何気ない言葉が、ふと心に残ることがあります。今日のあなたにも、そんな出会いがありますように。\n\n#こんにちは #創作 #小説",
         "assets": [
           {
             "mimeType": "image/jpeg",
-            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/senran/scene-2/noon.jpg"
-          }
-        ]
-      },
-      {
-        "id": "6b039280d5eabfb8ccf3c34a",
-        "status": "scheduled",
-        "dueAt": "2026-11-24T23:00:00.000Z",
-        "text": "おはようございます。\n朝の光をひとつ、心の栞に。今日があなたにとって、穏やかな一頁になりますように。\n\n#おはようございます #創作 #小説",
-        "assets": [
-          {
-            "mimeType": "image/jpeg",
-            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/senran/scene-3/morning.jpg"
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/senran/scene-4/noon.jpg"
           }
         ]
       }
