@@ -2,32 +2,32 @@
   "version": 1,
   "sources": {
     "pokemon": {
-      "checked_at": "2026-11-23T08:53:19.321786+09:00",
+      "checked_at": "2026-11-23T10:27:46.919664+09:00",
       "count": 182,
       "latest_date": "2026-11-20"
     },
     "onepiece": {
-      "checked_at": "2026-11-23T08:53:19.321786+09:00",
+      "checked_at": "2026-11-23T10:27:46.919664+09:00",
       "count": 1226,
       "latest_date": "2026-03-19"
     },
     "labo": {
-      "checked_at": "2026-11-23T08:53:19.321786+09:00",
+      "checked_at": "2026-11-23T10:27:46.919664+09:00",
       "count": 15,
-      "latest_date": "2026-11-21"
+      "latest_date": "2026-11-23"
     },
     "hobby": {
-      "checked_at": "2026-11-23T08:53:19.321786+09:00",
+      "checked_at": "2026-11-23T10:27:46.919664+09:00",
       "count": 3,
       "latest_date": "2026-11-13"
     },
     "pcstore": {
-      "checked_at": "2026-11-23T08:53:19.321786+09:00",
+      "checked_at": "2026-11-23T10:27:46.919664+09:00",
       "count": 16,
       "latest_date": "2026-11-20"
     },
     "furu": {
-      "checked_at": "2026-11-23T08:53:19.321786+09:00",
+      "checked_at": "2026-11-23T10:27:46.919664+09:00",
       "count": 59,
       "latest_date": "2026-11-20"
     }
@@ -15954,6 +15954,18 @@
       "closed": false,
       "status": "ignored",
       "discovered_at": "2026-11-21T17:58:08.873638+09:00"
+    },
+    "b28831ef8e1b657c99f732d310b96b375138a6dc37c6c18cad585a5b9ede6fe5": {
+      "key": "b28831ef8e1b657c99f732d310b96b375138a6dc37c6c18cad585a5b9ede6fe5",
+      "source": "labo",
+      "title": "【ポケモンカード】 拡張パック「ハドウシーカー」 抽選販売のご案内",
+      "published": "2026-11-23",
+      "url": "https://www.c-labo.jp/shop/namba2nd/blog/625078/",
+      "category": "ポケモンカードゲーム",
+      "store": "販売買取センターNAMBA",
+      "closed": false,
+      "status": "ready",
+      "discovered_at": "2026-11-23T10:27:46.919664+09:00"
     }
   },
   "channel_check": {
