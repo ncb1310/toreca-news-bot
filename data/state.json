@@ -2,32 +2,32 @@
   "version": 1,
   "sources": {
     "pokemon": {
-      "checked_at": "2026-11-23T11:40:44.524498+09:00",
+      "checked_at": "2026-11-23T12:41:05.600439+09:00",
       "count": 182,
       "latest_date": "2026-11-20"
     },
     "onepiece": {
-      "checked_at": "2026-11-23T11:40:44.524498+09:00",
+      "checked_at": "2026-11-23T12:41:05.600439+09:00",
       "count": 1226,
       "latest_date": "2026-03-19"
     },
     "labo": {
-      "checked_at": "2026-11-23T11:40:44.524498+09:00",
+      "checked_at": "2026-11-23T12:41:05.600439+09:00",
       "count": 15,
       "latest_date": "2026-11-23"
     },
     "hobby": {
-      "checked_at": "2026-11-23T11:40:44.524498+09:00",
+      "checked_at": "2026-11-23T12:41:05.600439+09:00",
       "count": 3,
       "latest_date": "2026-11-13"
     },
     "pcstore": {
-      "checked_at": "2026-11-23T11:40:44.524498+09:00",
+      "checked_at": "2026-11-23T12:41:05.600439+09:00",
       "count": 16,
       "latest_date": "2026-11-20"
     },
     "furu": {
-      "checked_at": "2026-11-23T11:40:44.524498+09:00",
+      "checked_at": "2026-11-23T12:41:05.600439+09:00",
       "count": 59,
       "latest_date": "2026-11-20"
     }
@@ -15984,6 +15984,18 @@
         ]
       },
       "publication_checked_at": "2026-11-23T10:27:46.919664+09:00"
+    },
+    "a1aef7580afcf05142a5aadd7eac2733f699a23ff635eb61685a1b3ef7027137": {
+      "key": "a1aef7580afcf05142a5aadd7eac2733f699a23ff635eb61685a1b3ef7027137",
+      "source": "labo",
+      "title": "【遊戯王OCG】今週のランキングデュエル優勝デッキまとめ！（11/16～11/22）",
+      "published": "2026-11-23",
+      "url": "https://www.c-labo.jp/shop/stakihabara/blog/625084/",
+      "category": "遊戯王OCG",
+      "store": "サテライトショップTOKYO 秋葉原店",
+      "closed": false,
+      "status": "ignored",
+      "discovered_at": "2026-11-23T12:41:05.600439+09:00"
     }
   },
   "channel_check": {
