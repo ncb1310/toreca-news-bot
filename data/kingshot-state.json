@@ -763,9 +763,9 @@
       "post_id": "6b00989be3772ee0cf5ba2e5",
       "publication_result": {
         "id": "6b00989be3772ee0cf5ba2e5",
-        "status": "scheduled",
-        "dueAt": "2026-11-23T13:00:00.000Z",
-        "text": "今日もおつかれさまでした🌙\nキングショットも、休む時間を大切に。\n仲間との続きは、また明日。おやすみなさい。\n#キングショット #Kingshot",
+        "status": "sent",
+        "sentAt": "2026-11-23T13:03:05.770Z",
+        "externalLink": "https://x.com/2107514010547732481/status/2124851228936950075",
         "assets": [
           {
             "mimeType": "image/jpeg",
