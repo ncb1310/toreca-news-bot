@@ -678,9 +678,9 @@
       "post_id": "6b023fbccc364169c1195363",
       "publication_result": {
         "id": "6b023fbccc364169c1195363",
-        "status": "scheduled",
-        "dueAt": "2026-11-23T23:00:00.000Z",
-        "text": "おはようございます。\n新しい一日にも、まだ知らない物語が待っています。今日は自分の歩幅で、ゆっくりと。\n\n#おはようございます #創作 #小説",
+        "status": "sent",
+        "sentAt": "2026-11-23T23:01:51.429Z",
+        "externalLink": "https://x.com/2098199506550718464/status/2125001912470700122",
         "assets": [
           {
             "mimeType": "image/jpeg",
