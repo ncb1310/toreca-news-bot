@@ -2,32 +2,32 @@
   "version": 1,
   "sources": {
     "pokemon": {
-      "checked_at": "2026-11-24T11:40:17.429102+09:00",
+      "checked_at": "2026-11-24T12:39:35.690536+09:00",
       "count": 182,
       "latest_date": "2026-11-20"
     },
     "onepiece": {
-      "checked_at": "2026-11-24T11:40:17.429102+09:00",
+      "checked_at": "2026-11-24T12:39:35.690536+09:00",
       "count": 1226,
       "latest_date": "2026-03-19"
     },
     "labo": {
-      "checked_at": "2026-11-24T11:40:17.429102+09:00",
+      "checked_at": "2026-11-24T12:39:35.690536+09:00",
       "count": 15,
       "latest_date": "2026-11-23"
     },
     "hobby": {
-      "checked_at": "2026-11-24T11:40:17.429102+09:00",
+      "checked_at": "2026-11-24T12:39:35.690536+09:00",
       "count": 3,
-      "latest_date": "2026-11-13"
+      "latest_date": "2026-11-24"
     },
     "pcstore": {
-      "checked_at": "2026-11-24T11:40:17.429102+09:00",
-      "count": 16,
+      "checked_at": "2026-11-24T12:39:35.690536+09:00",
+      "count": 15,
       "latest_date": "2026-11-20"
     },
     "furu": {
-      "checked_at": "2026-11-24T11:40:17.429102+09:00",
+      "checked_at": "2026-11-24T12:39:35.690536+09:00",
       "count": 59,
       "latest_date": "2026-11-20"
     }
@@ -16020,6 +16020,18 @@
       "closed": false,
       "status": "ignored",
       "discovered_at": "2026-11-23T20:35:56.910853+09:00"
+    },
+    "9e7cc60fdc4bb5d30d0fb44d805178903c0a6ea0e31a6dfe8992e08eac51fddf": {
+      "key": "9e7cc60fdc4bb5d30d0fb44d805178903c0a6ea0e31a6dfe8992e08eac51fddf",
+      "source": "hobby",
+      "title": "抽選販売「ポケモンカードゲームMEGA 拡張パック二 ...",
+      "published": "2026-11-24",
+      "url": "https://www.hbst.net/?p=412193",
+      "category": "",
+      "store": "",
+      "closed": false,
+      "status": "ready",
+      "discovered_at": "2026-11-24T12:39:35.690536+09:00"
     }
   },
   "channel_check": {
