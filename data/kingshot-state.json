@@ -895,7 +895,7 @@
     ],
     "publisher": []
   },
-  "last_checked_at": "2026-11-26T22:00:00+09:00",
+  "last_checked_at": "2026-11-24T10:08:52.870515+09:00",
   "source_errors": {},
   "image_errors": {
     "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/repertoire/previous-66.jpg": {
@@ -904,10 +904,22 @@
     }
   },
   "last_reservation_check": {
-    "checked_at": "2026-11-23T22:20:35.764442+09:00",
+    "checked_at": "2026-11-24T10:08:51.662569+09:00",
     "queued": 3,
     "target": 8,
     "posts": [
+      {
+        "id": "6b048dcb76f8581f13924373",
+        "text": "おはようございます！☀️\n今日もキングショットを楽しんでいきましょう。\n育成も攻略も、自分のペースで。仲間との一日が良い時間になりますように⚔️\n#キングショット #Kingshot",
+        "dueAt": "2026-11-25T23:00:00.000Z",
+        "status": "scheduled",
+        "assets": [
+          {
+            "mimeType": "image/jpeg",
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/references/IMG_2758.jpeg"
+          }
+        ]
+      },
       {
         "id": "6b033951bf5d5a73b6b2f311",
         "text": "今日もおつかれさまでした🌙\nキングショットも、休む時間を大切に。\n仲間との続きは、また明日。おやすみなさい。\n#キングショット #Kingshot",
@@ -929,18 +941,6 @@
           {
             "mimeType": "image/jpeg",
             "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/references/IMG_2759.jpeg"
-          }
-        ]
-      },
-      {
-        "id": "6b01e792846b0ee9072e3973",
-        "text": "おはようございます！☀️\n今日もキングショットを楽しんでいきましょう。\n育成も攻略も、自分のペースで。仲間との一日が良い時間になりますように⚔️\n#キングショット #Kingshot",
-        "dueAt": "2026-11-23T23:00:00.000Z",
-        "status": "scheduled",
-        "assets": [
-          {
-            "mimeType": "image/jpeg",
-            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/references/IMG_2757.jpeg"
           }
         ]
       }
