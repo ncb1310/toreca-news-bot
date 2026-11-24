@@ -924,10 +924,23 @@
       "kind": "night",
       "text": "おやすみなさい。\nうまくいかなかった頁も、あなたの物語の一部。今夜はゆっくり、心を休めてくださいね。\n\n#おやすみなさい #創作 #小説",
       "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/senran/scene-5/night.jpg",
-      "status": "sending",
+      "status": "accepted",
       "attempt_date": "2026-11-26",
       "attempted_at": "2026-11-24T22:18:45.242452+09:00",
-      "scheduled_at": "2026-11-26T22:00:00+09:00"
+      "scheduled_at": "2026-11-26T22:00:00+09:00",
+      "post_id": "6b058ec0ff66be839256d636",
+      "publication_result": {
+        "id": "6b058ec0ff66be839256d636",
+        "status": "scheduled",
+        "dueAt": "2026-11-26T13:00:00.000Z",
+        "text": "おやすみなさい。\nうまくいかなかった頁も、あなたの物語の一部。今夜はゆっくり、心を休めてくださいね。\n\n#おやすみなさい #創作 #小説",
+        "assets": [
+          {
+            "mimeType": "image/jpeg",
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/senran/scene-5/night.jpg"
+          }
+        ]
+      }
     }
   },
   "last_checked_at": "2026-11-26T22:00:00+09:00",
