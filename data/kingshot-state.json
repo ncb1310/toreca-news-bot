@@ -786,9 +786,9 @@
       "post_id": "6b01e792846b0ee9072e3973",
       "publication_result": {
         "id": "6b01e792846b0ee9072e3973",
-        "status": "scheduled",
-        "dueAt": "2026-11-23T23:00:00.000Z",
-        "text": "おはようございます！☀️\n今日もキングショットを楽しんでいきましょう。\n育成も攻略も、自分のペースで。仲間との一日が良い時間になりますように⚔️\n#キングショット #Kingshot",
+        "status": "sent",
+        "sentAt": "2026-11-23T23:01:51.549Z",
+        "externalLink": "https://x.com/2107514010547732481/status/2125001912927781324",
         "assets": [
           {
             "mimeType": "image/jpeg",
