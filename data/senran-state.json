@@ -895,9 +895,19 @@
           }
         ]
       }
+    },
+    "2026-11-26-evening": {
+      "key": "2026-11-26-evening",
+      "kind": "evening",
+      "text": "こんばんは。\n言葉にならなかった気持ちも、今夜はそっと栞に挟んで。穏やかな時間を過ごせますように。\n\n#こんばんは #創作 #小説",
+      "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/senran/scene-5/evening.jpg",
+      "status": "sending",
+      "attempt_date": "2026-11-26",
+      "attempted_at": "2026-11-24T22:18:45.242452+09:00",
+      "scheduled_at": "2026-11-26T18:00:00+09:00"
     }
   },
-  "last_checked_at": "2026-11-26T12:00:00+09:00",
+  "last_checked_at": "2026-11-26T18:00:00+09:00",
   "last_reservation_check": {
     "checked_at": "2026-11-24T10:08:46.111897+09:00",
     "queued": 8,
