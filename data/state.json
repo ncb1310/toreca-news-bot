@@ -16024,14 +16024,17 @@
     "9e7cc60fdc4bb5d30d0fb44d805178903c0a6ea0e31a6dfe8992e08eac51fddf": {
       "key": "9e7cc60fdc4bb5d30d0fb44d805178903c0a6ea0e31a6dfe8992e08eac51fddf",
       "source": "hobby",
-      "title": "抽選販売「ポケモンカードゲームMEGA 拡張パック二 ...",
+      "title": "抽選販売「ポケモンカードゲームMEGA 拡張パック二種（再販）」",
       "published": "2026-11-24",
       "url": "https://www.hbst.net/?p=412193",
       "category": "",
       "store": "",
       "closed": false,
-      "status": "ready",
-      "discovered_at": "2026-11-24T12:39:35.690536+09:00"
+      "status": "sending",
+      "discovered_at": "2026-11-24T12:39:35.690536+09:00",
+      "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/e9b4063848d942783ac0befe32545bf4a87e6c26/assets/generated/89d196b0c04b6061cff37719.png",
+      "attempt_date": "2026-11-24",
+      "attempted_at": "2026-11-24T12:39:35.690536+09:00"
     }
   },
   "channel_check": {
