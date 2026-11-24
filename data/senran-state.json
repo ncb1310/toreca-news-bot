@@ -701,9 +701,9 @@
       "post_id": "6b02956acc364169c135bda1",
       "publication_result": {
         "id": "6b02956acc364169c135bda1",
-        "status": "scheduled",
-        "dueAt": "2026-11-24T03:00:00.000Z",
-        "text": "こんにちは。\n忙しい時間の合間にも、心に余白を少しだけ。物語をめくるように、ゆっくり息をついていきましょう。\n\n#こんにちは #創作 #小説",
+        "status": "sent",
+        "sentAt": "2026-11-24T03:01:05.737Z",
+        "externalLink": "https://x.com/2098199506550718464/status/2125062118839894391",
         "assets": [
           {
             "mimeType": "image/jpeg",
@@ -724,9 +724,9 @@
       "post_id": "6b02e60702479690924daa90",
       "publication_result": {
         "id": "6b02e60702479690924daa90",
-        "status": "scheduled",
-        "dueAt": "2026-11-24T09:00:00.000Z",
-        "text": "こんばんは。\n一日の終わりに、心をほどく時間を。今日という物語に、小さな安らぎが残りますように。\n\n#こんばんは #創作 #小説",
+        "status": "sent",
+        "sentAt": "2026-11-24T09:01:48.446Z",
+        "externalLink": "https://x.com/2098199506550718464/status/2125152895062471135",
         "assets": [
           {
             "mimeType": "image/jpeg",
@@ -747,9 +747,9 @@
       "post_id": "6b03394ad5eabfb8cccf23af",
       "publication_result": {
         "id": "6b03394ad5eabfb8cccf23af",
-        "status": "scheduled",
-        "dueAt": "2026-11-24T13:00:00.000Z",
-        "text": "おやすみなさい。\n今日の物語はいったんここまで。続きは、また明日のあなたの歩幅で。どうか穏やかな夢を。\n\n#おやすみなさい #創作 #小説",
+        "status": "sent",
+        "sentAt": "2026-11-24T13:03:42.189Z",
+        "externalLink": "https://x.com/2098199506550718464/status/2125213769873662278",
         "assets": [
           {
             "mimeType": "image/jpeg",
