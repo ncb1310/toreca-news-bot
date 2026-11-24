@@ -249,7 +249,7 @@ def eligible(item, now):
     # Product announcements or explicit sales news; event lotteries are excluded.
     if re.search(r'大会|チャンピオン|エントリー|資格試験|参加規約|ライブ配信', title):
         return False
-    return item['category'] in ('商品', 'PRODUCTS') or bool(re.search(r'予約|再販|再入荷|販売|発売', title))
+    return item['category'] in ('商品', 'PRODUCTS') or bool(re.search(r'予約|抽選|再販|再入荷|販売|発売', title))
 
 
 def post_hashtags(item):
@@ -271,6 +271,55 @@ def post_hashtags(item):
     return ' '.join(tags[:3])
 
 
+def lottery_details(item, html, now):
+    root = DOM(html).root
+    scope = next((n for n in root.walk() if n.tag == 'article'), None)
+    if scope is None:
+        scope = next((n for n in root.walk() if n.tag == 'main'), root)
+    nodes = list(scope.walk())
+    fields = {clean(n.text()) for n in nodes if n.tag in ('p', 'li', 'div', 'dd', 'tr')
+              and len(n.text()) <= 180}
+    day = r'(?:(\d{4})[年/])?(\d{1,2})[月/](\d{1,2})日?(?:[（(][月火水木金土日](?:曜)?[）)])?'
+    deadlines = set()
+    for field in fields:
+        if not re.search(r'(?:応募|受付|抽選)(?:期間|期限|締切|締め切り|終了)', field):
+            continue
+        match = re.search(r'(?:締切[り]?|締め切り|期限|終了|[～〜~])[\s：:]*' + day
+                          + r'(?:\s*(\d{1,2})[:：](\d{2}))?', field)
+        if match:
+            year, month, d, hour, minute = match.groups()
+            try:
+                deadline = datetime(int(year or item['published'][:4]), int(month), int(d),
+                                    int(hour or 23), int(minute or 59), tzinfo=JST)
+            except ValueError:
+                continue
+            deadlines.add((deadline, bool(hour)))
+    if len(deadlines) == 1:
+        deadline, timed = deadlines.pop()
+        if deadline < now.replace(second=0, microsecond=0):
+            return False
+        item['deadline_label'] = deadline.strftime('%m/%d %H:%M' if timed else '%m/%d')
+    links = set()
+    photos = set()
+    terms = re.findall(r'[『「]([^』」]{3,})[』」]', item['title'])
+    for n in nodes:
+        if n.tag == 'a' and re.search(r'応募フォーム|申込フォーム|抽選に応募|応募はこちら|抽選申込', clean(n.text())):
+            url = urljoin(item['url'], n.attrs.get('href') or '')
+            dest = urlsplit(url)
+            if dest.scheme == 'https' and dest.hostname in (urlsplit(item['url']).hostname,
+                    'livepocket.jp', 't.livepocket.jp', 'forms.gle', 'docs.google.com') and not dest.username:
+                links.add(url)
+        if n.tag == 'img' and any(t in (n.attrs.get('alt') or '') for t in terms):
+            photo = canonical_url(item['url'], n.attrs.get('src') or '')
+            if photo and photo != item['url']:
+                photos.add(photo)
+    if len(links) == 1:
+        item['application_url'] = links.pop()
+    if len(photos) == 1:
+        item['product_photo'] = photos.pop()
+    return True
+
+
 def format_post(item):
     tags = post_hashtags(item)
     if item.get('guide_id') == 'lottery-receipt':
@@ -285,6 +334,18 @@ def format_post(item):
     label = SOURCES[item['source']][0]
     store = item.get('store', '')
     spotlight = item.get('kind') == 'spotlight'
+    if not spotlight and '抽選' in item['title']:
+        place = store or label
+        deadline = item.get('deadline_label', '店舗の告知で確認')
+        link = item.get('application_url')
+        footer = f"\n\n📍 {place[:32]}\n⏰ 応募締切：{deadline}\n"
+        footer += '🔽 応募はこちら' if link else '🔽 応募方法・条件はこちら'
+        header = '🎟️ トレカ抽選情報\n'
+        budget = max(1, 122 - len(header + footer + tags) - 4)
+        title = item['title']
+        if len(title) > budget:
+            title = title[:budget - 1] + '…'
+        return header + title + footer + '\n' + (link or item['url']) + '\n\n' + tags
     category = '🃏 商品ピックアップ' if spotlight else ('🎟️ 抽選のお知らせ' if '抽選' in item['title'] else '📣 新着のお知らせ')
     before = f'{category}｜{label}{("・" + store) if store else ""}\n'
     after = f'\n発表日：{item["published"]}\n' + ('新着速報ではありません。詳細は公式へ👇\n' if spotlight else ('締切と受取場所はこちら👇\n' if '抽選' in item['title'] else '詳しくはこちら👇\n'))
@@ -431,7 +492,30 @@ def publish_card(item, now):
         signature = b'\x89PNG\r\n\x1a\n'
         relative = 'assets/generated/' + image_name(item)
         label = 'トレカの基礎と確認ポイント' if item.get('kind') == 'guide' else SOURCES[item['source']][0]
-        render_card(item, label, now, ROOT / relative)
+        destination = ROOT / relative
+        photo_saved = False
+        if item.get('product_photo'):
+            from io import BytesIO
+            from PIL import Image, ImageOps
+            try:
+                with urlopen(Request(item['product_photo'], headers={'User-Agent': AGENT}), timeout=15) as response:
+                    if not canonical_url(item['url'], response.url):
+                        raise ValueError('Unexpected photo host')
+                    data = response.read(8_000_001)
+                if len(data) <= 8_000_000:
+                    with Image.open(BytesIO(data)) as photo:
+                        if photo.width * photo.height <= 16_000_000 and min(photo.size) >= 200:
+                            photo = ImageOps.exif_transpose(photo).convert('RGBA')
+                            photo.thumbnail((1200, 1200))
+                            canvas = Image.new('RGB', photo.size, 'white')
+                            canvas.paste(photo, mask=photo.getchannel('A'))
+                            destination.parent.mkdir(parents=True, exist_ok=True)
+                            canvas.save(destination, format='PNG')
+                            photo_saved = True
+            except (OSError, ValueError, Image.DecompressionBombError):
+                pass
+        if not photo_saved:
+            render_card(item, label, now, destination)
         checkpoint(relative)
     revision = subprocess.check_output(['git', 'rev-parse', 'HEAD'], cwd=ROOT, text=True).strip()
     image_url = 'https://raw.githubusercontent.com/ncb1310/toreca-news-bot/' + revision + '/' + relative
@@ -537,7 +621,13 @@ def main():
                 return 0
             # Verify the source page is still reachable immediately before publication.
             # Do not turn archived product announcements into current stock claims.
-            if candidate['source'] != 'hobby':
+            if candidate.get('kind') not in ('guide', 'spotlight') and '抽選' in candidate['title']:
+                if not lottery_details(candidate, official_page(candidate['url']), now):
+                    candidate['status'] = 'expired'
+                    save(state)
+                    checkpoint()
+                    return 0
+            elif candidate['source'] != 'hobby':
                 official_page(candidate['url'])
         except Exception as exc:
             candidate['status'] = 'verification_failed'
