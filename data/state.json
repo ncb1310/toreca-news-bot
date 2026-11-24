@@ -2,32 +2,32 @@
   "version": 1,
   "sources": {
     "pokemon": {
-      "checked_at": "2026-11-24T15:43:06.738079+09:00",
+      "checked_at": "2026-11-24T17:06:54.407202+09:00",
       "count": 182,
       "latest_date": "2026-11-20"
     },
     "onepiece": {
-      "checked_at": "2026-11-24T15:43:06.738079+09:00",
+      "checked_at": "2026-11-24T17:06:54.407202+09:00",
       "count": 1226,
       "latest_date": "2026-03-19"
     },
     "labo": {
-      "checked_at": "2026-11-24T15:43:06.738079+09:00",
+      "checked_at": "2026-11-24T17:06:54.407202+09:00",
       "count": 15,
       "latest_date": "2026-11-23"
     },
     "hobby": {
-      "checked_at": "2026-11-24T15:43:06.738079+09:00",
+      "checked_at": "2026-11-24T17:06:54.407202+09:00",
       "count": 3,
       "latest_date": "2026-11-24"
     },
     "pcstore": {
-      "checked_at": "2026-11-24T15:43:06.738079+09:00",
-      "count": 15,
-      "latest_date": "2026-11-20"
+      "checked_at": "2026-11-24T17:06:54.407202+09:00",
+      "count": 16,
+      "latest_date": "2026-11-24"
     },
     "furu": {
-      "checked_at": "2026-11-24T15:43:06.738079+09:00",
+      "checked_at": "2026-11-24T17:06:54.407202+09:00",
       "count": 59,
       "latest_date": "2026-11-20"
     }
@@ -16050,6 +16050,18 @@
         ]
       },
       "publication_checked_at": "2026-11-24T12:39:35.690536+09:00"
+    },
+    "5a031dec7bb82ec21e154ca1832637f4c9be905bc4216d68ab7388b5458a4d6d": {
+      "key": "5a031dec7bb82ec21e154ca1832637f4c9be905bc4216d68ab7388b5458a4d6d",
+      "source": "pcstore",
+      "title": "11月26日（木）におけるサイトの利用制限と、仮想待合室の詳細について",
+      "published": "2026-11-24",
+      "url": "https://www.pokemoncenter-online.com/news/?id=20261124",
+      "category": "",
+      "store": "",
+      "closed": false,
+      "status": "ignored",
+      "discovered_at": "2026-11-24T17:06:54.407202+09:00"
     }
   },
   "channel_check": {
