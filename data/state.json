@@ -17553,12 +17553,37 @@
       "buffer_post_id": "6b06921bc68d7845a4911a8e"
     }
   },
-  "last_checked_at": "2026-11-27T08:00:00+09:00",
+  "last_checked_at": "2026-11-25T16:45:33.156151+09:00",
   "last_reservation_check": {
-    "checked_at": "2026-11-25T16:22:54.477084+09:00",
-    "queued": 0,
+    "checked_at": "2026-11-25T16:45:25.200052+09:00",
+    "queued": 2,
     "target": 8,
-    "posts": [],
-    "shortfall": 8
+    "posts": [
+      {
+        "id": "6b06921722dfb7833a8eea1e",
+        "status": "scheduled",
+        "dueAt": "2026-11-25T23:00:00.000Z",
+        "text": "おはようございます☀️\\n最後まで手札に残して助かったカウンター、みんなは覚えてますか？🃏\\n#トレカ #トレカ女子",
+        "assets": [
+          {
+            "mimeType": "image/png",
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/a9029d3a9fdf782f2a3efb6cd070fb00732eb274/assets/generated/da836cf9feb8dcd3394b2beb.png"
+          }
+        ]
+      },
+      {
+        "id": "6b06921bc68d7845a4911a8e",
+        "status": "scheduled",
+        "dueAt": "2026-11-26T23:00:00.000Z",
+        "text": "おはようございます☀️\\n最初のベンチにどの子を出すか。対戦はあの瞬間から楽しいですよね🌱\\n#トレカ #トレカ女子",
+        "assets": [
+          {
+            "mimeType": "image/png",
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/87a29f259dbbf40e8bca4cd7c52793febaaf5ce3/assets/generated/4d814e22e6cf084650c1280f.png"
+          }
+        ]
+      }
+    ],
+    "shortfall": 6
   }
 }
