@@ -17577,10 +17577,10 @@
       "buffer_post_id": "6b072ef5827512a7c4cc97cd"
     }
   },
-  "last_checked_at": "2026-11-28T08:00:00+09:00",
+  "last_checked_at": "2026-11-26T03:54:46.794973+09:00",
   "last_reservation_check": {
-    "checked_at": "2026-11-25T22:23:38.572841+09:00",
-    "queued": 2,
+    "checked_at": "2026-11-26T03:54:42.958014+09:00",
+    "queued": 3,
     "target": 8,
     "posts": [
       {
@@ -17606,8 +17606,20 @@
             "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/a9029d3a9fdf782f2a3efb6cd070fb00732eb274/assets/generated/da836cf9feb8dcd3394b2beb.png"
           }
         ]
+      },
+      {
+        "id": "6b072ef5827512a7c4cc97cd",
+        "status": "scheduled",
+        "dueAt": "2026-11-27T23:00:00.000Z",
+        "text": "おはようございます☀️\\n当選メールを待つ日は、つい受信箱を何度も開いちゃいますね📬\\n#トレカ #トレカ女子",
+        "assets": [
+          {
+            "mimeType": "image/png",
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/2ac709f8a0870028eae8a8f8f0e8297b7c8cdf4c/assets/generated/3ea578977fddb5d009d59155.png"
+          }
+        ]
       }
     ],
-    "shortfall": 6
+    "shortfall": 5
   }
 }
