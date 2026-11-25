@@ -17503,9 +17503,19 @@
         ]
       },
       "buffer_post_id": "6afff4677b0a126cebb70a4b"
+    },
+    "toreca-morning-2026-11-26": {
+      "key": "toreca-morning-2026-11-26",
+      "kind": "morning",
+      "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/a9029d3a9fdf782f2a3efb6cd070fb00732eb274/assets/generated/da836cf9feb8dcd3394b2beb.png",
+      "text": "おはようございます☀️\\n最後まで手札に残して助かったカウンター、みんなは覚えてますか？🃏\\n#トレカ #トレカ女子",
+      "status": "sending",
+      "attempt_date": "2026-11-26",
+      "attempted_at": "2026-11-25T16:45:25.200052+09:00",
+      "scheduled_at": "2026-11-26T08:00:00+09:00"
     }
   },
-  "last_checked_at": "2026-11-25T16:22:54.795630+09:00",
+  "last_checked_at": "2026-11-26T08:00:00+09:00",
   "last_reservation_check": {
     "checked_at": "2026-11-25T16:22:54.477084+09:00",
     "queued": 0,
