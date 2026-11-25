@@ -941,9 +941,19 @@
           }
         ]
       }
+    },
+    "2026-11-27-morning": {
+      "key": "2026-11-27-morning",
+      "kind": "morning",
+      "text": "おはようございます。\n遠くまで急がなくても、今日の一歩には意味がある。どうぞ、あなたらしい一日を。\n\n#おはようございます #創作 #小説",
+      "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/senran/scene-5/morning.jpg",
+      "status": "sending",
+      "attempt_date": "2026-11-27",
+      "attempted_at": "2026-11-25T10:14:10.994414+09:00",
+      "scheduled_at": "2026-11-27T08:00:00+09:00"
     }
   },
-  "last_checked_at": "2026-11-25T04:00:48.294906+09:00",
+  "last_checked_at": "2026-11-27T08:00:00+09:00",
   "last_reservation_check": {
     "checked_at": "2026-11-25T04:00:44.535251+09:00",
     "queued": 8,
