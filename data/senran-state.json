@@ -970,10 +970,23 @@
       "kind": "noon",
       "text": "こんにちは。\n少し立ち止まる時間も、大切な一頁。午後もどうぞ、無理のない歩幅で。\n\n#こんにちは #創作 #小説",
       "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/senran/scene-6/noon.jpg",
-      "status": "sending",
+      "status": "accepted",
       "attempt_date": "2026-11-27",
       "attempted_at": "2026-11-25T16:22:47.731632+09:00",
-      "scheduled_at": "2026-11-27T12:00:00+09:00"
+      "scheduled_at": "2026-11-27T12:00:00+09:00",
+      "post_id": "6b068ccab6204bca46d70e36",
+      "publication_result": {
+        "id": "6b068ccab6204bca46d70e36",
+        "status": "scheduled",
+        "dueAt": "2026-11-27T03:00:00.000Z",
+        "text": "こんにちは。\n少し立ち止まる時間も、大切な一頁。午後もどうぞ、無理のない歩幅で。\n\n#こんにちは #創作 #小説",
+        "assets": [
+          {
+            "mimeType": "image/jpeg",
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/senran/scene-6/noon.jpg"
+          }
+        ]
+      }
     }
   },
   "last_checked_at": "2026-11-27T12:00:00+09:00",
