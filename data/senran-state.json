@@ -989,12 +989,24 @@
       }
     }
   },
-  "last_checked_at": "2026-11-25T16:22:52.114791+09:00",
+  "last_checked_at": "2026-11-25T16:45:22.163163+09:00",
   "last_reservation_check": {
-    "checked_at": "2026-11-25T16:22:47.731632+09:00",
+    "checked_at": "2026-11-25T16:45:21.424959+09:00",
     "queued": 8,
     "target": 8,
     "posts": [
+      {
+        "id": "6b068ccab6204bca46d70e36",
+        "text": "こんにちは。\n少し立ち止まる時間も、大切な一頁。午後もどうぞ、無理のない歩幅で。\n\n#こんにちは #創作 #小説",
+        "dueAt": "2026-11-27T03:00:00.000Z",
+        "status": "scheduled",
+        "assets": [
+          {
+            "mimeType": "image/jpeg",
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/senran/scene-6/noon.jpg"
+          }
+        ]
+      },
       {
         "id": "6b063666c4ff71faa8238810",
         "text": "おはようございます。\n遠くまで急がなくても、今日の一歩には意味がある。どうぞ、あなたらしい一日を。\n\n#おはようございます #創作 #小説",
@@ -1076,18 +1088,6 @@
           {
             "mimeType": "image/jpeg",
             "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/senran/scene-4/evening.jpg"
-          }
-        ]
-      },
-      {
-        "id": "6b068ccab6204bca46d70e36",
-        "status": "scheduled",
-        "dueAt": "2026-11-27T03:00:00.000Z",
-        "text": "こんにちは。\n少し立ち止まる時間も、大切な一頁。午後もどうぞ、無理のない歩幅で。\n\n#こんにちは #創作 #小説",
-        "assets": [
-          {
-            "mimeType": "image/jpeg",
-            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/senran/scene-6/noon.jpg"
           }
         ]
       }
