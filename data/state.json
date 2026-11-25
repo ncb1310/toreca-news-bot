@@ -17557,10 +17557,24 @@
       "kind": "morning",
       "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/2ac709f8a0870028eae8a8f8f0e8297b7c8cdf4c/assets/generated/3ea578977fddb5d009d59155.png",
       "text": "おはようございます☀️\\n当選メールを待つ日は、つい受信箱を何度も開いちゃいますね📬\\n#トレカ #トレカ女子",
-      "status": "sending",
+      "status": "accepted",
       "attempt_date": "2026-11-28",
       "attempted_at": "2026-11-26T03:54:42.958014+09:00",
-      "scheduled_at": "2026-11-28T08:00:00+09:00"
+      "scheduled_at": "2026-11-28T08:00:00+09:00",
+      "post_id": "6b072ef5827512a7c4cc97cd",
+      "publication_result": {
+        "id": "6b072ef5827512a7c4cc97cd",
+        "status": "scheduled",
+        "dueAt": "2026-11-27T23:00:00.000Z",
+        "text": "おはようございます☀️\\n当選メールを待つ日は、つい受信箱を何度も開いちゃいますね📬\\n#トレカ #トレカ女子",
+        "assets": [
+          {
+            "mimeType": "image/png",
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/2ac709f8a0870028eae8a8f8f0e8297b7c8cdf4c/assets/generated/3ea578977fddb5d009d59155.png"
+          }
+        ]
+      },
+      "buffer_post_id": "6b072ef5827512a7c4cc97cd"
     }
   },
   "last_checked_at": "2026-11-28T08:00:00+09:00",
