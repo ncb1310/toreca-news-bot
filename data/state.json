@@ -17509,10 +17509,24 @@
       "kind": "morning",
       "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/a9029d3a9fdf782f2a3efb6cd070fb00732eb274/assets/generated/da836cf9feb8dcd3394b2beb.png",
       "text": "おはようございます☀️\\n最後まで手札に残して助かったカウンター、みんなは覚えてますか？🃏\\n#トレカ #トレカ女子",
-      "status": "sending",
+      "status": "accepted",
       "attempt_date": "2026-11-26",
       "attempted_at": "2026-11-25T16:45:25.200052+09:00",
-      "scheduled_at": "2026-11-26T08:00:00+09:00"
+      "scheduled_at": "2026-11-26T08:00:00+09:00",
+      "post_id": "6b06921722dfb7833a8eea1e",
+      "publication_result": {
+        "id": "6b06921722dfb7833a8eea1e",
+        "status": "scheduled",
+        "dueAt": "2026-11-25T23:00:00.000Z",
+        "text": "おはようございます☀️\\n最後まで手札に残して助かったカウンター、みんなは覚えてますか？🃏\\n#トレカ #トレカ女子",
+        "assets": [
+          {
+            "mimeType": "image/png",
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/a9029d3a9fdf782f2a3efb6cd070fb00732eb274/assets/generated/da836cf9feb8dcd3394b2beb.png"
+          }
+        ]
+      },
+      "buffer_post_id": "6b06921722dfb7833a8eea1e"
     }
   },
   "last_checked_at": "2026-11-26T08:00:00+09:00",
