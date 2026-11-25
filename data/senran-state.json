@@ -816,9 +816,9 @@
       "post_id": "6b043d9eb94e468a6da34453",
       "publication_result": {
         "id": "6b043d9eb94e468a6da34453",
-        "status": "scheduled",
-        "dueAt": "2026-11-25T09:00:00.000Z",
-        "text": "こんばんは。\n帰り道にも、ひと休みの時間にも。あなたの心に、やさしい余韻が灯りますように。\n\n#こんばんは #創作 #小説",
+        "status": "sent",
+        "sentAt": "2026-11-25T09:01:24.769Z",
+        "externalLink": "https://x.com/2098199506550718464/status/2125515183380484386",
         "assets": [
           {
             "mimeType": "image/jpeg",
@@ -839,9 +839,9 @@
       "post_id": "6b043da1d35c00e2ba717d9f",
       "publication_result": {
         "id": "6b043da1d35c00e2ba717d9f",
-        "status": "scheduled",
-        "dueAt": "2026-11-25T13:00:00.000Z",
-        "text": "おやすみなさい。\n心に残った言葉を、そっと枕元へ。今日を歩いたあなたに、やさしい休息が訪れますように。\n\n#おやすみなさい #創作 #小説",
+        "status": "sent",
+        "sentAt": "2026-11-25T13:03:42.801Z",
+        "externalLink": "https://x.com/2098199506550718464/status/2125576160109006873",
         "assets": [
           {
             "mimeType": "image/jpeg",
