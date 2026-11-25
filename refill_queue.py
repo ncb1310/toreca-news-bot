@@ -50,6 +50,31 @@ def queued(org,channel):
         raise RuntimeError('Queue exceeds audit page; no new mutations')
     return [edge['node'] for edge in result['edges']]
 
+MORNING_TOPICS = (
+    ('poke-search-art', '今日は好きなイラストを1枚だけ選ぶなら、どのカードにしますか？🎨'),
+    ('poke-first-hand', '初手がきれいにそろった日は、思わず写真を撮りたくなりますね📷'),
+    ('lottery-calendar', '気になる抽選は、締切と当選発表をセットでメモ。朝のうちに見ると安心です🗓️'),
+    ('one-counter', '最後まで手札に残して助かったカウンター、みんなは覚えてますか？🃏'),
+    ('poke-bench', '最初のベンチにどの子を出すか。対戦はあの瞬間から楽しいですよね🌱'),
+    ('lottery-result', '当選メールを待つ日は、つい受信箱を何度も開いちゃいますね📬'),
+    ('poke-evolution', '進化先ばかり手札に集合。肝心のたねポケモン、今日は来てくれるかな？🌱'),
+)
+
+
+def toreca_morning(history, due):
+    day = due.date()
+    key = 'toreca-morning-' + day.isoformat()
+    if key in history:
+        return None
+    guide_id, message = MORNING_TOPICS[day.weekday()]
+    artwork = next((p['image_url'] for p in history.values()
+                    if p.get('guide_id') == guide_id and p.get('image_url')), None)
+    if not artwork:
+        raise RuntimeError('Missing Toreca morning artwork: ' + guide_id)
+    return {'key': key, 'kind': 'morning', 'image_url': artwork,
+            'text': 'おはようございます☀️\\n' + message + '\\n#トレカ #トレカ女子'}
+
+
 def refill(account):
     now=datetime.now(shared.JST)
     module=senran if account=='senran1515' else (shared if account=='toreca_joshi' else king)
@@ -74,7 +99,10 @@ def refill(account):
     config={} if module==senran else json.loads((ROOT/('config.json' if module==shared else 'kingshot-config.json')).read_text())
     if module==shared and channel['id']!=config['channel_id']:
         raise RuntimeError('Toreca channel does not match configured account')
-    for due in slots(account,now):
+    planned = list(slots(account, now))
+    if module == shared:
+        planned.sort(key=lambda due: (due.hour != 8, due))
+    for due in planned:
         if len(current)>=TARGET:
             break
         if any(p.get('dueAt') and abs((datetime.fromisoformat(p['dueAt'].replace('Z','+00:00'))-due).total_seconds())<2700 for p in current):
@@ -85,12 +113,12 @@ def refill(account):
         if module==senran:
             candidate=senran.select(state,due)
         elif module==shared:
-            candidate=editorial.select_fallback(state,{},due,config)
+            candidate=(toreca_morning(history, due) if due.hour == 8 else editorial.select_fallback(state,{},due,config))
         else:
             candidate=king.select(state,[],due,config)
         if not candidate:
             continue
-        if module==shared:
+        if module==shared and candidate.get("kind") != "morning":
             history[candidate['key']]=candidate
             try:
                 shared.official_page(candidate['url'])
