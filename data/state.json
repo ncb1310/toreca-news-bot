@@ -17527,9 +17527,19 @@
         ]
       },
       "buffer_post_id": "6b06921722dfb7833a8eea1e"
+    },
+    "toreca-morning-2026-11-27": {
+      "key": "toreca-morning-2026-11-27",
+      "kind": "morning",
+      "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/87a29f259dbbf40e8bca4cd7c52793febaaf5ce3/assets/generated/4d814e22e6cf084650c1280f.png",
+      "text": "おはようございます☀️\\n最初のベンチにどの子を出すか。対戦はあの瞬間から楽しいですよね🌱\\n#トレカ #トレカ女子",
+      "status": "sending",
+      "attempt_date": "2026-11-27",
+      "attempted_at": "2026-11-25T16:45:25.200052+09:00",
+      "scheduled_at": "2026-11-27T08:00:00+09:00"
     }
   },
-  "last_checked_at": "2026-11-26T08:00:00+09:00",
+  "last_checked_at": "2026-11-27T08:00:00+09:00",
   "last_reservation_check": {
     "checked_at": "2026-11-25T16:22:54.477084+09:00",
     "queued": 0,
