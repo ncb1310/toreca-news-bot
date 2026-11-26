@@ -17516,9 +17516,9 @@
       "post_id": "6b06921722dfb7833a8eea1e",
       "publication_result": {
         "id": "6b06921722dfb7833a8eea1e",
-        "status": "scheduled",
-        "dueAt": "2026-11-25T23:00:00.000Z",
-        "text": "おはようございます☀️\\n最後まで手札に残して助かったカウンター、みんなは覚えてますか？🃏\\n#トレカ #トレカ女子",
+        "status": "sent",
+        "sentAt": "2026-11-25T23:00:48.193Z",
+        "externalLink": "https://x.com/2121528694724505600/status/2125726422794743875",
         "assets": [
           {
             "mimeType": "image/png",
