@@ -17599,9 +17599,30 @@
         ]
       },
       "buffer_post_id": "6b0881ce3accdac92cf0de2b"
+    },
+    "guide-60f0343ab00f1676b84436a16fd3c7987eab6e6e6a65e6016b73512f150942c7": {
+      "key": "guide-60f0343ab00f1676b84436a16fd3c7987eab6e6e6a65e6016b73512f150942c7",
+      "guide_id": "lottery-dates",
+      "kind": "guide",
+      "status": "sending",
+      "source": "guide",
+      "title": "抽選の締切、3つを分けよう",
+      "bullets": [
+        "応募締切",
+        "当選発表日",
+        "当選後の購入期限"
+      ],
+      "body": "応募できても、購入期限を過ぎると買えない場合がある。告知を見たら3つの日付を別々にメモしておこう。",
+      "url": "https://www.pokemoncenter-online.com/?main_page=lottery",
+      "published": "2026-11-29",
+      "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/5323b44068cf6601aa19dd27780c6c1ba6602dee/assets/generated/6d0f92c1c194222456b4b8d4.png",
+      "text": "🃏 抽選の締切、3つを分けよう\n\n応募できても、購入期限を過ぎると買えない場合がある。告知を見たら3つの日付を別々にメモしておこう。\n#トレカ #トレカ初心者\n参照先👇\nhttps://www.pokemoncenter-online.com/?main_page=lottery",
+      "attempt_date": "2026-11-29",
+      "attempted_at": "2026-11-27T04:00:28.383713+09:00",
+      "scheduled_at": "2026-11-29T10:00:00+09:00"
     }
   },
-  "last_checked_at": "2026-11-29T08:00:00+09:00",
+  "last_checked_at": "2026-11-29T10:00:00+09:00",
   "last_reservation_check": {
     "checked_at": "2026-11-26T22:22:36.344602+09:00",
     "queued": 2,
