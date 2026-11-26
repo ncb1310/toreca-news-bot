@@ -17581,10 +17581,24 @@
       "kind": "morning",
       "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/2e3e4c56c0da4e1bb50f54244c8754da6a536b1f/assets/generated/8facc0d29579c0f7fad1e1ae.png",
       "text": "おはようございます☀️\\n進化先ばかり手札に集合。肝心のたねポケモン、今日は来てくれるかな？🌱\\n#トレカ #トレカ女子",
-      "status": "sending",
+      "status": "accepted",
       "attempt_date": "2026-11-29",
       "attempted_at": "2026-11-27T04:00:28.383713+09:00",
-      "scheduled_at": "2026-11-29T08:00:00+09:00"
+      "scheduled_at": "2026-11-29T08:00:00+09:00",
+      "post_id": "6b0881ce3accdac92cf0de2b",
+      "publication_result": {
+        "id": "6b0881ce3accdac92cf0de2b",
+        "status": "scheduled",
+        "dueAt": "2026-11-28T23:00:00.000Z",
+        "text": "おはようございます☀️\\n進化先ばかり手札に集合。肝心のたねポケモン、今日は来てくれるかな？🌱\\n#トレカ #トレカ女子",
+        "assets": [
+          {
+            "mimeType": "image/png",
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/2e3e4c56c0da4e1bb50f54244c8754da6a536b1f/assets/generated/8facc0d29579c0f7fad1e1ae.png"
+          }
+        ]
+      },
+      "buffer_post_id": "6b0881ce3accdac92cf0de2b"
     }
   },
   "last_checked_at": "2026-11-29T08:00:00+09:00",
