@@ -973,10 +973,23 @@
       "kind": "morning",
       "text": "おはようございます！☀️\n今日もキングショットを楽しんでいきましょう。\n育成も攻略も、自分のペースで。仲間との一日が良い時間になりますように⚔️\n#キングショット #Kingshot",
       "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/repertoire/previous-72.jpg",
-      "status": "sending",
+      "status": "accepted",
       "attempt_date": "2026-11-29",
       "attempted_at": "2026-11-27T04:00:21.018947+09:00",
-      "scheduled_at": "2026-11-29T08:00:00+09:00"
+      "scheduled_at": "2026-11-29T08:00:00+09:00",
+      "post_id": "6b0881c63accdac92cf0d482",
+      "publication_result": {
+        "id": "6b0881c63accdac92cf0d482",
+        "status": "scheduled",
+        "dueAt": "2026-11-28T23:00:00.000Z",
+        "text": "おはようございます！☀️\n今日もキングショットを楽しんでいきましょう。\n育成も攻略も、自分のペースで。仲間との一日が良い時間になりますように⚔️\n#キングショット #Kingshot",
+        "assets": [
+          {
+            "mimeType": "image/jpeg",
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/repertoire/previous-72.jpg"
+          }
+        ]
+      }
     }
   },
   "baseline": {
