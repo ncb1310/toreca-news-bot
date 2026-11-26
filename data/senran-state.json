@@ -1079,9 +1079,19 @@
           }
         ]
       }
+    },
+    "2026-11-28-evening": {
+      "key": "2026-11-28-evening",
+      "kind": "evening",
+      "text": "こんばんは。\n一日の終わりに、心をほどく時間を。今日という物語に、小さな安らぎが残りますように。\n\n#こんばんは #創作 #小説",
+      "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/senran/evening.jpg",
+      "status": "sending",
+      "attempt_date": "2026-11-28",
+      "attempted_at": "2026-11-26T22:22:26.469317+09:00",
+      "scheduled_at": "2026-11-28T18:00:00+09:00"
     }
   },
-  "last_checked_at": "2026-11-26T16:21:18.968730+09:00",
+  "last_checked_at": "2026-11-28T18:00:00+09:00",
   "last_reservation_check": {
     "checked_at": "2026-11-26T16:21:14.654097+09:00",
     "queued": 8,
