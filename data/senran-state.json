@@ -1062,10 +1062,23 @@
       "kind": "noon",
       "text": "こんにちは。\n忙しい時間の合間にも、心に余白を少しだけ。物語をめくるように、ゆっくり息をついていきましょう。\n\n#こんにちは #創作 #小説",
       "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/senran/noon.jpg",
-      "status": "sending",
+      "status": "accepted",
       "attempt_date": "2026-11-28",
       "attempted_at": "2026-11-26T16:21:14.654097+09:00",
-      "scheduled_at": "2026-11-28T12:00:00+09:00"
+      "scheduled_at": "2026-11-28T12:00:00+09:00",
+      "post_id": "6b07dded7cb39d7aa35ad339",
+      "publication_result": {
+        "id": "6b07dded7cb39d7aa35ad339",
+        "status": "scheduled",
+        "dueAt": "2026-11-28T03:00:00.000Z",
+        "text": "こんにちは。\n忙しい時間の合間にも、心に余白を少しだけ。物語をめくるように、ゆっくり息をついていきましょう。\n\n#こんにちは #創作 #小説",
+        "assets": [
+          {
+            "mimeType": "image/jpeg",
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/senran/noon.jpg"
+          }
+        ]
+      }
     }
   },
   "last_checked_at": "2026-11-28T12:00:00+09:00",
