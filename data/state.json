@@ -17577,9 +17577,9 @@
       "buffer_post_id": "6b072ef5827512a7c4cc97cd"
     }
   },
-  "last_checked_at": "2026-11-26T16:21:21.436279+09:00",
+  "last_checked_at": "2026-11-26T22:22:36.547645+09:00",
   "last_reservation_check": {
-    "checked_at": "2026-11-26T16:21:21.233634+09:00",
+    "checked_at": "2026-11-26T22:22:36.344602+09:00",
     "queued": 2,
     "target": 8,
     "posts": [
