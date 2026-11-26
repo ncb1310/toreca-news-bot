@@ -1058,9 +1058,9 @@
       }
     }
   },
-  "last_checked_at": "2026-11-28T08:00:00+09:00",
+  "last_checked_at": "2026-11-26T10:15:19.644452+09:00",
   "last_reservation_check": {
-    "checked_at": "2026-11-26T03:54:34.952883+09:00",
+    "checked_at": "2026-11-26T10:15:13.974994+09:00",
     "queued": 8,
     "target": 8,
     "posts": [
@@ -1149,14 +1149,14 @@
         ]
       },
       {
-        "id": "6b04e3a1bc151fa8ad1087db",
-        "text": "おはようございます。\n始まりの朝は、白い頁に似ています。小さな楽しみをひとつ見つけられますように。\n\n#おはようございます #創作 #小説",
-        "dueAt": "2026-11-25T23:00:00.000Z",
+        "id": "6b078826a791bea1b240f457",
         "status": "scheduled",
+        "dueAt": "2026-11-27T23:00:00.000Z",
+        "text": "おはようございます。\n新しい一日にも、まだ知らない物語が待っています。今日は自分の歩幅で、ゆっくりと。\n\n#おはようございます #創作 #小説",
         "assets": [
           {
             "mimeType": "image/jpeg",
-            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/senran/scene-4/morning.jpg"
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/senran/scene-6/morning.jpg"
           }
         ]
       }
