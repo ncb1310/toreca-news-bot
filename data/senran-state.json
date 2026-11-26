@@ -1108,10 +1108,23 @@
       "kind": "night",
       "text": "おやすみなさい。\n今日の物語はいったんここまで。続きは、また明日のあなたの歩幅で。どうか穏やかな夢を。\n\n#おやすみなさい #創作 #小説",
       "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/senran/night.jpg",
-      "status": "sending",
+      "status": "accepted",
       "attempt_date": "2026-11-28",
       "attempted_at": "2026-11-26T22:22:26.469317+09:00",
-      "scheduled_at": "2026-11-28T22:00:00+09:00"
+      "scheduled_at": "2026-11-28T22:00:00+09:00",
+      "post_id": "6b083298950d2a0ff0d3b16c",
+      "publication_result": {
+        "id": "6b083298950d2a0ff0d3b16c",
+        "status": "scheduled",
+        "dueAt": "2026-11-28T13:00:00.000Z",
+        "text": "おやすみなさい。\n今日の物語はいったんここまで。続きは、また明日のあなたの歩幅で。どうか穏やかな夢を。\n\n#おやすみなさい #創作 #小説",
+        "assets": [
+          {
+            "mimeType": "image/jpeg",
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/senran/night.jpg"
+          }
+        ]
+      }
     }
   },
   "last_checked_at": "2026-11-28T22:00:00+09:00",
