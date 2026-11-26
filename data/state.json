@@ -17634,9 +17634,30 @@
         ]
       },
       "buffer_post_id": "6b0881d39068b6e07957e696"
+    },
+    "guide-c329a5999770a94c83d9ad28df9b57e6cd35d04a397541ebf2dbba4a64f245af": {
+      "key": "guide-c329a5999770a94c83d9ad28df9b57e6cd35d04a397541ebf2dbba4a64f245af",
+      "guide_id": "lottery-store",
+      "kind": "guide",
+      "status": "sending",
+      "source": "guide",
+      "title": "抽選は「どの店舗か」まで確認",
+      "bullets": [
+        "応募する店舗",
+        "受け取る店舗",
+        "来店が必要か"
+      ],
+      "body": "チェーン店の告知でも店舗限定の場合がある。店名と受取方法まで確認してから応募しよう。",
+      "url": "https://www.c-labo.jp/blog/",
+      "published": "2026-11-29",
+      "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/c4ae158789e5964e4d603372aec01aff62ab7e22/assets/generated/79ccb3e0e1d0b2d0751a1e15.png",
+      "text": "🃏 抽選は「どの店舗か」まで確認\n\nチェーン店の告知でも店舗限定の場合がある。店名と受取方法まで確認してから応募しよう。\n#トレカ #トレカ初心者\n参照先👇\nhttps://www.c-labo.jp/blog/",
+      "attempt_date": "2026-11-29",
+      "attempted_at": "2026-11-27T04:00:28.383713+09:00",
+      "scheduled_at": "2026-11-29T12:00:00+09:00"
     }
   },
-  "last_checked_at": "2026-11-29T10:00:00+09:00",
+  "last_checked_at": "2026-11-29T12:00:00+09:00",
   "last_reservation_check": {
     "checked_at": "2026-11-26T22:22:36.344602+09:00",
     "queued": 2,
