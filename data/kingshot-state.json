@@ -967,6 +967,16 @@
       "attempted_at": "2026-11-26T03:54:36.643372+09:00",
       "scheduled_at": "2026-11-28T22:00:00+09:00",
       "error": "Invalid post: Whoops, it looks like you've already got this one scheduled or posted around the same time. We're not able to post the same thing twice so close together."
+    },
+    "morning-2026-11-29": {
+      "key": "morning-2026-11-29",
+      "kind": "morning",
+      "text": "おはようございます！☀️\n今日もキングショットを楽しんでいきましょう。\n育成も攻略も、自分のペースで。仲間との一日が良い時間になりますように⚔️\n#キングショット #Kingshot",
+      "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/repertoire/previous-72.jpg",
+      "status": "sending",
+      "attempt_date": "2026-11-29",
+      "attempted_at": "2026-11-27T04:00:21.018947+09:00",
+      "scheduled_at": "2026-11-29T08:00:00+09:00"
     }
   },
   "baseline": {
@@ -975,7 +985,7 @@
     ],
     "publisher": []
   },
-  "last_checked_at": "2026-11-26T22:22:35.257854+09:00",
+  "last_checked_at": "2026-11-29T08:00:00+09:00",
   "source_errors": {},
   "image_errors": {
     "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/repertoire/previous-66.jpg": {
