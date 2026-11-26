@@ -908,9 +908,9 @@
       "post_id": "6b058ebdff66be839256d1c6",
       "publication_result": {
         "id": "6b058ebdff66be839256d1c6",
-        "status": "scheduled",
-        "dueAt": "2026-11-26T09:00:00.000Z",
-        "text": "こんばんは。\n言葉にならなかった気持ちも、今夜はそっと栞に挟んで。穏やかな時間を過ごせますように。\n\n#こんばんは #創作 #小説",
+        "status": "sent",
+        "sentAt": "2026-11-26T09:01:26.540Z",
+        "externalLink": "https://x.com/2098199506550718464/status/2125877578321789400",
         "assets": [
           {
             "mimeType": "image/jpeg",
@@ -931,9 +931,9 @@
       "post_id": "6b058ec0ff66be839256d636",
       "publication_result": {
         "id": "6b058ec0ff66be839256d636",
-        "status": "scheduled",
-        "dueAt": "2026-11-26T13:00:00.000Z",
-        "text": "おやすみなさい。\nうまくいかなかった頁も、あなたの物語の一部。今夜はゆっくり、心を休めてくださいね。\n\n#おやすみなさい #創作 #小説",
+        "status": "sent",
+        "sentAt": "2026-11-26T13:04:16.866Z",
+        "externalLink": "https://x.com/2098199506550718464/status/2125938690790694963",
         "assets": [
           {
             "mimeType": "image/jpeg",
