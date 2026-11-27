@@ -1036,6 +1036,17 @@
           }
         ]
       }
+    },
+    "guide-first-hero-2026-11-30": {
+      "key": "guide-first-hero-2026-11-30",
+      "guide_id": "first-hero",
+      "kind": "guide",
+      "text": "【既存機能メモ】\n編成を組み直すときの小ワザ⚔️\n\n編成画面では、先頭の英雄だけを個別に外せるようになっています。毎回全員を入れ替える前に確認してみて。\n出典：米公式10/19更新説明\nhttps://apps.apple.com/us/app/kingshot/id6739554056\n#キングショット #Kingshot",
+      "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/from-x/23-2108974591993692602.jpg",
+      "status": "sending",
+      "attempt_date": "2026-11-30",
+      "attempted_at": "2026-11-28T03:59:59.739841+09:00",
+      "scheduled_at": "2026-11-30T10:00:00+09:00"
     }
   },
   "baseline": {
@@ -1044,7 +1055,7 @@
     ],
     "publisher": []
   },
-  "last_checked_at": "2026-11-30T08:00:00+09:00",
+  "last_checked_at": "2026-11-30T10:00:00+09:00",
   "source_errors": {},
   "image_errors": {
     "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/repertoire/previous-66.jpg": {
