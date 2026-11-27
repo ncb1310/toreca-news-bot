@@ -1125,9 +1125,19 @@
           }
         ]
       }
+    },
+    "2026-11-29-morning": {
+      "key": "2026-11-29-morning",
+      "kind": "morning",
+      "text": "おはようございます。\n朝の光をひとつ、心の栞に。今日があなたにとって、穏やかな一頁になりますように。\n\n#おはようございます #創作 #小説",
+      "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/senran/morning.jpg",
+      "status": "sending",
+      "attempt_date": "2026-11-29",
+      "attempted_at": "2026-11-27T10:20:05.695889+09:00",
+      "scheduled_at": "2026-11-29T08:00:00+09:00"
     }
   },
-  "last_checked_at": "2026-11-27T04:00:19.821773+09:00",
+  "last_checked_at": "2026-11-29T08:00:00+09:00",
   "last_reservation_check": {
     "checked_at": "2026-11-27T04:00:18.998085+09:00",
     "queued": 8,
