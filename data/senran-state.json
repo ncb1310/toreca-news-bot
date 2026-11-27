@@ -1148,9 +1148,19 @@
           }
         ]
       }
+    },
+    "2026-11-29-noon": {
+      "key": "2026-11-29-noon",
+      "kind": "noon",
+      "text": "こんにちは。\n何気ない言葉が、ふと心に残ることがあります。今日のあなたにも、そんな出会いがありますように。\n\n#こんにちは #創作 #小説",
+      "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/senran/scene-1/noon.jpg",
+      "status": "sending",
+      "attempt_date": "2026-11-29",
+      "attempted_at": "2026-11-27T16:20:46.133843+09:00",
+      "scheduled_at": "2026-11-29T12:00:00+09:00"
     }
   },
-  "last_checked_at": "2026-11-27T10:20:10.858008+09:00",
+  "last_checked_at": "2026-11-29T12:00:00+09:00",
   "last_reservation_check": {
     "checked_at": "2026-11-27T10:20:05.695889+09:00",
     "queued": 8,
