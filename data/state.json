@@ -17669,9 +17669,19 @@
         ]
       },
       "buffer_post_id": "6b0881dbc81617797dd57c10"
+    },
+    "toreca-morning-2026-11-30": {
+      "key": "toreca-morning-2026-11-30",
+      "kind": "morning",
+      "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/b44ef66fc632827afa9c685f4af69915a09ca878/assets/generated/af49a77931d8f7a985a7b274.png",
+      "text": "おはようございます☀️\\n今日は好きなイラストを1枚だけ選ぶなら、どのカードにしますか？🎨\\n#トレカ #トレカ女子",
+      "status": "sending",
+      "attempt_date": "2026-11-30",
+      "attempted_at": "2026-11-28T04:00:22.042464+09:00",
+      "scheduled_at": "2026-11-30T08:00:00+09:00"
     }
   },
-  "last_checked_at": "2026-11-27T22:18:21.885548+09:00",
+  "last_checked_at": "2026-11-30T08:00:00+09:00",
   "last_reservation_check": {
     "checked_at": "2026-11-27T22:18:21.612514+09:00",
     "queued": 4,
