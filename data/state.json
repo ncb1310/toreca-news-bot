@@ -17671,12 +17671,48 @@
       "buffer_post_id": "6b0881dbc81617797dd57c10"
     }
   },
-  "last_checked_at": "2026-11-27T04:00:44.882582+09:00",
+  "last_checked_at": "2026-11-27T10:20:16.217093+09:00",
   "last_reservation_check": {
-    "checked_at": "2026-11-27T04:00:28.383713+09:00",
-    "queued": 5,
+    "checked_at": "2026-11-27T10:20:14.604190+09:00",
+    "queued": 4,
     "target": 8,
     "posts": [
+      {
+        "id": "6b0881dbc81617797dd57c10",
+        "text": "🃏 抽選は「どの店舗か」まで確認\n\nチェーン店の告知でも店舗限定の場合がある。店名と受取方法まで確認してから応募しよう。\n#トレカ #トレカ初心者\n参照先👇\nhttps://www.c-labo.jp/blog/",
+        "dueAt": "2026-11-29T03:00:00.000Z",
+        "status": "scheduled",
+        "assets": [
+          {
+            "mimeType": "image/png",
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/c4ae158789e5964e4d603372aec01aff62ab7e22/assets/generated/79ccb3e0e1d0b2d0751a1e15.png"
+          }
+        ]
+      },
+      {
+        "id": "6b0881d39068b6e07957e696",
+        "text": "🃏 抽選の締切、3つを分けよう\n\n応募できても、購入期限を過ぎると買えない場合がある。告知を見たら3つの日付を別々にメモしておこう。\n#トレカ #トレカ初心者\n参照先👇\nhttps://www.pokemoncenter-online.com/?main_page=lottery",
+        "dueAt": "2026-11-29T01:00:00.000Z",
+        "status": "scheduled",
+        "assets": [
+          {
+            "mimeType": "image/png",
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/5323b44068cf6601aa19dd27780c6c1ba6602dee/assets/generated/6d0f92c1c194222456b4b8d4.png"
+          }
+        ]
+      },
+      {
+        "id": "6b0881ce3accdac92cf0de2b",
+        "text": "おはようございます☀️\\n進化先ばかり手札に集合。肝心のたねポケモン、今日は来てくれるかな？🌱\\n#トレカ #トレカ女子",
+        "dueAt": "2026-11-28T23:00:00.000Z",
+        "status": "scheduled",
+        "assets": [
+          {
+            "mimeType": "image/png",
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/2e3e4c56c0da4e1bb50f54244c8754da6a536b1f/assets/generated/8facc0d29579c0f7fad1e1ae.png"
+          }
+        ]
+      },
       {
         "id": "6b072ef5827512a7c4cc97cd",
         "text": "おはようございます☀️\\n当選メールを待つ日は、つい受信箱を何度も開いちゃいますね📬\\n#トレカ #トレカ女子",
@@ -17688,56 +17724,8 @@
             "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/2ac709f8a0870028eae8a8f8f0e8297b7c8cdf4c/assets/generated/3ea578977fddb5d009d59155.png"
           }
         ]
-      },
-      {
-        "id": "6b06921bc68d7845a4911a8e",
-        "text": "おはようございます☀️\\n最初のベンチにどの子を出すか。対戦はあの瞬間から楽しいですよね🌱\\n#トレカ #トレカ女子",
-        "dueAt": "2026-11-26T23:00:00.000Z",
-        "status": "scheduled",
-        "assets": [
-          {
-            "mimeType": "image/png",
-            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/87a29f259dbbf40e8bca4cd7c52793febaaf5ce3/assets/generated/4d814e22e6cf084650c1280f.png"
-          }
-        ]
-      },
-      {
-        "id": "6b0881ce3accdac92cf0de2b",
-        "status": "scheduled",
-        "dueAt": "2026-11-28T23:00:00.000Z",
-        "text": "おはようございます☀️\\n進化先ばかり手札に集合。肝心のたねポケモン、今日は来てくれるかな？🌱\\n#トレカ #トレカ女子",
-        "assets": [
-          {
-            "mimeType": "image/png",
-            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/2e3e4c56c0da4e1bb50f54244c8754da6a536b1f/assets/generated/8facc0d29579c0f7fad1e1ae.png"
-          }
-        ]
-      },
-      {
-        "id": "6b0881d39068b6e07957e696",
-        "status": "scheduled",
-        "dueAt": "2026-11-29T01:00:00.000Z",
-        "text": "🃏 抽選の締切、3つを分けよう\n\n応募できても、購入期限を過ぎると買えない場合がある。告知を見たら3つの日付を別々にメモしておこう。\n#トレカ #トレカ初心者\n参照先👇\nhttps://www.pokemoncenter-online.com/?main_page=lottery",
-        "assets": [
-          {
-            "mimeType": "image/png",
-            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/5323b44068cf6601aa19dd27780c6c1ba6602dee/assets/generated/6d0f92c1c194222456b4b8d4.png"
-          }
-        ]
-      },
-      {
-        "id": "6b0881dbc81617797dd57c10",
-        "status": "scheduled",
-        "dueAt": "2026-11-29T03:00:00.000Z",
-        "text": "🃏 抽選は「どの店舗か」まで確認\n\nチェーン店の告知でも店舗限定の場合がある。店名と受取方法まで確認してから応募しよう。\n#トレカ #トレカ初心者\n参照先👇\nhttps://www.c-labo.jp/blog/",
-        "assets": [
-          {
-            "mimeType": "image/png",
-            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/c4ae158789e5964e4d603372aec01aff62ab7e22/assets/generated/79ccb3e0e1d0b2d0751a1e15.png"
-          }
-        ]
       }
     ],
-    "shortfall": 3
+    "shortfall": 4
   }
 }
