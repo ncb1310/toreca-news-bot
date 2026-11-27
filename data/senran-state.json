@@ -977,9 +977,9 @@
       "post_id": "6b068ccab6204bca46d70e36",
       "publication_result": {
         "id": "6b068ccab6204bca46d70e36",
-        "status": "scheduled",
-        "dueAt": "2026-11-27T03:00:00.000Z",
-        "text": "こんにちは。\n少し立ち止まる時間も、大切な一頁。午後もどうぞ、無理のない歩幅で。\n\n#こんにちは #創作 #小説",
+        "status": "sent",
+        "sentAt": "2026-11-27T03:00:52.671Z",
+        "externalLink": "https://x.com/2098199506550718464/status/2126149227558457659",
         "assets": [
           {
             "mimeType": "image/jpeg",
