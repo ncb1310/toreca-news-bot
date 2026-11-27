@@ -17540,9 +17540,9 @@
       "post_id": "6b06921bc68d7845a4911a8e",
       "publication_result": {
         "id": "6b06921bc68d7845a4911a8e",
-        "status": "scheduled",
-        "dueAt": "2026-11-26T23:00:00.000Z",
-        "text": "おはようございます☀️\\n最初のベンチにどの子を出すか。対戦はあの瞬間から楽しいですよね🌱\\n#トレカ #トレカ女子",
+        "status": "sent",
+        "sentAt": "2026-11-26T23:01:26.136Z",
+        "externalLink": "https://x.com/2121528694724505600/status/2126088969628610661",
         "assets": [
           {
             "mimeType": "image/png",
