@@ -1000,9 +1000,9 @@
       "post_id": "6b06e151608f8f2e33d6a9c4",
       "publication_result": {
         "id": "6b06e151608f8f2e33d6a9c4",
-        "status": "scheduled",
-        "dueAt": "2026-11-27T09:00:00.000Z",
-        "text": "こんばんは。\n今日の頁を振り返る、その少しの時間。小さな喜びがひとつでも見つかりますように。\n\n#こんばんは #創作 #小説",
+        "status": "sent",
+        "sentAt": "2026-11-27T09:01:50.889Z",
+        "externalLink": "https://x.com/2098199506550718464/status/2126240068880769531",
         "assets": [
           {
             "mimeType": "image/jpeg",
@@ -1023,9 +1023,9 @@
       "post_id": "6b06e15577264060a20250a1",
       "publication_result": {
         "id": "6b06e15577264060a20250a1",
-        "status": "scheduled",
-        "dueAt": "2026-11-27T13:00:00.000Z",
-        "text": "おやすみなさい。\n本を閉じるように、今日の心にも静かな区切りを。また次の頁で会いましょう。\n\n#おやすみなさい #創作 #小説",
+        "status": "sent",
+        "sentAt": "2026-11-27T13:04:43.819Z",
+        "externalLink": "https://x.com/2098199506550718464/status/2126301192032567717",
         "assets": [
           {
             "mimeType": "image/jpeg",
