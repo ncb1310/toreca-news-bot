@@ -1154,10 +1154,23 @@
       "kind": "noon",
       "text": "こんにちは。\n何気ない言葉が、ふと心に残ることがあります。今日のあなたにも、そんな出会いがありますように。\n\n#こんにちは #創作 #小説",
       "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/senran/scene-1/noon.jpg",
-      "status": "sending",
+      "status": "accepted",
       "attempt_date": "2026-11-29",
       "attempted_at": "2026-11-27T16:20:46.133843+09:00",
-      "scheduled_at": "2026-11-29T12:00:00+09:00"
+      "scheduled_at": "2026-11-29T12:00:00+09:00",
+      "post_id": "6b092f52062ed764a8f2bf26",
+      "publication_result": {
+        "id": "6b092f52062ed764a8f2bf26",
+        "status": "scheduled",
+        "dueAt": "2026-11-29T03:00:00.000Z",
+        "text": "こんにちは。\n何気ない言葉が、ふと心に残ることがあります。今日のあなたにも、そんな出会いがありますように。\n\n#こんにちは #創作 #小説",
+        "assets": [
+          {
+            "mimeType": "image/jpeg",
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/senran/scene-1/noon.jpg"
+          }
+        ]
+      }
     }
   },
   "last_checked_at": "2026-11-29T12:00:00+09:00",
