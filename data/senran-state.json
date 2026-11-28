@@ -1115,9 +1115,9 @@
       "post_id": "6b083298950d2a0ff0d3b16c",
       "publication_result": {
         "id": "6b083298950d2a0ff0d3b16c",
-        "status": "scheduled",
-        "dueAt": "2026-11-28T13:00:00.000Z",
-        "text": "おやすみなさい。\n今日の物語はいったんここまで。続きは、また明日のあなたの歩幅で。どうか穏やかな夢を。\n\n#おやすみなさい #創作 #小説",
+        "status": "sent",
+        "sentAt": "2026-11-28T13:02:26.399Z",
+        "externalLink": "https://x.com/2098199506550718464/status/2126663002803826801",
         "assets": [
           {
             "mimeType": "image/jpeg",
