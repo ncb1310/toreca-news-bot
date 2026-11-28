@@ -1174,7 +1174,7 @@
     ],
     "publisher": []
   },
-  "last_checked_at": "2026-12-01T12:00:00+09:00",
+  "last_checked_at": "2026-11-29T03:53:04.821655+09:00",
   "source_errors": {},
   "image_errors": {
     "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/repertoire/previous-66.jpg": {
@@ -1183,8 +1183,8 @@
     }
   },
   "last_reservation_check": {
-    "checked_at": "2026-11-28T21:59:54.017536+09:00",
-    "queued": 5,
+    "checked_at": "2026-11-29T03:52:56.598391+09:00",
+    "queued": 8,
     "target": 8,
     "posts": [
       {
@@ -1246,8 +1246,44 @@
             "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/repertoire/previous-72.jpg"
           }
         ]
+      },
+      {
+        "id": "6b0b230a5d4376bde3cd8fe2",
+        "status": "scheduled",
+        "dueAt": "2026-11-30T23:00:00.000Z",
+        "text": "おはようございます！☀️\n今日もキングショットを楽しんでいきましょう。\n育成も攻略も、自分のペースで。仲間との一日が良い時間になりますように⚔️\n#キングショット #Kingshot",
+        "assets": [
+          {
+            "mimeType": "image/jpeg",
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/references/IMG_2757.jpeg"
+          }
+        ]
+      },
+      {
+        "id": "6b0b230c5d4376bde3cd90aa",
+        "status": "scheduled",
+        "dueAt": "2026-12-01T01:00:00.000Z",
+        "text": "【既存機能メモ】\n編成の選択肢、見直してる？\n\n米公式の更新説明では、都市センターのレベルに応じて追加の編成が解放されると案内されています。自分の画面で解放状況を確認しよう。\n出典：米公式10/19更新説明\nhttps://apps.apple.com/us/app/kingshot/id6739554056\n#キングショット #Kingshot",
+        "assets": [
+          {
+            "mimeType": "image/jpeg",
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/repertoire/previous-56.jpg"
+          }
+        ]
+      },
+      {
+        "id": "6b0b230f5d4376bde3cd915e",
+        "status": "scheduled",
+        "dueAt": "2026-12-01T03:00:00.000Z",
+        "text": "【既存機能メモ】\n釣り大会の投げ方を確認🎣\n\n米公式の更新説明には、進行条件を満たすとPower Castに10倍の選択肢が追加されるとあります。常に全員が使えるとは限らないので画面で確認しよう。\n出典：米公式10/19更新説明\nhttps://apps.apple.com/us/app/kingshot/id6739554056\n#キングショット #Kingshot",
+        "assets": [
+          {
+            "mimeType": "image/jpeg",
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/repertoire/previous-59.jpg"
+          }
+        ]
       }
     ],
-    "shortfall": 3
+    "shortfall": 0
   }
 }
