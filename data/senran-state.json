@@ -1069,9 +1069,9 @@
       "post_id": "6b07dded7cb39d7aa35ad339",
       "publication_result": {
         "id": "6b07dded7cb39d7aa35ad339",
-        "status": "scheduled",
-        "dueAt": "2026-11-28T03:00:00.000Z",
-        "text": "こんにちは。\n忙しい時間の合間にも、心に余白を少しだけ。物語をめくるように、ゆっくり息をついていきましょう。\n\n#こんにちは #創作 #小説",
+        "status": "sent",
+        "sentAt": "2026-11-28T03:01:01.278Z",
+        "externalLink": "https://x.com/2098199506550718464/status/2126511651046244820",
         "assets": [
           {
             "mimeType": "image/jpeg",
