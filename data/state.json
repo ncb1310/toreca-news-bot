@@ -17800,9 +17800,9 @@
       "buffer_post_id": "6b09d35cec27d4f87e4172a1"
     }
   },
-  "last_checked_at": "2026-11-28T10:14:04.859984+09:00",
+  "last_checked_at": "2026-11-28T16:15:22.759418+09:00",
   "last_reservation_check": {
-    "checked_at": "2026-11-28T10:14:02.913625+09:00",
+    "checked_at": "2026-11-28T16:15:22.471087+09:00",
     "queued": 7,
     "target": 8,
     "posts": [
