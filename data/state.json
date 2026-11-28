@@ -17824,10 +17824,10 @@
       "buffer_post_id": "6b0b23146deb644351cea0f7"
     }
   },
-  "last_checked_at": "2026-12-01T08:00:00+09:00",
+  "last_checked_at": "2026-11-29T03:53:09.694022+09:00",
   "last_reservation_check": {
-    "checked_at": "2026-11-28T21:59:55.387914+09:00",
-    "queued": 7,
+    "checked_at": "2026-11-29T03:53:05.884712+09:00",
+    "queued": 8,
     "target": 8,
     "posts": [
       {
@@ -17913,8 +17913,20 @@
             "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/2e3e4c56c0da4e1bb50f54244c8754da6a536b1f/assets/generated/8facc0d29579c0f7fad1e1ae.png"
           }
         ]
+      },
+      {
+        "id": "6b0b23146deb644351cea0f7",
+        "status": "scheduled",
+        "dueAt": "2026-11-30T23:00:00.000Z",
+        "text": "おはようございます☀️\\n初手がきれいにそろった日は、思わず写真を撮りたくなりますね📷\\n#トレカ #トレカ女子",
+        "assets": [
+          {
+            "mimeType": "image/png",
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/6f7687cf4c8d226f49027292b8ffa3ac05ffeecb/assets/generated/601b530889921c7164ca62f6.png"
+          }
+        ]
       }
     ],
-    "shortfall": 1
+    "shortfall": 0
   }
 }
