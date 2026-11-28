@@ -1142,6 +1142,17 @@
           }
         ]
       }
+    },
+    "guide-fishing-cast-2026-12-01": {
+      "key": "guide-fishing-cast-2026-12-01",
+      "guide_id": "fishing-cast",
+      "kind": "guide",
+      "text": "【既存機能メモ】\n釣り大会の投げ方を確認🎣\n\n米公式の更新説明には、進行条件を満たすとPower Castに10倍の選択肢が追加されるとあります。常に全員が使えるとは限らないので画面で確認しよう。\n出典：米公式10/19更新説明\nhttps://apps.apple.com/us/app/kingshot/id6739554056\n#キングショット #Kingshot",
+      "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/repertoire/previous-59.jpg",
+      "status": "sending",
+      "attempt_date": "2026-12-01",
+      "attempted_at": "2026-11-29T03:52:56.598391+09:00",
+      "scheduled_at": "2026-12-01T12:00:00+09:00"
     }
   },
   "baseline": {
@@ -1150,7 +1161,7 @@
     ],
     "publisher": []
   },
-  "last_checked_at": "2026-12-01T10:00:00+09:00",
+  "last_checked_at": "2026-12-01T12:00:00+09:00",
   "source_errors": {},
   "image_errors": {
     "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/repertoire/previous-66.jpg": {
