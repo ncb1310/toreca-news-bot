@@ -17798,9 +17798,19 @@
         ]
       },
       "buffer_post_id": "6b09d35cec27d4f87e4172a1"
+    },
+    "toreca-morning-2026-12-01": {
+      "key": "toreca-morning-2026-12-01",
+      "kind": "morning",
+      "image_url": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/6f7687cf4c8d226f49027292b8ffa3ac05ffeecb/assets/generated/601b530889921c7164ca62f6.png",
+      "text": "おはようございます☀️\\n初手がきれいにそろった日は、思わず写真を撮りたくなりますね📷\\n#トレカ #トレカ女子",
+      "status": "sending",
+      "attempt_date": "2026-12-01",
+      "attempted_at": "2026-11-29T03:53:05.884712+09:00",
+      "scheduled_at": "2026-12-01T08:00:00+09:00"
     }
   },
-  "last_checked_at": "2026-11-28T21:59:55.596570+09:00",
+  "last_checked_at": "2026-12-01T08:00:00+09:00",
   "last_reservation_check": {
     "checked_at": "2026-11-28T21:59:55.387914+09:00",
     "queued": 7,
