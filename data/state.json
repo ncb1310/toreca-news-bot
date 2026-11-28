@@ -17564,9 +17564,9 @@
       "post_id": "6b072ef5827512a7c4cc97cd",
       "publication_result": {
         "id": "6b072ef5827512a7c4cc97cd",
-        "status": "scheduled",
-        "dueAt": "2026-11-27T23:00:00.000Z",
-        "text": "おはようございます☀️\\n当選メールを待つ日は、つい受信箱を何度も開いちゃいますね📬\\n#トレカ #トレカ女子",
+        "status": "sent",
+        "sentAt": "2026-11-27T23:01:31.971Z",
+        "externalLink": "https://x.com/2121528694724505600/status/2126451382127317213",
         "assets": [
           {
             "mimeType": "image/png",
