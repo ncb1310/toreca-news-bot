@@ -1092,9 +1092,9 @@
       "post_id": "6b08329521c680d3d87994be",
       "publication_result": {
         "id": "6b08329521c680d3d87994be",
-        "status": "scheduled",
-        "dueAt": "2026-11-28T09:00:00.000Z",
-        "text": "こんばんは。\n一日の終わりに、心をほどく時間を。今日という物語に、小さな安らぎが残りますように。\n\n#こんばんは #創作 #小説",
+        "status": "sent",
+        "sentAt": "2026-11-28T09:01:07.001Z",
+        "externalLink": "https://x.com/2098199506550718464/status/2126602271282565248",
         "assets": [
           {
             "mimeType": "image/jpeg",
