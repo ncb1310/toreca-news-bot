@@ -1103,7 +1103,7 @@
     ],
     "publisher": []
   },
-  "last_checked_at": "2026-11-30T22:00:00+09:00",
+  "last_checked_at": "2026-11-28T10:14:01.666408+09:00",
   "source_errors": {},
   "image_errors": {
     "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/repertoire/previous-66.jpg": {
@@ -1112,10 +1112,46 @@
     }
   },
   "last_reservation_check": {
-    "checked_at": "2026-11-27T22:18:18.630735+09:00",
-    "queued": 3,
+    "checked_at": "2026-11-28T10:14:00.040053+09:00",
+    "queued": 5,
     "target": 8,
     "posts": [
+      {
+        "id": "6b09d3406be15ddcc07f09f9",
+        "text": "【既存機能メモ】\n釣り大会の収集要素もチェック🎣\n\n条件達成で海藻の図鑑が解放され、収集の進み具合に応じた報酬が案内されています。詳細な条件は大会画面で確認を。\n出典：米公式10/19更新説明\nhttps://apps.apple.com/us/app/kingshot/id6739554056\n#キングショット #Kingshot",
+        "dueAt": "2026-11-30T03:00:00.000Z",
+        "status": "scheduled",
+        "assets": [
+          {
+            "mimeType": "image/jpeg",
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/from-x/15-2110566343728615537.jpg"
+          }
+        ]
+      },
+      {
+        "id": "6b09d33a77ae85b6585436da",
+        "text": "【既存機能メモ】\n編成を組み直すときの小ワザ⚔️\n\n編成画面では、先頭の英雄だけを個別に外せるようになっています。毎回全員を入れ替える前に確認してみて。\n出典：米公式10/19更新説明\nhttps://apps.apple.com/us/app/kingshot/id6739554056\n#キングショット #Kingshot",
+        "dueAt": "2026-11-30T01:00:00.000Z",
+        "status": "scheduled",
+        "assets": [
+          {
+            "mimeType": "image/jpeg",
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/from-x/23-2108974591993692602.jpg"
+          }
+        ]
+      },
+      {
+        "id": "6b09d33277ae85b658542802",
+        "text": "おはようございます！☀️\n今日もキングショットを楽しんでいきましょう。\n育成も攻略も、自分のペースで。仲間との一日が良い時間になりますように⚔️\n#キングショット #Kingshot",
+        "dueAt": "2026-11-29T23:00:00.000Z",
+        "status": "scheduled",
+        "assets": [
+          {
+            "mimeType": "image/jpeg",
+            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/from-x/11-2111215906907140460.jpg"
+          }
+        ]
+      },
       {
         "id": "6b0881c9ce64081689e528b8",
         "text": "今日もおつかれさまでした🌙\nキングショットも、休む時間を大切に。\n仲間との続きは、また明日。おやすみなさい。\n#キングショット #Kingshot",
@@ -1139,20 +1175,8 @@
             "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/repertoire/previous-72.jpg"
           }
         ]
-      },
-      {
-        "id": "6b072eee35285a597b5a9190",
-        "text": "おはようございます！☀️\n今日もキングショットを楽しんでいきましょう。\n育成も攻略も、自分のペースで。仲間との一日が良い時間になりますように⚔️\n#キングショット #Kingshot",
-        "dueAt": "2026-11-27T23:00:00.000Z",
-        "status": "scheduled",
-        "assets": [
-          {
-            "mimeType": "image/jpeg",
-            "source": "https://raw.githubusercontent.com/ncb1310/toreca-news-bot/main/assets/kingshot/repertoire/previous-3.jpg"
-          }
-        ]
       }
     ],
-    "shortfall": 5
+    "shortfall": 3
   }
 }
